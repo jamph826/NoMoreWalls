@@ -1,1 +1,135 @@
-proxies: []
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸美国 01 | 1x US Los Angeles
+  password: ca898283-b4f2-4f43-86d2-f10b0ea7c833
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: ca898283-b4f2-4f43-86d2-f10b0ea7c833
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸美国 03 | 1x US Washington
+  password: ca898283-b4f2-4f43-86d2-f10b0ea7c833
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 1|🇺🇸1 |  6.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.245.222.80
+  type: ss
+  udp: true
+- name: 1|🇺🇸2 |  5.7MB/s
+  password: e4fb32ec-0ae6-3ae7-a484-1a0318538d2d
+  port: 20294
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z294.hongkongnode.top
+  tfo: true
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 1|🇺🇸4 |  1.1MB/s
+  network: ws
+  port: 23605
+  server: 5.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 91223d10-afa5-3c1f-b7ae-8cdf9bfcd388
+  ws-opts:
+    headers:
+      Host: 5.mamamajd.site
+    path: /
+- name: 1|🇺🇸5 |  2.7MB/s
+  password: e4fb32ec-0ae6-3ae7-a484-1a0318538d2d
+  port: 20307
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z307.hongkongnode.top
+  tfo: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸7 |  4.6MB/s
+  password: 4a0ea1d4-9703-4575-b50e-0be5b93ab0b1
+  port: 36441
+  server: free.2weradf.xyz
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 1|🇺🇸11 |  5.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 34.220.99.193
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 0288a705-fb65-4a2b-b216-93e03ea97a40
+  port: 36211
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 0288a705-fb65-4a2b-b216-93e03ea97a40
+  port: 36213
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸 美国 03 | 1x US Washington
+  password: 0288a705-fb65-4a2b-b216-93e03ea97a40
+  port: 36215
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 12,13|美国|@ripaojiedian
+  network: tcp
+  password: 65f14831-5c67-483f-9e85-f3aa73f21187
+  port: 13019
+  server: naiu-us.05vr9nyqg5.download
+  skip-cert-verify: true
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 12|🇺🇸 美国4|@ripaojiedian
+  password: LKG8G8VL60RSB59P
+  port: 17003
+  server: 23.185.248.13
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 12|🇺🇸 美国3|@ripaojiedian
+  port: 31909
+  server: 23.224.152.62
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a5e99fc4-5b87-4312-aa8a-52cad1971b92
+- alterId: 0
+  cipher: auto
+  name: 13|美国3|@ripaojiedian
+  network: tcp
+  port: '31909'
+  server: 23.224.152.62
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a5e99fc4-5b87-4312-aa8a-52cad1971b92
