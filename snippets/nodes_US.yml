@@ -1,87 +1,127 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: 2323f2a5-103a-4f94-853f-dbd6be782218
+  password: fb75aef2-fe37-44b8-8789-3de34deb53ca
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 2323f2a5-103a-4f94-853f-dbd6be782218
+  password: fb75aef2-fe37-44b8-8789-3de34deb53ca
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 03 | 1x US Washington
-  password: 2323f2a5-103a-4f94-853f-dbd6be782218
+  password: fb75aef2-fe37-44b8-8789-3de34deb53ca
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- name: 2|🇺🇸6 |  7.5MB/s
+  password: 5ffcb530-1f7b-3f23-b368-8690903c358f
+  port: 22741
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: dufu.hongkongnode.top
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
-  name: 2|🇺🇸2 |  4.6MB/s
+  name: 2|🇺🇸8 |  1.1MB/s
   password: amazonskr05
   port: 443
-  server: 52.34.200.48
+  server: 18.236.132.239
   type: ss
 - client-fingerprint: chrome
-  name: 12,13|美国|@ripaojiedian
+  name: 12,13,14|US_speednode_0153
   network: tcp
-  password: 65f14831-5c67-483f-9e85-f3aa73f21187
-  port: 13019
-  server: naiu-us.05vr9nyqg5.download
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
+  password: '!!str 3747000103274291200'
+  port: 443
+  server: polished-ox.treefrog761.one
+  skip-cert-verify: false
+  sni: polished-ox.treefrog761.one
   type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 12|🇺🇸 美国2|@ripaojiedian
-  port: 13447
-  server: 23.236.68.213
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 2e41fa05-75d0-4d8c-9e23-41e2e7a8fa9f
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 12|🇺🇸 美国3|@ripaojiedian
-  port: 31909
-  server: 23.224.152.62
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: a5e99fc4-5b87-4312-aa8a-52cad1971b92
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 12|🇺🇸 美国4|@ripaojiedian
-  password: LKG8G8VL60RSB59P
-  port: 17003
-  server: 23.185.248.13
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|美国2|@ripaojiedian
+  udp: true
+- client-fingerprint: chrome
+  name: 12,13,14|US_speednode_0193
   network: tcp
-  port: '13447'
-  server: 23.236.68.213
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2e41fa05-75d0-4d8c-9e23-41e2e7a8fa9f
-- alterId: 0
-  cipher: auto
-  name: 13|美国3|@ripaojiedian
-  network: tcp
-  port: '31909'
-  server: 23.224.152.62
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a5e99fc4-5b87-4312-aa8a-52cad1971b92
+  password: '!!str 3747000103274291200'
+  port: 443
+  server: fluent-bat.treefrog761.one
+  skip-cert-verify: false
+  sni: fluent-bat.treefrog761.one
+  type: trojan
+  udp: true
+- name: 14|US_speednode_0191
+  password: '!!str 3747000103274291200'
+  port: 443
+  server: deciding-sunbeam.treefrog761.one
+  skip-cert-verify: false
+  sni: deciding-sunbeam.treefrog761.one
+  type: trojan
+  udp: true
+- name: 14|US_speednode_0194
+  password: 6d0a7f2f-c26c-466a-8f90-d6630ba97928
+  port: 443
+  server: 137.184.120.86
+  skip-cert-verify: true
+  sni: 829D7BDE-64B9-E759-C661-78BC73E582A0.1c2871ba-6025-61e2-e87f-a5c9e0ac8c1d.9d8f269f96b25232-759cbb36d6548597.kaufen
+  type: trojan
+  udp: true
+- name: 14|US_speednode_0196
+  password: 6d0a7f2f-c26c-466a-8f90-d6630ba97928
+  port: 443
+  server: us1.8b1c7c70-ecf1-6891-9fa7-68a86662f902.9d8f269f96b25232-759cbb36d6548597.kaufen
+  skip-cert-verify: true
+  sni: 829D7BDE-64B9-E759-C661-78BC73E582A0.1c2871ba-6025-61e2-e87f-a5c9e0ac8c1d.9d8f269f96b25232-759cbb36d6548597.kaufen
+  type: trojan
+  udp: true
+- name: 14|US_speednode_0198
+  network: ws
+  password: Aimer
+  port: 2087
+  server: 108.165.152.59
+  skip-cert-verify: false
+  sni: agepy.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agepy.ambercc.filegear-sg.me
+    path: /?ed=2560
+- name: 14|US_speednode_0199
+  network: ws
+  password: Pooria
+  port: 443
+  server: 104.17.148.22
+  skip-cert-verify: false
+  sni: 301.pOORiAm.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 301.pOORiAm.ir
+    path: /trPyOrWMfkHd15oxiI?ed=1520
+- name: 14|US_speednode_0202
+  network: ws
+  password: Aimer
+  port: 2096
+  server: 108.165.152.36
+  skip-cert-verify: false
+  sni: agepy.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agepy.ambercc.filegear-sg.me
+    path: /?ed=2560
+- name: 14|US_speednode_0203
+  password: 6d0a7f2f-c26c-466a-8f90-d6630ba97928
+  port: 443
+  server: jp1.8b1c7c70-ecf1-6891-9fa7-68a86662f902.9d8f269f96b25232-759cbb36d6548597.kaufen
+  skip-cert-verify: true
+  sni: 829D7BDE-64B9-E759-C661-78BC73E582A0.1c2871ba-6025-61e2-e87f-a5c9e0ac8c1d.9d8f269f96b25232-759cbb36d6548597.kaufen
+  type: trojan
+  udp: true

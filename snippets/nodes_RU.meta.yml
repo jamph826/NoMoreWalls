@@ -1,12 +1,12 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇷🇺俄罗斯 01 | 1x RU
-  password: 2323f2a5-103a-4f94-853f-dbd6be782218
+  password: fb75aef2-fe37-44b8-8789-3de34deb53ca
   port: 31511
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 14|RU_speednode_0082
+- name: 14|RU_speednode_0109
   network: ws
   port: 80
   server: 185.174.138.194
@@ -20,7 +20,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 14|RU_speednode_0083
+- name: 14|RU_speednode_0110
   network: ws
   port: 80
   server: 185.174.138.194
@@ -34,7 +34,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /
-- name: 14|RU_speednode_0084
+- name: 14|RU_speednode_0111
   network: ws
   port: 8080
   server: 185.174.138.197
@@ -48,3 +48,16 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|RU_speednode_0112
+  port: 443
+  server: tel5.vpntype.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5fcd19f2-0ecc-4449-bfab-f6b20d979d8f
