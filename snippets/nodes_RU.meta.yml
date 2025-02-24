@@ -1,26 +1,37 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇷🇺俄罗斯 01 | 1x RU
-  password: fb75aef2-fe37-44b8-8789-3de34deb53ca
+  password: 2cf49a85-f49d-4112-af54-ab3f40acd061
   port: 31511
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 14|RU_speednode_0109
-  network: ws
-  port: 80
-  server: 185.174.138.194
-  servername: pormang.webhost99.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 2|🇷🇺1 |  5.3MB/s
+  network: tcp
+  port: 31101
+  server: 910281.chasel.sbs
+  type: vmess
+  uuid: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
+- auth: dongtaiwang.com
+  client-fingerprint: chrome
+  name: 2|🇷🇺2 |  2.1MB/s
+  password: dongtaiwang.com
+  port: 51224
+  server: 46.17.41.189
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- name: 2|🇷🇺3 |  3.1MB/s
+  password: myszy28811
+  port: 28811
+  server: pipi.myddns.me
+  type: socks5
   udp: true
-  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
-  ws-opts:
-    headers:
-      Host: pormang.webhost99.workers.dev
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 14|RU_speednode_0110
+  username: myszy
+- name: 14|RU_speednode_0058
   network: ws
   port: 80
   server: 185.174.138.194
@@ -34,7 +45,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /
-- name: 14|RU_speednode_0111
+- name: 14|RU_speednode_0059
   network: ws
   port: 8080
   server: 185.174.138.197
@@ -48,16 +59,17 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 14|RU_speednode_0112
-  port: 443
-  server: tel5.vpntype.dev
+- name: 14|RU_speednode_0060
+  network: ws
+  port: 80
+  server: 185.174.138.194
+  servername: pormang.webhost99.workers.dev
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: 5fcd19f2-0ecc-4449-bfab-f6b20d979d8f
+  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+  ws-opts:
+    headers:
+      Host: pormang.webhost99.workers.dev
+    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
