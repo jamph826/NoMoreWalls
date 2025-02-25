@@ -1,37 +1,12 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇷🇺俄罗斯 01 | 1x RU
-  password: 2cf49a85-f49d-4112-af54-ab3f40acd061
+  name: 1|🇷🇺俄罗斯 01 | 1x RU
+  password: ea3a3a53-6f4a-4785-857b-bf34f4cefd56
   port: 31511
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 2|🇷🇺1 |  5.3MB/s
-  network: tcp
-  port: 31101
-  server: 910281.chasel.sbs
-  type: vmess
-  uuid: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-- auth: dongtaiwang.com
-  client-fingerprint: chrome
-  name: 2|🇷🇺2 |  2.1MB/s
-  password: dongtaiwang.com
-  port: 51224
-  server: 46.17.41.189
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- name: 2|🇷🇺3 |  3.1MB/s
-  password: myszy28811
-  port: 28811
-  server: pipi.myddns.me
-  type: socks5
-  udp: true
-  username: myszy
-- name: 14|RU_speednode_0058
+- name: 14|RU_speednode_0054
   network: ws
   port: 80
   server: 185.174.138.194
@@ -45,7 +20,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /
-- name: 14|RU_speednode_0059
+- name: 14|RU_speednode_0055
   network: ws
   port: 8080
   server: 185.174.138.197
@@ -59,7 +34,7 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /
-- name: 14|RU_speednode_0060
+- name: 14|RU_speednode_0056
   network: ws
   port: 80
   server: 185.174.138.194
