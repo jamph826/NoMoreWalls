@@ -1,18 +1,26 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港 02 | 1x HK
-  password: ea3a3a53-6f4a-4785-857b-bf34f4cefd56
+  name: 0|🇭🇰香港 02 | 1x HK
+  password: c34bfbc2-52f7-4b64-9565-ac6b3fc79330
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港家宽 03 | 1x HK
-  password: ea3a3a53-6f4a-4785-857b-bf34f4cefd56
+  name: 0|🇭🇰香港家宽 03 | 1x HK
+  password: c34bfbc2-52f7-4b64-9565-ac6b3fc79330
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- alterId: '0'
+  cipher: auto
+  name: 2|🇭🇰1 |  2.7MB/s
+  network: tcp
+  port: 50095
+  server: 120.198.71.219
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 11|香港🇭🇰 HY2
   password: e20abb22a245edb0
   port: 8443
@@ -87,31 +95,15 @@ proxies:
   server: hk02.x.quickcht3.club
   tfo: false
   type: ss
-- name: 14|HK_speednode_0015
-  network: ws
-  port: 443
-  server: 162.247.5.91
-  servername: sga.costs.asia
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8ca6df70-73af-4139-9f7e-685e71618c71
-  ws-opts:
-    headers:
-      Host: sga.costs.asia
-    path: /bing
-- name: 14|HK_speednode_0016
-  network: ws
-  port: 443
-  server: 8.218.105.88
-  servername: vn.cazlelmhpn.group
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e987e2aa-7cfe-4d19-8364-66552cc53d16
-  ws-opts:
-    headers:
-      Host: vn.cazlelmhpn.group
-    path: /bing
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 12|🇭🇰 香港9|@ripaojiedian
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 20c0d292462.microsoft.com
+    mode: http
+  port: 3603
+  server: pr1.jymzffbquawl.com
+  tfo: false
+  type: ss
