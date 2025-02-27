@@ -1,27 +1,11 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇷🇺俄罗斯 01 | 1x RU
-  password: c34bfbc2-52f7-4b64-9565-ac6b3fc79330
+  password: 3d38d31b-4375-4a18-b4e6-c37632f73e7d
   port: 31511
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  http-opts:
-    headers:
-      Host:
-      - dir.mirza-film.ir
-    path:
-    - /ZHRUeZLCZMQKiL3vNkc8r2oJ0
-  name: 2|🇷🇺1 |  2.0MB/s
-  network: http
-  port: 80
-  server: 91.107.171.73
-  tls: false
-  type: vmess
-  uuid: 5d904885-74c5-4c07-95cf-e0989d287c37
 - name: 14|RU_speednode_0046
   network: ws
   port: 80

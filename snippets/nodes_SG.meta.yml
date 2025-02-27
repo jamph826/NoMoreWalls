@@ -1,25 +1,53 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
-  password: c34bfbc2-52f7-4b64-9565-ac6b3fc79330
+  password: 3d38d31b-4375-4a18-b4e6-c37632f73e7d
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 02 | 1x SG
-  password: c34bfbc2-52f7-4b64-9565-ac6b3fc79330
+  password: 3d38d31b-4375-4a18-b4e6-c37632f73e7d
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 03 | 1x SG
-  password: c34bfbc2-52f7-4b64-9565-ac6b3fc79330
+  password: 3d38d31b-4375-4a18-b4e6-c37632f73e7d
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- name: 2|🇸🇬1 |  1.3MB/s
+  password: 7c76770a-f9f7-3485-9500-2f19181ccbca
+  port: 20299
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x299.flybar.work
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 2|🇸🇬2 |  10.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.229.55.109
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 2|🇸🇬3 |  1.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 52.221.195.154
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 2|🇸🇬4 |  5.4MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.254.62.242
+  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇸🇬 新加坡|@ripaojiedian
@@ -36,12 +64,12 @@ proxies:
   server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- cipher: aes-256-gcm
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 12|🇸🇬 新加坡3|@ripaojiedian
-  password: WNW5MZJX57ZJUNQU
-  port: 16009
-  server: 8tv68qhq.slashdevslashnetslashtun.net
+  password: b7e92acc-70e2-4945-9625-c909251ca5ee
+  port: 30001
+  server: gdgs.tarioblink.me
   tfo: false
   type: ss
 - cipher: aes-256-gcm
@@ -52,31 +80,11 @@ proxies:
   server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 12|🇸🇬 新加坡5|@ripaojiedian
-  password: RenzheCloudSS
-  plugin: obfs
-  plugin-opts:
-    host: 20c0d292462.microsoft.com
-    mode: http
-  port: 6606
-  server: pr3.jymzffbquawl.com
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 12|🇸🇬 新加坡6|@ripaojiedian
-  password: 0407WKIEIXMTLGC6
-  port: 16007
-  server: qh62onjn.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 12|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 47.129.8.153
+  server: 54.180.251.210
   tfo: false
   type: ss

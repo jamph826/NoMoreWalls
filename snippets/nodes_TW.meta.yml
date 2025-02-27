@@ -1,46 +1,33 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 01 | 1x TW
-  password: c34bfbc2-52f7-4b64-9565-ac6b3fc79330
+  password: 3d38d31b-4375-4a18-b4e6-c37632f73e7d
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 02 | 1x TW
-  password: c34bfbc2-52f7-4b64-9565-ac6b3fc79330
+  password: 3d38d31b-4375-4a18-b4e6-c37632f73e7d
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 03 | 1x TW
-  password: c34bfbc2-52f7-4b64-9565-ac6b3fc79330
+  password: 3d38d31b-4375-4a18-b4e6-c37632f73e7d
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 2|🇹🇼1 |  5.8MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 12|🇹🇼 台湾|@ripaojiedian
-  password: RenzheCloudSS
-  plugin: obfs
-  plugin-opts:
-    host: 20c0d292462.microsoft.com
-    mode: http
-  port: 3026
-  server: pr3.jymzffbquawl.com
-  tfo: false
-  type: ss
+- name: 2|🇹🇼1 |  6.2MB/s
+  password: 7c76770a-f9f7-3485-9500-2f19181ccbca
+  port: 33323
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z261.hongkongnode.top
+  type: trojan
+  udp: true
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇹🇼 台湾2|@ripaojiedian
