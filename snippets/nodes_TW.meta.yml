@@ -1,32 +1,45 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 01 | 1x TW
-  password: 3d38d31b-4375-4a18-b4e6-c37632f73e7d
+  password: 654f8e04-086d-4cd7-8b42-2aa0cb194d62
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 02 | 1x TW
-  password: 3d38d31b-4375-4a18-b4e6-c37632f73e7d
+  password: 654f8e04-086d-4cd7-8b42-2aa0cb194d62
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 03 | 1x TW
-  password: 3d38d31b-4375-4a18-b4e6-c37632f73e7d
+  password: 654f8e04-086d-4cd7-8b42-2aa0cb194d62
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 2|🇹🇼1 |  6.2MB/s
-  password: 7c76770a-f9f7-3485-9500-2f19181ccbca
-  port: 33323
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z261.hongkongnode.top
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 1,2|🇹🇼 台湾 01 | 1x TW
+  password: 7a352f9e-7b37-4978-b2d9-41c7542f1495
+  port: 36241
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇹🇼 台湾 02 | 1x TW
+  password: 7a352f9e-7b37-4978-b2d9-41c7542f1495
+  port: 36243
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇹🇼 台湾 03 | 1x TW
+  password: 7a352f9e-7b37-4978-b2d9-41c7542f1495
+  port: 36245
+  server: free.2weradf.xyz
+  type: ss
   udp: true
 - cipher: aes-256-gcm
   client-fingerprint: chrome
@@ -38,17 +51,17 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12|🇹🇼 台湾3|@ripaojiedian
-  password: Y2U58S90E3GST1AQ
-  port: 21001
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
   name: 12|🇹🇼 台湾4|@ripaojiedian
   password: HQJQFA7U2Z5HGZWH
   port: 21003
   server: w72tapyb.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 12|🇹🇼 台湾3|@ripaojiedian
+  password: Y2U58S90E3GST1AQ
+  port: 21001
+  server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
