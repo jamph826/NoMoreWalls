@@ -1,85 +1,90 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: ca7cf6aa-03d7-4a5c-bfdf-8a69a41105bd
+  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 7cb22805-1f7b-43e0-a463-fc8bf3ee2a93
+  port: 36211
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 7cb22805-1f7b-43e0-a463-fc8bf3ee2a93
+  port: 36213
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸 美国 03 | 1x US Washington
+  password: 7cb22805-1f7b-43e0-a463-fc8bf3ee2a93
+  port: 36215
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国 01 | 1x US Los Angeles
+  password: bad8272f-e32d-4df4-a83d-486a928ac023
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: ca7cf6aa-03d7-4a5c-bfdf-8a69a41105bd
+  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: bad8272f-e32d-4df4-a83d-486a928ac023
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 03 | 1x US Washington
-  password: ca7cf6aa-03d7-4a5c-bfdf-8a69a41105bd
+  name: 1|🇺🇸美国 03 | 1x US Washington
+  password: bad8272f-e32d-4df4-a83d-486a928ac023
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸1 |  11.4MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 84858fa.vpnhat.t.me:73643
-    mode: tls
-  port: 2377
-  server: 84858fa.m8.gladns.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸2 |  4.1MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 84858fa.vpnhat.t.me:73643
-    mode: tls
-  port: 2377
-  server: 84858fa.u6.gladns.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸3 |  1.3MB/s
-  password: b1659b9a-fcbe-457d-a52f-8796849fc392
-  port: 36411
-  server: free.2weradf.xyz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸5 |  6.1MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 84858fa.vpnhat.t.me:73643
-    mode: tls
-  port: 2377
-  server: 84858fa.f2.gladns.com
-  type: ss
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 2|🇺🇸9 |  1.7MB/s
+  client-fingerprint: chrome
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 2|🇺🇸1 |  4.8MB/s
   network: ws
-  port: 23615
-  server: 15.mamamajd.site
+  port: 443
+  server: mix1.998998.best
+  servername: jp1-2.zfork.com
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
-  udp: true
-  uuid: 791f8e17-0f1a-3748-a08d-16375fd33b5b
+  uuid: 07b7b563-f868-49fb-943a-6425e3dc34d9
   ws-opts:
     headers:
-      Host: 15.mamamajd.site
+      HOST: jp1-2.zfork.com
+    path: /wpmckfpajfng?ed=2560
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  h2-opts: {}
+  http-opts: {}
+  name: 2|🇺🇸4 |  1.4MB/s
+  network: ws
+  port: 22642
+  server: tk.hzlt.tkddns.xyz
+  servername: tk.hzlt.tkddns.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-b.tkong.cc
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸10 |  4.7MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 84858fa.vpnhat.t.me:73643
-    mode: tls
-  port: 2377
-  server: 84858fa.u1.gladns.com
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 2|🇺🇸5 |  4.4MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.143.186.182
   type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
@@ -92,3 +97,24 @@ proxies:
   protocol-param: 92902:pFWGOQ
   server: 2.hublink.pro
   type: ssr
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 12|🇺🇸 美国2|@ripaojiedian
+  port: 44014
+  server: 120.198.71.219
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 13|美国2|@ripaojiedian
+  network: tcp
+  port: '44014'
+  server: 120.198.71.219
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24

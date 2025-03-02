@@ -1,25 +1,31 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 01 | 1x HK
-  password: ca7cf6aa-03d7-4a5c-bfdf-8a69a41105bd
+  name: 0|🇭🇰 香港 01 | 1x HK
+  password: 7cb22805-1f7b-43e0-a463-fc8bf3ee2a93
+  port: 36141
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
+  password: 7cb22805-1f7b-43e0-a463-fc8bf3ee2a93
+  port: 36271
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰香港 01 | 1x HK
+  password: bad8272f-e32d-4df4-a83d-486a928ac023
   port: 31141
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: ca7cf6aa-03d7-4a5c-bfdf-8a69a41105bd
+  name: 1|🇬🇧英国家宽 01 | 1x UK
+  password: bad8272f-e32d-4df4-a83d-486a928ac023
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
-  udp: true
-- name: 2|🇬🇧1 |  4.9MB/s
-  password: f2595170-cb25-309e-8a13-dac38e08a10b
-  port: 25238
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z267.hongkongnode.top
-  type: trojan
   udp: true
 - name: 14|GB_speednode_0009
   network: ws

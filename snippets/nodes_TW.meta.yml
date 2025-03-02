@@ -1,35 +1,46 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 01 | 1x TW
-  password: ca7cf6aa-03d7-4a5c-bfdf-8a69a41105bd
+  name: 0|🇹🇼 台湾 01 | 1x TW
+  password: 7cb22805-1f7b-43e0-a463-fc8bf3ee2a93
+  port: 36241
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇹🇼 台湾 02 | 1x TW
+  password: 7cb22805-1f7b-43e0-a463-fc8bf3ee2a93
+  port: 36243
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇹🇼 台湾 03 | 1x TW
+  password: 7cb22805-1f7b-43e0-a463-fc8bf3ee2a93
+  port: 36245
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 01 | 1x TW
+  password: bad8272f-e32d-4df4-a83d-486a928ac023
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 02 | 1x TW
-  password: ca7cf6aa-03d7-4a5c-bfdf-8a69a41105bd
+  name: 1|🇹🇼台湾 02 | 1x TW
+  password: bad8272f-e32d-4df4-a83d-486a928ac023
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 03 | 1x TW
-  password: ca7cf6aa-03d7-4a5c-bfdf-8a69a41105bd
+  name: 1|🇹🇼台湾 03 | 1x TW
+  password: bad8272f-e32d-4df4-a83d-486a928ac023
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼1 |  8.8MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 84858fa.vpnhat.t.me:73643
-    mode: tls
-  port: 2377
-  server: 84858fa.t5.gladns.com
-  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇹🇼 台湾2|@ripaojiedian
