@@ -1,102 +1,25 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 7cb22805-1f7b-43e0-a463-fc8bf3ee2a93
+  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
+  password: f6f26c14-95e6-40ce-a262-85f851bd380a
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 7cb22805-1f7b-43e0-a463-fc8bf3ee2a93
+  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: f6f26c14-95e6-40ce-a262-85f851bd380a
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: 7cb22805-1f7b-43e0-a463-fc8bf3ee2a93
+  name: 1|🇺🇸 美国 03 | 1x US Washington
+  password: f6f26c14-95e6-40ce-a262-85f851bd380a
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 01 | 1x US Los Angeles
-  password: bad8272f-e32d-4df4-a83d-486a928ac023
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: bad8272f-e32d-4df4-a83d-486a928ac023
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 03 | 1x US Washington
-  password: bad8272f-e32d-4df4-a83d-486a928ac023
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 2|🇺🇸1 |  4.8MB/s
-  network: ws
-  port: 443
-  server: mix1.998998.best
-  servername: jp1-2.zfork.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 07b7b563-f868-49fb-943a-6425e3dc34d9
-  ws-opts:
-    headers:
-      HOST: jp1-2.zfork.com
-    path: /wpmckfpajfng?ed=2560
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  h2-opts: {}
-  http-opts: {}
-  name: 2|🇺🇸4 |  1.4MB/s
-  network: ws
-  port: 22642
-  server: tk.hzlt.tkddns.xyz
-  servername: tk.hzlt.tkddns.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-b.tkong.cc
-    path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 2|🇺🇸5 |  4.4MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.143.186.182
-  type: ss
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 12|🇺🇸 美国|@ripaojiedian
-  obfs: plain
-  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40211
-  protocol: auth_aes128_md5
-  protocol-param: 92902:pFWGOQ
-  server: 2.hublink.pro
-  type: ssr
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome

@@ -1,15 +1,22 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪 德国 01 | 1x DE
-  password: 7cb22805-1f7b-43e0-a463-fc8bf3ee2a93
+  name: 1|🇩🇪 德国 01 | 1x DE
+  password: f6f26c14-95e6-40ce-a262-85f851bd380a
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪德国 01 | 1x DE
-  password: bad8272f-e32d-4df4-a83d-486a928ac023
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
+- alterId: 0
+  cipher: auto
+  name: 2|🇩🇪1 |  2.1MB/s
+  network: ws
+  port: 80
+  server: www.aetv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7dc78582-88a8-4b4c-9e3e-50831d672766
+  ws-opts:
+    headers:
+      Host: amd.al
+    path: /XESALISTHEBEST?ed=2048
