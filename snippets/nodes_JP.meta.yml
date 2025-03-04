@@ -1,41 +1,52 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵 日本 01 | 1x JP
-  password: f6f26c14-95e6-40ce-a262-85f851bd380a
+  name: 0|🇯🇵 日本 01 | 1x JP
+  password: a817b856-5d8b-422e-8528-f7d6e740af9a
   port: 36111
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵 日本 02 | 1x JP
-  password: f6f26c14-95e6-40ce-a262-85f851bd380a
+  name: 0|🇯🇵 日本 02 | 1x JP
+  password: a817b856-5d8b-422e-8528-f7d6e740af9a
   port: 36113
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵 日本 03 | 1x JP
-  password: f6f26c14-95e6-40ce-a262-85f851bd380a
+  name: 0|🇯🇵 日本 03 | 1x JP
+  password: a817b856-5d8b-422e-8528-f7d6e740af9a
   port: 36115
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 2|🇯🇵1 |  8.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.183.221.195
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵日本 01 | 1x JP
+  password: 42a46fe8-371b-4eb3-8cd8-c9de0a4c75a5
+  port: 31111
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵日本 02 | 1x JP
+  password: 42a46fe8-371b-4eb3-8cd8-c9de0a4c75a5
+  port: 31113
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵日本 03 | 1x JP
+  password: 42a46fe8-371b-4eb3-8cd8-c9de0a4c75a5
+  port: 31115
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 2|🇯🇵2 |  6.4MB/s
+  name: 2|🇯🇵1 |  6.0MB/s
   password: amazonskr05
   port: 443
-  server: 54.249.42.175
+  server: 18.179.10.10
   type: ss
-  udp: true
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇯🇵 日本|@ripaojiedian
@@ -64,28 +75,28 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   name: 12|🇯🇵 日本4|@ripaojiedian
-  port: 48019
-  server: 45.159.51.116
+  port: 35565
+  server: 120.198.71.214
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: c06797d5-fa41-4b48-b132-d268d2acb302
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 12|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.231.243.205
+  server: 54.151.184.124
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
   name: 13|日本4|@ripaojiedian
   network: tcp
-  port: '48019'
-  server: 45.159.51.116
+  port: '35565'
+  server: 120.198.71.214
   servername: ''
   tls: false
   type: vmess
-  uuid: c06797d5-fa41-4b48-b132-d268d2acb302
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24

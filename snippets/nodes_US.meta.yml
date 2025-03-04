@@ -1,37 +1,46 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
-  password: f6f26c14-95e6-40ce-a262-85f851bd380a
+  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
+  password: a817b856-5d8b-422e-8528-f7d6e740af9a
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: f6f26c14-95e6-40ce-a262-85f851bd380a
+  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: a817b856-5d8b-422e-8528-f7d6e740af9a
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 03 | 1x US Washington
-  password: f6f26c14-95e6-40ce-a262-85f851bd380a
+  name: 0|🇺🇸 美国 03 | 1x US Washington
+  password: a817b856-5d8b-422e-8528-f7d6e740af9a
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 2|🇺🇸1 |  5.7MB/s
-  network: ws
-  port: 80
-  server: 151.101.230.116
-  skip-cert-verify: false
-  type: vless
-  uuid: f1ab91a5-5adb-496b-99c1-fa51ebbbac1c
-  ws-opts:
-    headers:
-      Host: Www.Nnddjdhjdy.com
-    path: /?ed=2048
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国 01 | 1x US Los Angeles
+  password: 42a46fe8-371b-4eb3-8cd8-c9de0a4c75a5
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 42a46fe8-371b-4eb3-8cd8-c9de0a4c75a5
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国 03 | 1x US Washington
+  password: 42a46fe8-371b-4eb3-8cd8-c9de0a4c75a5
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - name: 11|🇺🇸美国 加利福尼亚州 圣克拉拉 DIGITALOCEAN-...
   password: iMqY3uG_5pgEj3hCfyHB-0vB
   port: 443
