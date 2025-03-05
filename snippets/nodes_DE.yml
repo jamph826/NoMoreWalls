@@ -1,31 +1,15 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪 德国 01 | 1x DE
-  password: a817b856-5d8b-422e-8528-f7d6e740af9a
+  password: c17457d9-3986-4b43-a5b4-214999ce7476
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇩🇪德国 01 | 1x DE
-  password: 42a46fe8-371b-4eb3-8cd8-c9de0a4c75a5
+  password: 07fdd45a-2cce-4cfb-827e-e8fb95370f06
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 2|🇩🇪1 |  2.8MB/s
-  network: ws
-  port: 80
-  server: 151.101.130.168
-  servername: amd.al
-  skip-cert-verify: true
-  type: vmess
-  uuid: 7dc78582-88a8-4b4c-9e3e-50831d672766
-  ws-opts:
-    headers:
-      HOST: amd.al
-    path: /XESALISTHEBEST?ed=2048
