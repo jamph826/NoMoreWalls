@@ -1,51 +1,51 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 01 | 1x JP
-  password: c17457d9-3986-4b43-a5b4-214999ce7476
+  password: 48519f08-d977-496b-9d39-63bd2bfef89a
   port: 36111
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 02 | 1x JP
-  password: c17457d9-3986-4b43-a5b4-214999ce7476
+  password: 48519f08-d977-496b-9d39-63bd2bfef89a
   port: 36113
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 03 | 1x JP
-  password: c17457d9-3986-4b43-a5b4-214999ce7476
+  password: 48519f08-d977-496b-9d39-63bd2bfef89a
   port: 36115
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇯🇵日本 01 | 1x JP
-  password: 07fdd45a-2cce-4cfb-827e-e8fb95370f06
+  password: 42627803-919b-4d1d-9a45-6434b8717a60
   port: 31111
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇯🇵日本 02 | 1x JP
-  password: 07fdd45a-2cce-4cfb-827e-e8fb95370f06
+  password: 42627803-919b-4d1d-9a45-6434b8717a60
   port: 31113
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇯🇵日本 03 | 1x JP
-  password: 07fdd45a-2cce-4cfb-827e-e8fb95370f06
+  password: 42627803-919b-4d1d-9a45-6434b8717a60
   port: 31115
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 2|🇯🇵2 |  5.5MB/s
+  name: 2|🇯🇵1 |  5.9MB/s
   password: amazonskr05
   port: 443
-  server: 18.183.232.26
+  server: 13.112.102.215
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
@@ -63,31 +63,40 @@ proxies:
   server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 12|🇯🇵 日本3|@ripaojiedian
-  password: 84HMRAWILKB49QUZ
-  port: 18002
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本4|@ripaojiedian
+  name: 12|🇯🇵 日本3|@ripaojiedian
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 8d21436:87091
+    host: 86e8c33.dl.nintendo.com:61496
     mode: tls
   port: 2377
-  server: 52.199.164.162
+  server: 18.179.197.162
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 12,13|日本4|@ripaojiedian
+  network: ws
+  port: '80'
+  server: a41da1ab-5ae0-fa3e-eabe-70e680bdf1bf.castlepeakhospital.moe
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 21c90669-193d-49d3-8e37-f5c1462eb134
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 12|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.179.221.27
+  server: 54.65.101.11
   tfo: false
   type: ss

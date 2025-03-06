@@ -1,25 +1,37 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪 德国 01 | 1x DE
-  password: c17457d9-3986-4b43-a5b4-214999ce7476
+  password: 48519f08-d977-496b-9d39-63bd2bfef89a
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇩🇪德国 01 | 1x DE
-  password: 07fdd45a-2cce-4cfb-827e-e8fb95370f06
+  password: 42627803-919b-4d1d-9a45-6434b8717a60
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 2|🇩🇪1 |  5.7MB/s
-  password: myszy28811
-  port: 28811
-  server: pipi.myddns.me
-  type: socks5
-  udp: true
-  username: myszy
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 2187
+  h2-opts: {}
+  http-opts: {}
+  name: 2|🇩🇪1 |  5.2MB/s
+  network: ws
+  port: 443
+  server: eu9.998998.best
+  servername: server54-4.998877.best
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9accf73f-7372-4403-b31e-0f83d86feb98
+  ws-opts:
+    headers:
+      HOST: server54-4.998877.best
+    path: /jsedr6deersed6h?ed=2560
 - name: 10|(@VmessProtocol)برای خرید و ات...
   password: 0e57e0a8-939e-478d-8513-63b70e961e21
   port: 443
@@ -83,7 +95,7 @@ proxies:
   sni: weilai-nl.sanguayun.com
   tls: false
   type: hysteria2
-- name: 10|🇩🇪 @VPNHubMaRKeT ♾  @VpnHubMar...
+- name: 10|🇩🇪 @VPNHubMaRKeT   @VpnHubMarK...
   obfs: salamander
   obfs-password: '@VPNHubMaRKeT'
   password: '@VPNHubMaRKeT'

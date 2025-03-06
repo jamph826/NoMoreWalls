@@ -1,32 +1,40 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 01 | 1x HK
-  password: c17457d9-3986-4b43-a5b4-214999ce7476
-  port: 36141
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: c17457d9-3986-4b43-a5b4-214999ce7476
+  password: 48519f08-d977-496b-9d39-63bd2bfef89a
   port: 36271
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰香港 01 | 1x HK
-  password: 07fdd45a-2cce-4cfb-827e-e8fb95370f06
+  password: 42627803-919b-4d1d-9a45-6434b8717a60
   port: 31141
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇬🇧英国家宽 01 | 1x UK
-  password: 07fdd45a-2cce-4cfb-827e-e8fb95370f06
+  password: 42627803-919b-4d1d-9a45-6434b8717a60
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- name: 2|🇬🇧1 |  6.1MB/s
+  password: myszy28811
+  port: 28811
+  server: pipi.myddns.me
+  type: socks5
+  udp: true
+  username: myszy
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 2,12|🇭🇰 香港2|@ripaojiedian
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52611
+  server: hk01.x.quickcht3.club
+  tfo: false
+  type: ss
 - name: 14|GB_speednode_0009
   network: ws
   port: 443
