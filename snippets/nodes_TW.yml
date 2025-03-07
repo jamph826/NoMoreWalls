@@ -1,42 +1,42 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 01 | 1x TW
-  password: 48519f08-d977-496b-9d39-63bd2bfef89a
+  password: b449bd87-5fc3-4cac-8a34-1e8421e68836
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 02 | 1x TW
-  password: 48519f08-d977-496b-9d39-63bd2bfef89a
+  password: b449bd87-5fc3-4cac-8a34-1e8421e68836
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 03 | 1x TW
-  password: 48519f08-d977-496b-9d39-63bd2bfef89a
+  password: b449bd87-5fc3-4cac-8a34-1e8421e68836
   port: 36245
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 01 | 1x TW
-  password: 42627803-919b-4d1d-9a45-6434b8717a60
+  name: 2|🇹🇼台湾 01 | 1x TW
+  password: cc990ae8-b0ea-486f-b0aa-28485437497b
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 02 | 1x TW
-  password: 42627803-919b-4d1d-9a45-6434b8717a60
+  name: 2|🇹🇼台湾 02 | 1x TW
+  password: cc990ae8-b0ea-486f-b0aa-28485437497b
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 03 | 1x TW
-  password: 42627803-919b-4d1d-9a45-6434b8717a60
+  name: 2|🇹🇼台湾 03 | 1x TW
+  password: cc990ae8-b0ea-486f-b0aa-28485437497b
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
@@ -47,10 +47,10 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 86e8c33.dl.microsoft.eu:61496
+    host: a1e5cc7:108142
     mode: tls
   port: 2377
-  server: 125.227.86.44
+  server: 125.227.86.46
   tfo: false
   type: ss
 - cipher: aes-256-gcm
@@ -75,17 +75,5 @@ proxies:
   password: HQJQFA7U2Z5HGZWH
   port: 21003
   server: w72tapyb.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 12|🇹🇼 台湾5|@ripaojiedian
-  password: Sj10bnYDe7w6V29E
-  plugin: obfs
-  plugin-opts:
-    host: 1741abe87f.m.ctrip.com
-    mode: http
-  port: 11041
-  server: gzdata1.fc-sigma.xyz
   tfo: false
   type: ss
