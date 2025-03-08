@@ -1,28 +1,20 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 02 | 1x HK
-  password: b449bd87-5fc3-4cac-8a34-1e8421e68836
-  port: 36143
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港住宅IP 03 | 1x HK
-  password: b449bd87-5fc3-4cac-8a34-1e8421e68836
+  name: 1|🇭🇰1 |  1.2MB/s
+  password: 819497f8-68fd-42c9-a569-a1edba7167a9
   port: 36145
   server: free.2weradf.xyz
   type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇭🇰香港 02 | 1x HK
-  password: cc990ae8-b0ea-486f-b0aa-28485437497b
+  password: 594585ee-9830-4805-9d9d-47b4d15efcbd
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇭🇰香港家宽 03 | 1x HK
-  password: cc990ae8-b0ea-486f-b0aa-28485437497b
+  password: 594585ee-9830-4805-9d9d-47b4d15efcbd
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
@@ -52,23 +44,23 @@ proxies:
   server: hk01.x.quickcht3.club
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 12,13|香港3|@ripaojiedian
-  network: tcp
-  password: Vad3.123a)asd1234-asdasd.asdazzS.123
-  port: 443
-  server: 43.154.83.213
-  skip-cert-verify: false
-  sni: xx.tc.hk.go.107421.xyz
-  type: trojan
-- cipher: aes-256-gcm
+- cipher: chacha20-ietf
   client-fingerprint: chrome
-  name: 12|🇭🇰 香港4|@ripaojiedian
-  password: LZQ0R9BL69GCC6FS
-  port: 15005
-  server: 8tv68qhq.slashdevslashnetslashtun.net
+  name: 12|🇭🇰 香港3|@ripaojiedian
+  password: asd123456
+  port: 8388
+  server: 103.149.182.61
   tfo: false
   type: ss
+- client-fingerprint: chrome
+  name: 12,13|香港4|@ripaojiedian
+  network: tcp
+  password: bba1cfff-9e0b-4cb6-9df4-c741c75e59a8
+  port: 13008
+  server: naiu-hk.05vr9nyqg5.download
+  skip-cert-verify: true
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇭🇰 香港5|@ripaojiedian
@@ -101,12 +93,3 @@ proxies:
   server: hk02.x.quickcht3.club
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 12,13|香港9|@ripaojiedian
-  network: tcp
-  password: bba1cfff-9e0b-4cb6-9df4-c741c75e59a8
-  port: 13008
-  server: naiu-hk.05vr9nyqg5.download
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
