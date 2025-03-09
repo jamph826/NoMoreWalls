@@ -1,47 +1,37 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷1 |  28.7MB/s
-  password: 819497f8-68fd-42c9-a569-a1edba7167a9
+  name: 0|🇰🇷 韩国 01 | 1x KR
+  password: 0bac7ebc-e62f-4890-bdbf-8756ccf97d5f
   port: 36311
   server: free.2weradf.xyz
   type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇰🇷韩国 01 | 1x KR
-  password: 594585ee-9830-4805-9d9d-47b4d15efcbd
+  name: 0|🇰🇷 韩国 02 | 1x KR
+  password: 0bac7ebc-e62f-4890-bdbf-8756ccf97d5f
+  port: 36313
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷韩国 01 | 1x KR
+  password: c803c9be-6cc7-4e10-8ae4-45209bec122e
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇰🇷韩国 02 | 1x KR
-  password: 594585ee-9830-4805-9d9d-47b4d15efcbd
+  name: 1|🇰🇷韩国 02 | 1x KR
+  password: c803c9be-6cc7-4e10-8ae4-45209bec122e
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 12,13|韩国|@ripaojiedian
-  network: tcp
-  password: 63083ab4-5ef8-46d7-a3a0-1588a2b01b0a
-  port: 51075
-  server: lm.kaiqsz.com
-  skip-cert-verify: false
-  sni: mmbiz10.redapricotcloud.com
-  type: trojan
-- client-fingerprint: chrome
-  name: 12,13|韩国2|@ripaojiedian
-  network: tcp
-  password: 9d5e41f7-3ae7-41d4-8560-6177f1c36b78
-  port: 10510
-  server: dest02.to.userver01.cc
-  skip-cert-verify: true
-  sni: www.tmall.com
-  type: trojan
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 12|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.199.255.69
+  server: 54.199.0.211
   tfo: false
   type: ss

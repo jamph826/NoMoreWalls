@@ -1,53 +1,68 @@
 proxies:
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 1|🇸🇬1 |  5.9MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.255.174.199
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬 新加坡 01 | 1x SG
+  password: 0bac7ebc-e62f-4890-bdbf-8756ccf97d5f
+  port: 36171
+  server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 1|🇸🇬2 |  2.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.229.110.23
-  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 01 | 1x SG
-  password: 594585ee-9830-4805-9d9d-47b4d15efcbd
+  name: 0|🇸🇬 新加坡 02 | 1x SG
+  password: 0bac7ebc-e62f-4890-bdbf-8756ccf97d5f
+  port: 36173
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬 新加坡 03 | 1x SG
+  password: 0bac7ebc-e62f-4890-bdbf-8756ccf97d5f
+  port: 36175
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 01 | 1x SG
+  password: c803c9be-6cc7-4e10-8ae4-45209bec122e
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 02 | 1x SG
-  password: 594585ee-9830-4805-9d9d-47b4d15efcbd
+  name: 1|🇸🇬新加坡 02 | 1x SG
+  password: c803c9be-6cc7-4e10-8ae4-45209bec122e
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 03 | 1x SG
-  password: 594585ee-9830-4805-9d9d-47b4d15efcbd
+  name: 1|🇸🇬新加坡 03 | 1x SG
+  password: c803c9be-6cc7-4e10-8ae4-45209bec122e
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
+- client-fingerprint: chrome
   name: 12|🇸🇬 新加坡|@ripaojiedian
-  password: 0407WKIEIXMTLGC6
-  port: 16007
-  server: qh62onjn.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
+  password: '!!str 74260716866785000'
+  port: 443
+  server: hardy-haddock.shiner427.skin
+  skip-cert-verify: false
+  sni: hardy-haddock.shiner427.skin
+  type: trojan
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇸🇬 新加坡2|@ripaojiedian
   password: BFYCOKHTC8HIWWRB
   port: 16006
   server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 12|🇸🇬 新加坡|@ripaojiedian 2
+  password: 0407WKIEIXMTLGC6
+  port: 16007
+  server: qh62onjn.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-gcm
@@ -63,6 +78,12 @@ proxies:
   name: 12|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 18.181.167.38
+  server: 57.180.243.140
   tfo: false
   type: ss
+- name: 13|新加坡|@ripaojiedian
+  network: tcp
+  password: '!!str 74260716866785000'
+  port: 443
+  server: hardy-haddock.shiner427.skin
+  type: trojan
