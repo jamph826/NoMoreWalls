@@ -1,57 +1,60 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 01 | 1x TW
-  password: 0bac7ebc-e62f-4890-bdbf-8756ccf97d5f
+  password: b1ee99ae-1155-441b-b7a0-fb97c25e43a4
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 02 | 1x TW
-  password: 0bac7ebc-e62f-4890-bdbf-8756ccf97d5f
+  password: b1ee99ae-1155-441b-b7a0-fb97c25e43a4
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 03 | 1x TW
-  password: 0bac7ebc-e62f-4890-bdbf-8756ccf97d5f
+  password: b1ee99ae-1155-441b-b7a0-fb97c25e43a4
   port: 36245
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 01 | 1x TW
-  password: c803c9be-6cc7-4e10-8ae4-45209bec122e
+  name: 1|🇹🇼1 |  4.6MB/s
+  password: b4dfd6fe-6a5f-4c85-a4ca-083f17da7be1
+  port: 36241
+  server: free.2weradf.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇹🇼台湾 01 | 1x TW
+  password: 427019ab-c252-4dac-b00f-956d17682ba8
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 02 | 1x TW
-  password: c803c9be-6cc7-4e10-8ae4-45209bec122e
+  name: 2|🇹🇼台湾 02 | 1x TW
+  password: 427019ab-c252-4dac-b00f-956d17682ba8
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 03 | 1x TW
-  password: c803c9be-6cc7-4e10-8ae4-45209bec122e
+  name: 2|🇹🇼台湾 03 | 1x TW
+  password: 427019ab-c252-4dac-b00f-956d17682ba8
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf
+- cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇹🇼 台湾|@ripaojiedian
-  obfs: http_simple
-  obfs-param: b4ff5202018.microsoft.com
-  password: lbNVOz
-  port: 7051
-  protocol: auth_aes128_md5
-  protocol-param: 202018:1FstQvihnBRscXZP
-  server: cname02b-a56xgycr7j4km32e.bestgosht.com
-  type: ssr
+  password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83
+  port: 21115
+  server: okanc.node-is.green
+  tfo: false
+  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇹🇼 台湾3|@ripaojiedian

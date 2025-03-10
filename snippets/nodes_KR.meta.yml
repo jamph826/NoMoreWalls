@@ -1,47 +1,37 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷 韩国 01 | 1x KR
-  password: 0bac7ebc-e62f-4890-bdbf-8756ccf97d5f
+  password: b1ee99ae-1155-441b-b7a0-fb97c25e43a4
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷 韩国 02 | 1x KR
-  password: 0bac7ebc-e62f-4890-bdbf-8756ccf97d5f
+  password: b1ee99ae-1155-441b-b7a0-fb97c25e43a4
   port: 36313
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 01 | 1x KR
-  password: c803c9be-6cc7-4e10-8ae4-45209bec122e
+  name: 2|🇰🇷韩国 01 | 1x KR
+  password: 427019ab-c252-4dac-b00f-956d17682ba8
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 02 | 1x KR
-  password: c803c9be-6cc7-4e10-8ae4-45209bec122e
+  name: 2|🇰🇷韩国 02 | 1x KR
+  password: 427019ab-c252-4dac-b00f-956d17682ba8
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
-  udp: true
-- auth: e3v53Tnr1AF09DVG7cVTUHGMvP0
-  client-fingerprint: chrome
-  name: 2|🇰🇷1 |  1.7MB/s
-  password: e3v53Tnr1AF09DVG7cVTUHGMvP0
-  port: 10610
-  server: 54.180.127.110
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
   udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 12|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.199.0.211
+  server: 18.140.1.105
   tfo: false
   type: ss
