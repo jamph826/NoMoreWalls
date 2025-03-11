@@ -1,62 +1,52 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: b1ee99ae-1155-441b-b7a0-fb97c25e43a4
+  password: a644b402-c4e5-49a4-b47a-edd4470d5323
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: b1ee99ae-1155-441b-b7a0-fb97c25e43a4
+  password: a644b402-c4e5-49a4-b47a-edd4470d5323
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 03 | 1x SG
-  password: b1ee99ae-1155-441b-b7a0-fb97c25e43a4
+  password: a644b402-c4e5-49a4-b47a-edd4470d5323
   port: 36175
   server: free.2weradf.xyz
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  disable-sni: true
-  name: 1,12,13|台湾2|@ripaojiedian
-  network: ws
-  port: '12883'
-  server: gtm1.ktmwan.net
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 9207a3fc-18cc-4af7-ab1c-1c0000e57e37
-  ws-opts:
-    headers:
-      Host: gtm1.ktmwan.net
-    path: /
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 01 | 1x SG
-  password: 427019ab-c252-4dac-b00f-956d17682ba8
+  name: 1|🇸🇬新加坡 01 | 1x SG
+  password: 11faff60-3ad6-484d-8673-e69921b2a43b
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 02 | 1x SG
-  password: 427019ab-c252-4dac-b00f-956d17682ba8
+  name: 1|🇸🇬新加坡 02 | 1x SG
+  password: 11faff60-3ad6-484d-8673-e69921b2a43b
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 03 | 1x SG
-  password: 427019ab-c252-4dac-b00f-956d17682ba8
+  name: 1|🇸🇬新加坡 03 | 1x SG
+  password: 11faff60-3ad6-484d-8673-e69921b2a43b
   port: 31175
   server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 2|🇸🇬1 |  5.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.169.183.172
   type: ss
   udp: true
 - cipher: aes-256-gcm
@@ -83,19 +73,25 @@ proxies:
   server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
+- client-fingerprint: chrome
   name: 12|🇸🇬 新加坡4|@ripaojiedian
-  password: d2cb5677-5e2d-42ab-9350-8c0ab9a62730
-  port: 30921
-  server: bgp.u17.xyz
-  tfo: false
-  type: ss
+  password: '!!str 74260714362785500'
+  port: 443
+  server: driving-rhino.shiner427.skin
+  skip-cert-verify: false
+  sni: driving-rhino.shiner427.skin
+  type: trojan
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 12|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 43.201.0.67
+  server: 13.230.60.121
   tfo: false
   type: ss
+- name: 13|新加坡4|@ripaojiedian
+  network: tcp
+  password: '!!str 74260714362785500'
+  port: 443
+  server: driving-rhino.shiner427.skin
+  type: trojan

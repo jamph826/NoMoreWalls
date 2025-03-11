@@ -1,58 +1,42 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 01 | 1x TW
-  password: b1ee99ae-1155-441b-b7a0-fb97c25e43a4
+  password: a644b402-c4e5-49a4-b47a-edd4470d5323
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 02 | 1x TW
-  password: b1ee99ae-1155-441b-b7a0-fb97c25e43a4
+  password: a644b402-c4e5-49a4-b47a-edd4470d5323
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 03 | 1x TW
-  password: b1ee99ae-1155-441b-b7a0-fb97c25e43a4
+  password: a644b402-c4e5-49a4-b47a-edd4470d5323
   port: 36245
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼1 |  4.6MB/s
-  password: b4dfd6fe-6a5f-4c85-a4ca-083f17da7be1
-  port: 36241
-  server: free.2weradf.xyz
-  type: ss
-- client-fingerprint: chrome
-  name: 1|🇹🇼2 |  4.7MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 01 | 1x TW
-  password: 427019ab-c252-4dac-b00f-956d17682ba8
+  name: 1|🇹🇼台湾 01 | 1x TW
+  password: 11faff60-3ad6-484d-8673-e69921b2a43b
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 02 | 1x TW
-  password: 427019ab-c252-4dac-b00f-956d17682ba8
+  name: 1|🇹🇼台湾 02 | 1x TW
+  password: 11faff60-3ad6-484d-8673-e69921b2a43b
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 03 | 1x TW
-  password: 427019ab-c252-4dac-b00f-956d17682ba8
+  name: 1|🇹🇼台湾 03 | 1x TW
+  password: 11faff60-3ad6-484d-8673-e69921b2a43b
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
@@ -60,24 +44,32 @@ proxies:
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇹🇼 台湾|@ripaojiedian
-  password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83
-  port: 21115
-  server: okanc.node-is.green
+  password: KM16ID6XDW3XRC7K
+  port: 21006
+  server: qh62onjn.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 12|🇹🇼 台湾2|@ripaojiedian
+  password: ECOQAU8O56QGBV28
+  port: 21002
+  server: qh62onjn.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇹🇼 台湾3|@ripaojiedian
-  password: Y2U58S90E3GST1AQ
-  port: 21001
-  server: ti3hyra4.slashdevslashnetslashtun.net
+  password: QF377GGQ00RATCMK
+  port: 21004
+  server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇹🇼 台湾4|@ripaojiedian
-  password: HQJQFA7U2Z5HGZWH
-  port: 21003
+  password: F7XGGN9MP0DGPLII
+  port: 21007
   server: w72tapyb.slashdevslashnetslashtun.net
   tfo: false
   type: ss

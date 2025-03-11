@@ -1,15 +1,31 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇨🇦 加拿大 01 | 1x CA
-  password: b1ee99ae-1155-441b-b7a0-fb97c25e43a4
+  password: a644b402-c4e5-49a4-b47a-edd4470d5323
   port: 36441
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇨🇦加拿大 01 | 1x CA
-  password: 427019ab-c252-4dac-b00f-956d17682ba8
+  name: 1|🇨🇦加拿大 01 | 1x CA
+  password: 11faff60-3ad6-484d-8673-e69921b2a43b
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- client-fingerprint: chrome
+  name: 2|🇨🇦1 |  2.8MB/s
+  obfs: salamander
+  obfs_password: PlNYjSECZNqpSCX9
+  password: 264136cf-2212-4668-ad6e-6807e7de04c6
+  port: 40000
+  server: qyt-61-5.solook.uk
+  skip-cert-verify: true
+  sni: qyt-61-5.solook.uk
+  type: hysteria2
+- cipher: aes-256-cfb
+  name: 2|🇨🇦2 |  6.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 47.129.54.127
+  type: ss

@@ -1,82 +1,49 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: b1ee99ae-1155-441b-b7a0-fb97c25e43a4
+  password: a644b402-c4e5-49a4-b47a-edd4470d5323
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: b1ee99ae-1155-441b-b7a0-fb97c25e43a4
+  password: a644b402-c4e5-49a4-b47a-edd4470d5323
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: b1ee99ae-1155-441b-b7a0-fb97c25e43a4
+  password: a644b402-c4e5-49a4-b47a-edd4470d5323
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸1 |  2.5MB/s
-  password: b4dfd6fe-6a5f-4c85-a4ca-083f17da7be1
-  port: 36641
-  server: free.2weradf.xyz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸3 |  11.8MB/s
-  password: b4dfd6fe-6a5f-4c85-a4ca-083f17da7be1
-  port: 36671
-  server: free.2weradf.xyz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸5 |  5.3MB/s
-  password: b4dfd6fe-6a5f-4c85-a4ca-083f17da7be1
-  port: 36411
-  server: free.2weradf.xyz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国 01 | 1x US Los Angeles
-  password: 427019ab-c252-4dac-b00f-956d17682ba8
+  name: 1|🇺🇸美国 01 | 1x US Los Angeles
+  password: 11faff60-3ad6-484d-8673-e69921b2a43b
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 427019ab-c252-4dac-b00f-956d17682ba8
+  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 11faff60-3ad6-484d-8673-e69921b2a43b
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国 03 | 1x US Washington
-  password: 427019ab-c252-4dac-b00f-956d17682ba8
+  name: 1|🇺🇸美国 03 | 1x US Washington
+  password: 11faff60-3ad6-484d-8673-e69921b2a43b
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 12|🇺🇸 美国2|@ripaojiedian
-  port: 44014
-  server: 120.198.71.219
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 13|美国2|@ripaojiedian
-  network: tcp
-  port: '44014'
-  server: 120.198.71.219
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-cfb
+  name: 2|🇺🇸5 |  5.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.215.141.135
+  type: ss
