@@ -1,100 +1,139 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: a644b402-c4e5-49a4-b47a-edd4470d5323
+  password: 08992dfe-867b-4a44-a736-210139ce88a7
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: a644b402-c4e5-49a4-b47a-edd4470d5323
+  password: 08992dfe-867b-4a44-a736-210139ce88a7
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: a644b402-c4e5-49a4-b47a-edd4470d5323
+  password: 08992dfe-867b-4a44-a736-210139ce88a7
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸美国 01 | 1x US Los Angeles
-  password: 11faff60-3ad6-484d-8673-e69921b2a43b
+  password: 7f90f3fd-5d4e-412d-b4b2-5399f45d8c8f
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 11faff60-3ad6-484d-8673-e69921b2a43b
+  password: 7f90f3fd-5d4e-412d-b4b2-5399f45d8c8f
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸美国 03 | 1x US Washington
-  password: 11faff60-3ad6-484d-8673-e69921b2a43b
+  password: 7f90f3fd-5d4e-412d-b4b2-5399f45d8c8f
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
-  name: 2|🇺🇸1 |  1.8MB/s
+  name: 2|🇺🇸1 |  5.4MB/s
   network: ws
-  port: 80
-  server: join.E-L-i-V-2-R-A-Y.fastly80-3.hosting-ip.com
-  servername: Join--E-L-i-V-2-R-A-Y.net
+  port: 2095
+  server: 156.238.18.163
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redw.pooriam.ir
+    path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
+- client-fingerprint: chrome
+  name: 2|🇺🇸2 |  8.4MB/s
+  network: ws
+  port: 8880
+  server: 195.85.59.155
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: f6bd2c47-99da-4bca-bf70-7186aa9e7e06
+  ws-opts:
+    headers:
+      Host: photographipictureai.ir
+    path: /Telegram
+- client-fingerprint: chrome
+  name: 2|🇺🇸3 |  2.0MB/s
+  network: ws
+  port: 2086
+  server: 212.183.88.84
   skip-cert-verify: false
   type: vless
   uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
-      Host: Join--E-L-i-V-2-R-A-Y.net
-    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed
-- name: 2|🇺🇸2 |  4.5MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: usgp3-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: usgp3-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- client-fingerprint: chrome
-  name: 2|🇺🇸3 |  4.0MB/s
-  obfs: salamander
-  obfs_password: PlNYjSECZNqpSCX9
-  password: 264136cf-2212-4668-ad6e-6807e7de04c6
-  port: 40000
-  server: racknerd-207.solook.uk
+      Host: redw.pooriam.ir
+    path: /TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET/?ed=2048
+- name: 2|🇺🇸4 |  4.9MB/s
+  password: 694d03eb-a6ab-3877-b5ea-f1ff62cbc8c4
+  port: 28678
+  server: gy.58n.net
   skip-cert-verify: true
-  sni: racknerd-207.solook.uk
-  type: hysteria2
-- client-fingerprint: chrome
-  name: 2|🇺🇸4 |  1.7MB/s
-  network: ws
-  port: 2086
-  server: 104.21.4.189
-  skip-cert-verify: true
-  type: vless
+  sni: z143.hongkongnode.top
+  type: trojan
   udp: true
-  uuid: 7320522d-56c1-4e35-9fa7-88a151d76828
+- alterId: 0
+  cipher: auto
+  name: 2|🇺🇸5 |  26.2MB/s
+  port: 44014
+  server: 120.198.71.219
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: '2,10|Channel id: @shokhmiplus 🇩🇪'
+  obfs: salamander
+  obfs-password: hsdirhrrkskdhebdjdj
+  password: MICPT1LLn6
+  port: 44140
+  server: 161.97.108.42
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: hysteria2
+- name: 2|🇺🇸7 |  5.4MB/s
+  password: 694d03eb-a6ab-3877-b5ea-f1ff62cbc8c4
+  port: 20304
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z304.hongkongnode.top
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 2|🇺🇸8 |  2.0MB/s
+  network: ws
+  port: 8880
+  server: 185.146.173.112
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: f6bd2c47-99da-4bca-bf70-7186aa9e7e06
   ws-opts:
     headers:
-      Host: 07fd36f0-yuv2ray3131331456346534643.cocefob714.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.110 Safari/537.36
-    path: /DdAtLiofda1FCcda?ed=2560
-- cipher: aes-256-cfb
-  name: 2|🇺🇸5 |  5.9MB/s
-  password: amazonskr05
+      Host: photographipictureai.ir
+    path: /Telegram
+- name: 11|🇺🇸美国 加利福尼亚州 圣克拉拉 DIGITALOCEAN-...
+  password: iMqY3uG_5pgEj3hCfyHB-0vB
   port: 443
-  server: 13.215.141.135
-  type: ss
-- name: 2,14|US_speednode_0056
+  server: 143.198.235.49
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: 14|US_speednode_0056
   network: ws
   port: 80
   server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com
@@ -108,56 +147,6 @@ proxies:
     headers:
       Host: Join--E-L-i-V-2-R-A-Y.net
     path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed=2560
-- client-fingerprint: chrome
-  name: 2|🇺🇸7 |  5.6MB/s
-  network: ws
-  port: 443
-  server: 193.9.49.241
-  servername: eua.kobtty.me
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: cd01db3b-4b0a-4718-98dd-1d38f55be03f
-  ws-opts:
-    headers:
-      Host: eua.kobtty.me
-    path: /bing
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  client-fingerprint: chrome
-  down: 55 Mbps
-  name: 2|🇺🇸8 |  1.1MB/s
-  port: 17549
-  server: 208.87.243.151
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  up: 11 Mbps
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl
-  name: 2|🇺🇸9 |  1.6MB/s
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: gH_h3-mo0stXouQX61J22W14N9-RlRjwo6BQgAcUay4
-    short-id: c5508bd7
-  server: 209.227.230.243
-  servername: wordpress.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 253f59da-b708-4404-cebe-3854aad88880
-- name: 11|🇺🇸美国 加利福尼亚州 圣克拉拉 DIGITALOCEAN-...
-  password: iMqY3uG_5pgEj3hCfyHB-0vB
-  port: 443
-  server: 143.198.235.49
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - name: 14|US_speednode_0064
   network: ws
   port: 80
