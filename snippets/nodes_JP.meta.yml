@@ -1,32 +1,38 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵日本 01 | 1x JP
-  password: 8117c584-cd05-493a-962d-43396c681de5
-  port: 31111
-  server: free.2apzhfa.xyz
+  name: 0|🇯🇵 日本 01 | 1x JP
+  password: aa090fdf-5e45-4f34-8e33-5bfb50f30e86
+  port: 36111
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵日本 02 | 1x JP
-  password: 8117c584-cd05-493a-962d-43396c681de5
-  port: 31113
-  server: free.2apzhfa.xyz
+  name: 0|🇯🇵 日本 02 | 1x JP
+  password: aa090fdf-5e45-4f34-8e33-5bfb50f30e86
+  port: 36113
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵日本 03 | 1x JP
-  password: 8117c584-cd05-493a-962d-43396c681de5
-  port: 31115
-  server: free.2apzhfa.xyz
+  name: 0|🇯🇵 日本 03 | 1x JP
+  password: aa090fdf-5e45-4f34-8e33-5bfb50f30e86
+  port: 36115
+  server: free.2weradf.xyz
   type: ss
   udp: true
+- cipher: aes-256-cfb
+  name: 1|🇯🇵1 |  4.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.181.194.77
+  type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 11|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202502231733428-Ein9IQ2kBA.download.microsoft.com
+    host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
     mode: http
   port: 8764
   server: cn01.efan8867801.xyz
@@ -38,18 +44,18 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202502231733428-Ein9IQ2kBA.download.microsoft.com
+    host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
     mode: http
   port: 8761
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- cipher: aes-256-gcm
+- cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 11|🇯🇵 日本3|@ripaojiedian
-  password: 6Z15O92K5OSTCQUD
-  port: 18008
-  server: ti3hyra4.slashdevslashnetslashtun.net
+  password: hGkQ6915tD
+  port: 15084
+  server: 120.232.81.50
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -57,27 +63,37 @@ proxies:
   name: 11|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 18.181.194.77
+  server: 3.36.61.71
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|日本4|@ripaojiedian
+  network: kcp
+  port: '58490'
+  server: 8.209.203.88
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 551087e5-9a03-4634-9e7f-714133eb3ccb
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇯🇵 日本 01 | 1x JP
-  password: 5ae057b7-9994-44a2-9d40-7b845e1dbbf7
-  port: 36111
-  server: free.2weradf.xyz
+  name: 14|🇯🇵日本 01 | 1x JP
+  password: 02fd9fc6-c7aa-4a78-af57-9118ec072e58
+  port: 31111
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇯🇵 日本 02 | 1x JP
-  password: 5ae057b7-9994-44a2-9d40-7b845e1dbbf7
-  port: 36113
-  server: free.2weradf.xyz
+  name: 14|🇯🇵日本 02 | 1x JP
+  password: 02fd9fc6-c7aa-4a78-af57-9118ec072e58
+  port: 31113
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇯🇵 日本 03 | 1x JP
-  password: 5ae057b7-9994-44a2-9d40-7b845e1dbbf7
-  port: 36115
-  server: free.2weradf.xyz
+  name: 14|🇯🇵日本 03 | 1x JP
+  password: 02fd9fc6-c7aa-4a78-af57-9118ec072e58
+  port: 31115
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
