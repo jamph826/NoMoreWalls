@@ -1,18 +1,45 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪 德国 01 | 1x DE
-  password: 9c1efcf1-e66f-4bf3-8c80-c17f3a86920f
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇩🇪德国 01 | 1x DE
-  password: 35938693-157d-43ca-af72-4254141afe05
+  name: 0|🇩🇪德国 01 | 1x DE
+  password: 2c35305a-6c09-484d-8197-17b25f223503
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇩🇪 德国 01 | 1x DE
+  password: 6e9dfc75-a45d-4fcc-a08f-e2fa4d825075
+  port: 36471
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: 2086vless
+  name: 2|🇩🇪1 |  5.5MB/s
+  network: grpc
+  port: 2060
+  reality-opts:
+    public-key: jW_vraWBLfMcIkPp89pEPSbFQn2VM4qtPO4FAoC2chE
+    short-id: 629cc26960e47e39
+  server: 91.107.181.177
+  servername: refersion.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 46b06e2c-e5e0-4ad2-ad3e-9f316d7d3065
+- delay: 2847
+  name: 2|🇩🇪2 |  4.5MB/s
+  network: ws
+  port: 8880
+  server: 195.85.59.155
+  tls: false
+  type: vless
+  uuid: f6bd2c47-99da-4bca-bf70-7186aa9e7e06
+  ws-opts:
+    headers:
+      Host: photographipictureai.ir
+    path: /Telegram
 - name: 10|(@VmessProtocol)برای خرید و ات...
   password: 15261735-2168-42f8-b3ad-91ec82a58b5a
   port: 21050
