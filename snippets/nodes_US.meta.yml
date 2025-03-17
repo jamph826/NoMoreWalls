@@ -1,263 +1,171 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: 2c35305a-6c09-484d-8197-17b25f223503
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 2c35305a-6c09-484d-8197-17b25f223503
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 03 | 1x US Washington
-  password: 2c35305a-6c09-484d-8197-17b25f223503
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 6e9dfc75-a45d-4fcc-a08f-e2fa4d825075
-  port: 36211
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 6e9dfc75-a45d-4fcc-a08f-e2fa4d825075
-  port: 36213
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 03 | 1x US Washington
-  password: 6e9dfc75-a45d-4fcc-a08f-e2fa4d825075
-  port: 36215
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 2|🇺🇸1 |  5.6MB/s
-  network: ws
-  port: 22643
-  server: tk.hzlt.tkddns.xyz
-  servername: zxjp-c.tkong.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-c.tkong.cc
-    path: /
-- client-fingerprint: chrome
-  name: 2|🇺🇸2 |  5.8MB/s
-  network: ws
-  port: 443
-  server: 31.22.116.196
-  servername: usd.xzncr.asia
-  tls: true
-  type: vless
-  uuid: 034b7109-a45a-46d7-afde-3eec1af72322
-  ws-opts:
-    headers:
-      Host: usd.xzncr.asia
-    path: /bing
-- name: 2|🇺🇸3 |  5.9MB/s
-  password: 373420a4-0036-302f-b3f2-d986acb3dca0
-  port: 30767
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z61.hongkongnode.top
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 2|🇺🇸4 |  5.4MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: ustx004-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: ustx004-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 2|🇺🇸5 |  5.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 34.221.169.63
-  type: ss
-- client-fingerprint: chrome
-  name: 2|🇺🇸6 |  5.7MB/s
-  network: ws
-  port: 443
-  server: 31.22.116.18
-  servername: usc.xzncr.asia
-  tls: true
-  type: vless
-  uuid: 704222bd-7eff-4307-ae26-d6a5ab79817a
-  ws-opts:
-    headers:
-      Host: usc.xzncr.asia
-    path: /bing
-- name: 2|🇺🇸7 |  1.0MB/s
-  password: 373420a4-0036-302f-b3f2-d986acb3dca0
-  port: 20288
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z288.hongkongnode.top
-  type: trojan
-  udp: true
-- delay: 1461
-  name: 2|🇺🇸8 |  1.1MB/s
-  network: ws
-  port: 2086
-  server: 212.183.88.84
-  tls: false
-  type: vless
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET/?ed=2048
-- client-fingerprint: chrome
-  name: 2|🇺🇸9 |  5.0MB/s
+- name: 0|🇺🇸1 |  1.8MB/s
   network: ws
   port: 2095
-  server: 156.238.18.28
+  server: 156.238.18.48
   skip-cert-verify: false
-  tls: false
   type: vless
   uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
       Host: redw.pooriam.ir
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇺🇸10 |  3.8MB/s
-  network: tcp
-  port: 33718
-  reality-opts:
-    public-key: g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14
-  server: 31.59.111.49
-  servername: icloud.cdn-apple.com
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e657e5fb-c417-4d3f-d84e-a3a8f010f9fa
-- client-fingerprint: chrome
-  name: 2|🇺🇸11 |  2.0MB/s
-  network: ws
-  port: 2095
-  server: 156.238.18.163
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
-- alterId: 2
+    path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1fp
+- alterId: '0'
   cipher: auto
-  client-fingerprint: chrome
-  h2-opts: {}
-  http-opts: {}
-  name: 2|🇺🇸12 |  4.8MB/s
+  name: 0|🇺🇸2 |  4.9MB/s
   network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  servername: tk.hzlt.tkddns.xyz
-  skip-cert-verify: true
+  port: 443
+  server: La02.890604.filEGEAr-sG.me
+  servername: La02.890604.filEGEAr-sG.me
   tls: true
   type: vmess
-  udp: true
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  uuid: 60cdd89e-a9cf-4850-8577-e3c6abf5515d
   ws-opts:
     headers:
-      Host: zxjp-a.tkong.cc
-    path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 2|🇺🇸13 |  2.2MB/s
-  password: amazonskr05
+      Host: la02.890604.filegear-sg.me
+    path: /gyCVORfjoXYyHHcJBuLd
+- alterId: '0'
+  cipher: auto
+  name: 0|🇺🇸3 |  5.5MB/s
+  network: ws
   port: 443
-  server: 54.184.74.88
-  type: ss
+  server: glweidf.cfd
+  servername: glweidf.cfd
+  tls: true
+  type: vmess
+  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
+  ws-opts:
+    headers:
+      Host: glweidf.cfd
+    path: /linkws
+- alterId: '0'
+  cipher: auto
+  name: 0|🇺🇸4 |  1.4MB/s
+  network: ws
+  port: 443
+  server: La01.890604.filegEaR-Sg.me
+  servername: La01.890604.filegEaR-Sg.me
+  tls: true
+  type: vmess
+  uuid: 60cdd89e-a9cf-4850-8577-e3c6abf5515d
+  ws-opts:
+    headers:
+      Host: la01.890604.filegear-sg.me
+    path: /gyCVORfjoXYyHHcJBuLd
+- alterId: '0'
+  cipher: auto
+  name: 0|🇺🇸5 |  1.8MB/s
+  network: ws
+  port: 443
+  server: lA03.818185.XYZ
+  servername: lA03.818185.XYZ
+  tls: true
+  type: vmess
+  uuid: 60cdd89e-a9cf-4850-8577-e3c6abf5515d
+  ws-opts:
+    headers:
+      Host: la03.818185.xyz
+    path: /gyCVORfjoXYyHHcJBuLd
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   client-fingerprint: chrome
-  down: 55 Mbps
-  name: 2|🇺🇸14 |  4.1MB/s
+  down: 1000 Mbps
+  name: 0|🇺🇸6 |  4.6MB/s
   port: 17549
   server: 208.87.243.151
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria
-  up: 11 Mbps
+  up: 1000 Mbps
 - alterId: '0'
   cipher: auto
-  name: 2|🇺🇸15 |  1.3MB/s
-  network: tcp
-  port: 40105
-  server: 120.232.153.63
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000 Mbps
-  name: 2|🇺🇸16 |  5.8MB/s
-  port: 11512
-  server: 108.181.24.77
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 1000 Mbps
-- client-fingerprint: chrome
-  name: 2|🇺🇸17 |  5.8MB/s
+  name: 0|🇺🇸7 |  1.5MB/s
   network: ws
   port: 443
-  server: 31.22.116.16
-  servername: usa.xzncr.asia
+  server: lA01.890604.FilegeAr-Sg.Me
+  servername: lA01.890604.FilegeAr-Sg.Me
   tls: true
-  type: vless
-  uuid: 433f4c30-7b28-4d4e-b573-a6624231700a
+  type: vmess
+  uuid: 60cdd89e-a9cf-4850-8577-e3c6abf5515d
   ws-opts:
     headers:
-      Host: usa.xzncr.asia
-    path: /bing
-- client-fingerprint: chrome
-  name: 2,14|SC_speednode_0049
-  network: ws
-  port: 8880
-  server: 154.83.2.156
-  servername: redw.pooriam.ir
-  skip-cert-verify: false
+      Host: la01.890604.filegear-sg.me
+    path: /gyCVORfjoXYyHHcJBuLd
+- name: 0|🇺🇸8 |  5.7MB/s
+  network: tcp
+  port: 16093
+  server: 38.79.119.43
+  skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  uuid: f103ce28-d683-4c53-8279-aafb7bbfff42
+- alterId: '0'
+  cipher: auto
+  name: 0|🇺🇸9 |  1.7MB/s
+  network: ws
+  port: 443
+  server: la04.890603.xyz
+  servername: la04.890603.xyz
+  tls: true
+  type: vmess
+  uuid: 60cdd89e-a9cf-4850-8577-e3c6abf5515d
   ws-opts:
     headers:
-      Host: redw.pooriam.ir
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- name: 11|🇺🇸美国 加利福尼亚州 圣克拉拉 DIGITALOCEAN-...
+      Host: la04.890603.xyz
+    path: /gyCVORfjoXYyHHcJBuLd
+- alterId: '0'
+  cipher: auto
+  name: 0|🇺🇸10 |  1.8MB/s
+  network: ws
+  port: 443
+  server: la02.890604.fIlegeAR-Sg.ME
+  servername: la02.890604.fIlegeAR-Sg.ME
+  tls: true
+  type: vmess
+  uuid: 60cdd89e-a9cf-4850-8577-e3c6abf5515d
+  ws-opts:
+    headers:
+      Host: la02.890604.filegear-sg.me
+    path: /gyCVORfjoXYyHHcJBuLd
+- alterId: '0'
+  cipher: auto
+  name: 0|🇺🇸11 |  1.0MB/s
+  network: ws
+  port: 443
+  server: la01.890604.FILEgEAR-sG.me
+  servername: la01.890604.FILEgEAR-sG.me
+  tls: true
+  type: vmess
+  uuid: 60cdd89e-a9cf-4850-8577-e3c6abf5515d
+  ws-opts:
+    headers:
+      Host: la01.890604.filegear-sg.me
+    path: /gyCVORfjoXYyHHcJBuLd
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国 01 | 1x US Los Angeles
+  password: e92bab6d-e808-4ba0-87dd-2955950f9fcf
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: e92bab6d-e808-4ba0-87dd-2955950f9fcf
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国 03 | 1x US Washington
+  password: e92bab6d-e808-4ba0-87dd-2955950f9fcf
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- name: 10|🇺🇸美国 加利福尼亚州 圣克拉拉 DIGITALOCEAN-...
   password: iMqY3uG_5pgEj3hCfyHB-0vB
   port: 443
   server: 143.198.235.49
@@ -266,11 +174,11 @@ proxies:
   type: hysteria2
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国|@ripaojiedian
+  name: 11|🇺🇸 美国|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503140983506-1tyf6s8TzW.download.microsoft.com
+    host: 202503161140460-Ypmr7Skyy1.download.microsoft.com
     mode: http
   port: 8771
   server: cn01.efan8867801.xyz
@@ -278,17 +186,33 @@ proxies:
   type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国2|@ripaojiedian
+  name: 11|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503140983506-1tyf6s8TzW.download.microsoft.com
+    host: 202503161140460-Ypmr7Skyy1.download.microsoft.com
     mode: http
   port: 8773
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- name: 14|US_speednode_0056
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 11|🇺🇸 美国3|@ripaojiedian
+  password: E1SCB7Q1P7HFR8K8
+  port: 17005
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 11|🇺🇸 美国4|@ripaojiedian
+  password: 54SY1SP5HU73E00Z
+  port: 17001
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- name: 13|US_speednode_0056
   network: ws
   port: 80
   server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com
@@ -302,7 +226,7 @@ proxies:
     headers:
       Host: Join--E-L-i-V-2-R-A-Y.net
     path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed=2560
-- name: 14|US_speednode_0064
+- name: 13|US_speednode_0064
   network: ws
   port: 80
   server: 104.26.14.85
@@ -316,7 +240,7 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /?ed=2560
-- name: 14|US_speednode_0065
+- name: 13|US_speednode_0065
   network: ws
   port: 80
   server: 104.26.14.85
@@ -330,7 +254,7 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /@V2ray_Alpha/?ed=2560
-- name: 14|US_speednode_0069
+- name: 13|US_speednode_0069
   network: ws
   port: 80
   server: 172.67.73.163
@@ -344,7 +268,7 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /?ed=2560
-- name: 14|US_speednode_0071
+- name: 13|US_speednode_0071
   network: ws
   port: 80
   server: 172.67.73.163
@@ -358,7 +282,7 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /MTMVPN?ed=2560
-- name: 14|US_speednode_0072
+- name: 13|US_speednode_0072
   network: ws
   port: 80
   server: 104.26.14.85
@@ -372,7 +296,7 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /MTMVPN-MTMVPN-MTMVPN-MTMVPN?ed=2560
-- name: 14|US_speednode_0077
+- name: 13|US_speednode_0077
   network: ws
   port: 80
   server: 104.26.14.85
@@ -386,7 +310,7 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- name: 14|US_speednode_0084
+- name: 13|US_speednode_0084
   network: ws
   port: 80
   server: 66.235.200.58
@@ -400,7 +324,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 14|US_speednode_0085
+- name: 13|US_speednode_0085
   network: ws
   port: 80
   server: 172.67.73.163
@@ -414,7 +338,7 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray?ed=2560
-- name: 14|US_speednode_0086
+- name: 13|US_speednode_0086
   network: ws
   port: 80
   server: 66.235.200.5
@@ -428,7 +352,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 14|US_speednode_0088
+- name: 13|US_speednode_0088
   network: ws
   port: 80
   server: 66.235.200.149
@@ -442,7 +366,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /
-- name: 14|US_speednode_0089
+- name: 13|US_speednode_0089
   network: ws
   port: 80
   server: 66.235.200.30
@@ -456,7 +380,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /
-- name: 14|US_speednode_0091
+- name: 13|US_speednode_0091
   network: ws
   port: 80
   server: 66.235.200.5
@@ -470,7 +394,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /
-- name: 14|US_speednode_0092
+- name: 13|US_speednode_0092
   network: ws
   port: 80
   server: 66.235.200.149
@@ -484,7 +408,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 14|US_speednode_0093
+- name: 13|US_speednode_0093
   network: ws
   port: 80
   server: 66.235.200.222
@@ -498,7 +422,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 14|US_speednode_0094
+- name: 13|US_speednode_0094
   network: ws
   port: 80
   server: 66.235.200.30
@@ -512,7 +436,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 14|US_speednode_0096
+- name: 13|US_speednode_0096
   network: ws
   port: 80
   server: 66.235.200.191
@@ -526,7 +450,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 14|US_speednode_0097
+- name: 13|US_speednode_0097
   network: ws
   port: 80
   server: 172.67.73.163
@@ -540,7 +464,7 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /
-- name: 14|US_speednode_0099
+- name: 13|US_speednode_0099
   network: ws
   port: 2052
   server: www.speedtest.net
@@ -554,7 +478,7 @@ proxies:
     headers:
       Host: Yak-Khanda-kUn-eY-gUL.biNG.com.xn--cR8HaaaAaAAAaAaaAaAaAAaAAaaaAAAAAaAaaAaaaAaaaaAAaaAAAaaaaAa.xN--Cr8hAaAaaAaaAAAAAAaaaAAAaAAaaAaAaAAAAAA.TREPAspeEdTEsT.NEtrag.cOm.PX.Com.sh017.IR.XN--Cr8hAaaAaaAaaAaaaAAAaaaAaaAaaaAaAAAaaaA.yek.dDnS-ip.nEt
     path: /?ed=1080
-- name: 14|US_speednode_0100
+- name: 13|US_speednode_0100
   network: ws
   port: 443
   server: 45.62.114.221
@@ -568,3 +492,24 @@ proxies:
     headers:
       Host: usb.sevco.me
     path: /bing
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸 美国 01 | 1x US Los Angeles
+  password: a60783f3-c6bb-446c-9b00-7e264065524b
+  port: 36211
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: a60783f3-c6bb-446c-9b00-7e264065524b
+  port: 36213
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸 美国 03 | 1x US Washington
+  password: a60783f3-c6bb-446c-9b00-7e264065524b
+  port: 36215
+  server: free.2weradf.xyz
+  type: ss
+  udp: true

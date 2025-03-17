@@ -1,53 +1,47 @@
 proxies:
+- name: 0|🇩🇪1 |  2.2MB/s
+  network: ws
+  port: 2096
+  server: www.speedtest.net
+  servername: LkRkDrAl16.mOvEtIx.iNfO
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 96a1b724-68d2-4f4d-ab25-38ecd83577bc
+  ws-opts:
+    headers:
+      Host: LkRkDrAl16.mOvEtIx.iNfO
+    path: /
+- alpn:
+  - h3
+  client-fingerprint: randomized
+  name: 0|🇩🇪2 |  1.6MB/s
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: 172.66.213.38
+  sni: bpb-hd.aaronchin.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: bpb-hd.aaronchin.xyz
+    path: /tr?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪德国 01 | 1x DE
-  password: 2c35305a-6c09-484d-8197-17b25f223503
+  name: 1|🇩🇪德国 01 | 1x DE
+  password: e92bab6d-e808-4ba0-87dd-2955950f9fcf
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪 德国 01 | 1x DE
-  password: 6e9dfc75-a45d-4fcc-a08f-e2fa4d825075
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: 2086vless
-  name: 2|🇩🇪1 |  5.5MB/s
-  network: grpc
-  port: 2060
-  reality-opts:
-    public-key: jW_vraWBLfMcIkPp89pEPSbFQn2VM4qtPO4FAoC2chE
-    short-id: 629cc26960e47e39
-  server: 91.107.181.177
-  servername: refersion.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 46b06e2c-e5e0-4ad2-ad3e-9f316d7d3065
-- delay: 2847
-  name: 2|🇩🇪2 |  4.5MB/s
-  network: ws
-  port: 8880
-  server: 195.85.59.155
-  tls: false
-  type: vless
-  uuid: f6bd2c47-99da-4bca-bf70-7186aa9e7e06
-  ws-opts:
-    headers:
-      Host: photographipictureai.ir
-    path: /Telegram
-- name: 10|(@VmessProtocol)برای خرید و ات...
+- name: 9|(@VmessProtocol)برای خرید و ات...
   password: 15261735-2168-42f8-b3ad-91ec82a58b5a
   port: 21050
   server: yiyuankuailian-jp.jiumaojiu.org
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 10|🇩🇪 @VPNHubMaRKeT   @VpnHubMarK...
+- name: 9|🇩🇪 @VPNHubMaRKeT   @VpnHubMarK...
   obfs: salamander
   obfs-password: '@VPNHubMaRKeT'
   password: '@VPNHubMaRKeT'
@@ -57,7 +51,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '10|Channel id: @shokhmiplus 🇩🇪'
+- name: '9|Channel id: @shokhmiplus 🇩🇪'
   obfs: salamander
   obfs-password: hsdirhrrkskdhebdjdj
   password: MICPT1LLn6
@@ -66,7 +60,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
+- name: 9|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
   obfs: salamander
   obfs-password: tel:@VPNHubMaRKeT
   password: VPNHubMaRKeT
@@ -75,3 +69,10 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇩🇪 德国 01 | 1x DE
+  password: a60783f3-c6bb-446c-9b00-7e264065524b
+  port: 36471
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
