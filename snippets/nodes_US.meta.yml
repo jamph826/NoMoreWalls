@@ -1,135 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 32a97469-677b-4dc6-8a8e-59cd9eca4fdb
-  port: 36211
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 32a97469-677b-4dc6-8a8e-59cd9eca4fdb
-  port: 36213
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 03 | 1x US Washington
-  password: 32a97469-677b-4dc6-8a8e-59cd9eca4fdb
-  port: 36215
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- delay: 951
-  name: 2|🇺🇸1 |  4.7MB/s
-  password: lp20A3ueODTNy3eS3w8SnAXFB4DzxaOSxcRCpAZ8357aZDF9y6FCzSax3YNOXCCaappxY
-  port: 443
-  server: lander.wireshop.net
-  sni: lander.wireshop.net
-  type: trojan
-- name: 2|🇺🇸2 |  5.7MB/s
-  password: ZI3OeTA9Clx3AFS78DejwENjaZAa3FSwSluxY3EOClyycDqyzpYD0a6DI2eS28q7X3NpC
-  port: 28334
-  server: aluminum.wireshop.net
-  skip-cert-verify: false
-  sni: aluminum.wireshop.net
-  type: trojan
-- client-fingerprint: chrome
-  name: 2|🇺🇸3 |  1.9MB/s
-  network: ws
-  port: 443
-  server: 185.133.35.195
-  servername: nb1.bgm2024.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: nb1.bgm2024.us.kg
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 2|🇺🇸4 |  1.4MB/s
-  network: ws
-  port: 2095
-  server: 104.18.21.69
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: fuckingxijinping.xijinpingbigsb.workers.dev
-    path: /?ed=2560
-- name: 2|🇺🇸5 |  4.9MB/s
-  network: ws
-  port: 443
-  server: 45.67.215.117
-  servername: nb1.bgm2024.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: nb1.bgm2024.us.kg
-    path: /?ed=2560
-- name: 2|🇺🇸6 |  1.4MB/s
-  password: lp20A3ueODTNy3eS3w8SnAXFB4DzxaOSxcRCpAZ8357aZDF9y6FCzSax3YNOXCCaappxY
-  port: 443
-  server: 154.17.23.111
-  skip-cert-verify: false
-  sni: lander.wireshop.net
-  type: trojan
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000 Mbps
-  name: 2|🇺🇸7 |  4.8MB/s
-  port: 17549
-  server: 208.87.243.151
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  up: 1000 Mbps
-- delay: 800
-  name: 2|🇺🇸8 |  3.3MB/s
-  password: 2OnySp6YC3SZcF32XACEjlD5aDOqx9SeR6yRFDwEXAu3Fc8w3Z3Y4AqZ0OSzlN8NCeYIA
-  port: 28333
-  server: bathtub.homeofbrave.net
-  sni: bathtub.homeofbrave.net
-  type: trojan
-- client-fingerprint: chrome
-  name: 2|🇺🇸9 |  5.4MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: ustx004-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: ustx004-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- delay: 1204
-  name: 2|🇺🇸10 |  2.1MB/s
-  password: S3uISCSXalplOFZCy9njYOCA2AlKqDNSZly3FE8w6RzyYaxagK7eDcN0C333ES3anCOpu
-  port: 443
-  server: covteam.homeofbrave.net
-  sni: covteam.homeofbrave.net
-  type: trojan
-- country: 🇺🇸US
-  delay: 2009
-  name: 2,10|@meli_proxyyراییت
-  password: 0aed82ca-fd08-11ef-8cf9-f23c93136cb3
-  port: 443
-  server: 107.167.18.123
-  skip-cert-verify: true
-  sni: 06a68208-st69s0-su9bm5-1phl.la.shifen.uk
-  tls: false
-  type: hysteria2
-  udp: true
 - name: 11|🇺🇸美国 加利福尼亚州 圣克拉拉 DIGITALOCEAN-...
   password: iMqY3uG_5pgEj3hCfyHB-0vB
   port: 443
@@ -143,7 +12,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503170996717-xh4inuCuH4.download.microsoft.com
+    host: 202503170996717-1jfmRG1tQL.download.microsoft.com
     mode: http
   port: 8771
   server: cn01.efan8867801.xyz
@@ -155,21 +24,45 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503170996717-xh4inuCuH4.download.microsoft.com
+    host: 202503170996717-1jfmRG1tQL.download.microsoft.com
     mode: http
   port: 8773
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 12,13|美国3|@ripaojiedian
-  network: tcp
-  password: 8cwxYqlSeC4Xw8KOApT3SxCIX69eZ7zBNZDE0Dap3y9AZTFBFlD5a2euA7A3YzR2DpSyI
+- cipher: aes-128-cfb
+  client-fingerprint: chrome
+  name: 12|🇺🇸 美国3|@ripaojiedian
+  password: shadowsocks
   port: 443
-  server: bedsheet.homeofbrave.net
-  skip-cert-verify: true
-  sni: bedsheet.homeofbrave.net
+  server: 184.170.241.194
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 12|🇺🇸 美国4|@ripaojiedian
+  password: 9F8JNSW2S1HUHKRX
+  port: 17007
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- client-fingerprint: chrome
+  name: 12,13|美国5|@ripaojiedian
+  network: tcp
+  password: SDYlNZ6z5DA8TZqz33YnN4lzpp88YBZOyXC5we8AZBqn6YXwI0gISyalXjIOyNwCaDpDORKSyDCSg9S
+  port: 28333
+  server: rolling.homeofbrave.net
+  skip-cert-verify: false
+  sni: rolling.homeofbrave.net
   type: trojan
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 12|🇺🇸 美国6|@ripaojiedian
+  password: JPDOKTML5DEL567X
+  port: 17003
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
 - name: 14|US_speednode_0056
   network: ws
   port: 80
