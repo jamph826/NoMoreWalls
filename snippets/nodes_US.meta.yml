@@ -1,4 +1,60 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸美国 01 | 1x US Los Angeles
+  password: 70a4d1f5-9641-4d86-b92f-f6322cc57147
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 70a4d1f5-9641-4d86-b92f-f6322cc57147
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸美国 03 | 1x US Washington
+  password: 70a4d1f5-9641-4d86-b92f-f6322cc57147
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: 1|🇺🇸1 |  5.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.202.63.169
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 1|🇺🇸2 |  4.1MB/s
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 194.5.215.59
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸 美国 01 | 1x US Los Angeles
+  password: b8963595-5eeb-411b-9509-e5076b236527
+  port: 36211
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: b8963595-5eeb-411b-9509-e5076b236527
+  port: 36213
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸 美国 03 | 1x US Washington
+  password: b8963595-5eeb-411b-9509-e5076b236527
+  port: 36215
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - name: 11|🇺🇸美国 加利福尼亚州 圣克拉拉 DIGITALOCEAN-...
   password: iMqY3uG_5pgEj3hCfyHB-0vB
   port: 443
@@ -12,7 +68,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503170996717-1jfmRG1tQL.download.microsoft.com
+    host: 202503170996717-MVQjjXvt4R.download.microsoft.com
     mode: http
   port: 8771
   server: cn01.efan8867801.xyz
@@ -24,7 +80,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503170996717-1jfmRG1tQL.download.microsoft.com
+    host: 202503170996717-MVQjjXvt4R.download.microsoft.com
     mode: http
   port: 8773
   server: cn01.efan8867801.xyz
@@ -38,14 +94,14 @@ proxies:
   server: 184.170.241.194
   tfo: false
   type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
+- client-fingerprint: chrome
   name: 12|🇺🇸 美国4|@ripaojiedian
-  password: 9F8JNSW2S1HUHKRX
-  port: 17007
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
+  password: '!!str 74260708004220600'
+  port: 443
+  server: capital-hyena.shiner427.skin
+  skip-cert-verify: false
+  sni: capital-hyena.shiner427.skin
+  type: trojan
 - client-fingerprint: chrome
   name: 12,13|美国5|@ripaojiedian
   network: tcp
@@ -55,14 +111,12 @@ proxies:
   skip-cert-verify: false
   sni: rolling.homeofbrave.net
   type: trojan
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 12|🇺🇸 美国6|@ripaojiedian
-  password: JPDOKTML5DEL567X
-  port: 17003
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
+- name: 13|美国4|@ripaojiedian
+  network: tcp
+  password: '!!str 74260708004220600'
+  port: 443
+  server: capital-hyena.shiner427.skin
+  type: trojan
 - name: 14|US_speednode_0056
   network: ws
   port: 80
