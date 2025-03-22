@@ -1,127 +1,108 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: b0ddc97a-bd5b-426b-8ea7-deb70e2f4446
+  password: 68cee2b9-f7e2-46be-951b-1b0fb854d6e0
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: b0ddc97a-bd5b-426b-8ea7-deb70e2f4446
+  password: 68cee2b9-f7e2-46be-951b-1b0fb854d6e0
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: b0ddc97a-bd5b-426b-8ea7-deb70e2f4446
+  password: 68cee2b9-f7e2-46be-951b-1b0fb854d6e0
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 01 | 1x US Los Angeles
-  password: 314c0f4f-4bee-45cb-9184-16b36a1239ac
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
+- name: 1|🇺🇸1 |  5.9MB/s
+  password: f00f490e-c01c-3fa1-a5b3-831fbe4c2d8c
+  port: 21970
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x41.flybar.work
+  type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 314c0f4f-4bee-45cb-9184-16b36a1239ac
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
+- name: 1|🇺🇸4 |  5.4MB/s
+  password: f00f490e-c01c-3fa1-a5b3-831fbe4c2d8c
+  port: 20303
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z303.hongkongnode.top
+  type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 03 | 1x US Washington
-  password: 314c0f4f-4bee-45cb-9184-16b36a1239ac
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
+- name: 1|🇺🇸5 |  2.2MB/s
+  password: f00f490e-c01c-3fa1-a5b3-831fbe4c2d8c
+  port: 20308
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z308.hongkongnode.top
+  type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 2|🇺🇸1 |  4.6MB/s
-  network: ws
-  port: 443
-  server: LA03.890603.XyZ
-  servername: la03.890603.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 60cdd89e-a9cf-4850-8577-e3c6abf5515d
-  ws-opts:
-    headers:
-      Host: LA03.890603.XyZ
-    path: /gyCVORfjoXYyHHcJBuLd
-- cipher: aes-256-cfb
-  name: 2|🇺🇸2 |  5.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.40.170.193
-  type: ss
-- cipher: aes-256-cfb
-  name: 2|🇺🇸3 |  5.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 34.213.241.48
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 2|🇺🇸5 |  4.9MB/s
-  network: ws
-  port: 2082
-  raw:
-    add: 35.212.201.133
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: www.bing.com
-    id: 4ab93d97-c088-4ea3-89ad-f816f514a2cb
-    net: ws
-    path: 4ab93d97-c088-4ea3-89ad-f816f514a2cb-vm
-    port: '2082'
-    ps: 🔥Join+Telegram:@FarahVPN🟣
-    scy: auto
-    sni: ''
-    tls: ''
-    type: ''
-    v: '2'
-  server: 35.212.201.133
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4ab93d97-c088-4ea3-89ad-f816f514a2cb
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: 4ab93d97-c088-4ea3-89ad-f816f514a2cb-vm
-- cipher: aes-256-cfb
-  name: 2|🇺🇸6 |  5.4MB/s
-  password: amazonskr05
-  port: 443
-  server: 44.246.28.217
-  type: ss
-- name: 2|🇺🇸8 |  3.3MB/s
-  password: 435095e2-72f2-3330-a669-7d1c8fe3a217
+- name: 1|🇺🇸9 |  5.8MB/s
+  password: f00f490e-c01c-3fa1-a5b3-831fbe4c2d8c
   port: 16895
   server: gy.58n.net
   skip-cert-verify: true
   sni: x40.flybar.work
   type: trojan
   udp: true
-- name: 2|🇺🇸15 |  1.3MB/s
-  password: 435095e2-72f2-3330-a669-7d1c8fe3a217
-  port: 11215
+- cipher: aes-256-cfb
+  name: 1|🇺🇸10 |  5.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 35.94.124.230
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: 1|🇺🇸12 |  1.1MB/s
+  network: ws
+  port: 23615
+  server: 15.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 12f982df-dbb3-3288-b784-0a86c8f0706f
+  ws-opts:
+    headers:
+      Host: 15.mamamajd.site
+    path: /
+- name: 1|🇺🇸13 |  5.6MB/s
+  password: f00f490e-c01c-3fa1-a5b3-831fbe4c2d8c
+  port: 20304
   server: gy.58n.net
   skip-cert-verify: true
-  sni: z268.hongkongnode.top
+  sni: z304.hongkongnode.top
   type: trojan
   udp: true
-- name: 2|🇺🇸16 |  5.4MB/s
-  password: 435095e2-72f2-3330-a669-7d1c8fe3a217
+- cipher: aes-256-cfb
+  name: 1|🇺🇸15 |  5.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 34.209.89.4
+  type: ss
+- name: 1|🇺🇸17 |  5.5MB/s
+  password: f00f490e-c01c-3fa1-a5b3-831fbe4c2d8c
+  port: 20306
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z306.hongkongnode.top
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 1|🇺🇸18 |  5.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.187.221.114
+  type: ss
+- name: 1|🇺🇸19 |  5.6MB/s
+  password: f00f490e-c01c-3fa1-a5b3-831fbe4c2d8c
   port: 20305
   server: gy.58n.net
   skip-cert-verify: true
@@ -129,76 +110,47 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: 2|🇺🇸19 |  2.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 35.94.124.230
-  type: ss
-- cipher: chacha20-ietf
-  name: 2|🇺🇸20 |  5.7MB/s
-  password: asd123456
-  port: 8388
-  server: 103.36.90.195
-  type: ss
-- cipher: aes-256-cfb
-  name: 2|🇺🇸24 |  4.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 44.242.208.211
-  type: ss
-- cipher: aes-256-cfb
-  name: 2|🇺🇸26 |  5.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 34.216.142.212
-  type: ss
-- cipher: aes-256-cfb
-  name: 2|🇺🇸27 |  5.1MB/s
+  name: 1|🇺🇸20 |  5.3MB/s
   password: amazonskr05
   port: 443
   server: 18.236.187.71
   type: ss
-- name: 2|🇺🇸29 |  5.6MB/s
-  password: 435095e2-72f2-3330-a669-7d1c8fe3a217
-  port: 20306
+- name: 1|🇺🇸21 |  4.5MB/s
+  password: f00f490e-c01c-3fa1-a5b3-831fbe4c2d8c
+  port: 11215
   server: gy.58n.net
   skip-cert-verify: true
-  sni: z306.hongkongnode.top
+  sni: z268.hongkongnode.top
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: 2|🇺🇸30 |  4.3MB/s
-  password: ZCR3pplzBEDwYy3w3e8X685aCxFCgaIeYSxSROa97KxDxaC328lD0T4z7SynagqSXA6cR
-  port: 443
-  server: stodewrn.homeofbrave.net
-  sni: stodewrn.homeofbrave.net
-  type: trojan
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  h2-opts: {}
-  http-opts: {}
-  name: 2|🇺🇸33 |  1.0MB/s
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  servername: tk.hzlt.tkddns.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸美国 01 | 1x US Los Angeles
+  password: e9dbbf3d-ef03-4332-9868-8c50268ce68d
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
-    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: e9dbbf3d-ef03-4332-9868-8c50268ce68d
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸美国 03 | 1x US Washington
+  password: e9dbbf3d-ef03-4332-9868-8c50268ce68d
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 12|🇺🇸 美国|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503170996717-MVQjjXvt4R.download.microsoft.com
+    host: 202503170996717-2y2Lrw7LzU.download.microsoft.com
     mode: http
   port: 8771
   server: cn01.efan8867801.xyz
@@ -210,26 +162,23 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503170996717-MVQjjXvt4R.download.microsoft.com
+    host: 202503170996717-2y2Lrw7LzU.download.microsoft.com
     mode: http
   port: 8773
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 12,13|美国3|@ripaojiedian
-  network: ws
-  port: '20012'
-  server: 207.90.238.136
-  servername: ''
+- client-fingerprint: chrome
+  name: 12|🇺🇸 美国3|@ripaojiedian
+  password: ZCR3pplzBEDwYy3w3e8X685aCxFCgaIeYSxSROa97KxDxaC328lD0T4z7SynagqSXA6cR
+  port: 443
+  server: stodewrn.homeofbrave.net
   skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 7c3589ed-eb5f-48a8-85dc-d6b02de60917
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  sni: stodewrn.homeofbrave.net
+  type: trojan
+- name: 13|美国3|@ripaojiedian
+  network: tcp
+  password: ZCR3pplzBEDwYy3w3e8X685aCxFCgaIeYSxSROa97KxDxaC328lD0T4z7SynagqSXA6cR
+  port: 443
+  server: stodewrn.homeofbrave.net
+  type: trojan
