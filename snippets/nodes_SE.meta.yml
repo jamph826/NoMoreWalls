@@ -1,27 +1,27 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: random
   flow: ''
   mode: ''
-  name: 1|🌀1-SE |  2.7MB/s
+  name: 2|🌀2-SE |  2.4MB/s
   network: ws
   port: 2053
-  server: esna.itn24.ir
-  servername: esna.itn24.ir
+  server: 172.67.202.155
+  servername: support.onetwothree123.ir
   tls: true
   type: vless
   udp: false
-  uuid: d7baa2a4-eba9-4739-9b8d-4edcbe54eb56
+  uuid: 1170aa26-94b0-4ea5-c7c2-bc51f2c30a3a
   ws-opts:
     headers:
-      Host: esna.itn24.ir
+      Host: support.onetwothree123.ir
     path: /🆔@M3HDIO1
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🌀3-SE |  5.5MB/s
+  name: 2|🌀4-SE |  4.7MB/s
   network: ws
-  port: 80
-  server: 156.238.19.232
+  port: 2095
+  server: 156.238.18.208
   servername: ''
   tls: false
   type: vless
@@ -30,4 +30,4 @@ proxies:
   ws-opts:
     headers:
       Host: redw.pooriam.ir
-    path: Telegram🇨🇳 @WangCai2
+    path: /

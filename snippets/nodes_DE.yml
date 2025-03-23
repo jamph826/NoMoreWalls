@@ -1,29 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪 德国 01 | 1x DE
-  password: 68cee2b9-f7e2-46be-951b-1b0fb854d6e0
+  name: 0|🇩🇪德国 01 | 1x DE
+  password: 40dcdf1e-e3c1-4824-9641-6dc20c814020
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇩🇪 德国 01 | 1x DE
+  password: d6e1f81c-9832-44da-bfaa-31c7d95ae67d
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
 - alterId: 2
   cipher: auto
-  name: 1|🇩🇪5 |  5.0MB/s
-  network: ws
-  port: 23618
-  server: 18.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 12f982df-dbb3-3288-b784-0a86c8f0706f
-  ws-opts:
-    headers:
-      Host: 18.mamamajd.site
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 1|🇩🇪11 |  4.5MB/s
+  name: 2|🇩🇪3 |  2.6MB/s
   network: ws
   port: 23616
   server: 16.mamamajd.site
@@ -31,15 +23,8 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 12f982df-dbb3-3288-b784-0a86c8f0706f
+  uuid: d20a8bf5-cac8-386b-81d0-363c6cffc0a7
   ws-opts:
     headers:
       Host: 16.mamamajd.site
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇩🇪德国 01 | 1x DE
-  password: e9dbbf3d-ef03-4332-9868-8c50268ce68d
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true

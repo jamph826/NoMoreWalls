@@ -1,224 +1,33 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪 德国 01 | 1x DE
-  password: 68cee2b9-f7e2-46be-951b-1b0fb854d6e0
+  name: 0|🇩🇪德国 01 | 1x DE
+  password: 40dcdf1e-e3c1-4824-9641-6dc20c814020
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇩🇪 德国 01 | 1x DE
+  password: d6e1f81c-9832-44da-bfaa-31c7d95ae67d
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 1|🇩🇪1 |  3.0MB/s
-  network: ws
-  port: 2096
-  server: 172.67.66.177
-  servername: mJe.nimhub.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: 19429091-7825-4c39-8cf0-92e6b6402013
-  ws-opts:
-    headers:
-      Host: mJe.nimhub.ir
-    path: /
-- name: 1|🇩🇪2 |  5.8MB/s
-  network: ws
-  port: 2087
-  server: 192.200.160.188
-  servername: crm.iranigamebaz.ir
-  tls: true
-  type: vless
-  uuid: 0aef3f78-ddd1-46ce-9526-2a033d20dcf4
-  ws-opts:
-    headers:
-      Host: crm.iranigamebaz.ir
-    path: /V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 1|🇩🇪3 |  5.6MB/s
-  network: ws
-  port: 2096
-  server: 104.24.197.20
-  servername: mJe.nimhub.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: 19429091-7825-4c39-8cf0-92e6b6402013
-  ws-opts:
-    headers:
-      Host: mJe.nimhub.ir
-    path: /
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 1|🇩🇪4 |  4.8MB/s
-  network: ws
-  port: 80
-  server: 104.17.147.22
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: 301.pooriam.ir
-    path: /telegram-id-@MTMVPN/?ed=2503
-- alterId: 2
-  cipher: auto
-  name: 1|🇩🇪5 |  5.0MB/s
-  network: ws
-  port: 23618
-  server: 18.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 12f982df-dbb3-3288-b784-0a86c8f0706f
-  ws-opts:
-    headers:
-      Host: 18.mamamajd.site
-    path: /
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 1|🇩🇪6 |  5.8MB/s
-  network: ws
-  port: 2095
-  server: 156.238.18.246
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /
-- flow: ''
-  grpc-opts:
-    grpc-service-name: V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban-----V2raymizban
-  mode: ''
-  name: 1|🇩🇪7 |  1.7MB/s
-  network: grpc
-  port: 8443
-  server: 192.200.160.188
-  servername: crm.iranigamebaz.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: eb1f341a-d47c-4e17-94c0-8a1e5422fee7
-- client-fingerprint: chrome
-  flow: ''
-  grpc-opts:
-    grpc-service-name: MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-Telegram-MTMVPN-telegram-MTMVPN-Telegram-MTMVPN-telegram-MTMVPN-MTMVPN
-  mode: ''
-  name: 1|🇩🇪8 |  4.6MB/s
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: Zxm8F7CUF28zUKUMcH2jE05qXJ1LuY6djreVLgeze2k
-    short-id: 3e
-  server: 91.107.243.140
-  servername: www.cdn77.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: 83558d7c-3ab3-4815-b418-ecbc24fd6d94
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 1|🇩🇪9 |  5.9MB/s
-  network: ws
-  port: 2096
-  server: 104.24.196.20
-  servername: mJe.nimhub.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: 19429091-7825-4c39-8cf0-92e6b6402013
-  ws-opts:
-    headers:
-      Host: mJe.nimhub.ir
-    path: /
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 1|🇩🇪10 |  5.4MB/s
-  network: ws
-  port: 2096
-  server: cdnjs.com
-  servername: mJe.nimhub.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: 19429091-7825-4c39-8cf0-92e6b6402013
-  ws-opts:
-    headers:
-      Host: mJe.nimhub.ir
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 1|🇩🇪11 |  4.5MB/s
-  network: ws
-  port: 23616
-  server: 16.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 12f982df-dbb3-3288-b784-0a86c8f0706f
-  ws-opts:
-    headers:
-      Host: 16.mamamajd.site
-    path: /
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 1|🇩🇪12 |  5.1MB/s
-  network: ws
-  port: 80
-  server: zmaoz.faculty.ucdavis.edu
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 252456af-eeaf-41a4-f4f2-d18a2d234301
-  ws-opts:
-    headers:
-      Host: foffmelo.com
-    path: /olem/ws?ed=1024
-- name: 1,14|SC_speednode_0049
+  name: 2|🇩🇪1 |  2.1MB/s
   network: ws
   port: 8880
-  server: 154.83.2.156
-  servername: redw.pooriam.ir
+  server: 154.83.2.228
   skip-cert-verify: false
   tls: false
   type: vless
-  udp: true
   uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
       Host: redw.pooriam.ir
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- auth: afdaf0d8-1f8d-4449-afb6-e234c8aad9bd
-  client-fingerprint: chrome
-  down: 100
-  name: 1|🇩🇪14 |  1.9MB/s
-  obfs: salamander
-  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
-  password: afdaf0d8-1f8d-4449-afb6-e234c8aad9bd
-  port: 32008
-  server: 5.39.252.72
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
+    path: /
 - client-fingerprint: chrome
-  name: 1|🇩🇪15 |  2.2MB/s
+  name: 2|🇺🇸15 |  5.7MB/s
   network: ws
   port: 2095
   server: 156.238.18.163
@@ -230,29 +39,33 @@ proxies:
     headers:
       Host: redw.pooriam.ir
     path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 1|🇩🇪16 |  5.5MB/s
+- alterId: 2
+  cipher: auto
+  name: 2|🇩🇪3 |  2.6MB/s
   network: ws
-  port: 2082
-  server: 104.17.148.22
-  servername: ''
+  port: 23616
+  server: 16.mamamajd.site
+  skip-cert-verify: true
   tls: false
-  type: vless
-  udp: false
-  uuid: acfc329e-7295-4bef-d221-eb22cd275b7d
+  type: vmess
+  udp: true
+  uuid: d20a8bf5-cac8-386b-81d0-363c6cffc0a7
   ws-opts:
     headers:
-      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇩🇪德国 01 | 1x DE
-  password: e9dbbf3d-ef03-4332-9868-8c50268ce68d
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
+      Host: 16.mamamajd.site
+    path: /
+- name: 2|🇩🇪4 |  3.0MB/s
+  network: ws
+  port: '8880'
+  server: 154.83.2.156
+  servername: redw.pooriam.ir
+  skip-cert-verify: false
+  type: vless
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redw.pooriam.ir
+    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed
 - name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
   obfs: salamander
   obfs-password: tel:@VPNHubMaRKeT

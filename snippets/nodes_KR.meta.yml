@@ -1,37 +1,135 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷 韩国 01 | 1x KR
-  password: 68cee2b9-f7e2-46be-951b-1b0fb854d6e0
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷 韩国 02 | 1x KR
-  password: 68cee2b9-f7e2-46be-951b-1b0fb854d6e0
-  port: 36313
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇰🇷韩国 01 | 1x KR
-  password: e9dbbf3d-ef03-4332-9868-8c50268ce68d
+  name: 0|🇰🇷韩国 01 | 1x KR
+  password: 40dcdf1e-e3c1-4824-9641-6dc20c814020
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇰🇷韩国 02 | 1x KR
-  password: e9dbbf3d-ef03-4332-9868-8c50268ce68d
+  name: 0|🇰🇷韩国 02 | 1x KR
+  password: 40dcdf1e-e3c1-4824-9641-6dc20c814020
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷 韩国 01 | 1x KR
+  password: d6e1f81c-9832-44da-bfaa-31c7d95ae67d
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷 韩国 02 | 1x KR
+  password: d6e1f81c-9832-44da-bfaa-31c7d95ae67d
+  port: 36313
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- name: 2|🇰🇷1 |  4.6MB/s
+  network: ws
+  port: 443
+  server: ipv4.ip.sb
+  servername: nl.ylkszy.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: nl.ylkszy.eu.org
+    path: /?ed=2560
+- name: 2|🇰🇷2 |  2.3MB/s
+  network: ws
+  port: 81
+  server: 210.61.97.241
+  servername: nl.ylkszy.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: nl.ylkszy.eu.org
+    path: /?ed=2560
+- name: 2|🇰🇷3 |  1.2MB/s
+  network: ws
+  port: 443
+  server: www.glassdoor.com
+  servername: nl.ylkszy.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: nl.ylkszy.eu.org
+    path: /?ed=2560
+- name: 2|🇰🇷4 |  1.1MB/s
+  network: ws
+  port: 443
+  server: whatismyipaddress.com
+  servername: nl.ylkszy.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: nl.ylkszy.eu.org
+    path: /?ed=2560
+- name: 2|🇰🇷5 |  2.3MB/s
+  network: ws
+  port: 443
+  server: dylan.ns.cloudflare.com
+  servername: nl.ylkszy.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: nl.ylkszy.eu.org
+    path: /?ed=2560
+- name: 2|🇰🇷6 |  5.5MB/s
+  network: ws
+  port: 443
+  server: time.is
+  servername: nl.ylkszy.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: nl.ylkszy.eu.org
+    path: /?ed=2560
+- name: 2|🇰🇷7 |  5.8MB/s
+  network: ws
+  port: 443
+  server: 162.159.152.20
+  servername: nl.ylkszy.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: nl.ylkszy.eu.org
+    path: /?ed=2560
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 12|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.213.69.248
+  server: 3.38.92.181
   tfo: false
   type: ss
