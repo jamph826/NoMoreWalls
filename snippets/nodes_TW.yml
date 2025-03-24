@@ -1,42 +1,42 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 01 | 1x TW
-  password: 40dcdf1e-e3c1-4824-9641-6dc20c814020
+  password: 7550287d-4d26-404e-9ff5-9922e872510b
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 02 | 1x TW
-  password: 40dcdf1e-e3c1-4824-9641-6dc20c814020
+  password: 7550287d-4d26-404e-9ff5-9922e872510b
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 03 | 1x TW
-  password: 40dcdf1e-e3c1-4824-9641-6dc20c814020
+  password: 7550287d-4d26-404e-9ff5-9922e872510b
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇹🇼 台湾 01 | 1x TW
-  password: d6e1f81c-9832-44da-bfaa-31c7d95ae67d
+  password: d6bdc1eb-3ce0-4d88-94a0-20e2533a6fd3
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇹🇼 台湾 02 | 1x TW
-  password: d6e1f81c-9832-44da-bfaa-31c7d95ae67d
+  password: d6bdc1eb-3ce0-4d88-94a0-20e2533a6fd3
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇹🇼 台湾 03 | 1x TW
-  password: d6e1f81c-9832-44da-bfaa-31c7d95ae67d
+  password: d6bdc1eb-3ce0-4d88-94a0-20e2533a6fd3
   port: 36245
   server: free.2weradf.xyz
   type: ss
@@ -44,29 +44,16 @@ proxies:
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇹🇼 台湾|@ripaojiedian
-  password: 9CREQ4Q7QTCEHO4R
+  password: 4bccdfb7-f45b-44bb-9cd3-fb6f8fc8072f
+  port: 41705
+  server: zf1.10101251.xyz
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 12|🇹🇼 台湾2|@ripaojiedian
+  password: YY1SVLAEC2CXXGRW
   port: 21005
   server: 150.116.11.9
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 12|🇹🇼 台湾2|@ripaojiedian
-  port: 11110
-  server: 156.224.77.98
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 111032f8-eabc-46c0-fe89-8acceaeb34e5
-- alterId: 0
-  cipher: auto
-  name: 13|台湾2|@ripaojiedian
-  network: tcp
-  port: '11110'
-  server: 156.224.77.98
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 111032f8-eabc-46c0-fe89-8acceaeb34e5

@@ -1,15 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇷🇺俄罗斯 01 | 1x RU
-  password: 40dcdf1e-e3c1-4824-9641-6dc20c814020
+  password: 7550287d-4d26-404e-9ff5-9922e872510b
   port: 31511
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇷🇺 俄罗斯 01 | 1x RU
-  password: d6e1f81c-9832-44da-bfaa-31c7d95ae67d
+  password: d6bdc1eb-3ce0-4d88-94a0-20e2533a6fd3
   port: 36511
   server: free.2weradf.xyz
   type: ss
   udp: true
+- cipher: aes-128-gcm
+  name: 2|🇷🇺3 |  4.6MB/s
+  password: VMhGp5wEIyCDf90T
+  port: 56226
+  server: bsuqian01.dynu.net
+  type: ss

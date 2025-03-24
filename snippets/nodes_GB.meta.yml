@@ -1,14 +1,28 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰香港 01 | 1x HK
+  password: 7550287d-4d26-404e-9ff5-9922e872510b
+  port: 31141
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: 40dcdf1e-e3c1-4824-9641-6dc20c814020
+  password: 7550287d-4d26-404e-9ff5-9922e872510b
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰 香港 01 | 1x HK
+  password: d6bdc1eb-3ce0-4d88-94a0-20e2533a6fd3
+  port: 36141
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 1|🇬🇧 英国住宅IP 01 | 1x UK
-  password: d6e1f81c-9832-44da-bfaa-31c7d95ae67d
+  password: d6bdc1eb-3ce0-4d88-94a0-20e2533a6fd3
   port: 36271
   server: free.2weradf.xyz
   type: ss
@@ -16,39 +30,23 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇬🇧1 |  5.9MB/s
-  network: ws
-  port: 80
-  server: 156.238.18.51
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: Telegram🇨🇳 @WangCai2 /?ed=2560
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇬🇧2 |  3.7MB/s
+  name: 2|🇬🇧1 |  1.8MB/s
   network: ws
   port: 2096
   server: whatismyipaddress.com
-  servername: wwwspeedtestnetwhiteberinsistomd6625996s27.elitemizban.ir
+  servername: wwwspeedtestnetwhiteberinsistomd6625996s31.elitemizban.ir
   tls: true
   type: vless
   udp: false
   uuid: a41c5712-9ee8-4199-bf94-207521f3c304
   ws-opts:
     headers:
-      Host: wwwspeedtestnetwhiteberinsistomd6625996s27.elitemizban.ir
+      Host: wwwspeedtestnetwhiteberinsistomd6625996s31.elitemizban.ir
     path: ''
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇬🇧3 |  3.8MB/s
+  name: 2|🇬🇧2 |  5.9MB/s
   network: ws
   port: 2096
   server: 104.19.222.79
