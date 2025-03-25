@@ -1,30 +1,102 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪德国 01 | 1x DE
-  password: 7550287d-4d26-404e-9ff5-9922e872510b
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪 德国 01 | 1x DE
-  password: d6bdc1eb-3ce0-4d88-94a0-20e2533a6fd3
+  name: 0|🇩🇪 德国 01 | 1x DE
+  password: 42a4e3a7-cf65-4e5b-a8bd-9bb4a3ffc5bc
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 2,10|@meli_proxyyسرورایبیشتر
-  password: 867f512f-93d2-4344-853c-50965de9b103
-  port: 55215
-  server: shy38.zqjc.cloud
-  skip-cert-verify: false
-  sni: shy38.zqjc.cloud
-  tls: false
-  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇩🇪德国 01 | 1x DE
+  password: 732e8bd7-21ee-4d19-8fc1-ba833075ba20
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇩🇪2 |  4.7MB/s
+  name: 2|🇩🇪1 |  5.1MB/s
+  network: ws
+  port: 80
+  server: 151.101.130.219
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: b6641afc-2e2b-4662-c289-daa6beb85039
+  ws-opts:
+    headers:
+      Host: retete3.ir
+    path: /telegeam-@v2_city-----telegeam-@v2_city-----telegeam-@v2_city-----telegeam-@v2_city-----telegeam-@v2_city-----telegeam-@v2_city-----telegeam-@v2_city-----telegeam-@v2_city-----telegeam-@v2_city?ed=2048
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇩🇪2 |  3.7MB/s
+  network: tcp
+  port: 443
+  server: 204.10.194.78
+  servername: yfnl1.xn--4gq62f52gppi29k.com
+  tls: true
+  type: vless
+  uuid: d21a2d0c-6872-457f-93f2-069d5167a8fc
+- auth: 71f3646f-5db0-4313-b741-a1271095d7cf
+  client-fingerprint: chrome
+  down: 100
+  name: 2|🇩🇪3 |  1.9MB/s
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+  password: 71f3646f-5db0-4313-b741-a1271095d7cf
+  port: 32008
+  server: 5.39.252.72
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- client-fingerprint: chrome
+  flow: ''
+  grpc-opts:
+    grpc-service-name: Join---MTMVPN-Join---MTMVPN-Join---MTMVPN-Join---MTMVPN
+  mode: ''
+  name: 2|🇩🇪4 |  1.6MB/s
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: euMUHS3boiZ0500KTjnU9l_RTX1RP9VFOGEo82gFUyE
+    short-id: ce1be0
+  server: 91.107.183.103
+  servername: www.cdn77.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: 26a95673-e692-4f90-bca3-dac0a63a4224
+- client-fingerprint: ''
+  flow: ''
+  grpc-opts:
+    grpc-service-name: TEL@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet-JOIN-@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet-JOIN-@V2rayNG_SPDNet-TEL-@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet-JOIN-@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet
+  mode: gun
+  name: 2|🇩🇪5 |  2.9MB/s
+  network: grpc
+  port: 12685
+  server: V2rayNG.SPDNet.online
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: f24d6354-d757-4283-9a19-ca26ed37e4ff
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 2|🇩🇪6 |  1.7MB/s
+  network: tcp
+  port: 443
+  server: yrtuio.890604.filegear-sg.me
+  servername: yfnl1.xn--4gq62f52gppi29k.com
+  tls: true
+  type: vless
+  uuid: d21a2d0c-6872-457f-93f2-069d5167a8fc
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2|🇩🇪7 |  5.1MB/s
   network: ws
   port: 80
   server: zmaoz.faculty.ucdavis.edu
@@ -32,123 +104,27 @@ proxies:
   tls: false
   type: vless
   udp: false
-  uuid: 252456af-eeaf-41a4-f4f2-d18a2d234301
+  uuid: 54cf82ae-7e94-4826-f713-459072381ff6
   ws-opts:
     headers:
       Host: foffmelo.com
     path: /olem/ws?ed=1024
-- client-fingerprint: chrome
-  flow: ''
-  grpc-opts:
-    grpc-service-name: Join---MTMVPN-Join---MTMVPN-Join---MTMVPN-Join---MTMVPN
-  mode: ''
-  name: 2|🇩🇪3 |  3.3MB/s
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: euMUHS3boiZ0500KTjnU9l_RTX1RP9VFOGEo82gFUyE
-    short-id: ce1be0
-  server: mehdi20.vact.ir
-  servername: www.cdn77.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: 26596a70-c447-4232-ac54-5474928d525c
-- client-fingerprint: ''
-  flow: ''
-  grpc-opts:
-    grpc-service-name: TEL@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet-JOIN-@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet-JOIN-@V2rayNG_SPDNet-TEL-@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet-JOIN-@V2rayNG_SPDNet-TEL--@V2rayNG_SPDNet
-  mode: ''
-  name: 2|🇩🇪4 |  5.5MB/s
-  network: grpc
-  port: 12685
-  server: 142.132.185.23
-  servername: ''
+- name: 10|ا رر رایان@vmesc
+  password: 867f512f-93d2-4344-853c-50965de9b103
+  port: 55215
+  server: shy38.zqjc.cloud
+  skip-cert-verify: false
+  sni: shy38.zqjc.cloud
   tls: false
-  type: vless
-  udp: false
-  uuid: e0f11470-ad2f-4601-9b42-c64510cfc75d
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪5 |  5.4MB/s
-  network: ws
-  port: 8880
-  server: 45.149.12.201
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: f6bd2c47-99da-4bca-bf70-7186aa9e7e06
-  ws-opts:
-    headers:
-      Host: photographipictureai.ir
-    path: /TABRIZ.NET, @Azarbayjab1.googleapis.com, @Azarbayjab1@Azarbayjab1/?ed=tabrizm137.com
-- delay: 2680
-  name: 2|🇩🇪6 |  2.6MB/s
-  network: ws
-  port: 2095
-  server: 156.238.18.48
-  tls: false
-  type: vless
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
-- auth: 1a1d7f12-c93a-4404-b781-1fa8b84dfc40
-  client-fingerprint: chrome
-  down: 100
-  name: 2|🇩🇪7 |  2.3MB/s
-  obfs: salamander
-  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
-  password: 1a1d7f12-c93a-4404-b781-1fa8b84dfc40
-  port: 32008
-  server: 5.39.252.72
-  skip-cert-verify: true
   type: hysteria2
-  udp: true
-  up: 100
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪8 |  5.4MB/s
-  network: tcp
-  port: 4810
-  server: 5.75.140.123
-  servername: ''
+- name: 10|کانفیگ پرسرعت رایگان🌋@vmesc
+  password: 867f512f-93d2-4344-853c-50965de9b103
+  port: 55215
+  server: shy42.zqjc.cloud
+  skip-cert-verify: false
+  sni: shy42.zqjc.cloud
   tls: false
-  type: vless
-  udp: false
-  uuid: 60be7572-d2e4-4336-b776-5b44c7d2411a
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪9 |  5.1MB/s
-  network: ws
-  port: 80
-  server: 151.101.2.219
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 252456af-eeaf-41a4-f4f2-d18a2d234301
-  ws-opts:
-    headers:
-      Host: foffmelo.com
-    path: /olem/ws?ed=1024
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪10 |  5.7MB/s
-  network: tcp
-  port: 4810
-  server: d6.vixsm.ir
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 60be7572-d2e4-4336-b776-5b44c7d2411a
+  type: hysteria2
 - name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
   obfs: salamander
   obfs-password: tel:@VPNHubMaRKeT
@@ -158,14 +134,14 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '10|@meli_proxyyسرورای‌بیشتر #1'
+- name: '10|(@VmessProtocol)برای خرید و ات... #2'
   password: dfe0a937-2ac5-40d5-b0b1-22ffa818d6fe
   port: 443
   server: youhui-lu.sanguayun.com
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: '10|@meli_proxyyسرورای‌بیشتر #2'
+- name: '10|کانفیگ پرسرعت رایگان🌋@vmesc #1'
   password: dfe0a937-2ac5-40d5-b0b1-22ffa818d6fe
   port: 443
   server: youhui-nl.sanguayun.com
