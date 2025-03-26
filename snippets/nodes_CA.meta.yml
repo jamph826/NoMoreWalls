@@ -1,37 +1,23 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇨🇦 加拿大 01 | 1x CA
-  password: 42a4e3a7-cf65-4e5b-a8bd-9bb4a3ffc5bc
-  port: 36441
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇨🇦加拿大 01 | 1x CA
-  password: 732e8bd7-21ee-4d19-8fc1-ba833075ba20
+  name: 0|🇨🇦加拿大 01 | 1x CA
+  password: ff85ab15-b5a4-4550-8fdb-899da02e782c
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 2|🇨🇦1 |  4.8MB/s
-  network: ws
-  port: 4010
-  server: 45.154.98.100
-  servername: xvv.dong2025.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vless
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇨🇦 加拿大 01 | 1x CA
+  password: 055b7dec-ee80-443c-9af5-5379859eb920
+  port: 36441
+  server: free.2weradf.xyz
+  type: ss
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: xvv.dong2025.cfd
-    path: /?ed=2560
-- name: 2|🇨🇦2 |  1.0MB/s
+- name: 2|🇨🇦1 |  5.7MB/s
   network: ws
   port: 443
-  server: 162.159.152.142
-  servername: xvv.dong2025.cfd
+  server: nikon.ns.cloudflare.com
+  servername: ll.ylkszy.eu.org
   skip-cert-verify: true
   tls: true
   type: vless
@@ -39,13 +25,27 @@ proxies:
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      Host: xvv.dong2025.cfd
+      host: ll.ylkszy.eu.org
     path: /?ed=2560
-- name: 2|🇨🇦3 |  1.6MB/s
+- name: 2|🇨🇦2 |  5.9MB/s
+  network: ws
+  port: 2096
+  server: 104.17.128.1
+  servername: an.youlingkais.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: an.youlingkais.filegear-sg.me
+    path: /?ed=2560
+- name: 2|🇨🇦3 |  4.6MB/s
   network: ws
   port: 443
-  server: 212.183.88.162
-  servername: xvv.dong2025.cfd
+  server: benedict.ns.cloudflare.com
+  servername: an.youlingkais.filegear-sg.me
   skip-cert-verify: true
   tls: true
   type: vless
@@ -53,25 +53,13 @@ proxies:
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: xvv.dong2025.cfd
+      host: an.youlingkais.filegear-sg.me
     path: /?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇨🇦4 |  3.4MB/s
-  network: tcp
-  port: 16011
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: gy01.hunheiydd.xyz
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 2|🇨🇦5 |  5.6MB/s
+- name: 2|🇨🇦4 |  2.5MB/s
   network: ws
   port: 443
-  server: 104.16.153.254
-  servername: xvv.dong2025.cfd
+  server: www.udemy.com
+  servername: an.youlingkais.filegear-sg.me
   skip-cert-verify: true
   tls: true
   type: vless
@@ -79,13 +67,13 @@ proxies:
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      Host: xvv.dong2025.cfd
+      host: an.youlingkais.filegear-sg.me
     path: /?ed=2560
-- name: 2|🇨🇦6 |  2.8MB/s
+- name: 2|🇨🇦5 |  3.2MB/s
   network: ws
   port: 443
-  server: 217.163.76.102
-  servername: xvv.dong2025.cfd
+  server: www.wto.org
+  servername: an.youlingkais.filegear-sg.me
   skip-cert-verify: true
   tls: true
   type: vless
@@ -93,13 +81,13 @@ proxies:
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      Host: xvv.dong2025.cfd
+      host: an.youlingkais.filegear-sg.me
     path: /?ed=2560
-- name: 2|🇨🇦7 |  5.6MB/s
+- name: 2|🇨🇦6 |  3.3MB/s
   network: ws
   port: 443
-  server: 104.17.146.152
-  servername: xvv.dong2025.cfd
+  server: 198.41.221.186
+  servername: ll.ylkszy.eu.org
   skip-cert-verify: true
   tls: true
   type: vless
@@ -107,13 +95,13 @@ proxies:
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: xvv.dong2025.cfd
+      host: ll.ylkszy.eu.org
     path: /?ed=2560
-- name: 2|🇨🇦8 |  3.8MB/s
+- name: 2|🇨🇦7 |  4.1MB/s
   network: ws
   port: 443
-  server: 104.18.47.177
-  servername: xvv.dong2025.cfd
+  server: tasteatlas.com
+  servername: ll.ylkszy.eu.org
   skip-cert-verify: true
   tls: true
   type: vless
@@ -121,19 +109,5 @@ proxies:
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      Host: xvv.dong2025.cfd
-    path: /?ed=2560
-- name: 2|🇨🇦9 |  2.7MB/s
-  network: ws
-  port: 443
-  server: 135.84.76.115
-  servername: xvv.dong2025.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: xvv.dong2025.cfd
+      host: ll.ylkszy.eu.org
     path: /?ed=2560

@@ -1,50 +1,48 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 02 | 1x HK
-  password: 42a4e3a7-cf65-4e5b-a8bd-9bb4a3ffc5bc
-  port: 36143
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 42a4e3a7-cf65-4e5b-a8bd-9bb4a3ffc5bc
-  port: 36145
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港 02 | 1x HK
-  password: 732e8bd7-21ee-4d19-8fc1-ba833075ba20
+  name: 0|🇭🇰香港 02 | 1x HK
+  password: ff85ab15-b5a4-4550-8fdb-899da02e782c
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港家宽 03 | 1x HK
-  password: 732e8bd7-21ee-4d19-8fc1-ba833075ba20
+  name: 0|🇭🇰香港家宽 03 | 1x HK
+  password: ff85ab15-b5a4-4550-8fdb-899da02e782c
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 2|🇭🇰10 |  5.9MB/s
-  password: VMhGp5wEIyCDf90T
-  port: 42303
-  server: csuzhou01.1cooldns.com
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰 香港 02 | 1x HK
+  password: 055b7dec-ee80-443c-9af5-5379859eb920
+  port: 36143
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰 香港住宅IP 03 | 1x HK
+  password: 055b7dec-ee80-443c-9af5-5379859eb920
+  port: 36145
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- name: 2|🇭🇰7 |  5.9MB/s
+  password: 8415db3c-1547-3e91-ad91-1804add41978
+  port: 20294
+  server: gy.58n.net
   skip-cert-verify: true
-  sni: hk06.run.place
+  sni: z294.hongkongnode.top
   type: trojan
-- alterId: 0
-  cipher: auto
+  udp: true
+- cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇭🇰 香港|@ripaojiedian
-  port: 53199
-  server: 38.147.188.94
-  skip-cert-verify: false
+  password: FWSK8RTDJL7R2IJA
+  port: 15008
+  server: w72tapyb.slashdevslashnetslashtun.net
   tfo: false
-  tls: false
-  type: vmess
-  uuid: 1bd1a355-cc70-47a4-b8ca-fb4e0a38fac6
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 12|🇭🇰 香港2|@ripaojiedian
@@ -53,82 +51,14 @@ proxies:
   server: 183.232.229.164
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
+- cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇭🇰 香港3|@ripaojiedian
-  port: 40102
-  server: 120.232.153.63
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 12|🇭🇰 香港5|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 103.149.183.61
+  password: 3b9dde2a07a65bb0
+  port: 19111
+  server: 212.192.15.98
   tfo: false
   type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 12|🇭🇰 香港4|@ripaojiedian
-  password: RG7OQX7S5OIU3AL4
-  port: 15016
-  server: w72tapyb.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 12|🇭🇰 香港6|@ripaojiedian
-  password: 6U7N3FEJT62R1YRH
-  port: 15015
-  server: qh62onjn.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 12|🇭🇰 香港7|@ripaojiedian
-  port: 51182
-  server: 120.232.153.40
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 13|香港|@ripaojiedian
-  network: tcp
-  port: '53199'
-  server: 38.147.188.94
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1bd1a355-cc70-47a4-b8ca-fb4e0a38fac6
-- alterId: 0
-  cipher: auto
-  name: 13|香港3|@ripaojiedian
-  network: tcp
-  port: '40102'
-  server: 120.232.153.63
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
-- alterId: 0
-  cipher: auto
-  name: 13|香港7|@ripaojiedian
-  network: tcp
-  port: '51182'
-  server: 120.232.153.40
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 13|香港A|@ripaojiedian
