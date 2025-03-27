@@ -1,115 +1,19 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪德国 01 | 1x DE
-  password: ff85ab15-b5a4-4550-8fdb-899da02e782c
+  password: 931ee524-cb2e-435b-8694-94032ae0cc52
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇩🇪 德国 01 | 1x DE
-  password: 055b7dec-ee80-443c-9af5-5379859eb920
+  password: ecfa6db7-7ee2-4de1-ab93-0d91ea20074b
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪1 |  2.1MB/s
-  network: ws
-  port: 80
-  server: 156.238.18.99
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: ''
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪2 |  1.1MB/s
-  network: ws
-  port: 80
-  server: 151.101.2.228
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 391c94b0-30b4-46d2-8d26-f9a005b33dfe
-  ws-opts:
-    headers:
-      Host: joinxvproxybedee.ir
-    path: /@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy?ed=2048
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪3 |  4.8MB/s
-  network: ws
-  port: 80
-  server: speedtest.net
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 54cf82ae-7e94-4826-f713-459072381ff6
-  ws-opts:
-    headers:
-      Host: foffmelo.com
-    path: /olem/ws?ed=1024
-- client-fingerprint: randomized
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪4 |  4.0MB/s
-  network: ws
-  port: 8080
-  server: 104.19.54.50
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: b8c59cae-73a8-4f44-88f9-4e40a7b94058
-  ws-opts:
-    headers:
-      Host: VPNCUSTOMIZE.www.webdade.com.www.speedtest.net.irna.ir.ips.ddns-ip.net.
-    path: /Channel----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE?ed=2048
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪5 |  5.1MB/s
-  network: ws
-  port: 80
-  server: 151.101.130.219
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: b6641afc-2e2b-4662-c289-daa6beb85039
-  ws-opts:
-    headers:
-      Host: retete3.ir
-    path: /telegeam-@v2_city-----telegeam-@v2_city-----telegeam-@v2_city-----telegeam-@v2_city-----telegeam-@v2_city-----telegeam-@v2_city-----telegeam-@v2_city-----telegeam-@v2_city-----telegeam-@v2_city?ed=2048
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪6 |  1.0MB/s
-  network: ws
-  port: 80
-  server: 151.101.130.228
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 391c94b0-30b4-46d2-8d26-f9a005b33dfe
-  ws-opts:
-    headers:
-      Host: joinxvproxybedee.ir
-    path: /@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy?ed=2048
-- name: 10|ا رر رایان@vmesc
+- name: 10|(@VmessProtocol)برای خرید و ات...
   password: 867f512f-93d2-4344-853c-50965de9b103
   port: 55215
   server: shy38.zqjc.cloud
@@ -117,12 +21,19 @@ proxies:
   sni: shy38.zqjc.cloud
   tls: false
   type: hysteria2
-- name: 10|کانفیگ پرسرعت رایگان🌋@vmesc
+- name: '10|(@VmessProtocol)برای خرید و ات... #1'
   password: 867f512f-93d2-4344-853c-50965de9b103
   port: 55215
   server: shy42.zqjc.cloud
   skip-cert-verify: false
   sni: shy42.zqjc.cloud
+  tls: false
+  type: hysteria2
+- name: '10|(@VmessProtocol)برای خرید و ات... #2'
+  password: 8ef3a266-3d98-4311-aa79-34c44b2b5931
+  port: 20701
+  server: us.tuanzi.xyz
+  skip-cert-verify: false
   tls: false
   type: hysteria2
 - name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
@@ -134,14 +45,21 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '10|(@VmessProtocol)برای خرید و ات... #2'
+- name: '10|(@VmessProtocol)برای خرید و ات... #3'
+  password: a73e6402-a66f-4b68-9910-071604aec882
+  port: 443
+  server: ru1.node.crosswall.org
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '10|(@VmessProtocol)برای خرید و ات... #4'
   password: dfe0a937-2ac5-40d5-b0b1-22ffa818d6fe
   port: 443
   server: youhui-lu.sanguayun.com
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: '10|(@VmessProtocol)برای خرید و ات... #3'
+- name: '10|(@VmessProtocol)برای خرید و ات... #5'
   password: dfe0a937-2ac5-40d5-b0b1-22ffa818d6fe
   port: 443
   server: youhui-nl.sanguayun.com
