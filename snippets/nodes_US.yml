@@ -1,52 +1,61 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 08d5a558-17ee-4fee-826c-f9effeac796a
+  password: 68bd5594-b61c-4ac7-ac7e-2cb5a9f1b2a9
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 08d5a558-17ee-4fee-826c-f9effeac796a
+  password: 68bd5594-b61c-4ac7-ac7e-2cb5a9f1b2a9
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: 08d5a558-17ee-4fee-826c-f9effeac796a
+  password: 68bd5594-b61c-4ac7-ac7e-2cb5a9f1b2a9
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸美国 01 | 1x US Los Angeles
-  password: bdcc0301-f056-4a65-87e6-bafe18a31a6b
+  password: 6446e97b-c266-42a9-8a08-57905b4c4294
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: bdcc0301-f056-4a65-87e6-bafe18a31a6b
+  password: 6446e97b-c266-42a9-8a08-57905b4c4294
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸美国 03 | 1x US Washington
-  password: bdcc0301-f056-4a65-87e6-bafe18a31a6b
+  password: 6446e97b-c266-42a9-8a08-57905b4c4294
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf
-  name: 2|🇺🇸15 |  5.0MB/s
-  password: asd123456
-  port: 8388
-  server: 137.175.113.215
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 2|🇺🇸9 |  1.9MB/s
+  network: ws
+  port: 443
+  server: us10-04.852224.ggff.net
+  servername: us10-04.852224.ggff.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 576c81b6-4976-4fe3-b1a9-05a9c302e98e
+  ws-opts:
+    headers:
+      Host: us10-04.852224.ggff.net
+    path: /SNwNdunw28lVztopw90eoXel
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 12|🇺🇸 美国|@ripaojiedian
@@ -71,51 +80,19 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- alterId: 2
-  cipher: auto
+- cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12,13|美国3|@ripaojiedian
-  network: ws
-  port: '420'
-  server: 0e1f11d2-stw740-sy3miy-3kis.fmt2-us.sghuawei.com
-  servername: ''
-  skip-cert-verify: false
+  name: 12|🇺🇸 美国3|@ripaojiedian
+  password: ZJCCR003R9N9XUY1
+  port: 20032
+  server: 147.78.3.137
   tfo: false
-  tls: false
-  type: vmess
-  uuid: 117fc3d8-fd04-11ed-b345-f23c93136cb3
-  ws-opts:
-    headers:
-      Host: 0e1f11d2-stw740-sy3miy-3kis.fmt2-us.sghuawei.com
-    path: /
-- client-fingerprint: chrome
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
   name: 12|🇺🇸 美国4|@ripaojiedian
-  password: '!!str 74260702287384200'
-  port: 443
-  server: settled-mite.shiner427.skin
-  skip-cert-verify: false
-  sni: settled-mite.shiner427.skin
-  type: trojan
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 12,13|美国5|@ripaojiedian
-  network: ws
-  port: '420'
-  server: 494a196c-stucg0-t16qfc-3ge3.fmt2-us.sghuawei.com
-  servername: ''
-  skip-cert-verify: false
+  password: JU8G16JUJ67Q618R
+  port: 17008
+  server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
-  tls: false
-  type: vmess
-  uuid: 6e28d086-f1bd-11ed-9ebc-f23c93665044
-  ws-opts:
-    headers:
-      Host: 494a196c-stucg0-t16qfc-3ge3.fmt2-us.sghuawei.com
-    path: /
-- name: 13|美国4|@ripaojiedian
-  network: tcp
-  password: '!!str 74260702287384200'
-  port: 443
-  server: settled-mite.shiner427.skin
-  type: trojan
+  type: ss
