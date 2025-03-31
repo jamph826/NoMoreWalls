@@ -1,98 +1,136 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 68bd5594-b61c-4ac7-ac7e-2cb5a9f1b2a9
-  port: 36211
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 68bd5594-b61c-4ac7-ac7e-2cb5a9f1b2a9
-  port: 36213
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: 68bd5594-b61c-4ac7-ac7e-2cb5a9f1b2a9
-  port: 36215
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 01 | 1x US Los Angeles
-  password: 6446e97b-c266-42a9-8a08-57905b4c4294
+  name: 0|🇺🇸美国 01 | 1x US Los Angeles
+  password: eb7bba1c-baf7-45c9-ac71-16659ff9a483
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 6446e97b-c266-42a9-8a08-57905b4c4294
+  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: eb7bba1c-baf7-45c9-ac71-16659ff9a483
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 03 | 1x US Washington
-  password: 6446e97b-c266-42a9-8a08-57905b4c4294
+  name: 0|🇺🇸美国 03 | 1x US Washington
+  password: eb7bba1c-baf7-45c9-ac71-16659ff9a483
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 2|🇺🇸9 |  1.9MB/s
-  network: ws
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 1|🇺🇸11 |  5.6MB/s
+  password: amazonskr05
   port: 443
-  server: us10-04.852224.ggff.net
-  servername: us10-04.852224.ggff.net
-  skip-cert-verify: true
+  server: 34.208.31.71
+  type: ss
+- allowInsecure: ''
+  name: 1|🇺🇸13 |  3.5MB/s
+  network: ws
+  password: 6040a753-e35b-4384-8713-96f3c639b621
+  port: 443
+  server: 172.67.204.22
+  skip-cert-verify: false
+  sni: kju84.890602.XYZ
   tls: true
-  type: vmess
-  uuid: 576c81b6-4976-4fe3-b1a9-05a9c302e98e
+  type: trojan
   ws-opts:
     headers:
-      Host: us10-04.852224.ggff.net
-    path: /SNwNdunw28lVztopw90eoXel
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 12|🇺🇸 美国|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202503170996717-bgAUFz3awY.download.microsoft.com
-    mode: http
-  port: 8771
-  server: cn01.efan8867801.xyz
-  tfo: false
+      Host: kju84.890602.xyz
+    path: /WxWOWO1YA9bs2HOmaeWimvT3
+- cipher: aes-256-cfb
+  name: 1|🇺🇸14 |  5.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 34.220.99.226
   type: ss
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 12|🇺🇸 美国2|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202503170996717-bgAUFz3awY.download.microsoft.com
-    mode: http
-  port: 8773
-  server: cn01.efan8867801.xyz
-  tfo: false
+- cipher: aes-256-cfb
+  name: 1|🇺🇸16 |  5.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.69.221.160
   type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 12|🇺🇸 美国3|@ripaojiedian
-  password: ZJCCR003R9N9XUY1
-  port: 20032
-  server: 147.78.3.137
-  tfo: false
+- name: 1,13|US_speednode_0098
+  password: 6db95bbc-c7a1-4b3f-9346-df71f4d95350
+  port: 1627
+  server: t16.emovpn.buzz
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 1|🇺🇸19 |  5.5MB/s
+  password: amazonskr05
+  port: 443
+  server: 44.247.247.209
   type: ss
-- cipher: aes-256-gcm
+- alterId: '0'
+  cipher: auto
+  name: 1|🇺🇸25 |  2.7MB/s
+  network: ws
+  port: '8443'
+  server: 156.238.18.68
+  tls: true
+  type: vmess
+  uuid: c313606f-98c2-4d7b-ba74-48b94f61b11d
+  ws-opts:
+    headers:
+      host: uswuxian.pai50288.uk
+    path: /?maps.app.goo.gl/K3hM5xrwZV7bQVBa7?ed=2560
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国4|@ripaojiedian
-  password: JU8G16JUJ67Q618R
-  port: 17008
-  server: ti3hyra4.slashdevslashnetslashtun.net
+  name: 11,12|美国|@ripaojiedian
+  network: ws
+  port: '8136'
+  server: v49.emovpn.buzz
+  servername: ''
+  skip-cert-verify: false
   tfo: false
+  tls: false
+  type: vmess
+  uuid: 6db95bbc-c7a1-4b3f-9346-df71f4d95350
+  ws-opts:
+    headers:
+      Host: v49.emovpn.buzz
+    path: /
+- name: 13|US_speednode_0100
+  password: 6db95bbc-c7a1-4b3f-9346-df71f4d95350
+  port: 12502
+  server: t11.emovpn.buzz
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+  udp: true
+- name: 13|US_speednode_0101
+  password: 6db95bbc-c7a1-4b3f-9346-df71f4d95350
+  port: 1378
+  server: t10.emovpn.buzz
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 9894b413-d1f4-43bd-a6a4-b3dc81dfe927
+  port: 36211
+  server: free.2weradf.xyz
   type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 9894b413-d1f4-43bd-a6a4-b3dc81dfe927
+  port: 36213
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸 美国 03 | 1x US Washington
+  password: 9894b413-d1f4-43bd-a6a4-b3dc81dfe927
+  port: 36215
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
