@@ -1,9 +1,49 @@
 proxies:
-- name: 14|CN_speednode_0014
-  password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
-  port: 20012
-  server: 2.elk3b3nwfy.xyz
+- name: 14|CN_speednode_0005
+  password: 80e061f4-e5ae-470d-a336-82e682fc69bf
+  port: 27101
+  server: aafrtpfxr.hkl01i9zjfegelp.5xfsur8v62.gosdk.xyz
   skip-cert-verify: true
-  sni: 2.elk3b3nwfy.xyz
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+  udp: true
+- name: 14|CN_speednode_0012
+  password: 80e061f4-e5ae-470d-a336-82e682fc69bf
+  port: 27001
+  server: aafrtpfxr.jpl01i9zjfegelp.5xfsur8v62.gosdk.xyz
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+  udp: true
+- name: 14|CN_speednode_0027
+  password: 80e061f4-e5ae-470d-a336-82e682fc69bf
+  port: 44397
+  server: aafrtpfxr.gbl01i9zjfegelp.5xfsur8v62.gosdk.xyz
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+  udp: true
+- name: 14|CN_speednode_0038
+  password: 80e061f4-e5ae-470d-a336-82e682fc69bf
+  port: 43583
+  server: aafrtpfxr.del01i9zjfegelp.5xfsur8v62.gosdk.xyz
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+  udp: true
+- name: 14|CN_speednode_0044
+  password: 80e061f4-e5ae-470d-a336-82e682fc69bf
+  port: 43397
+  server: aafrtpfxr.trl01i9zjfegelp.5xfsur8v62.gosdk.xyz
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+  udp: true
+- name: 14|CN_speednode_0050
+  password: 80e061f4-e5ae-470d-a336-82e682fc69bf
+  port: 33505
+  server: aafrtpfxr.usl02i9zjfegelp.5xfsur8v62.gosdk.xyz
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
