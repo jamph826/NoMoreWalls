@@ -1,45 +1,22 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 01 | 1x HK
-  password: d0bb1aa7-432e-4e72-827e-a1b174c76fa5
-  port: 31141
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: d0bb1aa7-432e-4e72-827e-a1b174c76fa5
+  password: dacc8d14-40f5-4f86-8b0e-975cf47d73ea
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰 香港 01 | 1x HK
-  password: c11130f3-acaf-45ed-a614-5b632e426ac2
+  name: 1|🇭🇰 香港 01 | 1x HK
+  password: e11d3908-e077-4f36-9d6b-051575188023
   port: 36141
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇬🇧 英国住宅IP 01 | 1x UK
-  password: c11130f3-acaf-45ed-a614-5b632e426ac2
+  name: 1|🇬🇧 英国住宅IP 01 | 1x UK
+  password: e11d3908-e077-4f36-9d6b-051575188023
   port: 36271
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 12|🇬🇧 英国|@ripaojiedian
-  password: QIXWUPZT9O5EUEWK
-  port: 19014
-  server: 206.245.211.24
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 12|🇬🇧 英国2|@ripaojiedian
-  password: 5U3COGGRJPO2DQNF
-  port: 19001
-  server: 206.245.211.11
-  tfo: false
-  type: ss

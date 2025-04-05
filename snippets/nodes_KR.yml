@@ -1,45 +1,54 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 01 | 1x KR
-  password: d0bb1aa7-432e-4e72-827e-a1b174c76fa5
+  password: dacc8d14-40f5-4f86-8b0e-975cf47d73ea
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 02 | 1x KR
-  password: d0bb1aa7-432e-4e72-827e-a1b174c76fa5
+  password: dacc8d14-40f5-4f86-8b0e-975cf47d73ea
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇰🇷 韩国 01 | 1x KR
-  password: c11130f3-acaf-45ed-a614-5b632e426ac2
+  name: 1|🇰🇷 韩国 01 | 1x KR
+  password: e11d3908-e077-4f36-9d6b-051575188023
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇰🇷 韩国 02 | 1x KR
-  password: c11130f3-acaf-45ed-a614-5b632e426ac2
+  name: 1|🇰🇷 韩国 02 | 1x KR
+  password: e11d3908-e077-4f36-9d6b-051575188023
   port: 36313
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: aes-256-cfb
+- alterId: 2
+  cipher: auto
   client-fingerprint: chrome
-  name: 12|🇰🇷 韩国|@ripaojiedian
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 154.90.62.168
+  name: 12,13|韩国|@ripaojiedian
+  network: ws
+  port: '30828'
+  server: v28.heduian.link
+  servername: ''
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 12|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 47.129.51.201
+  server: 54.238.109.190
   tfo: false
   type: ss
