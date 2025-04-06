@@ -1,78 +1,79 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰香港 01 | 1x HK
+  password: fde7ee63-b365-45e0-995f-0f894669d09b
+  port: 31141
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: dacc8d14-40f5-4f86-8b0e-975cf47d73ea
+  password: fde7ee63-b365-45e0-995f-0f894669d09b
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰 香港 01 | 1x HK
-  password: e11d3908-e077-4f36-9d6b-051575188023
+  password: f52155c3-af73-47b2-9759-953497ce7915
   port: 36141
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇬🇧 英国住宅IP 01 | 1x UK
-  password: e11d3908-e077-4f36-9d6b-051575188023
+  password: f52155c3-af73-47b2-9759-953497ce7915
   port: 36271
   server: free.2weradf.xyz
   type: ss
   udp: true
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇬🇧1 |  2.7MB/s
-  network: ws
-  port: 80
-  server: 45.131.4.214
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /Telegram🇨🇳@WangCai2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0023
+  name: 2|🇬🇧1 |  4.4MB/s
   network: tcp
-  port: 65053
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: beiyong.dynuddns.net
-  servername: www.amazon.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 2|🇬🇧3 |  1.9MB/s
-  network: ws
-  port: 80
-  server: 45.131.5.113
-  tls: false
-  type: vless
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /Telegram @WangCai2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇬🇧4 |  4.6MB/s
-  network: tcp
-  port: 14659
+  port: 32055
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
   server: csuzhou01.1cooldns.com
-  servername: www.nvidia.com
+  servername: www.amazon.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  mode: ''
+  name: 2|🇬🇧2 |  1.6MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: z6V4NY9SE39zQNS1zVNQdTtbL6_N2jg-yQyvcGe9XwU
+    short-id: ff1fd9
+  server: 138.124.59.75
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: 2eb0cb85-37a1-41fc-8aa4-3a0b5ee8dd68
+  ws-opts:
+    headers:
+      Host: 'JOKERRVPNTelegram : @JOKERRVPN -JOKERRVPN : @JOKERRVPN -JOKERRVPN : @JOKERRVPN
+        -JOKERRVPN : @JOKERRVPN -JOKERRVPN : @JOKERRVPN -JOKERRVPN : @JOKERRVPN -JOKERRVPN
+        : @JOKERRVPN -JOKERRVPN : @JOKERRVPN -JOKERRVPN : @JOKERRVPN -JOKERRVPN :
+        @JOKERRVPN -JOKERRVPN : @JOKERRVPN'
+    path: ''
+- name: 2|🇬🇧3 |  5.2MB/s
+  network: ws
+  port: 80
+  server: 45.131.4.131
+  servername: gozargah.validbv7996.ir
+  tls: false
+  type: vless
+  udp: true
+  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+  ws-opts:
+    headers:
+      Host: gozargah.validbv7996.ir
+    path: /Telegram🇨🇳@WangCai2/?ed=2560
 - name: 11|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
@@ -81,3 +82,19 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 12|🇬🇧 英国|@ripaojiedian
+  password: 65ZLPN9MI8OTH07C
+  port: 19005
+  server: 206.245.211.15
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 12|🇬🇧 英国2|@ripaojiedian
+  password: HW9RL3ZGBLLSO16R
+  port: 19002
+  server: 206.245.211.12
+  tfo: false
+  type: ss
