@@ -1,79 +1,51 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 01 | 1x SG
-  password: fde7ee63-b365-45e0-995f-0f894669d09b
+  name: 1|🇸🇬新加坡 01 | 1x SG
+  password: 73616165-af47-4daf-99b1-10f20b7ff4f6
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 02 | 1x SG
-  password: fde7ee63-b365-45e0-995f-0f894669d09b
+  name: 1|🇸🇬新加坡 02 | 1x SG
+  password: 73616165-af47-4daf-99b1-10f20b7ff4f6
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 03 | 1x SG
-  password: fde7ee63-b365-45e0-995f-0f894669d09b
+  name: 1|🇸🇬新加坡 03 | 1x SG
+  password: 73616165-af47-4daf-99b1-10f20b7ff4f6
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 01 | 1x SG
-  password: f52155c3-af73-47b2-9759-953497ce7915
+  name: 2|🇸🇬 新加坡 01 | 1x SG
+  password: 63855fe3-6bbc-4212-8a9f-7e36b41fc24a
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 02 | 1x SG
-  password: f52155c3-af73-47b2-9759-953497ce7915
+  name: 2|🇸🇬 新加坡 02 | 1x SG
+  password: 63855fe3-6bbc-4212-8a9f-7e36b41fc24a
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 03 | 1x SG
-  password: f52155c3-af73-47b2-9759-953497ce7915
+  name: 2|🇸🇬 新加坡 03 | 1x SG
+  password: 63855fe3-6bbc-4212-8a9f-7e36b41fc24a
   port: 36175
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  delay: 1576
-  name: 2|🇸🇬3 |  1.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.212.199.43
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 12|🇸🇬 新加坡|@ripaojiedian
-  port: 4135
-  server: 81d99721-sudhc0-tbxnq7-3qpz.d.volczijie.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 3cafb97e-8bf1-11ee-8ebe-f23c93136cb3
-- cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 12|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.199.64.156
+  server: 13.212.241.11
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡|@ripaojiedian
-  network: tcp
-  port: '4135'
-  server: 81d99721-sudhc0-tbxnq7-3qpz.d.volczijie.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3cafb97e-8bf1-11ee-8ebe-f23c93136cb3
