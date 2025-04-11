@@ -1,72 +1,82 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧1 |  1.3MB/s
-  password: 474b0248-8ffa-4e49-a415-49d907171fc6
+  name: 0|🇭🇰 香港 01 | 1x HK
+  password: 15356931-f9ed-483c-aec1-e8142b1dcf43
+  port: 36141
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
+  password: 15356931-f9ed-483c-aec1-e8142b1dcf43
   port: 36271
   server: free.2weradf.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇬🇧英国家宽 01 | 1x UK
+  password: bfe7c098-1c31-4508-968d-12ab274e34fa
+  port: 31271
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0,13|CN_speednode_0054
+  name: 2,14|CN_speednode_0034
   network: tcp
-  port: 65053
+  port: 14659
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: beiyong.dynuddns.net
-  servername: www.amazon.com
+  server: csuzhou01.1cooldns.com
+  servername: www.nvidia.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
-  name: 0|🇬🇧3 |  1.3MB/s
-  network: ws
-  port: 80
-  server: 45.131.4.33
-  tls: false
-  type: vless
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /
-- allowInsecure: ''
-  name: 0|🇬🇧4 |  1.5MB/s
-  network: original
-  password: b19c4375-d847-4c40-9824-4767c88b5f38
-  port: 10200
-  server: www.ak-hk.top
-  skip-cert-verify: false
-  type: trojan
-- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|🇬🇧5 |  1.2MB/s
+  name: 2|🇬🇧2 |  5.5MB/s
   network: tcp
-  port: 49699
+  port: 35311
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
-  servername: www.amazon.com
+  server: shenzhou02.mysynology.net
+  servername: www.yahoo.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港 01 | 1x HK
-  password: 11ef2f99-553c-4164-9125-ed11805e7484
-  port: 36141
-  server: free.2weradf.xyz
-  type: ss
+- client-fingerprint: random
+  flow: ''
+  mode: ''
+  name: 2|🇬🇧3 |  1.1MB/s
+  network: ws
+  port: 443
+  server: 104.18.8.74
+  servername: en.kljasdfiaosdf92-asdjlkfhasdf-asdfa.li
+  tls: true
+  type: vless
+  udp: false
+  uuid: b995dc2f-045d-49e4-a02b-07cf968c64f5
+  ws-opts:
+    headers:
+      Host: en.kljasdfiaosdf92-asdjlkfhasdf-asdfa.li
+    path: /admin
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2,14|CN_speednode_0039
+  network: tcp
+  port: 32055
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.amazon.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 11ef2f99-553c-4164-9125-ed11805e7484
-  port: 36271
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- name: 10|Hysteria 🇬🇧 @v2meowcf
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 11|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
   server: 178.236.237.84
@@ -74,15 +84,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 11|🇬🇧 英国|@ripaojiedian
-  password: 751U3T5PPAVWVMR2
-  port: 19002
-  server: 206.245.211.12
-  tfo: false
-  type: ss
-- name: 13|GB_speednode_0081
+- name: 14|GB_speednode_0055
   network: ws
   port: 8880
   server: 31.22.116.154
@@ -96,25 +98,3 @@ proxies:
     headers:
       Host: redfree8.pooriashop.ir
     path: /---TM-@AZARBAYJAB1-------TM-@AZARBAYJAB1---------TM-@AZARBAYJAB1---join?ed=2560
-- name: 13|GB_speednode_0082
-  password: '!!str 74260698218909400'
-  port: 443
-  server: happy-bluebird.shiner427.skin
-  skip-cert-verify: true
-  sni: happy-bluebird.shiner427.skin
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰香港 01 | 1x HK
-  password: d6bf0673-a662-4005-9a0e-291f1cc2549a
-  port: 31141
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇬🇧英国家宽 01 | 1x UK
-  password: d6bf0673-a662-4005-9a0e-291f1cc2549a
-  port: 31271
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true

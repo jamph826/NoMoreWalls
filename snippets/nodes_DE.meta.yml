@@ -1,8 +1,75 @@
 proxies:
-- client-fingerprint: edge
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇩🇪 德国 01 | 1x DE
+  password: 15356931-f9ed-483c-aec1-e8142b1dcf43
+  port: 36471
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇩🇪德国 01 | 1x DE
+  password: bfe7c098-1c31-4508-968d-12ab274e34fa
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- name: 2|🇩🇪1 |  5.7MB/s
+  network: ws
+  port: 2053
+  server: 199.34.228.183
+  servername: all22.kikforwindows.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 78905d87-0266-4825-868d-3069e88d1201
+  ws-opts:
+    headers:
+      Host: all22.kikforwindows.com
+    path: /containers/de
+- auth: 18463200c271aa6d
+  name: 2|🇩🇪2 |  4.7MB/s
+  obfs: salamander
+  obfs-password: 6c80ade6
+  password: 18463200c271aa6d
+  port: 443
+  server: rplcehysttya6.airlineshoma.com
+  skip-cert-verify: true
+  sni: vkvd127.mycdn.me
+  type: hysteria2
+- name: 2|🇩🇪3 |  5.6MB/s
+  network: ws
+  port: 2053
+  server: 199.34.228.65
+  servername: all22.kikforwindows.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 78905d87-0266-4825-868d-3069e88d1201
+  ws-opts:
+    headers:
+      Host: all22.kikforwindows.com
+    path: /containers/de
+- client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 0|🇩🇪1 |  2.4MB/s
+  name: 2|🇩🇪4 |  2.1MB/s
+  network: ws
+  port: 443
+  server: 104.21.73.239
+  servername: DigITALsciENTIfiCrESeARCHGRoup.IR
+  tls: true
+  type: vless
+  udp: false
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: digitalscientificresearchgroup.ir
+    path: /4McLR3NKFOydbxDs/MTguMTk5LjIxMy4yMDE
+- flow: ''
+  mode: ''
+  name: 2|🇩🇪5 |  5.1MB/s
   network: ws
   port: 443
   server: cdn.packageclub.net
@@ -16,69 +83,31 @@ proxies:
       Host: cdn.packageclub.net
     path: /ws-connect/download/update/check/version/2.1.9/patch/force
 - client-fingerprint: chrome
-  name: 0|🇩🇪2 |  5.2MB/s
-  network: ws
-  port: 80
-  server: 45.131.4.210
-  tls: false
-  type: vless
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /
-- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|🇩🇪3 |  1.2MB/s
+  name: 2,14|CN_speednode_0038
   network: tcp
   port: 58031
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
   server: csuzhou01.1cooldns.com
   servername: www.yahoo.com
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 0|🇩🇪4 |  1.8MB/s
-  network: ws
-  port: 443
-  server: 104.21.10.34
-  servername: cdn.packageclub.net
-  tls: true
-  type: vless
-  udp: false
-  uuid: be88b352-bc2e-45bf-abeb-cc117cf6f884
-  ws-opts:
-    headers:
-      Host: cdn.packageclub.net
-    path: /ws-connect/download/update/check/version/2.1.9/patch/force
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪 德国 01 | 1x DE
-  password: 11ef2f99-553c-4164-9125-ed11805e7484
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 13|DE_speednode_0080
-  port: 223
-  reality-opts:
-    public-key: JOKX-kH_SOPrdPG26TdJzO6YSDItrRGXKhtv70Bn81o
-    short-id: c7f175a94bd79f8d
-  server: 188.245.253.147
-  servername: SHOPTOR.SODOGODPING.IR
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- alterId: 0
+  cipher: auto
+  name: 2|🇩🇪7 |  2.4MB/s
+  network: ws
+  port: 32683
+  server: 92.114.54.227
+  servername: digitalcloud.pro.jiahe.buzz
   skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: bc7dbc36-f3a7-4cc8-9364-eba6e889cee2
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇩🇪德国 01 | 1x DE
-  password: d6bf0673-a662-4005-9a0e-291f1cc2549a
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
+  type: vmess
+  uuid: b4134d6a-945b-4355-b34b-a0899b02701e
+  ws-opts:
+    headers:
+      Host: digitalcloud.pro.jiahe.buzz
+    path: /jh002

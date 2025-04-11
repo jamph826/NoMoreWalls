@@ -1,7 +1,7 @@
 proxies:
 - country: 🇫🇷FR
   delay: 2273
-  name: 0|🇫🇷1 |  5.3MB/s
+  name: 2|🇫🇷1 |  4.5MB/s
   password: dongtaiwang.com
   port: 61770
   server: 51.159.226.1
