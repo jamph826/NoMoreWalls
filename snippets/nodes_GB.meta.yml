@@ -1,81 +1,32 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 01 | 1x HK
-  password: 15356931-f9ed-483c-aec1-e8142b1dcf43
+  name: 1|🇭🇰 香港 01 | 1x HK
+  password: d637b670-6ca4-4955-93a2-dbc9e268e4f8
   port: 36141
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 15356931-f9ed-483c-aec1-e8142b1dcf43
+  name: 1|🇬🇧 英国住宅IP 01 | 1x UK
+  password: d637b670-6ca4-4955-93a2-dbc9e268e4f8
   port: 36271
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧英国家宽 01 | 1x UK
-  password: bfe7c098-1c31-4508-968d-12ab274e34fa
+  name: 2|🇭🇰香港 01 | 1x HK
+  password: 18e31bf6-3234-4cfd-8fdb-e3a5bc86199f
+  port: 31141
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇬🇧英国家宽 01 | 1x UK
+  password: 18e31bf6-3234-4cfd-8fdb-e3a5bc86199f
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0034
-  network: tcp
-  port: 14659
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.nvidia.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇬🇧2 |  5.5MB/s
-  network: tcp
-  port: 35311
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou02.mysynology.net
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: random
-  flow: ''
-  mode: ''
-  name: 2|🇬🇧3 |  1.1MB/s
-  network: ws
-  port: 443
-  server: 104.18.8.74
-  servername: en.kljasdfiaosdf92-asdjlkfhasdf-asdfa.li
-  tls: true
-  type: vless
-  udp: false
-  uuid: b995dc2f-045d-49e4-a02b-07cf968c64f5
-  ws-opts:
-    headers:
-      Host: en.kljasdfiaosdf92-asdjlkfhasdf-asdfa.li
-    path: /admin
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0039
-  network: tcp
-  port: 32055
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.amazon.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - name: 11|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
@@ -84,12 +35,12 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 14|GB_speednode_0055
+- name: 14|GB_speednode_0056
   network: ws
   port: 8880
   server: 31.22.116.154
   servername: redfree8.pooriashop.ir
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vless
   udp: true
@@ -97,4 +48,4 @@ proxies:
   ws-opts:
     headers:
       Host: redfree8.pooriashop.ir
-    path: /---TM-@AZARBAYJAB1-------TM-@AZARBAYJAB1---------TM-@AZARBAYJAB1---join?ed=2560
+    path: /Telegram@V2ray_Alpha
