@@ -1,50 +1,49 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 0|🇸🇬1 |  7.0MB/s
-  port: 17231
-  server: 6f316071-suk9s0-swtza9-1q91p.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: c11ff50c-f582-11ee-94df-f23c9164ca5d
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 01 | 1x SG
-  password: d637b670-6ca4-4955-93a2-dbc9e268e4f8
+  name: 0|🇸🇬 新加坡 01 | 1x SG
+  password: 6a9d9d7e-f21f-470e-84dc-72535ed6d1e1
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 02 | 1x SG
-  password: d637b670-6ca4-4955-93a2-dbc9e268e4f8
+  name: 0|🇸🇬 新加坡 02 | 1x SG
+  password: 6a9d9d7e-f21f-470e-84dc-72535ed6d1e1
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 03 | 1x SG
-  password: d637b670-6ca4-4955-93a2-dbc9e268e4f8
+  name: 0|🇸🇬 新加坡 03 | 1x SG
+  password: 6a9d9d7e-f21f-470e-84dc-72535ed6d1e1
   port: 36175
   server: free.2weradf.xyz
   type: ss
   udp: true
+- name: 1|🇸🇬2 |  3.8MB/s
+  password: VMhGp5wEIyCDf90T
+  port: 38340
+  server: gysz0000.dynu.net
+  skip-cert-verify: true
+  sni: hk39.work.gd
+  type: trojan
 - cipher: chacha20-ietf-poly1305
   name: 2|🇸🇬新加坡 01 | 1x SG
-  password: 18e31bf6-3234-4cfd-8fdb-e3a5bc86199f
+  password: d37791d0-aba6-4213-825f-0eb68c62d711
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇸🇬新加坡 02 | 1x SG
-  password: 18e31bf6-3234-4cfd-8fdb-e3a5bc86199f
+  password: d37791d0-aba6-4213-825f-0eb68c62d711
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇸🇬新加坡 03 | 1x SG
-  password: 18e31bf6-3234-4cfd-8fdb-e3a5bc86199f
+  password: d37791d0-aba6-4213-825f-0eb68c62d711
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
@@ -65,11 +64,19 @@ proxies:
   server: gg21.hangfengjiasu.com
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 12|🇸🇬 新加坡3|@ripaojiedian
+  password: d192a833-b118-4b46-8e54-12cf5025d4cd
+  port: 33461
+  server: gsyd.aicheetah.lol
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 12|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 52.194.243.103
+  server: 54.255.246.167
   tfo: false
   type: ss
