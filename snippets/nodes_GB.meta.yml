@@ -1,22 +1,22 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 01 | 1x HK
-  password: f6446bb5-e3dd-4b94-bfa2-1235940e5f3d
-  port: 31141
-  server: free.2apzhfa.xyz
+  name: 0|🇭🇰 香港 01 | 1x HK
+  password: 258c137f-c3ec-44fe-ba8a-3a2a3d292811
+  port: 36141
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: f6446bb5-e3dd-4b94-bfa2-1235940e5f3d
-  port: 31271
-  server: free.2apzhfa.xyz
+  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
+  password: 258c137f-c3ec-44fe-ba8a-3a2a3d292811
+  port: 36271
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
-  delay: 2307
+  delay: 1679
   flow: xtls-rprx-vision
-  name: 1,14|CN_speednode_0028
+  name: 1,14|CN_speednode_0025
   network: tcp
   port: 65053
   reality-opts:
@@ -28,42 +28,24 @@ proxies:
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 1|🇬🇧2 |  5.5MB/s
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.8.62.172
-  skip-cert-verify: false
-  sni: trojan.burgerip.co.uk
-  type: trojan
 - client-fingerprint: chrome
+  delay: 2687
   flow: xtls-rprx-vision
-  name: 1,14|CN_speednode_0034
+  name: 1,14|CN_speednode_0027
   network: tcp
-  port: 32055
+  port: 14659
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
   server: csuzhou01.1cooldns.com
-  servername: www.amazon.com
-  skip-cert-verify: false
+  servername: www.nvidia.com
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇬🇧4 |  3.6MB/s
-  network: tcp
-  port: 35311
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou02.mysynology.net
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1,14|CN_speednode_0044
+  name: 1,14|CN_speednode_0039
   network: tcp
   port: 49699
   reality-opts:
@@ -76,17 +58,17 @@ proxies:
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰 香港 01 | 1x HK
-  password: 7eea41fa-3902-427c-8269-9c9d8872bb07
-  port: 36141
-  server: free.2weradf.xyz
+  name: 2|🇭🇰香港 01 | 1x HK
+  password: c2889798-8621-423c-9d3e-79fa42b686a3
+  port: 31141
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 7eea41fa-3902-427c-8269-9c9d8872bb07
-  port: 36271
-  server: free.2weradf.xyz
+  name: 2|🇬🇧英国家宽 01 | 1x UK
+  password: c2889798-8621-423c-9d3e-79fa42b686a3
+  port: 31271
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - name: 11|Hysteria 🇬🇧 @v2meowcf
