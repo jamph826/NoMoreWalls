@@ -1,50 +1,73 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 01 | 1x TW
-  password: 258c137f-c3ec-44fe-ba8a-3a2a3d292811
-  port: 36241
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 02 | 1x TW
-  password: 258c137f-c3ec-44fe-ba8a-3a2a3d292811
-  port: 36243
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 03 | 1x TW
-  password: 258c137f-c3ec-44fe-ba8a-3a2a3d292811
-  port: 36245
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 01 | 1x TW
-  password: c2889798-8621-423c-9d3e-79fa42b686a3
+  name: 0|🇹🇼台湾 01 | 1x TW
+  password: 2718699c-73a0-42c0-9151-e6c2a2769aa7
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 02 | 1x TW
-  password: c2889798-8621-423c-9d3e-79fa42b686a3
+  name: 0|🇹🇼台湾 02 | 1x TW
+  password: 2718699c-73a0-42c0-9151-e6c2a2769aa7
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 03 | 1x TW
-  password: c2889798-8621-423c-9d3e-79fa42b686a3
+  name: 0|🇹🇼台湾 03 | 1x TW
+  password: 2718699c-73a0-42c0-9151-e6c2a2769aa7
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼 台湾 01 | 1x TW
+  password: b6d6e9c0-54e3-470b-a0cf-e10e3c470182
+  port: 36241
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼 台湾 02 | 1x TW
+  password: b6d6e9c0-54e3-470b-a0cf-e10e3c470182
+  port: 36243
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼 台湾 03 | 1x TW
+  password: b6d6e9c0-54e3-470b-a0cf-e10e3c470182
+  port: 36245
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 2|🇹🇼2 |  2.3MB/s
+  network: ws
+  port: 23619
+  server: 19.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d0d003b8-ad44-37a7-82bf-ad911a23b4df
+  ws-opts:
+    headers:
+      Host: 19.mamamajd.site
+    path: /
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 12|🇹🇼 台湾|@ripaojiedian
+  password: OP8PXXDOW0GFSBO2
+  port: 21005
+  server: 150.116.11.9
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇹🇼 台湾|@ripaojiedian
+  name: 12|🇹🇼 台湾2|@ripaojiedian
   network: ws
   port: 46005
   server: fadawtawd.zhangwei.li
@@ -59,7 +82,7 @@ proxies:
     path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: 13|台湾|@ripaojiedian
+  name: 13|台湾2|@ripaojiedian
   network: ws
   port: '46005'
   server: fadawtawd.zhangwei.li
