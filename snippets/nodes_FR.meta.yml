@@ -2,23 +2,53 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇫🇷1 |  1.7MB/s
+  name: 2|🇫🇷1 |  5.7MB/s
   network: ws
-  port: 2096
-  server: whatismyipaddress.com
-  servername: wwwspeedtestnetwhiteberinsistomd6625996s28.elitemizban.ir
+  port: 443
+  server: 154.92.9.46
+  servername: rakhsh.4972616e.xyz
   tls: true
   type: vless
   udp: false
-  uuid: 27a778d4-543e-43f5-85a2-6acf18821ccb
+  uuid: ec8a65ad-aafc-4095-9b8c-ea10890ca629
   ws-opts:
     headers:
-      Host: wwwspeedtestnetwhiteberinsistomd6625996s28.elitemizban.ir
-    path: ''
+      Host: rakhsh.4972616e.xyz
+    path: /Javid-SHAH-KingRezaPahlavi/?ed=2560flow=-udp443flow=-udp443flow=-udp443
+- client-fingerprint: chrome
+  delay: 1514
+  flow: xtls-rprx-vision
+  name: 2|🇫🇷2 |  1.7MB/s
+  network: tcp
+  port: 40072
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: agaungzhou01.bumbleshrimp.com
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇫🇷2 |  5.2MB/s
+  name: 2|🇫🇷3 |  5.7MB/s
+  network: ws
+  port: 443
+  server: 154.92.9.176
+  servername: rakhsh.4972616e.xyz
+  tls: true
+  type: vless
+  udp: false
+  uuid: ec8a65ad-aafc-4095-9b8c-ea10890ca629
+  ws-opts:
+    headers:
+      Host: rakhsh.4972616e.xyz
+    path: /Javid-SHAH-KingRezaPahlavi/?ed=2560flow=-udp443flow=-udp443flow=-udp443
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2|🇫🇷4 |  5.9MB/s
   network: ws
   port: 8080
   server: tgju.org
@@ -26,72 +56,80 @@ proxies:
   tls: false
   type: vless
   udp: false
-  uuid: 51fda508-20aa-419e-b4c3-3a6202411412
+  uuid: 6abbaf96-4b16-48d3-b996-a6067fc6eb2c
   ws-opts:
     headers:
-      Host: 18.6na7PY43IT.zuLaiR.Org.
+      Host: M4.nF9JZ2st7N.zULAiR.ORG.
     path: /?ed=2048
+- auth: dongtaiwang.com
+  name: 2|🇫🇷5 |  5.2MB/s
+  password: dongtaiwang.com
+  port: 23587
+  server: 195.154.33.70
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 2|🇫🇷3 |  2.7MB/s
+  name: 2|🇫🇷6 |  4.6MB/s
   network: ws
-  port: 443
-  server: 108.162.196.159
-  servername: cr7777.rayan.dpdns.org
+  port: 2096
+  server: www.parsvds.com
+  servername: rEDzOnE.MirAcLehEaRTbIt.ICu
   tls: true
   type: vless
   udp: false
-  uuid: 1688039e-a45f-499e-b9f4-c098c87d3b32
+  uuid: 35fff34b-37f5-41fd-8252-aeef568b4684
   ws-opts:
     headers:
-      Host: cr7777.rayan.dpdns.org
-    path: /Telegram@V2ray_Alpha/?ed=2560flow=-udp443
+      Host: rEDzOnE.MirAcLehEaRTbIt.ICu
+    path: /2096/@V2RayyNGVpn
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇫🇷4 |  5.3MB/s
+  name: 2|🇫🇷7 |  3.5MB/s
   network: ws
   port: 443
-  server: 172.66.168.209
-  servername: mAXNETvIPAp-UK2.MaxnETServIcES.onLiNe
+  server: 154.92.9.151
+  servername: rakhsh.4972616e.xyz
   tls: true
   type: vless
   udp: false
-  uuid: 0f7254ed-765d-4916-819f-b47f0664ae27
+  uuid: ec8a65ad-aafc-4095-9b8c-ea10890ca629
   ws-opts:
     headers:
-      Host: mAXNETvIPAp-UK2.MaxnETServIcES.onLiNe
-    path: /linkws?ed=2560
+      Host: rakhsh.4972616e.xyz
+    path: /Javid-SHAH-KingRezaPahlavi/?ed=2560flow=-udp443flow=-udp443flow=-udp443
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇫🇷5 |  4.0MB/s
+  name: 2|🇫🇷8 |  5.7MB/s
   network: ws
   port: 443
-  server: 158.101.214.54
-  servername: cr7777.rayan.dpdns.org
+  server: jnir-addr.cybsecguru.com
+  servername: rakhsh.4972616e.xyz
   tls: true
   type: vless
   udp: false
-  uuid: 1688039e-a45f-499e-b9f4-c098c87d3b32
+  uuid: ec8a65ad-aafc-4095-9b8c-ea10890ca629
   ws-opts:
     headers:
-      Host: cr7777.rayan.dpdns.org
-    path: /Telegram@V2ray_Alpha/?ed=2560
+      Host: rakhsh.4972616e.xyz
+    path: /Javid-SHAH-KingRezaPahlavi/?ed=2560flow=-udp443flow=-udp443flow=-udp443flow=-udp443flow=-udp443
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇫🇷6 |  4.9MB/s
+  name: 2|🇫🇷9 |  5.8MB/s
   network: ws
-  port: 8080
-  server: 104.26.15.85
-  servername: ''
-  tls: false
+  port: 443
+  server: 188.114.97.3
+  servername: rakhsh.4972616e.xyz
+  tls: true
   type: vless
   udp: false
-  uuid: b7ea5ee9-d65f-4449-a9c1-a0de7acedec8
+  uuid: ec8a65ad-aafc-4095-9b8c-ea10890ca629
   ws-opts:
     headers:
-      Host: Cv.eLwML2Yu37.ZuLaIr.org.
-    path: /?ed=2048
+      Host: rakhsh.4972616e.xyz
+    path: /Javid-SHAH-KingRezaPahlavi/?ed=2560flow=-udp443flow=-udp443flow=-udp443

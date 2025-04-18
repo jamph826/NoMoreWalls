@@ -1,151 +1,166 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪德国 01 | 1x DE
-  password: 2718699c-73a0-42c0-9151-e6c2a2769aa7
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪 德国 01 | 1x DE
-  password: b6d6e9c0-54e3-470b-a0cf-e10e3c470182
+  name: 0|🇩🇪 德国 01 | 1x DE
+  password: cd57e2e5-dc72-4884-a946-6440019fa01d
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
-- client-fingerprint: ''
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇩🇪德国 01 | 1x DE
+  password: 5c4ee141-6bdf-4f3d-af6f-2c9230829a34
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- client-fingerprint: chrome
   flow: ''
   grpc-opts:
-    grpc-service-name: 17783vless
+    grpc-service-name: '@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy'
   mode: ''
-  name: 2|🇩🇪1 |  1.4MB/s
+  name: 2|🇩🇪1 |  3.0MB/s
   network: grpc
-  port: 1773
-  server: 206.189.63.23
+  port: 443
+  reality-opts:
+    public-key: Aa3FogZ9ohTiRHsdnoyiMg7TFARWEeZs_m290juxEzs
+    short-id: ''
+  server: 178.63.228.220
+  servername: fauxid.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: 2e2dab56-7216-40f5-b0b3-28be60d4145b
+- client-fingerprint: chrome
+  mode: ''
+  name: 2|🇩🇪2 |  6.0MB/s
+  network: ws
+  port: 443
+  server: 91.107.131.31
+  servername: mw5.asalemaraghe.ir
+  tls: true
+  type: vless
+  udp: false
+  uuid: 944d8b74-7a64-4b07-a278-9f968e9ef99c
+  ws-opts:
+    headers:
+      Host: mw5.asalemaraghe.ir
+    path: /
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2|🇩🇪3 |  5.6MB/s
+  network: ws
+  port: 2082
+  server: 104.17.147.22
   servername: ''
   tls: false
   type: vless
   udp: false
-  uuid: 93489dc6-47a3-4532-b050-6fb193b855e9
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪2 |  1.1MB/s
-  network: ws
-  port: 8880
-  server: 46.254.93.124
-  servername: vIhYpErClOuD.aCaDeMiGrOuP.iR.
-  tls: false
-  type: vless
-  udp: false
-  uuid: 379a7f53-fddf-460f-8a62-52330c0d9cf5
+  uuid: 1ff875a2-2876-47be-cbc7-6cc45b1d89c4
   ws-opts:
     headers:
-      Host: vIhYpErClOuD.aCaDeMiGrOuP.iR.
-    path: /Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420?ed
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪3 |  1.2MB/s
-  network: ws
-  port: 443
-  server: 104.21.64.1
-  servername: Et3ch-007.Zed23.wEB1337.net
-  tls: true
-  type: vless
-  udp: false
-  uuid: 4971ac7d-376d-47b9-9b86-83a21adcedc4
-  ws-opts:
-    headers:
-      Host: et3ch-007.zed23.web1337.net
-    path: /wlbywy8cCxbWMJZI
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  mode: ''
-  name: 2|🇩🇪4 |  5.9MB/s
-  network: tcp
-  port: 577
-  reality-opts:
-    public-key: AU2O1no3apJnMhDrfHwDACAwFDo8-DZkCL66AXSRbh8
-    short-id: 9b28132c703433
-  server: 162.55.36.107
-  servername: stackoverflow.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: bf4631cc-27eb-4b8e-ab85-5db1ddab6125
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪5 |  1.7MB/s
-  network: ws
-  port: 443
-  server: 104.21.69.44
-  servername: cr777.medicaldream.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: ccff34b1-44fd-478d-bc0e-5111cb11f5be
-  ws-opts:
-    headers:
-      Host: cr777.medicaldream.ir
-    path: /?ed=2560
-- client-fingerprint: chrome
-  delay: 1744
-  flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0028
-  network: tcp
-  port: 58031
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
 - client-fingerprint: randomized
   flow: ''
   mode: ''
-  name: 2|🇩🇪7 |  1.8MB/s
+  name: 2|🇩🇪4 |  5.1MB/s
+  network: ws
+  port: 8880
+  server: 104.22.32.78
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 8dc5b94a-382f-4d34-b44e-d78ba12aee1a
+  ws-opts:
+    headers:
+      Host: join.vPncustomize.iran.ir.arvancloud.ir.nett.ddns-ip.net.
+    path: /Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY?ed=2048
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2|🇩🇪5 |  5.8MB/s
+  network: ws
+  port: 8880
+  server: 172.67.24.121
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 8dc5b94a-382f-4d34-b44e-d78ba12aee1a
+  ws-opts:
+    headers:
+      Host: join.vPncustomize.iran.ir.arvancloud.ir.nett.ddns-ip.net.
+    path: /Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY?ed=2048
+- client-fingerprint: chrome
+  mode: ''
+  name: 2|🇩🇪6 |  4.7MB/s
   network: ws
   port: 443
-  server: 104.16.189.41
-  servername: cr7.medicalhistory.ir
+  server: mw5.asalemaraghe.ir
+  servername: mw5.asalemaraghe.ir
   tls: true
   type: vless
   udp: false
-  uuid: d6a1143b-cdf0-41f8-a646-bd8f11663786
+  uuid: 944d8b74-7a64-4b07-a278-9f968e9ef99c
   ws-opts:
     headers:
-      Host: cr7.medicalhistory.ir
-    path: /vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl?ed=2560
+      Host: mw5.asalemaraghe.ir
+    path: /
+- name: 2|🇩🇪7 |  1.0MB/s
+  network: ws
+  port: 443
+  server: 108.162.196.159
+  servername: cr7777.rayan.dpdns.org
+  tls: true
+  type: vless
+  uuid: 1688039e-a45f-499e-b9f4-c098c87d3b32
+  ws-opts:
+    headers:
+      Host: cr7777.rayan.dpdns.org
+    path: /?ed=2560flow=-udp443flow=-udp443
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 2|🇩🇪8 |  1.4MB/s
+  name: 2|🇩🇪8 |  5.1MB/s
   network: ws
-  port: 443
-  server: 104.16.187.41
-  servername: cr7.medicalhistory.ir
+  port: 2083
+  server: 104.17.147.22
+  servername: mahdipok.filmekade.site
   tls: true
   type: vless
   udp: false
-  uuid: d6a1143b-cdf0-41f8-a646-bd8f11663786
+  uuid: c0512a6c-e10b-4f18-85c3-3d22a8cfbcfd
   ws-opts:
     headers:
-      Host: cr7.medicalhistory.ir
+      Host: mahdipok.filmekade.site
+    path: /telegram----------------v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---------------v2ryNG01---v2ryNG01--v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01?ed=2048
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 2|🇩🇪9 |  5.6MB/s
+  network: ws
+  port: 443
+  server: 91.107.131.31
+  servername: mw12.asalemaraghe.ir
+  tls: true
+  type: vless
+  udp: false
+  uuid: 6b6e7ff7-02e8-4800-981b-4a61acaa46b2
+  ws-opts:
+    headers:
+      Host: mw12.asalemaraghe.ir
     path: ''
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇩🇪9 |  5.4MB/s
+  name: 2|🇩🇪10 |  4.9MB/s
   network: tcp
-  port: 2078
-  server: 116.203.136.232
+  port: 24917
+  server: 144.76.231.24
   servername: ''
   tls: false
   type: vless
   udp: false
-  uuid: 5528489a-c548-481f-b558-8c7a8a0b6448
+  uuid: 31d1b5d7-67ad-4416-9656-eefe69d679aa
