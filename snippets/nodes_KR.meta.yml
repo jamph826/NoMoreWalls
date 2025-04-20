@@ -1,21 +1,21 @@
 proxies:
-- name: 0|🇰🇷1 |  3.6MB/s
-  network: ws
-  port: 30012
-  server: 118.47.65.248
-  servername: bn.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇰🇷 韩国 01 | 1x KR
+  password: f88b7426-789d-4b3a-b130-3bc8f9f39990
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: bn.ylks0033.dpdns.org
-    path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇰🇷 韩国 02 | 1x KR
+  password: f88b7426-789d-4b3a-b130-3bc8f9f39990
+  port: 36313
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|🇰🇷2 |  3.5MB/s
+  name: 1|🇰🇷1 |  1.1MB/s
   network: tcp
   port: 21082
   reality-opts:
@@ -26,44 +26,16 @@ proxies:
   tls: true
   type: vless
   uuid: e7adaa99-8363-3ec4-b849-307c99005405
-- name: 0|🇰🇷3 |  4.2MB/s
-  network: ws
-  port: 8443
-  server: 158.180.230.4
-  servername: bn.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: bn.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 0|🇰🇷4 |  2.4MB/s
-  network: ws
-  port: 443
-  server: 185.133.35.188
-  servername: bn.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: bn.ylks0033.dpdns.org
-    path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 01 | 1x KR
-  password: cc3deafa-04fc-4cdb-8481-2472427d808f
+  name: 2|🇰🇷韩国 01 | 1x KR
+  password: 0cf78a12-3169-4177-b4fb-4c0853cea3e7
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 02 | 1x KR
-  password: cc3deafa-04fc-4cdb-8481-2472427d808f
+  name: 2|🇰🇷韩国 02 | 1x KR
+  password: 0cf78a12-3169-4177-b4fb-4c0853cea3e7
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
@@ -71,43 +43,29 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇰🇷 韩国|@ripaojiedian
-  port: 17232
-  server: 4924b4e1-sux8g0-sxlqgq-1spnr.cm5.p5pv.com
+  name: 12|🇰🇷 韩国|@ripaojiedian
+  port: 45075
+  server: xdd.dashuai.cyou
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 127e3f92-f714-11ef-bbb0-f23c91cfbbc9
+  uuid: e1936af5-c58e-4c19-a05e-7c264aee49f2
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇰🇷 韩国特殊|@ripaojiedian
+  name: 12|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.202.113.64
+  server: 13.212.117.64
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: 12|韩国|@ripaojiedian
+  name: 13|韩国|@ripaojiedian
   network: tcp
-  port: '17232'
-  server: 4924b4e1-sux8g0-sxlqgq-1spnr.cm5.p5pv.com
+  port: '45075'
+  server: xdd.dashuai.cyou
   servername: ''
   tls: false
   type: vmess
-  uuid: 127e3f92-f714-11ef-bbb0-f23c91cfbbc9
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇰🇷 韩国 01 | 1x KR
-  password: e244f856-d639-492e-bc3b-715c0e967656
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇰🇷 韩国 02 | 1x KR
-  password: e244f856-d639-492e-bc3b-715c0e967656
-  port: 36313
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
+  uuid: e1936af5-c58e-4c19-a05e-7c264aee49f2
