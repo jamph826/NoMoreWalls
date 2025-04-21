@@ -1,28 +1,28 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 01 | 1x TW
-  password: f88b7426-789d-4b3a-b130-3bc8f9f39990
-  port: 36241
-  server: free.2weradf.xyz
+  name: 0|🇹🇼台湾 01 | 1x TW
+  password: 6135d609-2ef4-4ca7-8c40-edf3a1463a40
+  port: 31241
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 02 | 1x TW
-  password: f88b7426-789d-4b3a-b130-3bc8f9f39990
-  port: 36243
-  server: free.2weradf.xyz
+  name: 0|🇹🇼台湾 02 | 1x TW
+  password: 6135d609-2ef4-4ca7-8c40-edf3a1463a40
+  port: 31243
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 03 | 1x TW
-  password: f88b7426-789d-4b3a-b130-3bc8f9f39990
-  port: 36245
-  server: free.2weradf.xyz
+  name: 0|🇹🇼台湾 03 | 1x TW
+  password: 6135d609-2ef4-4ca7-8c40-edf3a1463a40
+  port: 31245
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇹🇼1 |  4.4MB/s
+  name: 1|🇹🇼1 |  6.3MB/s
   network: tcp
   port: 12477
   reality-opts:
@@ -32,50 +32,66 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇹🇼2 |  1.7MB/s
-  network: tcp
-  port: 15700
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 1,14|HK_speednode_0074
-  network: ws
-  port: 443
-  server: 162.247.5.91
-  servername: tw.qhahd.shop
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11|🇹🇼 台湾|@ripaojiedian
+  port: 10546
+  server: xwogpb.cjjvmm.xyz
   skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 94fadaf3-ccd8-4734-b372-8772c9bfd147
-  ws-opts:
-    headers:
-      Host: tw.qhahd.shop
-    path: /bing
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: daa4d73e-aca3-3ef7-a9dd-3a2487fcb38d
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11|🇹🇼 台湾2|@ripaojiedian
+  port: 45285
+  server: 36.150.232.128
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
+- alterId: 0
+  cipher: auto
+  name: 12|台湾|@ripaojiedian
+  network: tcp
+  port: '10546'
+  server: xwogpb.cjjvmm.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: daa4d73e-aca3-3ef7-a9dd-3a2487fcb38d
+- alterId: 0
+  cipher: auto
+  name: 12|台湾2|@ripaojiedian
+  network: tcp
+  port: '45285'
+  server: 36.150.232.128
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 01 | 1x TW
-  password: 0cf78a12-3169-4177-b4fb-4c0853cea3e7
-  port: 31241
-  server: free.2apzhfa.xyz
+  name: 14|🇹🇼 台湾 01 | 1x TW
+  password: 878d8170-6876-4bb5-a8ea-bec6c227b082
+  port: 36241
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 02 | 1x TW
-  password: 0cf78a12-3169-4177-b4fb-4c0853cea3e7
-  port: 31243
-  server: free.2apzhfa.xyz
+  name: 14|🇹🇼 台湾 02 | 1x TW
+  password: 878d8170-6876-4bb5-a8ea-bec6c227b082
+  port: 36243
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 03 | 1x TW
-  password: 0cf78a12-3169-4177-b4fb-4c0853cea3e7
-  port: 31245
-  server: free.2apzhfa.xyz
+  name: 14|🇹🇼 台湾 03 | 1x TW
+  password: 878d8170-6876-4bb5-a8ea-bec6c227b082
+  port: 36245
+  server: free.2weradf.xyz
   type: ss
   udp: true

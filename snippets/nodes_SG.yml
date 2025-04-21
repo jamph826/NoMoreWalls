@@ -1,67 +1,45 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: f88b7426-789d-4b3a-b130-3bc8f9f39990
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: f88b7426-789d-4b3a-b130-3bc8f9f39990
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 03 | 1x SG
-  password: f88b7426-789d-4b3a-b130-3bc8f9f39990
-  port: 36175
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 01 | 1x SG
-  password: 0cf78a12-3169-4177-b4fb-4c0853cea3e7
+  name: 0|🇸🇬新加坡 01 | 1x SG
+  password: 6135d609-2ef4-4ca7-8c40-edf3a1463a40
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 02 | 1x SG
-  password: 0cf78a12-3169-4177-b4fb-4c0853cea3e7
+  name: 0|🇸🇬新加坡 02 | 1x SG
+  password: 6135d609-2ef4-4ca7-8c40-edf3a1463a40
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 03 | 1x SG
-  password: 0cf78a12-3169-4177-b4fb-4c0853cea3e7
+  name: 0|🇸🇬新加坡 03 | 1x SG
+  password: 6135d609-2ef4-4ca7-8c40-edf3a1463a40
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- name: 1|🇸🇬1 |  1.2MB/s
+  password: ae1eadae-43e8-3a6a-b671-bee4229f106e
+  port: 20299
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x299.flybar.work
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 12,13|新加坡|@ripaojiedian
-  network: ws
-  port: '8000'
-  server: v7.nmcf.me
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
+  name: 1|🇸🇬2 |  6.3MB/s
+  port: 17231
+  server: 5c460570-sux8g0-tbfsbm-nde6.cm5.p5pv.com
   tls: false
   type: vmess
-  uuid: 4c7929b7-281f-4d86-ad24-d766904482e6
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /nmkj
+  uuid: b19e8df4-fba9-11ea-9777-f23c9164ca5d
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇸🇬 新加坡2|@ripaojiedian
+  name: 11|🇸🇬 新加坡2|@ripaojiedian
   port: 41902
   server: 183.236.51.38
   skip-cert-verify: false
@@ -71,15 +49,15 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12|🇸🇬 狮城特殊|@ripaojiedian
+  name: 11|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 34.217.76.113
+  server: 13.230.173.71
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|新加坡2|@ripaojiedian
+  name: 12|新加坡2|@ripaojiedian
   network: tcp
   port: '41902'
   server: 183.236.51.38
@@ -87,3 +65,24 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇸🇬 新加坡 01 | 1x SG
+  password: 878d8170-6876-4bb5-a8ea-bec6c227b082
+  port: 36171
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇸🇬 新加坡 02 | 1x SG
+  password: 878d8170-6876-4bb5-a8ea-bec6c227b082
+  port: 36173
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇸🇬 新加坡 03 | 1x SG
+  password: 878d8170-6876-4bb5-a8ea-bec6c227b082
+  port: 36175
+  server: free.2weradf.xyz
+  type: ss
+  udp: true

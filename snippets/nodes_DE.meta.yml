@@ -1,33 +1,40 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪 德国 01 | 1x DE
-  password: f88b7426-789d-4b3a-b130-3bc8f9f39990
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- client-fingerprint: ''
-  flow: ''
-  grpc-opts:
-    grpc-service-name: 17783vless
-  mode: gun
-  name: 1|🇩🇪1 |  3.5MB/s
-  network: grpc
-  port: 1773
-  server: germany.khoreshtsabzi.ir
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 93489dc6-47a3-4532-b050-6fb193b855e9
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇩🇪德国 01 | 1x DE
-  password: 0cf78a12-3169-4177-b4fb-4c0853cea3e7
+  name: 0|🇩🇪德国 01 | 1x DE
+  password: 6135d609-2ef4-4ca7-8c40-edf3a1463a40
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|🇩🇪1 |  5.2MB/s
+  network: tcp
+  port: 58031
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪2 |  5.4MB/s
+  network: ws
+  port: 80
+  server: 199.232.5.140
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: d143c8a9-3e41-4e4b-832b-1eddd02c249b
+  ws-opts:
+    headers:
+      Host: Telegram-VPNCUSTOMIZE-VPNCUSTOMIZE.ir
+    path: /Channel----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE?ed=2048
+- name: 9|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
   obfs: salamander
   obfs-password: tel:@VPNHubMaRKeT
   password: VPNHubMaRKeT
@@ -36,11 +43,10 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 14|DE_speednode_0069
-  port: 48160
-  server: 3.68.116.86
-  skip-cert-verify: false
-  tls: false
-  type: vless
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇩🇪 德国 01 | 1x DE
+  password: 878d8170-6876-4bb5-a8ea-bec6c227b082
+  port: 36471
+  server: free.2weradf.xyz
+  type: ss
   udp: true
-  uuid: 09e17c97-7f45-4600-a8a8-c3fa76743fa6
