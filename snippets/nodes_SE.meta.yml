@@ -1,1 +1,17 @@
-proxies: []
+proxies:
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🌀8-SE |  5.1MB/s
+  network: ws
+  port: 80
+  server: 45.131.4.4
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: digitalscientificresearchgroup.ir
+    path: /Telegram🇨🇳@WangCai2

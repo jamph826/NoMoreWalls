@@ -1,40 +1,340 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪德国 01 | 1x DE
-  password: 6135d609-2ef4-4ca7-8c40-edf3a1463a40
+  password: 76750bc2-508f-4b7a-aa55-7495fcf36e7e
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇩🇪1 |  5.2MB/s
+  mode: ''
+  name: 1|🇩🇪1 |  5.4MB/s
   network: tcp
-  port: 58031
+  port: 443
   reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.yahoo.com
+    public-key: lyLhdojpACv6B3tHViJvPjNGATedXYRMnpAt4n4Siyo
+    short-id: f203719d3ff9a5f5
+  server: 45.150.174.85
+  servername: maviks.eu
   tls: true
   type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: ''
+  udp: false
+  uuid: c8898cfd-9927-4f36-b7bc-40de76076b80
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  mode: ''
+  name: 1|🇩🇪2 |  5.2MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: lyLhdojpACv6B3tHViJvPjNGATedXYRMnpAt4n4Siyo
+    short-id: f203719d3ff9a5f5
+  server: nodes.maviks.eu
+  servername: maviks.eu
+  tls: true
+  type: vless
+  udp: false
+  uuid: c8898cfd-9927-4f36-b7bc-40de76076b80
+- client-fingerprint: randomized
   flow: ''
   mode: ''
-  name: 1|🇩🇪2 |  5.4MB/s
+  name: 1|🇩🇪3 |  6.3MB/s
   network: ws
-  port: 80
-  server: 199.232.5.140
+  port: 8880
+  server: 104.17.148.22
   servername: ''
   tls: false
   type: vless
   udp: false
-  uuid: d143c8a9-3e41-4e4b-832b-1eddd02c249b
+  uuid: 5220caa6-ad6c-40bc-b98b-9d79d3b5bf84
   ws-opts:
     headers:
-      Host: Telegram-VPNCUSTOMIZE-VPNCUSTOMIZE.ir
+      Host: join.VPNCUSTOMIZE.iran.ir.arvancloud.ir.nett.ddns-ip.net.
     path: /Channel----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE?ed=2048
-- name: 9|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  mode: ''
+  name: 1|🇩🇪4 |  2.6MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: lyLhdojpACv6B3tHViJvPjNGATedXYRMnpAt4n4Siyo
+    short-id: f203719d3ff9a5f5
+  server: 45.150.174.86
+  servername: maviks.eu
+  tls: true
+  type: vless
+  udp: false
+  uuid: c8898cfd-9927-4f36-b7bc-40de76076b80
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  mode: ''
+  name: 1|🇩🇪5 |  5.4MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: lyLhdojpACv6B3tHViJvPjNGATedXYRMnpAt4n4Siyo
+    short-id: f203719d3ff9a5f5
+  server: 45.150.174.80
+  servername: maviks.eu
+  tls: true
+  type: vless
+  udp: false
+  uuid: c8898cfd-9927-4f36-b7bc-40de76076b80
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪6 |  1.1MB/s
+  network: ws
+  port: 80
+  server: 45.159.218.180
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: digitalscientificresearchgroup.ir
+    path: /TM@Azarbayjab1?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  mode: ''
+  name: 1|🇩🇪8 |  5.4MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: lyLhdojpACv6B3tHViJvPjNGATedXYRMnpAt4n4Siyo
+    short-id: f203719d3ff9a5f5
+  server: 91.238.82.242
+  servername: maviks.eu
+  tls: true
+  type: vless
+  udp: false
+  uuid: c8898cfd-9927-4f36-b7bc-40de76076b80
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪9 |  5.4MB/s
+  network: ws
+  port: 443
+  server: 64.176.42.6
+  servername: photosair.ir
+  tls: true
+  type: vless
+  udp: false
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: photosair.ir
+    path: /bing
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  mode: ''
+  name: 1|🇩🇪10 |  5.3MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: lyLhdojpACv6B3tHViJvPjNGATedXYRMnpAt4n4Siyo
+    short-id: f203719d3ff9a5f5
+  server: 91.238.82.241
+  servername: maviks.eu
+  tls: true
+  type: vless
+  udp: false
+  uuid: c8898cfd-9927-4f36-b7bc-40de76076b80
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  mode: ''
+  name: 1|🇩🇪11 |  5.4MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: lyLhdojpACv6B3tHViJvPjNGATedXYRMnpAt4n4Siyo
+    short-id: f203719d3ff9a5f5
+  server: 45.150.174.82
+  servername: maviks.eu
+  tls: true
+  type: vless
+  udp: false
+  uuid: c8898cfd-9927-4f36-b7bc-40de76076b80
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪12 |  2.8MB/s
+  network: ws
+  port: 50004
+  server: 39.116.19.171
+  servername: photosair.ir
+  tls: true
+  type: vless
+  udp: false
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: photosair.ir
+    path: /bing
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  mode: ''
+  name: 1|🇩🇪13 |  5.3MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: lyLhdojpACv6B3tHViJvPjNGATedXYRMnpAt4n4Siyo
+    short-id: f203719d3ff9a5f5
+  server: 45.150.174.83
+  servername: maviks.eu
+  tls: true
+  type: vless
+  udp: false
+  uuid: c8898cfd-9927-4f36-b7bc-40de76076b80
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  mode: ''
+  name: 1|🇩🇪14 |  5.4MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: lyLhdojpACv6B3tHViJvPjNGATedXYRMnpAt4n4Siyo
+    short-id: f203719d3ff9a5f5
+  server: 91.238.82.243
+  servername: maviks.eu
+  tls: true
+  type: vless
+  udp: false
+  uuid: c8898cfd-9927-4f36-b7bc-40de76076b80
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  mode: ''
+  name: 1|🇩🇪15 |  5.3MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: lyLhdojpACv6B3tHViJvPjNGATedXYRMnpAt4n4Siyo
+    short-id: f203719d3ff9a5f5
+  server: 91.238.82.240
+  servername: maviks.eu
+  tls: true
+  type: vless
+  udp: false
+  uuid: c8898cfd-9927-4f36-b7bc-40de76076b80
+- client-fingerprint: ''
+  delay: 863
+  flow: ''
+  mode: ''
+  name: 1,14|NL_speednode_0039
+  network: ws
+  port: 80
+  server: 45.131.5.233
+  servername: digitalscientificresearchgroup.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: digitalscientificresearchgroup.ir
+    path: /Telegram🇨🇳@WangCai2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  mode: ''
+  name: 1|🇩🇪17 |  5.3MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: lyLhdojpACv6B3tHViJvPjNGATedXYRMnpAt4n4Siyo
+    short-id: f203719d3ff9a5f5
+  server: 45.150.174.87
+  servername: maviks.eu
+  tls: true
+  type: vless
+  udp: false
+  uuid: c8898cfd-9927-4f36-b7bc-40de76076b80
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1,14|NL_speednode_0035
+  network: ws
+  port: 80
+  server: 45.131.4.194
+  servername: digitalscientificresearchgroup.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: digitalscientificresearchgroup.ir
+    path: /Telegram🇨🇳@WangCai2
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪19 |  1.3MB/s
+  network: ws
+  port: 80
+  server: 45.131.211.175
+  servername: digitalscientificresearchgroup.ir
+  tls: false
+  type: vless
+  udp: false
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: digitalscientificresearchgroup.ir
+    path: Telegram🇨🇳@WangCai2/?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  mode: ''
+  name: 1|🇩🇪20 |  5.2MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: lyLhdojpACv6B3tHViJvPjNGATedXYRMnpAt4n4Siyo
+    short-id: f203719d3ff9a5f5
+  server: 45.150.174.81
+  servername: maviks.eu
+  tls: true
+  type: vless
+  udp: false
+  uuid: c8898cfd-9927-4f36-b7bc-40de76076b80
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪21 |  3.6MB/s
+  network: ws
+  port: 39731
+  server: 119.199.206.40
+  servername: photosair.ir
+  tls: true
+  type: vless
+  udp: false
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: photosair.ir
+    path: /bing
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇩🇪 德国 01 | 1x DE
+  password: d248daec-32d6-4ebd-9e50-b169ffe1c483
+  port: 36471
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- alpn:
+  - h3
+  name: 10|🇩🇪@𝗦𝗶𝗡𝗔𝗩𝗠👈کانال تلگرام
+  obfs: salamander
+  obfs-password: SiNAVM-SiNAVM-SiNAVM-@SiNAVM-@SiNAVM
+  password: Bia-SiNAVM-Telegram-SiNAVM-Bia-SiNAVM
+  port: 443
+  server: sinavm.soft10.ir
+  tls: false
+  type: hysteria2
+- name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
   obfs: salamander
   obfs-password: tel:@VPNHubMaRKeT
   password: VPNHubMaRKeT
@@ -43,10 +343,3 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇩🇪 德国 01 | 1x DE
-  password: 878d8170-6876-4bb5-a8ea-bec6c227b082
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
-  udp: true

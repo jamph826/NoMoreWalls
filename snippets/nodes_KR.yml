@@ -1,73 +1,36 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 01 | 1x KR
-  password: 6135d609-2ef4-4ca7-8c40-edf3a1463a40
+  password: 76750bc2-508f-4b7a-aa55-7495fcf36e7e
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 02 | 1x KR
-  password: 6135d609-2ef4-4ca7-8c40-edf3a1463a40
+  password: 76750bc2-508f-4b7a-aa55-7495fcf36e7e
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 11|🇰🇷 韩国|@ripaojiedian
-  password: '!!str 1234'
-  port: 1234
-  server: 3.36.57.145
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 11|🇰🇷 韩国2|@ripaojiedian
-  password: '!!str 1234'
-  port: 1234
-  server: 13.125.129.4
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11|🇰🇷 韩国3|@ripaojiedian
-  port: 45075
-  server: xdd.dashuai.cyou
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 1e4b5958-8f5b-4a7e-9045-66120ce7614e
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇰🇷 韩国特殊|@ripaojiedian
+  name: 1,12|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.250.244.203
+  server: 43.203.202.53
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 12|韩国3|@ripaojiedian
-  network: tcp
-  port: '45075'
-  server: xdd.dashuai.cyou
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1e4b5958-8f5b-4a7e-9045-66120ce7614e
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇰🇷 韩国 01 | 1x KR
-  password: 878d8170-6876-4bb5-a8ea-bec6c227b082
+  name: 2|🇰🇷 韩国 01 | 1x KR
+  password: d248daec-32d6-4ebd-9e50-b169ffe1c483
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇰🇷 韩国 02 | 1x KR
-  password: 878d8170-6876-4bb5-a8ea-bec6c227b082
+  name: 2|🇰🇷 韩国 02 | 1x KR
+  password: d248daec-32d6-4ebd-9e50-b169ffe1c483
   port: 36313
   server: free.2weradf.xyz
   type: ss
