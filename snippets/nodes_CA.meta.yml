@@ -1,45 +1,35 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇨🇦加拿大 01 | 1x CA
-  password: 76750bc2-508f-4b7a-aa55-7495fcf36e7e
+  password: 7cee0abb-3087-4d72-9560-67946f6fc808
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 1|🇨🇦1 |  4.2MB/s
-  network: ws
-  port: 2096
-  server: whatismyipaddress.com
-  servername: wwwspeedtestnetwhiteberinsistomd6625996s28.sabzmaghz.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: e88187f8-62a3-4de1-a8f6-3b704ebd1865
-  ws-opts:
-    headers:
-      Host: wwwspeedtestnetwhiteberinsistomd6625996s28.sabzmaghz.ir
-    path: ''
+- auth: cfe032e4-1bc3-454f-9d09-301b0aea08ff
+  client-fingerprint: chrome
+  name: 1|🇨🇦1 |  2.6MB/s
+  password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
+  port: 45979
+  server: 132.145.108.102
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1,14|CA_speednode_0001
+  name: 1|🇨🇦2 |  1.4MB/s
   network: tcp
-  port: 42557
+  port: 16011
   reality-opts:
-    public-key: LiHpb4jWrgHBSpi1mjKH3I8m2ahpVNexeNDh-sMW3Xo
-    short-id: f430927d
-  server: 155.248.219.28
-  servername: www.yahoo.com
-  skip-cert-verify: false
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: gysz0000.dynu.net
+  servername: www.amazon.com
   tls: true
   type: vless
-  udp: true
-  uuid: 2429bee3-e0c1-47dd-b420-75e6512b184b
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - cipher: chacha20-ietf-poly1305
   name: 2|🇨🇦 加拿大 01 | 1x CA
-  password: d248daec-32d6-4ebd-9e50-b169ffe1c483
+  password: ffff965c-344f-45ae-8d9c-48866d4d0e4f
   port: 36441
   server: free.2weradf.xyz
   type: ss
