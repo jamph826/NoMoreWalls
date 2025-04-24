@@ -1,21 +1,57 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 01 | 1x KR
-  password: 7cee0abb-3087-4d72-9560-67946f6fc808
+  password: 66bee857-547f-4e8b-8847-79c2b352b626
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 02 | 1x KR
-  password: 7cee0abb-3087-4d72-9560-67946f6fc808
+  password: 66bee857-547f-4e8b-8847-79c2b352b626
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷 韩国 01 | 1x KR
+  password: 3f379b45-a5fd-43fb-a0d8-149c6cdb31b8
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷 韩国 02 | 1x KR
+  password: 3f379b45-a5fd-43fb-a0d8-149c6cdb31b8
+  port: 36313
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- alterId: '0'
+  cipher: auto
+  name: 2|🇰🇷1 |  1.1MB/s
+  network: tcp
+  port: '17232'
+  server: 33e096fb-sva740-sxnljm-1jr1u.cm5.p5pv.com
+  type: vmess
+  uuid: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
+- name: 2|🇰🇷2 |  3.2MB/s
+  network: ws
+  port: 443
+  server: rustam.ns.cloudflare.com
+  servername: sv.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: sv.ylka.dpdns.org
+    path: /?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇰🇷1 |  1.5MB/s
+  name: 2|🇰🇷3 |  1.2MB/s
   network: tcp
   port: 21082
   reality-opts:
@@ -26,69 +62,62 @@ proxies:
   tls: true
   type: vless
   uuid: e7adaa99-8363-3ec4-b849-307c99005405
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇰🇷 韩国 01 | 1x KR
-  password: ffff965c-344f-45ae-8d9c-48866d4d0e4f
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
+- name: 2|🇰🇷4 |  3.1MB/s
+  network: ws
+  port: 443
+  server: 160.79.105.203
+  servername: sv.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇰🇷 韩国 02 | 1x KR
-  password: ffff965c-344f-45ae-8d9c-48866d4d0e4f
-  port: 36313
-  server: free.2weradf.xyz
-  type: ss
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: sv.ylka.dpdns.org
+    path: /?ed=2560
+- name: 2|🇰🇷5 |  1.5MB/s
+  network: ws
+  port: 443
+  server: moura.ns.cloudflare.com
+  servername: sv.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
   udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: sv.ylka.dpdns.org
+    path: /?ed=2560
+- name: 2|🇰🇷6 |  1.0MB/s
+  network: ws
+  port: 443
+  server: 192.18.130.65
+  servername: sv.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: sv.ylka.dpdns.org
+    path: /?ed=2560
 - client-fingerprint: chrome
   name: 12,13|韩国|@ripaojiedian
   network: tcp
-  password: 8e603038-3713-4c74-9b9c-43ad4cc15650
+  password: 74fa3b6c-e333-49f4-ab15-9549fc53cf42
   port: 46668
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 12|🇰🇷 韩国2|@ripaojiedian
-  port: 17232
-  server: afc8577f-svc1s0-tc67m2-1tjc4.cm5.p5pv.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: fac704ae-0304-11f0-a2ef-f23c91cfbbc9
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 12|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 18.142.242.5
+  server: 54.180.243.85
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|韩国2|@ripaojiedian
-  network: tcp
-  port: '17232'
-  server: afc8577f-svc1s0-tc67m2-1tjc4.cm5.p5pv.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: fac704ae-0304-11f0-a2ef-f23c91cfbbc9
-- name: 14|KR_speednode_0066
-  network: ws
-  port: 10397
-  server: 59.23.155.196
-  servername: edcca.ambercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edcca.ambercc.filegear-sg.me
-    path: /?ed=2560

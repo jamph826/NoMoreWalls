@@ -1,35 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇨🇦加拿大 01 | 1x CA
-  password: 7cee0abb-3087-4d72-9560-67946f6fc808
+  password: 66bee857-547f-4e8b-8847-79c2b352b626
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- auth: cfe032e4-1bc3-454f-9d09-301b0aea08ff
-  client-fingerprint: chrome
-  name: 1|🇨🇦1 |  2.6MB/s
-  password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
-  port: 45979
-  server: 132.145.108.102
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇨🇦2 |  1.4MB/s
-  network: tcp
-  port: 16011
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: gysz0000.dynu.net
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇨🇦 加拿大 01 | 1x CA
-  password: ffff965c-344f-45ae-8d9c-48866d4d0e4f
+  name: 1|🇨🇦 加拿大 01 | 1x CA
+  password: 3f379b45-a5fd-43fb-a0d8-149c6cdb31b8
   port: 36441
   server: free.2weradf.xyz
   type: ss
