@@ -1,44 +1,50 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 01 | 1x SG
-  password: 66bee857-547f-4e8b-8847-79c2b352b626
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 02 | 1x SG
-  password: 66bee857-547f-4e8b-8847-79c2b352b626
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 03 | 1x SG
-  password: 66bee857-547f-4e8b-8847-79c2b352b626
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 01 | 1x SG
-  password: 3f379b45-a5fd-43fb-a0d8-149c6cdb31b8
+  name: 0|🇸🇬 新加坡 01 | 1x SG
+  password: 522016d2-1abd-4fb5-8c05-ba5d1a25a9e0
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 02 | 1x SG
-  password: 3f379b45-a5fd-43fb-a0d8-149c6cdb31b8
+  name: 0|🇸🇬 新加坡 02 | 1x SG
+  password: 522016d2-1abd-4fb5-8c05-ba5d1a25a9e0
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 03 | 1x SG
-  password: 3f379b45-a5fd-43fb-a0d8-149c6cdb31b8
+  name: 0|🇸🇬 新加坡 03 | 1x SG
+  password: 522016d2-1abd-4fb5-8c05-ba5d1a25a9e0
   port: 36175
   server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 1|🇸🇬7 |  6.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.251.144.227
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬新加坡 01 | 1x SG
+  password: 388f48e6-0b02-46c7-bea2-2f66b1f7e858
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬新加坡 02 | 1x SG
+  password: 388f48e6-0b02-46c7-bea2-2f66b1f7e858
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬新加坡 03 | 1x SG
+  password: 388f48e6-0b02-46c7-bea2-2f66b1f7e858
+  port: 31175
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - alterId: 2
@@ -58,15 +64,23 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- client-fingerprint: chrome
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
   name: 12,13|新加坡2|@ripaojiedian
-  network: tcp
-  password: 64abf593-eeb7-4785-9323-d6f40e9a79d4
-  port: 27401
-  server: 183.2.150.64
+  network: ws
+  port: '16618'
+  server: t.cnmjcn.cyou
+  servername: ''
   skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: f197ce3e-1819-4383-9fd3-538f67f468f9
+  ws-opts:
+    headers:
+      Host: 29e93b27f148c30de05ffa9b65b7201c.mobgslb.tbcache.com
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -78,12 +92,23 @@ proxies:
   tls: false
   type: vmess
   uuid: 85d450b2-1c2b-11f0-8a7b-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 12|🇸🇬 新加坡4|@ripaojiedian
+  port: 4135
+  server: 180e94b7-sv59c0-t6vkd1-6tmd.d.volczijie.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: d385d6b2-cc15-11ee-89bc-f23c93141fad
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 12|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 43.207.139.84
+  server: 44.247.228.17
   tfo: false
   type: ss
 - alterId: 0
@@ -96,11 +121,13 @@ proxies:
   tls: false
   type: vmess
   uuid: 85d450b2-1c2b-11f0-8a7b-f23c913c8d2b
-- name: 14|SG_speednode_0051
-  password: '!!str 3828095943467868160'
-  port: 443
-  server: stable-labrador.dolphin109.quest
-  skip-cert-verify: true
-  sni: stable-labrador.dolphin109.quest
-  type: trojan
-  udp: true
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡4|@ripaojiedian
+  network: tcp
+  port: '4135'
+  server: 180e94b7-sv59c0-t6vkd1-6tmd.d.volczijie.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d385d6b2-cc15-11ee-89bc-f23c93141fad
