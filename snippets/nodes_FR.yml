@@ -1,15 +1,16 @@
 proxies:
-- allowInsecure: ''
-  name: 1|🇫🇷2 |  6.0MB/s
+- alterId: 0
+  cipher: auto
+  name: 1|🇫🇷4 |  1.3MB/s
   network: ws
-  password: redfree8
   port: 443
-  server: 104.17.147.22
+  server: 8.219.206.22
+  servername: beyonddsz.cfd
   skip-cert-verify: false
-  sni: ipsychO.SUEx12.Ir
   tls: true
-  type: trojan
+  type: vmess
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
   ws-opts:
     headers:
-      Host: ipsycho.suex12.ir
-    path: /trre5IzbZ9IZZMddtw?ed=2560
+      Host: beyonddsz.cfd
+    path: /linkws
