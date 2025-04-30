@@ -1,35 +1,97 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 01 | 1x KR
-  password: 3c0b200f-f383-4659-a856-42112f4cc578
-  port: 31311
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 02 | 1x KR
-  password: 3c0b200f-f383-4659-a856-42112f4cc578
-  port: 31313
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷 韩国 01 | 1x KR
-  password: af4799d7-ae8d-4562-8a46-2348841d23f5
+  name: 0|🇰🇷 韩国 01 | 1x KR
+  password: c8de4aca-79cb-41b0-a683-e49327d745f1
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷 韩国 02 | 1x KR
-  password: af4799d7-ae8d-4562-8a46-2348841d23f5
+  name: 0|🇰🇷 韩国 02 | 1x KR
+  password: c8de4aca-79cb-41b0-a683-e49327d745f1
   port: 36313
   server: free.2weradf.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷韩国 01 | 1x KR
+  password: 53efd6d3-5ce8-4ca4-8be5-9546d43bbd00
+  port: 31311
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷韩国 02 | 1x KR
+  password: 53efd6d3-5ce8-4ca4-8be5-9546d43bbd00
+  port: 31313
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- name: 2|🇰🇷1 |  2.7MB/s
+  network: ws
+  port: 443
+  server: 185.133.35.60
+  servername: hj.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: hj.ylka.dpdns.org
+    path: /?ed=2560
+- name: 2|🇰🇷2 |  2.7MB/s
+  network: ws
+  port: 443
+  server: 160.79.104.55
+  servername: hj.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: hj.ylka.dpdns.org
+    path: /?ed=2560
+- name: 2|🇰🇷3 |  5.8MB/s
+  network: ws
+  port: 5006
+  server: 45.154.98.99
+  servername: hj.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: hj.ylka.dpdns.org
+    path: /?ed=2560
+- cipher: aes-256-cfb
+  delay: 772
+  name: 2|🇰🇷4 |  5.7MB/s
+  password: qwerREWQ@@
+  port: 4857
+  server: 125.141.26.12
+  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇰🇷5 |  1.7MB/s
+  network: tcp
+  port: 21082
+  reality-opts:
+    public-key: tf7ZDGaue4C43MM0ECIfjOS-0kk7XMSqfnaSY4Er5Fc
+    short-id: 758719a6080f2767
+  server: tw-ty-line1-2-2.sudatech.store
+  servername: learn.microsoft.com
+  tls: true
+  type: vless
+  uuid: e7adaa99-8363-3ec4-b849-307c99005405
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 2|🇰🇷1 |  3.9MB/s
+  name: 2|🇰🇷6 |  5.8MB/s
   password: qwerREWQ@@
   port: 63648
   server: p228.panda004.net
@@ -37,63 +99,25 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 2|🇰🇷2 |  2.1MB/s
-  password: qwerREWQ@@
-  port: 63648
-  server: 125.141.26.15
-  type: ss
-- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 2|🇰🇷3 |  3.4MB/s
-  password: qwerREWQ@@
-  port: 3886
-  server: p241.panda004.net
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 2|🇰🇷4 |  2.4MB/s
-  password: qwerREWQ@@
-  port: 30454
-  server: p229.panda004.net
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 2|🇰🇷5 |  5.1MB/s
-  password: qwerREWQ@@
-  port: 15098
-  server: 125.141.31.72
-  type: ss
-- cipher: aes-256-cfb
-  name: 2|🇰🇷6 |  3.0MB/s
-  password: qwerREWQ@@
-  port: 60125
-  server: p225.panda004.net
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 12,13|韩国|@ripaojiedian
-  network: ws
-  port: '443'
-  server: cg1c16.waimaoglobaldirect.cc
-  servername: cg1c16.waimaoglobaldirect.cc
-  skip-cert-verify: false
+  name: 12|🇰🇷 韩国特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.113.222.121
   tfo: false
+  type: ss
+- client-fingerprint: random
+  name: 14|KR_speednode_0034
+  network: ws
+  port: 58474
+  server: 152.70.232.251
+  servername: chou3.pages.dev
+  skip-cert-verify: false
   tls: true
-  type: vmess
-  uuid: 3493e94c-1769-43d8-8308-f87b460adc65
+  type: vless
+  udp: true
+  uuid: 0c561336-b0c7-4b18-96d1-863240a224ab
   ws-opts:
     headers:
-      Host: cg1c16.waimaoglobaldirect.cc
-    path: /api/v1/graphql
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 12|🇰🇷 韩国2|@ripaojiedian
-  password: qwerREWQ@@
-  port: 4857
-  server: 125.141.26.12
-  tfo: false
-  type: ss
+      Host: chou3.pages.dev
+    path: /?ed=2560
