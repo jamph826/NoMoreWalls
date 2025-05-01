@@ -1,84 +1,36 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷 韩国 01 | 1x KR
-  password: c8de4aca-79cb-41b0-a683-e49327d745f1
+  password: 27cb23ff-2f6b-4caf-8938-b1b8b0276e25
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷 韩国 02 | 1x KR
-  password: c8de4aca-79cb-41b0-a683-e49327d745f1
+  password: 27cb23ff-2f6b-4caf-8938-b1b8b0276e25
   port: 36313
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇰🇷韩国 01 | 1x KR
-  password: 53efd6d3-5ce8-4ca4-8be5-9546d43bbd00
+  password: c1da87bd-0f59-4f55-bae0-33b8196fd574
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇰🇷韩国 02 | 1x KR
-  password: 53efd6d3-5ce8-4ca4-8be5-9546d43bbd00
+  password: c1da87bd-0f59-4f55-bae0-33b8196fd574
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 2|🇰🇷1 |  2.7MB/s
-  network: ws
-  port: 443
-  server: 185.133.35.60
-  servername: hj.ylka.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hj.ylka.dpdns.org
-    path: /?ed=2560
-- name: 2|🇰🇷2 |  2.7MB/s
-  network: ws
-  port: 443
-  server: 160.79.104.55
-  servername: hj.ylka.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hj.ylka.dpdns.org
-    path: /?ed=2560
-- name: 2|🇰🇷3 |  5.8MB/s
-  network: ws
-  port: 5006
-  server: 45.154.98.99
-  servername: hj.ylka.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: hj.ylka.dpdns.org
-    path: /?ed=2560
-- cipher: aes-256-cfb
-  delay: 772
-  name: 2|🇰🇷4 |  5.7MB/s
-  password: qwerREWQ@@
-  port: 4857
-  server: 125.141.26.12
-  type: ss
-- client-fingerprint: chrome
+- client-fingerprint: random
+  delay: 1830
   flow: xtls-rprx-vision
-  name: 2|🇰🇷5 |  1.7MB/s
+  name: 2|🇰🇷1 |  1.7MB/s
   network: tcp
   port: 21082
   reality-opts:
@@ -86,24 +38,55 @@ proxies:
     short-id: 758719a6080f2767
   server: tw-ty-line1-2-2.sudatech.store
   servername: learn.microsoft.com
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: e7adaa99-8363-3ec4-b849-307c99005405
-- cipher: aes-256-cfb
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 2|🇰🇷6 |  5.8MB/s
-  password: qwerREWQ@@
-  port: 63648
-  server: p228.panda004.net
-  tfo: true
-  type: ss
+  name: 2|🇰🇷2 |  1.6MB/s
+  port: 17232
+  server: 4924b4e1-sux8g0-sxlqgq-1spnr.cm5.p5pv.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 127e3f92-f714-11ef-bbb0-f23c91cfbbc9
+- name: 2|🇰🇷3 |  5.6MB/s
+  network: ws
+  port: 443
+  server: 160.123.255.247
+  servername: cz.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
   udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cz.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 2|🇰🇷4 |  2.7MB/s
+  network: ws
+  port: 443
+  server: 135.84.76.115
+  servername: cz.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cz.ylks0033.dpdns.org
+    path: /?ed=2560
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 12|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.113.222.121
+  server: 54.251.192.191
   tfo: false
   type: ss
 - client-fingerprint: random
