@@ -1,28 +1,49 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 01 | 1x TW
-  password: 6c2bf857-4a26-4af9-8370-13536c6fd7c8
+  name: 0|🇹🇼台湾 01 | 1x TW
+  password: 4ebffad7-7ba0-4d74-9400-8623fa196f84
+  port: 31241
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇹🇼台湾 02 | 1x TW
+  password: 4ebffad7-7ba0-4d74-9400-8623fa196f84
+  port: 31243
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇹🇼台湾 03 | 1x TW
+  password: 4ebffad7-7ba0-4d74-9400-8623fa196f84
+  port: 31245
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼 台湾 01 | 1x TW
+  password: ba305623-e83d-40c1-9da4-bd5fd6a23af5
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 02 | 1x TW
-  password: 6c2bf857-4a26-4af9-8370-13536c6fd7c8
+  name: 1|🇹🇼 台湾 02 | 1x TW
+  password: ba305623-e83d-40c1-9da4-bd5fd6a23af5
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 03 | 1x TW
-  password: 6c2bf857-4a26-4af9-8370-13536c6fd7c8
+  name: 1|🇹🇼 台湾 03 | 1x TW
+  password: ba305623-e83d-40c1-9da4-bd5fd6a23af5
   port: 36245
   server: free.2weradf.xyz
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 1|🇹🇼2 |  5.1MB/s
+  name: 2|🇹🇼2 |  5.1MB/s
   network: tcp
   port: 3687
   server: 1cea2198-sukw00-sv3y7m-1glq.a.fosant.com
@@ -33,27 +54,6 @@ proxies:
   ws-headers:
     Host: 1cea2198-sukw00-sv3y7m-1glq.a.fosant.com
   ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 01 | 1x TW
-  password: b370ef3a-79f6-4325-bf14-0ca19df347ef
-  port: 31241
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 02 | 1x TW
-  password: b370ef3a-79f6-4325-bf14-0ca19df347ef
-  port: 31243
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 03 | 1x TW
-  password: b370ef3a-79f6-4325-bf14-0ca19df347ef
-  port: 31245
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -65,15 +65,6 @@ proxies:
   tls: false
   type: vmess
   uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad
-- client-fingerprint: chrome
-  name: 12,13|台湾2|@ripaojiedian
-  network: tcp
-  password: a35b44a9-d941-4c1d-96ac-7a9f6607edb7
-  port: 27201
-  server: 58.254.186.222
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 13|台湾|@ripaojiedian
