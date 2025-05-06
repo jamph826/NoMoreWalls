@@ -1,22 +1,35 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇷🇺 俄罗斯 01 | 1x RU
-  password: 9aca8edf-1140-4a27-9520-b507789fb7cc
+  password: 3cd4863f-f50f-4d01-aba9-f942a1182ab1
   port: 36511
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 1|🇷🇺3 |  4.3MB/s
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇷🇺俄罗斯 01 | 1x RU
+  password: 7f983335-0887-4a1f-b202-97983a42a9fb
+  port: 31511
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- name: 2|🇷🇺3 |  4.3MB/s
   password: 3ffa664f-364a-4937-a314-1d9f02ad8458
   port: 32008
   server: lbso.bnnodeservice.com
   skip-cert-verify: false
   sni: cert.bitbyte.one
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇷🇺俄罗斯 01 | 1x RU
-  password: d90e882a-6769-4639-bb69-a9960628453a
-  port: 31511
-  server: free.2apzhfa.xyz
-  type: ss
+- name: 14|RU_speednode_0054
+  network: ws
+  password: Aimer
+  port: 443
+  server: 5.182.85.28
+  skip-cert-verify: true
+  sni: epccg.ambercc.filegear-sg.me
+  type: trojan
   udp: true
+  ws-opts:
+    headers:
+      Host: epccg.ambercc.filegear-sg.me
+    path: /?ed=2560
