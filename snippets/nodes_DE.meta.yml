@@ -1,50 +1,15 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪 德国 01 | 1x DE
-  password: 3cd4863f-f50f-4d01-aba9-f942a1182ab1
+  password: db9712c9-f68c-4807-8834-69357903932b
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪德国 01 | 1x DE
-  password: 7f983335-0887-4a1f-b202-97983a42a9fb
+  name: 2|🇩🇪德国 01 | 1x DE
+  password: 02794466-fe1e-4341-a710-b62a80c353b9
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  mode: ''
-  name: 2|🇩🇪1 |  4.2MB/s
-  network: ''
-  port: 443
-  server: 204.10.194.78
-  servername: yfnl1.xn--4gq62f52gppi29k.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: 7a12ccb8-c431-4cc0-ace9-a994cc4b2ca7
-- name: 14|DE_speednode_0026
-  port: 443
-  server: 129.159.241.172
-  servername: 147135004002.sec20org.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 54694a33-a8dc-47dd-bc38-acd3971e0055
-- name: 14|DE_speednode_0027
-  network: ws
-  port: 2052
-  server: 45.80.111.10
-  servername: sPeedtest2.sbs.br.vless.sitespeedtest.net
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 45f01712-2893-53e3-8e6a-6b7c925021da
-  ws-opts:
-    headers:
-      Host: sPeedtest2.sbs.br.vless.sitespeedtest.net
-    path: /vless#@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL
