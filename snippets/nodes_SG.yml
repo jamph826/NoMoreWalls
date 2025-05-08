@@ -1,35 +1,35 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: db9712c9-f68c-4807-8834-69357903932b
+  password: e6889edb-46fb-4910-a9db-1158e1a4c22b
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: db9712c9-f68c-4807-8834-69357903932b
+  password: e6889edb-46fb-4910-a9db-1158e1a4c22b
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 01 | 1x SG
-  password: 02794466-fe1e-4341-a710-b62a80c353b9
+  name: 1|🇸🇬新加坡 01 | 1x SG
+  password: 5dc8485e-4179-4e1d-ba04-9d0ce4c40306
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 02 | 1x SG
-  password: 02794466-fe1e-4341-a710-b62a80c353b9
+  name: 1|🇸🇬新加坡 02 | 1x SG
+  password: 5dc8485e-4179-4e1d-ba04-9d0ce4c40306
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 03 | 1x SG
-  password: 02794466-fe1e-4341-a710-b62a80c353b9
+  name: 1|🇸🇬新加坡 03 | 1x SG
+  password: 5dc8485e-4179-4e1d-ba04-9d0ce4c40306
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
@@ -51,14 +51,23 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
+- client-fingerprint: chrome
+  name: 12,13|新加坡2|@ripaojiedian
+  network: tcp
+  password: ce44b416-2d7e-49af-aa40-5a61d45f6fcc
+  port: 27401
+  server: 58.254.186.222
+  skip-cert-verify: false
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|新加坡2|@ripaojiedian
+  name: 12,13|新加坡3|@ripaojiedian
   network: ws
-  port: '35111'
-  server: sg1.g2.moonbase.life
-  servername: sg1.g2.moonbase.life
+  port: '35146'
+  server: sg6.vip2.g2.moonbase.life
+  servername: web.xcjs.info
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -66,13 +75,13 @@ proxies:
   uuid: c3136814-a07e-41f6-ad94-8e20458c0d21
   ws-opts:
     headers:
-      Host: sg1.g2.moonbase.life
+      Host: web.xcjs.info
     path: /home
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12|🇰🇷 韩国特殊|@ripaojiedian
+  name: 12|🇸🇬 狮城特殊|@ripaojiedian
   password: awsps0501
   port: 443
-  server: 18.183.225.74
+  server: 18.183.184.244
   tfo: false
   type: ss
