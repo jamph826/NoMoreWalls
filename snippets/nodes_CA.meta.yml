@@ -1,41 +1,23 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇨🇦加拿大 01 | 1x CA
-  password: 5d283f65-3a88-47ba-85eb-e9d9fd29ca2d
-  port: 31441
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇨🇦 加拿大 01 | 1x CA
-  password: 096bf18f-b273-478d-bbc2-c4a930711dc6
+  name: 0|🇨🇦 加拿大 01 | 1x CA
+  password: 5dda19c9-b8f6-4152-9244-849659fafa51
   port: 36441
   server: free.2weradf.xyz
   type: ss
   udp: true
-- alterId: '0'
-  cipher: auto
-  name: 2|🇨🇦1 |  4.1MB/s|29%|Youtube|Ope...
-  network: ws
-  port: 443
-  server: cloudgetservice.mcloudservice.site
-  skip-cert-verify: false
-  tls: true
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇨🇦加拿大 01 | 1x CA
+  password: 48dbc5dd-a848-4dcd-9a3a-34391b4df892
+  port: 31441
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
-  uuid: 81380a5e-613c-4863-8b3a-5588f32690c3
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: MaXnEtVipAp-ca1.MaxnetserVicEs.ONliNe
-    max-early-data: 2560
-    path: /linkws
-  xudp: true
-- name: 2|🇨🇦2 |  1.8MB/s|63%|Disney|Open...
+- name: 2|🇨🇦1 |  2.6MB/s|63%|Netflix|Dis...
   network: ws
   port: 443
-  server: 198.62.62.4
-  servername: hl.ylka.dpdns.org
+  server: nikon.ns.cloudflare.com
+  servername: lx.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
@@ -43,13 +25,13 @@ proxies:
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      Host: hl.ylka.dpdns.org
+      host: lx.ylks0033.dpdns.org
     path: /?ed=2560
-- name: 2|🇨🇦3 |  1.0MB/s|Disney
+- name: 2|🇨🇦2 |  3.0MB/s|63%|Disney
   network: ws
   port: 443
-  server: 198.62.62.209
-  servername: hl.ylka.dpdns.org
+  server: 160.79.105.134
+  servername: lx.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
@@ -57,13 +39,13 @@ proxies:
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      Host: hl.ylka.dpdns.org
+      host: lx.ylks0033.dpdns.org
     path: /?ed=2560
-- name: 2|🇨🇦4 |  3.4MB/s|63%|Disney
+- name: 2|🇨🇦3 |  5.3MB/s|63%|Netflix|Dis...
   network: ws
   port: 443
-  server: 45.67.215.146
-  servername: hl.ylka.dpdns.org
+  server: 63.141.128.67
+  servername: lx.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
@@ -71,13 +53,13 @@ proxies:
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      Host: hl.ylka.dpdns.org
+      host: lx.ylks0033.dpdns.org
     path: /?ed=2560
-- name: 2|🇨🇦5 |  2.1MB/s|63%|Disney|Open...
+- name: 2|🇨🇦4 |  2.5MB/s|63%|Disney|Open...
   network: ws
   port: 443
-  server: 160.79.105.66
-  servername: hl.ylka.dpdns.org
+  server: 160.123.255.30
+  servername: lx.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
@@ -85,13 +67,13 @@ proxies:
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      Host: hl.ylka.dpdns.org
+      host: lx.ylks0033.dpdns.org
     path: /?ed=2560
-- name: 2|🇨🇦6 |  4.9MB/s|63%|Disney|Yout...
+- name: 2|🇨🇦5 |  4.8MB/s|63%|Netflix|Dis...
   network: ws
   port: 443
-  server: toy-people.com
-  servername: hl.ylka.dpdns.org
+  server: wilson.ns.cloudflare.com
+  servername: lx.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
@@ -99,13 +81,13 @@ proxies:
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      Host: hl.ylka.dpdns.org
+      host: lx.ylks0033.dpdns.org
     path: /?ed=2560
-- name: 2|🇨🇦7 |  1.4MB/s|63%|Disney|Open...
+- name: 2|🇨🇦6 |  3.4MB/s|Disney
   network: ws
   port: 443
-  server: 160.123.255.58
-  servername: hl.ylka.dpdns.org
+  server: steamdb.info
+  servername: lx.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
@@ -113,13 +95,13 @@ proxies:
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      Host: hl.ylka.dpdns.org
+      host: lx.ylks0033.dpdns.org
     path: /?ed=2560
-- name: 2|🇨🇦8 |  1.3MB/s|Disney
+- name: 2|🇨🇦7 |  4.2MB/s|63%|Youtube
   network: ws
   port: 443
-  server: 160.123.255.130
-  servername: hl.ylka.dpdns.org
+  server: www.whatismyip.com
+  servername: lx.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
@@ -127,13 +109,13 @@ proxies:
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      Host: hl.ylka.dpdns.org
+      host: lx.ylks0033.dpdns.org
     path: /?ed=2560
-- name: 2|🇨🇦9 |  1.8MB/s|Disney
+- name: 2|🇨🇦8 |  3.4MB/s|Netflix|Disney
   network: ws
   port: 443
-  server: 160.79.105.109
-  servername: hl.ylka.dpdns.org
+  server: 160.79.105.146
+  servername: lx.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
@@ -141,13 +123,13 @@ proxies:
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      Host: hl.ylka.dpdns.org
+      host: lx.ylks0033.dpdns.org
     path: /?ed=2560
-- name: 2|🇨🇦10 |  2.3MB/s|63%|Disney|Ope...
+- name: 2|🇨🇦9 |  2.1MB/s|63%|Disney|Yout...
   network: ws
   port: 443
-  server: 63.141.128.136
-  servername: hl.ylka.dpdns.org
+  server: 138.2.107.107
+  servername: lx.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
@@ -155,5 +137,5 @@ proxies:
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      Host: hl.ylka.dpdns.org
+      host: lx.ylks0033.dpdns.org
     path: /?ed=2560

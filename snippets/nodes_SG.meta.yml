@@ -1,50 +1,63 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 01 | 1x SG
-  password: 5d283f65-3a88-47ba-85eb-e9d9fd29ca2d
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 02 | 1x SG
-  password: 5d283f65-3a88-47ba-85eb-e9d9fd29ca2d
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 03 | 1x SG
-  password: 5d283f65-3a88-47ba-85eb-e9d9fd29ca2d
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 01 | 1x SG
-  password: 096bf18f-b273-478d-bbc2-c4a930711dc6
+  name: 0|🇸🇬 新加坡 01 | 1x SG
+  password: 5dda19c9-b8f6-4152-9244-849659fafa51
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 02 | 1x SG
-  password: 096bf18f-b273-478d-bbc2-c4a930711dc6
+  name: 0|🇸🇬 新加坡 02 | 1x SG
+  password: 5dda19c9-b8f6-4152-9244-849659fafa51
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 2|🇸🇬1 |  5.2MB/s|54%|Youtube|Ope...
-  obfs: tls1.2_ticket_auth
-  obfs-param: sg2-cdn-route.couldflare-cdn.com
-  password: uiACqrIr
-  port: 56138
-  protocol: origin
-  protocol-param: ''
-  server: cm2.xcone.xyz
-  type: ssr
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 01 | 1x SG
+  password: 48dbc5dd-a848-4dcd-9a3a-34391b4df892
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 02 | 1x SG
+  password: 48dbc5dd-a848-4dcd-9a3a-34391b4df892
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 03 | 1x SG
+  password: 48dbc5dd-a848-4dcd-9a3a-34391b4df892
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- name: 2|🇸🇬1 |  2.3MB/s|Openai
+  network: ws
+  port: '80'
+  server: 141.193.213.20
+  type: vless
+  udp: true
+  uuid: 628a3541-1b2d-43ab-ad4f-82b6406480fe
+  ws-opts:
+    headers:
+      Host: lk.sahanwickramasinghe.shop
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/69.0.3497.100 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: 2|🇸🇬2 |  2.8MB/s|Youtube|Openai
+  password: cacb4d4fa26f4eed25e4d17a6370083c
+  port: 8444
+  server: singapore02.sqx001.com
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: dmpyoary@mayorlogistic.com
 - name: 11|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
   port: 443
@@ -86,31 +99,18 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- name: 13|新加坡2|@ripaojiedian
-  network: tcp
-  password: ce44b416-2d7e-49af-aa40-5a61d45f6fcc
-  port: 27401
-  server: 58.254.186.222
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡3|@ripaojiedian
-  network: ws
-  port: '35146'
-  server: sg6.vip2.g2.moonbase.life
-  servername: web.xcjs.info
-  tls: true
-  type: vmess
-  uuid: c3136814-a07e-41f6-ad94-8e20458c0d21
-  ws-opts:
-    headers:
-      Host: web.xcjs.info
-    path: /home
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 12|🇸🇬 狮城特殊|@ripaojiedian
+  password: awsps0501
+  port: 443
+  server: 3.35.231.158
+  tfo: false
+  type: ss
 - alpn:
   - h3
   client-fingerprint: random
-  name: 14|SG_speednode_0034
+  name: 14|SG_speednode_0023
   network: ws
   port: 8443
   server: 27.50.49.242
@@ -124,7 +124,7 @@ proxies:
     headers:
       Host: edccj.ambercc.filegear-sg.me
     path: /?ed=2560
-- name: 14|SG_speednode_0035
+- name: 14|SG_speednode_0024
   network: ws
   password: Aimer
   port: 8443
