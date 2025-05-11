@@ -1,54 +1,42 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 02 | 1x HK
-  password: 5dda19c9-b8f6-4152-9244-849659fafa51
-  port: 36143
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 5dda19c9-b8f6-4152-9244-849659fafa51
-  port: 36145
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港 02 | 1x HK
-  password: 48dbc5dd-a848-4dcd-9a3a-34391b4df892
+  name: 0|🇭🇰香港 02 | 1x HK
+  password: 168d6b1a-8f7f-430a-b067-980b8359b05c
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港家宽 03 | 1x HK
-  password: 48dbc5dd-a848-4dcd-9a3a-34391b4df892
+  name: 0|🇭🇰香港家宽 03 | 1x HK
+  password: 168d6b1a-8f7f-430a-b067-980b8359b05c
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰1 |  2.0MB/s|0%|Netflix|Yout...
-  password: 887f01da-5b52-4dff-a80f-efe3380ac35f
-  port: 54016
-  server: chiyu.myfczy169.top
+  name: 1|🇭🇰 香港 02 | 1x HK
+  password: f12a7565-19f0-4793-bf7b-7a9e98ee297b
+  port: 36143
+  server: free.2weradf.xyz
   type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰2 |  1.1MB/s|0%|Netflix|Yout...
-  password: OHJHa1cyZ0RnNlFxWHZQdGdrUGdqNXVo
-  port: '48019'
-  server: 45.196.235.33
+  name: 1|🇭🇰 香港住宅IP 03 | 1x HK
+  password: f12a7565-19f0-4793-bf7b-7a9e98ee297b
+  port: 36145
+  server: free.2weradf.xyz
   type: ss
   udp: true
-- auth: ae845cbd-08fb-4346-929a-e28a6f3960a8
-  name: 2|🇭🇰3 |  1.3MB/s|0%|Netflix|Disn...
-  password: ae845cbd-08fb-4346-929a-e28a6f3960a8
-  port: 24591
-  server: hk1.shiyuandian.shop
+- client-fingerprint: chrome
+  name: 2|🇭🇰1 |  1.8MB/s|6%|Youtube
+  password: cacb4d4fa26f4eed25e4d17a6370083c
+  port: 8443
+  server: hk04.sqx001.com
   skip-cert-verify: true
-  sni: hk1.shiyuandian.shop
-  type: hysteria2
+  tls: true
+  type: http
   udp: true
+  username: dmpyoary@mayorlogistic.com
 - client-fingerprint: chrome
   name: 12|🇭🇰 香港|@ripaojiedian
   network: ws
@@ -74,7 +62,7 @@ proxies:
     path: /utvbnrzejpmt
     skip-cert-verify: false
     tls: true
-  port: 54259
+  port: 52013
   server: hkkh11v1.xpmc.cc
   tfo: false
   type: ss
@@ -89,14 +77,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 12|🇭🇰 香港4|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 103.149.182.191
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -171,7 +151,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 14|HK_speednode_0010
+  name: 14|HK_speednode_0039
   port: 20550
   reality-opts:
     public-key: cWs2mTxI3sdZlPYsRh239mJFnxi0Y8RmF-ZEtziFNQ8
@@ -182,17 +162,16 @@ proxies:
   type: vless
   udp: true
   uuid: 2d317da5-47c5-4db4-933f-16d1094668db
-- name: 14|HK_speednode_0011
+- name: 14|HK_speednode_0041
   network: ws
-  port: 26657
-  server: 101.32.15.176
-  servername: edccj.ambercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
+  password: Aimer
+  port: 443
+  server: 219.76.13.177
+  skip-cert-verify: false
+  sni: tyep.esslh.filegear-sg.me
+  type: trojan
   udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
   ws-opts:
     headers:
-      Host: edccj.ambercc.filegear-sg.me
+      Host: tyep.esslh.filegear-sg.me
     path: /?ed=2560

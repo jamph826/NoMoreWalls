@@ -1,37 +1,44 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: 5dda19c9-b8f6-4152-9244-849659fafa51
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: 5dda19c9-b8f6-4152-9244-849659fafa51
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 01 | 1x SG
-  password: 48dbc5dd-a848-4dcd-9a3a-34391b4df892
+  name: 0|🇸🇬新加坡 01 | 1x SG
+  password: 168d6b1a-8f7f-430a-b067-980b8359b05c
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 02 | 1x SG
-  password: 48dbc5dd-a848-4dcd-9a3a-34391b4df892
+  name: 0|🇸🇬新加坡 02 | 1x SG
+  password: 168d6b1a-8f7f-430a-b067-980b8359b05c
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 03 | 1x SG
-  password: 48dbc5dd-a848-4dcd-9a3a-34391b4df892
+  name: 0|🇸🇬新加坡 03 | 1x SG
+  password: 168d6b1a-8f7f-430a-b067-980b8359b05c
   port: 31175
   server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 01 | 1x SG
+  password: f12a7565-19f0-4793-bf7b-7a9e98ee297b
+  port: 36171
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 02 | 1x SG
+  password: f12a7565-19f0-4793-bf7b-7a9e98ee297b
+  port: 36173
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf
+  name: 2|🇸🇬3 |  1.3MB/s|Netflix|Youtube...
+  password: asd123456
+  port: '8388'
+  server: 103.36.91.32
   type: ss
   udp: true
 - alterId: 2
@@ -56,19 +63,6 @@ proxies:
   name: 12|🇸🇬 狮城特殊|@ripaojiedian
   password: awsps0501
   port: 443
-  server: 3.35.231.158
+  server: 3.112.193.115
   tfo: false
   type: ss
-- name: 14|SG_speednode_0024
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 92.243.74.180
-  skip-cert-verify: false
-  sni: tyep.esslh.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: tyep.esslh.filegear-sg.me
-    path: /

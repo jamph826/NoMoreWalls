@@ -1,59 +1,48 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵 日本 01 | 1x JP
-  password: 5dda19c9-b8f6-4152-9244-849659fafa51
-  port: 36111
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵 日本 02 | 1x JP
-  password: 5dda19c9-b8f6-4152-9244-849659fafa51
-  port: 36113
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵 日本 03 | 1x JP
-  password: 5dda19c9-b8f6-4152-9244-849659fafa51
-  port: 36115
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵日本 01 | 1x JP
-  password: 48dbc5dd-a848-4dcd-9a3a-34391b4df892
+  name: 0|🇯🇵日本 01 | 1x JP
+  password: 168d6b1a-8f7f-430a-b067-980b8359b05c
   port: 31111
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵日本 02 | 1x JP
-  password: 48dbc5dd-a848-4dcd-9a3a-34391b4df892
+  name: 0|🇯🇵日本 02 | 1x JP
+  password: 168d6b1a-8f7f-430a-b067-980b8359b05c
   port: 31113
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵日本 03 | 1x JP
-  password: 48dbc5dd-a848-4dcd-9a3a-34391b4df892
+  name: 0|🇯🇵日本 03 | 1x JP
+  password: 168d6b1a-8f7f-430a-b067-980b8359b05c
   port: 31115
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 2|🇯🇵1 |  1.5MB/s|0%|Youtube|Open...
-  password: cacb4d4fa26f4eed25e4d17a6370083c
-  port: 443
-  server: tky03.sqx001.com
-  skip-cert-verify: true
-  sni: tky03.sqx001.com
-  tls: true
-  type: http
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵 日本 01 | 1x JP
+  password: f12a7565-19f0-4793-bf7b-7a9e98ee297b
+  port: 36111
+  server: free.2weradf.xyz
+  type: ss
   udp: true
-  username: dmpyoary@mayorlogistic.com
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵 日本 02 | 1x JP
+  password: f12a7565-19f0-4793-bf7b-7a9e98ee297b
+  port: 36113
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵 日本 03 | 1x JP
+  password: f12a7565-19f0-4793-bf7b-7a9e98ee297b
+  port: 36115
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - client-fingerprint: chrome
-  name: 2|🇯🇵2 |  4.5MB/s|8%|Disney|Youtu...
+  name: 2|🇯🇵1 |  1.2MB/s|8%|Youtube|Open...
   network: ws
   port: '11223'
   server: 218.38.33.77
@@ -65,32 +54,36 @@ proxies:
   ws-opts:
     headers:
       Host: mikuyo.bpd67081tsq.ddns-ip.net
-      User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
     path: ''
   xudp: true
-- alterId: 64
-  cipher: auto
-  name: 2|🇯🇵3 |  5.6MB/s|51%|Youtube|Ope...
-  network: ws
-  port: 1443
-  server: sslvpn.51job.com
+- name: 2,14|JP_speednode_0044
+  password: cacb4d4fa26f4eed25e4d17a6370083c
+  port: 443
+  server: tky03.sqx001.com
   skip-cert-verify: true
   tls: true
-  type: vmess
+  type: http
   udp: true
-  uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782
-  ws-opts:
-    headers:
-      Host: centos7
-    path: /634c5c4f9782
+  username: dmpyoary@mayorlogistic.com
+- client-fingerprint: chrome
+  name: 2|🇯🇵3 |  2.1MB/s|0%|Youtube|Open...
+  password: cacb4d4fa26f4eed25e4d17a6370083c
+  port: 443
+  server: tky02.sqx001.com
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: dmpyoary@mayorlogistic.com
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 12|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505081193439-ADTUVtshPJ.download.microsoft.com
+    host: 202505081193439-Q6Je6CIwva.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -108,7 +101,7 @@ proxies:
     path: /ymfvpytvkdp
     skip-cert-verify: false
     tls: true
-  port: 16622
+  port: 20621
   server: 103.140.136.242
   tfo: false
   type: ss
@@ -135,7 +128,7 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 7365fecd-64ef-485d-bf16-838abc3dddc3
+  uuid: 68261662-982a-41b5-94ff-dad406a41c03
   ws-opts:
     headers:
       Host: www.bing.com
@@ -145,7 +138,7 @@ proxies:
   name: 12|🇯🇵 日本特殊|@ripaojiedian
   password: awsps0501
   port: 443
-  server: 52.199.191.145
+  server: 47.129.171.73
   tfo: false
   type: ss
 - alterId: 64
@@ -168,3 +161,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 07287360-e12f-4f94-9c7a-54386c100d8a
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|JP_speednode_0043
+  port: 443
+  reality-opts:
+    public-key: IHJ7w7m13QsYPFq8eppdqyTyeLmXzTtOG9EGu_-ep2c
+    short-id: 49824283a241
+  server: 152.70.99.180
+  servername: buylite.music.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 17606d29-e77d-4d2c-81ac-81b8bb1311d1
