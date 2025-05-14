@@ -1,47 +1,55 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 01 | 1x SG
-  password: 1598e515-c088-44e7-a5b2-3f0a1c47671a
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 02 | 1x SG
-  password: 1598e515-c088-44e7-a5b2-3f0a1c47671a
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 03 | 1x SG
-  password: 1598e515-c088-44e7-a5b2-3f0a1c47671a
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 01 | 1x SG
-  password: 56877ad1-ec01-4958-ba6c-e6d230335050
+  name: 0|🇸🇬 新加坡 01 | 1x SG
+  password: f2097dc5-c608-4f27-a190-16081c35a2a8
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 02 | 1x SG
-  password: 56877ad1-ec01-4958-ba6c-e6d230335050
+  name: 0|🇸🇬 新加坡 02 | 1x SG
+  password: f2097dc5-c608-4f27-a190-16081c35a2a8
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 2,14|CN_speednode_0074
-  password: 09e8b39a-4c09-4df0-a50c-af3bef01567e
-  port: 35000
-  server: gzyd.cg.xxality.cn
-  skip-cert-verify: true
-  sni: cgsg2.hysality.com
-  type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,12,13|新加坡2|@ripaojiedian
+  network: ws
+  port: '46019'
+  server: 112.29.213.228
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬新加坡 01 | 1x SG
+  password: c822a2bf-1e71-487d-93a6-219d9ba60cfc
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬新加坡 02 | 1x SG
+  password: c822a2bf-1e71-487d-93a6-219d9ba60cfc
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬新加坡 03 | 1x SG
+  password: c822a2bf-1e71-487d-93a6-219d9ba60cfc
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
 - alterId: 2
   cipher: auto
@@ -65,6 +73,45 @@ proxies:
   name: 12|🇸🇬 狮城特殊|@ripaojiedian
   password: yijian0503
   port: 443
-  server: 3.36.122.17
+  server: 47.128.78.62
   tfo: false
   type: ss
+- name: 14|SG_speednode_0079
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 57621
+  server: 129.150.58.86
+  skip-cert-verify: true
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=129.150.58.86:57621&proxyIP=null
+- name: 14|SG_speednode_0080
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 6666
+  server: 150.109.24.233
+  skip-cert-verify: true
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=150.109.24.233:6666&proxyIP=null
+- name: 14|SG_speednode_0081
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 138.2.107.107
+  skip-cert-verify: true
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=138.2.107.107:443&proxyIP=null

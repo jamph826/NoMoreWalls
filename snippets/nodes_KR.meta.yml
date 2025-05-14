@@ -1,118 +1,157 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 01 | 1x KR
-  password: 1598e515-c088-44e7-a5b2-3f0a1c47671a
+  name: 0|🇰🇷 韩国 01 | 1x KR
+  password: f2097dc5-c608-4f27-a190-16081c35a2a8
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- name: 1|🇰🇷1 |  2.1MB/s|61%|Disney|Open...
+  network: ws
+  port: '80'
+  server: 89.116.250.78
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: ipsycho.suex12.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+    path: /Telegram🇨🇳 @WangCai2 /?ed
+  xudp: true
+- name: 1,14|US_speednode_0088
+  network: ws
+  port: 80
+  server: 66.81.247.175
+  servername: ipsycho.suex12.ir
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: ipsycho.suex12.ir
+    path: /re5IzbZ9IZZMddtw?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷3 |  2.1MB/s|61%|Youtube|Ope...
+  password: d192a833-b118-4b46-8e54-12cf5025d4cd
+  port: 43450
+  server: gdlt.aicheetah.lol
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 1|🇰🇷4 |  4.2MB/s|75%|Netflix|You...
+  password: qwerREWQ@@
+  port: 11389
+  server: 221.150.109.89
+  type: ss
+- cipher: aes-256-cfb
+  name: 1|🇰🇷5 |  5.4MB/s|75%|Netflix|You...
+  password: qwerREWQ@@
+  port: 11389
+  server: p231.panda004.net
+  type: ss
+- name: 1|🇰🇷6 |  5.5MB/s|61%|Openai
+  network: ws
+  port: '80'
+  server: 104.17.147.22
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: ipsycho.suex12.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.63 Safari/537.36
+    path: /re5IzbZ9IZZMddtw?ed=2560
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇰🇷韩国 01 | 1x KR
+  password: c822a2bf-1e71-487d-93a6-219d9ba60cfc
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 02 | 1x KR
-  password: 1598e515-c088-44e7-a5b2-3f0a1c47671a
+  name: 2|🇰🇷韩国 02 | 1x KR
+  password: c822a2bf-1e71-487d-93a6-219d9ba60cfc
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷 韩国 01 | 1x KR
-  password: 56877ad1-ec01-4958-ba6c-e6d230335050
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
-  name: 2|🇰🇷1 |  2.1MB/s|44%|Netflix|Dis...
+  client-fingerprint: chrome
+  name: 12|🇰🇷 韩国|@ripaojiedian
   password: qwerREWQ@@
-  port: 4857
-  server: 125.141.26.12
+  port: 36379
+  server: p080.panda001.net
+  tfo: false
   type: ss
-- name: 2|🇰🇷2 |  2.5MB/s|61%|Disney|Gemi...
-  network: ws
-  port: 443
-  server: 160.79.105.119
-  servername: vx.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: vx.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 2|🇰🇷3 |  4.8MB/s|61%|Disney
-  network: ws
-  port: 443
-  server: 160.79.105.233
-  servername: vx.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: vx.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 2|🇰🇷4 |  1.0MB/s|61%|Netflix|Dis...
-  network: ws
-  port: 443
-  server: 198.62.62.4
-  servername: vx.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: vx.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 2|🇰🇷5 |  2.3MB/s|Netflix|Disney|...
-  network: ws
-  port: 443
-  server: 192.0.54.46
-  servername: vx.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: vx.ylks0033.dpdns.org
-    path: /?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇰🇷6 |  3.3MB/s|Youtube|Openai
-  network: tcp
-  port: 37415
-  reality-opts:
-    public-key: 6LosX-Eqye0ealx_fJQyga4JTgSnaol_rYXOgsQIs3I
-    short-id: 6ba85179e30d4fc2
-  server: 140.238.12.134
-  servername: www.samsung.com
-  tls: true
-  type: vless
-  uuid: 60fd309e-1284-4851-bc84-b543a9d64062
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 12|🇰🇷 韩国特殊|@ripaojiedian
   password: yijian0503
   port: 443
-  server: 43.203.199.63
+  server: 13.250.27.89
   tfo: false
   type: ss
-- name: 14|KR_speednode_0163
+- client-fingerprint: random
+  name: 14|KR_speednode_0066
   network: ws
-  password: bpb-trojan
-  port: 443
-  server: hr.madison.eu.org
+  port: 10243
+  server: 221.151.124.103
+  servername: 0229.patterdeng.pp.ua
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
+  ws-opts:
+    headers:
+      Host: 0229.patterdeng.pp.ua
+    path: /?ed=2560
+- name: 14|KR_speednode_0067
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 10243
+  server: 221.151.124.103
   skip-cert-verify: true
-  sni: skwygx.top
+  sni: icecream.955850.xyz
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: skwygx.top
-    path: /tr?ed=2560
+      Host: icecream.955850.xyz
+    path: /proxyip=221.151.124.103:10243&proxyIP=null
+- client-fingerprint: random
+  name: 14|KR_speednode_0068
+  network: ws
+  port: 22737
+  server: 220.94.32.227
+  servername: mot.luyuju.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c5871b29-188f-41e1-b2be-8a6704e962d9
+  ws-opts:
+    headers:
+      Host: mot.luyuju.dpdns.org
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 14|KR_speednode_0069
+  network: ws
+  port: 58474
+  server: 152.70.232.251
+  servername: chou3.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0c561336-b0c7-4b18-96d1-863240a224ab
+  ws-opts:
+    headers:
+      Host: chou3.pages.dev
+    path: /
