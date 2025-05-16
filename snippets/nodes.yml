@@ -1,470 +1,664 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港 01 | 1x HK
-  password: 37bef410-feca-4579-85b1-58b20d9ef7d2
+  password: a307d913-efe4-4044-bb5c-68f86e59c73b
   port: 31141
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港 02 | 1x HK
-  password: 37bef410-feca-4579-85b1-58b20d9ef7d2
+  password: a307d913-efe4-4044-bb5c-68f86e59c73b
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港家宽 03 | 1x HK
-  password: 37bef410-feca-4579-85b1-58b20d9ef7d2
+  password: a307d913-efe4-4044-bb5c-68f86e59c73b
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 01 | 1x TW
-  password: 37bef410-feca-4579-85b1-58b20d9ef7d2
+  password: a307d913-efe4-4044-bb5c-68f86e59c73b
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 02 | 1x TW
-  password: 37bef410-feca-4579-85b1-58b20d9ef7d2
+  password: a307d913-efe4-4044-bb5c-68f86e59c73b
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 03 | 1x TW
-  password: 37bef410-feca-4579-85b1-58b20d9ef7d2
+  password: a307d913-efe4-4044-bb5c-68f86e59c73b
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵日本 01 | 1x JP
-  password: 37bef410-feca-4579-85b1-58b20d9ef7d2
+  password: a307d913-efe4-4044-bb5c-68f86e59c73b
   port: 31111
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵日本 02 | 1x JP
-  password: 37bef410-feca-4579-85b1-58b20d9ef7d2
+  password: a307d913-efe4-4044-bb5c-68f86e59c73b
   port: 31113
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵日本 03 | 1x JP
-  password: 37bef410-feca-4579-85b1-58b20d9ef7d2
+  password: a307d913-efe4-4044-bb5c-68f86e59c73b
   port: 31115
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
-  password: 37bef410-feca-4579-85b1-58b20d9ef7d2
+  password: a307d913-efe4-4044-bb5c-68f86e59c73b
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 02 | 1x SG
-  password: 37bef410-feca-4579-85b1-58b20d9ef7d2
+  password: a307d913-efe4-4044-bb5c-68f86e59c73b
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 03 | 1x SG
-  password: 37bef410-feca-4579-85b1-58b20d9ef7d2
+  password: a307d913-efe4-4044-bb5c-68f86e59c73b
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 01 | 1x KR
-  password: 37bef410-feca-4579-85b1-58b20d9ef7d2
+  password: a307d913-efe4-4044-bb5c-68f86e59c73b
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 02 | 1x KR
-  password: 37bef410-feca-4579-85b1-58b20d9ef7d2
+  password: a307d913-efe4-4044-bb5c-68f86e59c73b
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇵🇭菲律宾 01 | 1x PH
-  password: 37bef410-feca-4579-85b1-58b20d9ef7d2
+  password: a307d913-efe4-4044-bb5c-68f86e59c73b
   port: 31341
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: 37bef410-feca-4579-85b1-58b20d9ef7d2
+  password: a307d913-efe4-4044-bb5c-68f86e59c73b
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 37bef410-feca-4579-85b1-58b20d9ef7d2
+  password: a307d913-efe4-4044-bb5c-68f86e59c73b
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 03 | 1x US Washington
-  password: 37bef410-feca-4579-85b1-58b20d9ef7d2
+  password: a307d913-efe4-4044-bb5c-68f86e59c73b
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: 37bef410-feca-4579-85b1-58b20d9ef7d2
+  password: a307d913-efe4-4044-bb5c-68f86e59c73b
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇭泰国01  | 1x TH
-  password: 37bef410-feca-4579-85b1-58b20d9ef7d2
+  password: a307d913-efe4-4044-bb5c-68f86e59c73b
   port: 31741
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇲🇾马来西亚01 | 1x MY
-  password: 37bef410-feca-4579-85b1-58b20d9ef7d2
+  password: a307d913-efe4-4044-bb5c-68f86e59c73b
   port: 31721
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇲🇾马来西亚02 | 1x MY
-  password: 37bef410-feca-4579-85b1-58b20d9ef7d2
+  password: a307d913-efe4-4044-bb5c-68f86e59c73b
   port: 31722
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇮🇳印度 01 | 1x IN
-  password: 37bef410-feca-4579-85b1-58b20d9ef7d2
+  password: a307d913-efe4-4044-bb5c-68f86e59c73b
   port: 31371
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇦🇺澳大利亚 01 | 1x AU
-  password: 37bef410-feca-4579-85b1-58b20d9ef7d2
+  password: a307d913-efe4-4044-bb5c-68f86e59c73b
   port: 31411
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇨🇦加拿大 01 | 1x CA
-  password: 37bef410-feca-4579-85b1-58b20d9ef7d2
+  password: a307d913-efe4-4044-bb5c-68f86e59c73b
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪德国 01 | 1x DE
-  password: 37bef410-feca-4579-85b1-58b20d9ef7d2
+  password: a307d913-efe4-4044-bb5c-68f86e59c73b
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇷🇺俄罗斯 01 | 1x RU
-  password: 37bef410-feca-4579-85b1-58b20d9ef7d2
+  password: a307d913-efe4-4044-bb5c-68f86e59c73b
   port: 31511
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇷土耳其 01 | 1x TR
-  password: 37bef410-feca-4579-85b1-58b20d9ef7d2
+  password: a307d913-efe4-4044-bb5c-68f86e59c73b
   port: 31571
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇦乌克兰 01 | 1x UA
-  password: 37bef410-feca-4579-85b1-58b20d9ef7d2
+  password: a307d913-efe4-4044-bb5c-68f86e59c73b
   port: 31611
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇻🇳越南 01 | 1x VN
-  password: 37bef410-feca-4579-85b1-58b20d9ef7d2
+  password: a307d913-efe4-4044-bb5c-68f86e59c73b
   port: 31641
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇧🇷巴西 01 | 1x BR
-  password: 37bef410-feca-4579-85b1-58b20d9ef7d2
+  password: a307d913-efe4-4044-bb5c-68f86e59c73b
   port: 31671
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇮🇩印度尼西亚 01 | 1x ID
-  password: 37bef410-feca-4579-85b1-58b20d9ef7d2
+  password: a307d913-efe4-4044-bb5c-68f86e59c73b
   port: 31677
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 1|🇨🇦8 |  2.8MB/s|0%|Youtube|Open...
-  password: '74260665780162200'
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰 香港 01 | 1x HK
+  password: ecfac256-0999-446b-8547-71ed929c46c2
+  port: 36141
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰 香港 02 | 1x HK
+  password: ecfac256-0999-446b-8547-71ed929c46c2
+  port: 36143
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰 香港住宅IP 03 | 1x HK
+  password: ecfac256-0999-446b-8547-71ed929c46c2
+  port: 36145
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼 台湾 01 | 1x TW
+  password: ecfac256-0999-446b-8547-71ed929c46c2
+  port: 36241
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼 台湾 02 | 1x TW
+  password: ecfac256-0999-446b-8547-71ed929c46c2
+  port: 36243
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼 台湾 03 | 1x TW
+  password: ecfac256-0999-446b-8547-71ed929c46c2
+  port: 36245
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵 日本 01 | 1x JP
+  password: ecfac256-0999-446b-8547-71ed929c46c2
+  port: 36111
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵 日本 02 | 1x JP
+  password: ecfac256-0999-446b-8547-71ed929c46c2
+  port: 36113
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵 日本 03 | 1x JP
+  password: ecfac256-0999-446b-8547-71ed929c46c2
+  port: 36115
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 01 | 1x SG
+  password: ecfac256-0999-446b-8547-71ed929c46c2
+  port: 36171
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 02 | 1x SG
+  password: ecfac256-0999-446b-8547-71ed929c46c2
+  port: 36173
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷 韩国 01 | 1x KR
+  password: ecfac256-0999-446b-8547-71ed929c46c2
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇵🇭 菲律宾 01 | 1x PH
+  password: ecfac256-0999-446b-8547-71ed929c46c2
+  port: 36341
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
+  password: ecfac256-0999-446b-8547-71ed929c46c2
+  port: 36211
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: ecfac256-0999-446b-8547-71ed929c46c2
+  port: 36213
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸 美国 03 | 1x US Washington
+  password: ecfac256-0999-446b-8547-71ed929c46c2
+  port: 36215
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇬🇧 英国住宅IP 01 | 1x UK
+  password: ecfac256-0999-446b-8547-71ed929c46c2
+  port: 36271
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇲🇾马来西亚 01 | 1x MY
+  password: ecfac256-0999-446b-8547-71ed929c46c2
+  port: 36721
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇲🇾马来西亚 02 | 1x MY
+  password: ecfac256-0999-446b-8547-71ed929c46c2
+  port: 36722
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇮🇳西班牙 01 | 1x ES
+  password: ecfac256-0999-446b-8547-71ed929c46c2
+  port: 36741
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇭泰国 01 | 1x TH
+  password: ecfac256-0999-446b-8547-71ed929c46c2
+  port: 36731
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇮🇳 印度 01 | 1x IN
+  password: ecfac256-0999-446b-8547-71ed929c46c2
+  port: 36371
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇦🇺 澳大利亚 01 | 1x AU
+  password: ecfac256-0999-446b-8547-71ed929c46c2
+  port: 36411
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇨🇦 加拿大 01 | 1x CA
+  password: ecfac256-0999-446b-8547-71ed929c46c2
+  port: 36441
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇩🇪 德国 01 | 1x DE
+  password: ecfac256-0999-446b-8547-71ed929c46c2
+  port: 36471
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇷🇺 俄罗斯 01 | 1x RU
+  password: ecfac256-0999-446b-8547-71ed929c46c2
+  port: 36511
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇷 土耳其 01 | 1x TR
+  password: ecfac256-0999-446b-8547-71ed929c46c2
+  port: 36571
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇦 乌克兰 01 | 1x UA
+  password: ecfac256-0999-446b-8547-71ed929c46c2
+  port: 36611
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇻🇳 越南 01 | 1x VN
+  password: ecfac256-0999-446b-8547-71ed929c46c2
+  port: 36641
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇧🇷 巴西 01 | 1x BR
+  password: ecfac256-0999-446b-8547-71ed929c46c2
+  port: 36671
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇮🇩 印度尼西亚 01 | 1x ID
+  password: ecfac256-0999-446b-8547-71ed929c46c2
+  port: 36677
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- name: 2,14|HK_speednode_0064
+  network: ws
+  password: bpb-trojan
   port: 443
-  server: 52.60.142.77
+  server: us.madison.eu.org
   skip-cert-verify: true
-  sni: allowing-owl.shiner427.skin
+  sni: skwygx.top
   type: trojan
   udp: true
-- name: 1,12,13|台湾2|@ripaojiedian
+  ws-opts:
+    headers:
+      Host: skwygx.top
+    path: /tr?ed=2560
+- cipher: aes-256-cfb
+  name: 2,12|tg频道:@ripaojiedian
+  password: awsps0501
+  port: 443
+  server: 35.90.251.87
+  tfo: false
+  type: ss
+- name: 2|🇺🇸31 |  1.2MB/s|46%|Openai
+  password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+  port: 15229
+  server: 4ef54dd8-swd340-t1bnjq-1krtb.cu.plebai.net
+  skip-cert-verify: true
+  sni: 4ef54dd8-swd340-t1bnjq-1krtb.cu.plebai.net
+  tfo: false
+  type: trojan
+  udp: true
+- name: 2,14|CN_speednode_0028
+  password: RlzoEILU
+  port: 7815
+  server: 36.151.251.59
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 2|🇺🇸66 |  4.9MB/s|34%|Netflix|Op...
+  password: 973c665168454f3f
+  port: 2019
+  server: 103.115.18.246
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 2,12|🇰🇷 韩国|@ripaojiedian
+  password: qwerREWQ@@
+  port: 15098
+  server: 125.141.31.72
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 2|🇩🇪9 |  5.5MB/s|22%|Youtube|Ope...
+  network: ws
+  port: 443
+  server: www.visa.com.sg
+  servername: radiation-browse-dallas-slight.trycloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 38d1a891-f3f9-ef39-6a95-c106e2a386eb
+  ws-opts:
+    headers:
+      Host: radiation-browse-dallas-slight.trycloudflare.com
+    path: /vmess-argo?ed=2048
+- ip-version: dual
+  name: 2|🇺🇸88 |  4.7MB/s|46%|Openai|Gem...
+  password: 3e6ae2e4-a8a5-11ef-8578-f23c913c8d2b
+  port: 15229
+  server: 76b15373-swd340-tcudgo-1sa5k.cu.plebai.net
+  sni: 76b15373-swd340-tcudgo-1sa5k.cu.plebai.net
+  type: trojan
+  udp: true
+- name: 2,12,13|台湾|@ripaojiedian
   network: tcp
-  password: b0b42734-5b07-4bae-b9d2-a3d16400b27e
+  password: 4abad10b-be0d-48bf-ab8a-3311463084d4
   port: 42765
   server: wb.kaiqsz.com
   skip-cert-verify: true
   sni: mmbiz1.redapricotcloud.com
   type: trojan
-- name: 1|🇺🇸16 |  1.2MB/s|39%|Openai
-  password: '74260665780162200'
-  port: 443
-  server: possible-tiger.shiner427.skin
+- name: 2|🌀2-TH |  1.8MB/s|55%|Youtube|O...
+  password: 905edb54-b4ce-47ad-ac94-51d58161a59a
+  port: 43395
+  server: 120.232.220.45
   skip-cert-verify: true
-  sni: possible-tiger.shiner427.skin
+  sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
-- alterId: 2
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 1|🇺🇸26 |  2.0MB/s|29%|Openai|Gem...
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  servername: tk.hzlt.tkddns.xyz
+- name: 2|🇯🇵1 |  1.3MB/s|0%|Disney|Youtu...
+  password: 905edb54-b4ce-47ad-ac94-51d58161a59a
+  port: 27001
+  server: 219.135.197.214
   skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
-    path: /
-- delay: 1079
-  name: 1|🌀3-IE |  1.2MB/s|30%|Youtube|O...
-  password: '74260665780162200'
-  port: 443
-  server: infinite-goose.shiner427.skin
-  sni: infinite-goose.shiner427.skin
+  sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
-- delay: 1122
-  name: 1|🇫🇷7 |  2.2MB/s|30%|Youtube|Ope...
-  password: '74260665780162200'
-  port: 443
-  server: noble-minnow.shiner427.skin
+  udp: true
+- name: 2|🇭🇰1 |  2.7MB/s|12%|Netflix|Dis...
+  password: 905edb54-b4ce-47ad-ac94-51d58161a59a
+  port: 27101
+  server: 120.232.220.45
   skip-cert-verify: true
-  sni: noble-minnow.shiner427.skin
-  type: trojan
-- name: 1|🇺🇸41 |  3.4MB/s|0%|Openai|Gemi...
-  network: ws
-  password: aTArbZ2F0E
-  port: 443
-  server: 172.66.168.209
-  sni: uSa-vp-27.bLAzECLOUD.SITE
+  sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
-  ws-opts:
-    path: /linkvkws
-- alterId: 2
-  cipher: auto
-  name: 1|🇺🇸42 |  2.3MB/s|29%|Openai|Gem...
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-headers:
-    Host: zxjp-a.tkong.cc
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 1|🇭🇰1 |  3.0MB/s|15%|Openai
-  network: ws
-  port: 8080
-  server: a1aa5069-swd340-t7fl9b-1q16i.hgc1.tcpbbr.net
-  tls: false
-  type: vmess
-  uuid: 94614d84-9986-11ee-be7f-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: a1aa5069-swd340-t7fl9b-1q16i.hgc1.tcpbbr.net
-    path: /
-- ip-version: dual
-  name: 1|🇺🇸43 |  5.6MB/s|0%|Openai
-  network: ws
-  password: aTArbZ2F0E
-  port: 443
-  server: cloudgetservice.mcloudservice.site
-  sni: uSa-vp-27.bLAzECLOUD.SITE
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /linkvkws
-- name: 1,14|CN_speednode_0080
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
+- name: 2|🇮🇳1 |  1.3MB/s|25%|Openai
+  password: 905edb54-b4ce-47ad-ac94-51d58161a59a
   port: 42882
   server: 120.232.220.45
   skip-cert-verify: true
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
-- name: 1,14|CN_speednode_0155
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 34016
+- name: 2|🇭🇰2 |  2.7MB/s|12%|Netflix|Dis...
+  password: 905edb54-b4ce-47ad-ac94-51d58161a59a
+  port: 27101
+  server: 219.135.197.214
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+  udp: true
+- name: 2|🇩🇪7 |  1.3MB/s|11%|Youtube|Ope...
+  password: 905edb54-b4ce-47ad-ac94-51d58161a59a
+  port: 43583
+  server: 58.254.186.231
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+  udp: true
+- name: 2|🇬🇧3 |  1.2MB/s|11%|Youtube|Ope...
+  password: 905edb54-b4ce-47ad-ac94-51d58161a59a
+  port: 44397
+  server: 58.254.186.222
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+  udp: true
+- name: 2|🇺🇸89 |  1.3MB/s|0%|Openai|Gemi...
+  password: 905edb54-b4ce-47ad-ac94-51d58161a59a
+  port: 34014
+  server: 219.135.197.214
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+  udp: true
+- name: 2|🇺🇸90 |  1.5MB/s|0%|Openai
+  password: 905edb54-b4ce-47ad-ac94-51d58161a59a
+  port: 33506
+  server: 183.2.150.90
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+  udp: true
+- name: 2|🌀3-MU |  1.1MB/s|12%|Youtube|O...
+  password: 905edb54-b4ce-47ad-ac94-51d58161a59a
+  port: 46927
+  server: 58.254.186.233
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+  udp: true
+- name: 2|🇩🇪8 |  1.3MB/s|11%|Youtube
+  password: 905edb54-b4ce-47ad-ac94-51d58161a59a
+  port: 43583
+  server: 183.240.116.252
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+  udp: true
+- name: 2|🌀4-ES |  1.2MB/s|44%|Youtube|O...
+  password: 905edb54-b4ce-47ad-ac94-51d58161a59a
+  port: 46926
+  server: 58.254.186.222
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+  udp: true
+- name: 2|🇫🇷5 |  1.1MB/s|11%|Netflix|You...
+  password: 905edb54-b4ce-47ad-ac94-51d58161a59a
+  port: 43498
   server: 120.232.220.45
   skip-cert-verify: true
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
-- name: 1,14|CN_speednode_0161
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 43590
-  server: 183.2.150.64
+- name: 2|🇦🇺1 |  1.2MB/s|35%|Openai
+  password: 905edb54-b4ce-47ad-ac94-51d58161a59a
+  port: 34017
+  server: 183.240.116.235
   skip-cert-verify: true
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 1|🇭🇰2 |  1.1MB/s|15%|Disney|Yout...
-  network: ws
-  port: 8080
-  server: e4d173ea-swd340-sykxcb-1nhp7.hgc1.tcpbbr.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5fc9c9aa-ea47-11ed-8397-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- name: 1|🇺🇸45 |  4.4MB/s|46%|Openai|Gem...
-  network: tcp
-  password: 4a7f880c-72f4-11ed-b0b5-f23c9164ca5d
-  port: 15229
-  server: 3c80a135-swb8g0-t6ouc9-13xtu.cu.plebai.net
-  sni: 3c80a135-swb8g0-t6ouc9-13xtu.cu.plebai.net
-  type: trojan
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 1|🇺🇸46 |  4.0MB/s|0%|Openai
-  network: ws
-  port: 443
-  server: wcw004-3.facai2024.com
-  servername: wcw004-3.facai2024.com
+- name: 2|🇦🇺2 |  1.6MB/s|35%|Openai
+  password: 905edb54-b4ce-47ad-ac94-51d58161a59a
+  port: 34017
+  server: 58.254.186.231
   skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 09390803-92ae-4146-eaa8-0a01db85f766
-  ws-opts:
-    headers:
-      HOST: wcw004-3.facai2024.com
-    path: /09390803
-- name: 1|🇺🇸47 |  3.0MB/s|50%|Openai
-  network: ws
-  password: 5453ae26-250d-4e79-b4ec-016baf806865
-  port: 443
-  server: 104.21.23.162
-  sni: D05F4aA7-92B1-a659-E3b9-695Dd2870B3c.131.Pp.UA
+  sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      host: D05F4aA7-92B1-a659-E3b9-695Dd2870B3c.131.Pp.UA
-    path: /OYzPAeaZdXUq2d6J3gc4aj
-- name: 1|🇺🇸48 |  1.7MB/s|0%|Netflix|Dis...
-  network: ws
-  password: 15153c1d-fc81-4b2a-9689-7b4e4a72dce5
-  port: 443
-  server: 172.67.188.77
+- name: 2|🌀5-ES |  1.6MB/s|50%|Youtube|O...
+  password: 905edb54-b4ce-47ad-ac94-51d58161a59a
+  port: 46926
+  server: 219.135.197.214
   skip-cert-verify: true
-  sni: edfr4.890604.dpdns.org
+  sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      host: edfr4.890604.dpdns.org
-    path: /l6lvY4hFZriQDBimbKYmPIggy
-- name: 1|🇺🇸49 |  5.7MB/s|0%|Netflix|Dis...
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: us.madison.eu.org
-  skip-cert-verify: false
-  sni: skwygx.top
+- name: 2|🌀6-AR |  3.0MB/s|59%|Openai
+  password: 905edb54-b4ce-47ad-ac94-51d58161a59a
+  port: 43590
+  server: 120.232.220.45
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
-  ws-opts:
-    headers:
-      Host: skwygx.top
-    path: /tr?ed=2560
-- name: 1|🇺🇸50 |  1.3MB/s|0%
-  network: ws
-  password: f0f6e76e-e5fe-4e2c-9faf-34832e021eae
-  port: 443
-  server: 172.67.133.248
-  skip-cert-verify: false
-  sni: DDd.890604.FIlEGear-sG.Me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: DDd.890604.FIlEGear-sG.Me
-    path: '%2FmZr1mA5hub7QHHkQBzYO'
-- name: 1|🇺🇸51 |  1.7MB/s|0%|Netflix|Dis...
-  network: ws
-  password: 061ec9d5-ba40-428a-8be0-1947b10b5cfc
-  port: 443
-  server: 104.21.57.88
-  skip-cert-verify: false
-  sni: ddFrt.irAN.Pp.Ua
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ddFrt.irAN.Pp.Ua
-    path: '%2FDmby2AKiZKvMo1YauoQwY5'
-- name: 1|🇺🇸52 |  6.3MB/s|29%|Openai|Gem...
-  network: ws
-  password: c6840587-7ac4-40be-aa4b-ae327eb4fa53
-  port: 443
-  server: 104.21.61.154
-  skip-cert-verify: false
-  sni: CCCvfGHj.191266.xYZ
-  type: trojan
-  ws-opts:
-    headers:
-      Host: CCCvfGHj.191266.xYZ
-    path: '%2FogSVyJu0ksqZjqvVUXlLhk95Ad'
-- name: 1|🇺🇸53 |  1.9MB/s|0%|Openai
+  udp: true
+- name: 2|🇺🇸91 |  4.3MB/s|0%
   network: ws
   password: 4a3ee276-f50f-46f6-ba4d-13571732ab70
   port: 443
@@ -472,321 +666,84 @@ proxies:
   skip-cert-verify: false
   sni: ddcDe.890603.XYz
   type: trojan
+  udp: true
   ws-opts:
     headers:
       Host: ddcDe.890603.XYz
-    path: '%2FCOp52Dbu3dvwvDWUxOqxq'
-- name: 1|🇫🇷4 |  5.1MB/s|30%|Youtube|Ope...
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 15.188.113.51
-  skip-cert-verify: false
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- alterId: 5
-  cipher: auto
-  name: 1|🇺🇸54 |  5.1MB/s|33%|Openai|Gem...
+    path: /COp52Dbu3dvwvDWUxOqxq
+- cipher: chacha20-ietf
+  name: 2|🇭🇰3 |  1.0MB/s|0%
+  password: asd123456
+  port: 8388
+  server: 154.197.26.237
+  type: ss
+- name: 2|🇺🇸92 |  1.3MB/s|50%|Openai|Gem...
   network: ws
-  port: 41507
-  server: ny1.bulkcash.top
+  password: 70776bb4-d791-4cbd-9c9b-c76e937f9e60
+  port: 443
+  server: 172.67.216.240
   skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 695ac0a3-406a-41d7-83c5-5af8c39d3bec
+  sni: Xxs345rf.857856.xYZ
+  type: trojan
   ws-opts:
     headers:
-      Host: ny1.bulkcash.top
-    path: /
-- name: 1|🇺🇸55 |  5.9MB/s|Youtube|Openai
-  network: ws
-  password: f0f6e76e-e5fe-4e2c-9faf-34832e021eae
-  port: 443
-  server: 172.67.172.91
-  skip-cert-verify: true
-  sni: Ty.457.pP.uA
-  tfo: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Ty.457.pP.uA
-    path: /mZr1mA5hub7QHHkQBzYO
-- alpn:
-  - http/1.1
-  name: 1|🇺🇸92 |  2.0MB/s|29%|Netflix|Op...
-  network: ws
-  password: 0bf83a1d-f785-487a-a479-3c3de2566ba6
-  port: 443
-  server: 104.21.75.75
+      Host: Xxs345rf.857856.xYZ
+    path: '%2F71M8Ov1I5Gk9247fHC0XGZG6'
+- name: 2|🇺🇸93 |  2.5MB/s|46%|Openai|Gem...
+  password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
+  port: 15229
+  server: c378385c-swd340-swy6li-tni2.cu.plebai.net
   skip-cert-verify: false
-  sni: Xs2ws.857856.xYz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.115 Safari/537.36
-    path: /xJXdWGMbbZovkcaL2SsGTGxE
-- delay: 958
-  name: 1|🇫🇷6 |  3.2MB/s|30%|Youtube|Ope...
-  password: '74260665780162200'
-  port: 443
-  server: grown-mackerel.shiner427.skin
-  skip-cert-verify: true
-  sni: grown-mackerel.shiner427.skin
-  type: trojan
-- name: 1|🌀10-IE |  2.7MB/s|30%|Youtube|...
-  password: '74260665780162200'
-  port: 443
-  server: 54.75.219.167
-  skip-cert-verify: true
-  sni: infinite-goose.shiner427.skin
   type: trojan
 - alterId: '0'
   cipher: auto
-  name: 1|🇺🇸101 |  3.0MB/s|32%|Netflix|D...
+  name: 2|🇺🇸154 |  5.6MB/s|32%|Netflix|D...
   network: ws
   port: '2096'
   server: 141.101.120.253
+  skip-cert-verify: false
   tls: true
   type: vmess
+  udp: true
   uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce
   ws-opts:
     headers:
-      host: 1746882891.speed.adl.cccp.freefly.pp.ua
+      Host: 1746882891.speed.adl.cccp.freefly.pp.ua
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰 香港 01 | 1x HK
-  password: cd313894-92e9-4490-aa0c-c11a5a6b71ef
-  port: 36141
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰 香港 02 | 1x HK
-  password: cd313894-92e9-4490-aa0c-c11a5a6b71ef
-  port: 36143
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰 香港住宅IP 03 | 1x HK
-  password: cd313894-92e9-4490-aa0c-c11a5a6b71ef
-  port: 36145
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼 台湾 01 | 1x TW
-  password: cd313894-92e9-4490-aa0c-c11a5a6b71ef
-  port: 36241
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼 台湾 02 | 1x TW
-  password: cd313894-92e9-4490-aa0c-c11a5a6b71ef
-  port: 36243
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼 台湾 03 | 1x TW
-  password: cd313894-92e9-4490-aa0c-c11a5a6b71ef
-  port: 36245
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇯🇵 日本 01 | 1x JP
-  password: cd313894-92e9-4490-aa0c-c11a5a6b71ef
-  port: 36111
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇯🇵 日本 02 | 1x JP
-  password: cd313894-92e9-4490-aa0c-c11a5a6b71ef
-  port: 36113
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇯🇵 日本 03 | 1x JP
-  password: cd313894-92e9-4490-aa0c-c11a5a6b71ef
-  port: 36115
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 01 | 1x SG
-  password: cd313894-92e9-4490-aa0c-c11a5a6b71ef
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 02 | 1x SG
-  password: cd313894-92e9-4490-aa0c-c11a5a6b71ef
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇰🇷 韩国 01 | 1x KR
-  password: cd313894-92e9-4490-aa0c-c11a5a6b71ef
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇵🇭 菲律宾 01 | 1x PH
-  password: cd313894-92e9-4490-aa0c-c11a5a6b71ef
-  port: 36341
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国 01 | 1x US Los Angeles
-  password: cd313894-92e9-4490-aa0c-c11a5a6b71ef
-  port: 36211
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: cd313894-92e9-4490-aa0c-c11a5a6b71ef
-  port: 36213
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国 03 | 1x US Washington
-  password: cd313894-92e9-4490-aa0c-c11a5a6b71ef
-  port: 36215
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇬🇧 英国住宅IP 01 | 1x UK
-  password: cd313894-92e9-4490-aa0c-c11a5a6b71ef
-  port: 36271
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇲🇾马来西亚 01 | 1x MY
-  password: cd313894-92e9-4490-aa0c-c11a5a6b71ef
-  port: 36721
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇲🇾马来西亚 02 | 1x MY
-  password: cd313894-92e9-4490-aa0c-c11a5a6b71ef
-  port: 36722
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇮🇳西班牙 01 | 1x ES
-  password: cd313894-92e9-4490-aa0c-c11a5a6b71ef
-  port: 36741
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇭泰国 01 | 1x TH
-  password: cd313894-92e9-4490-aa0c-c11a5a6b71ef
-  port: 36731
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇮🇳 印度 01 | 1x IN
-  password: cd313894-92e9-4490-aa0c-c11a5a6b71ef
-  port: 36371
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇦🇺 澳大利亚 01 | 1x AU
-  password: cd313894-92e9-4490-aa0c-c11a5a6b71ef
-  port: 36411
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇨🇦 加拿大 01 | 1x CA
-  password: cd313894-92e9-4490-aa0c-c11a5a6b71ef
-  port: 36441
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇩🇪 德国 01 | 1x DE
-  password: cd313894-92e9-4490-aa0c-c11a5a6b71ef
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇷🇺 俄罗斯 01 | 1x RU
-  password: cd313894-92e9-4490-aa0c-c11a5a6b71ef
-  port: 36511
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇷 土耳其 01 | 1x TR
-  password: cd313894-92e9-4490-aa0c-c11a5a6b71ef
-  port: 36571
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇦 乌克兰 01 | 1x UA
-  password: cd313894-92e9-4490-aa0c-c11a5a6b71ef
-  port: 36611
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇻🇳 越南 01 | 1x VN
-  password: cd313894-92e9-4490-aa0c-c11a5a6b71ef
-  port: 36641
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇧🇷 巴西 01 | 1x BR
-  password: cd313894-92e9-4490-aa0c-c11a5a6b71ef
-  port: 36671
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇮🇩 印度尼西亚 01 | 1x ID
-  password: cd313894-92e9-4490-aa0c-c11a5a6b71ef
-  port: 36677
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 12|tg频道:@ripaojiedian
-  password: awsps0501
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 2|🇫🇷6 |  2.9MB/s|100%|Openai
+  network: ws
   port: 443
-  server: 34.217.73.72
+  server: auth0.openai.com
+  skip-cert-verify: true
   tfo: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  ws-opts:
+    headers:
+      Host: admin.kasrax.ir
+    path: /irvideo.cfd/linkws
+- cipher: aes-256-cfb
+  name: 2|🌀12-T1 |  2.0MB/s|22%|Openai
+  password: f8f7aCzcPKbsF8p3
+  port: '989'
+  server: 51.15.23.63
   type: ss
-- name: 12,13|香港|@ripaojiedian
-  network: tcp
-  password: ac1ba86a-eafd-4457-b8ec-3551bbc54ca9
-  port: 12221
-  server: wb.kaiqsz.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 12|🇭🇰 香港|@ripaojiedian
+  port: 25635
+  server: 103.224.80.89
   skip-cert-verify: false
-  sni: mmbiz.redapricotcloud.com
-  type: trojan
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: b6d376fb-c49e-49f4-fe0c-065bf7987ff5
 - cipher: chacha20-ietf-poly1305
   name: 12|🇭🇰 香港2|@ripaojiedian
   password: 91a41f4e02dc
@@ -798,7 +755,7 @@ proxies:
     path: /utvbnrzejpmt
     skip-cert-verify: false
     tls: true
-  port: 31785
+  port: 15985
   server: hkkh11v1.xpmc.cc
   tfo: false
   type: ss
@@ -822,54 +779,53 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 2
+- name: 12,13|香港5|@ripaojiedian
+  network: tcp
+  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
+  port: 8313
+  server: dozo01.flztjc.top
+  skip-cert-verify: false
+  sni: hk-13-568.flztjc.net
+  type: trojan
+- cipher: aes-256-gcm
+  name: 12|🇭🇰 香港6|@ripaojiedian
+  password: NPOA4WYID2WF8N4E
+  port: 15016
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- alterId: 64
   cipher: auto
-  name: 12,13|香港5|@ripaojiedian
-  network: ws
-  port: '22642'
-  server: 52.80.232.93
-  servername: zxjp-b.tkong.cc
+  name: 12|🇭🇰 香港7|@ripaojiedian
+  port: 41554
+  server: 183.236.51.38
   skip-cert-verify: false
   tfo: false
-  tls: true
+  tls: false
   type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 12,13|香港8|@ripaojiedian
+  network: ws
+  port: '8080'
+  server: 140d8a8d-swexs0-t5urb7-1i1.hgc1.tcpbbr.net
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 6bcf5a10-bfe8-11ec-bd7c-f23c913c8d2b
   ws-opts:
     headers:
-      Host: zxjp-b.tkong.cc
+      Host: broadcastlv.chat.bilibili.com
     path: /
-- cipher: chacha20-ietf
-  name: 12|🇭🇰 香港6|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 103.149.183.61
-  tfo: false
-  type: ss
-- name: 12,13|香港7|@ripaojiedian
-  network: tcp
-  password: feac8d6d-8fcf-4ef1-9ad0-18833c9fca11
-  port: 28505
-  server: green.cdntencentmusic.com
-  skip-cert-verify: false
-  sni: green.cdntencentmusic.com
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 12|🇹🇼 台湾|@ripaojiedian
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 88a027c.dl.microsoft.lu:14333
-    mode: tls
-  port: 2377
-  server: 118.163.198.43
-  tfo: false
-  type: ss
 - cipher: rc4-md5
   name: 12|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505121278853-gxJrEwg9CP.download.microsoft.com
+    host: 202505121278853-jDmMPlEOcQ.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -877,16 +833,16 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 12|🇯🇵 日本2|@ripaojiedian
-  password: 130961f0a8a6
+  password: bd95d7933d72
   plugin: v2ray-plugin
   plugin-opts:
     host: jp06v1.3ci.xyz
     mode: websocket
     mux: true
-    path: /bpqzubxyzm
+    path: /qvqgjshkqqep
     skip-cert-verify: false
     tls: true
-  port: 19499
+  port: 53586
   server: 103.140.136.242
   tfo: false
   type: ss
@@ -900,27 +856,11 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 12,13|日本4|@ripaojiedian
-  network: ws
-  port: '46015'
-  server: 112.29.213.228
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
-- cipher: aes-256-cfb
-  name: 12|🇰🇷 韩国|@ripaojiedian
-  password: qwerREWQ@@
-  port: 36379
-  server: p080.panda001.net
+- cipher: aes-256-gcm
+  name: 12|🇯🇵 日本4|@ripaojiedian
+  password: 1d6fc1e2-a36d-4bd7-b0d0-e901343d9b97
+  port: 19008
+  server: 183.36.41.50
   tfo: false
   type: ss
 - alterId: 2
@@ -939,29 +879,20 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 12,13|新加坡2|@ripaojiedian
-  network: ws
-  port: '46019'
-  server: 112.29.213.228
-  servername: ''
-  skip-cert-verify: false
+- cipher: aes-256-gcm
+  name: 12|🇸🇬 新加坡2|@ripaojiedian
+  password: UAO72K511KYT7NM7
+  port: 16003
+  server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
-  tls: false
-  type: vmess
-  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
-- name: 12|🇸🇬 新加坡3|@ripaojiedian
-  password: 4GA1yNVbxOmx5deR3oj6CgKcHxL1aOSN
-  port: 8123
-  server: mortify.koreanbbq.link
-  skip-cert-verify: false
-  sni: mortify.koreanbbq.link
-  type: trojan
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 12|🇰🇷 韩国2|@ripaojiedian
+  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  port: 6666
+  server: 13.209.10.213
+  tfo: false
+  type: ss
 - alterId: 2
   cipher: auto
   name: 12,13|美国|@ripaojiedian
@@ -983,7 +914,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505121278853-gxJrEwg9CP.download.microsoft.com
+    host: 202505121278853-jDmMPlEOcQ.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -1005,34 +936,16 @@ proxies:
     headers:
       Host: zxjp-b.tkong.cc
     path: /
-- cipher: aes-256-gcm
-  name: 12|🇺🇸 美国5|@ripaojiedian
-  password: QJbkBM3YrD
-  port: 54535
-  server: 38.244.10.137
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: 12|🇯🇵 日本特殊|@ripaojiedian
-  password: yijian0503
-  port: 443
-  server: 13.250.27.89
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: 12|🇰🇷 韩国特殊|@ripaojiedian
-  password: yijian0503
-  port: 443
-  server: 13.229.110.124
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: 12|🇸🇬 狮城特殊|@ripaojiedian
-  password: yijian0503
-  port: 443
-  server: 54.251.26.168
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|香港|@ripaojiedian
+  network: tcp
+  port: '25635'
+  server: 103.224.80.89
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b6d376fb-c49e-49f4-fe0c-065bf7987ff5
 - alterId: 64
   cipher: auto
   name: 13|香港3|@ripaojiedian
@@ -1048,6 +961,16 @@ proxies:
   name: 13|香港4|@ripaojiedian
   network: tcp
   port: '43302'
+  server: 183.236.51.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 13|香港7|@ripaojiedian
+  network: tcp
+  port: '41554'
   server: 183.236.51.38
   servername: ''
   tls: false
@@ -1073,26 +996,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 07287360-e12f-4f94-9c7a-54386c100d8a
-- name: 13|新加坡3|@ripaojiedian
-  network: tcp
-  password: 4GA1yNVbxOmx5deR3oj6CgKcHxL1aOSN
-  port: 8123
-  server: mortify.koreanbbq.link
-  type: trojan
-- name: 14|AT_speednode_0001
+- name: 14|AT_speednode_0004
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
-  server: 212.183.88.194
-  skip-cert-verify: false
+  server: 212.183.88.58
+  skip-cert-verify: true
   sni: icecream.955850.xyz
   type: trojan
   udp: true
   ws-opts:
     headers:
       Host: icecream.955850.xyz
-    path: /proxyip=212.183.88.194:443
-- name: 14|AT_speednode_0002
+    path: /proxyip=212.183.88.58:443&proxyIP=null
+- name: 14|AT_speednode_0005
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -1105,7 +1022,72 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=212.183.88.194:443&proxyIP=null
-- name: 14|BG_speednode_0003
+- name: 14|AT_speednode_0006
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 212.183.88.156
+  skip-cert-verify: true
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=212.183.88.156:443&proxyIP=null
+- name: 14|AT_speednode_0007
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 212.183.88.172
+  skip-cert-verify: true
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=212.183.88.172:443&proxyIP=null
+- name: 14|AT_speednode_0008
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 212.183.88.29
+  skip-cert-verify: true
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=212.183.88.29:443&proxyIP=null
+- name: 14|AT_speednode_0009
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 212.183.88.194
+  skip-cert-verify: false
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=212.183.88.194:443
+- name: 14|AT_speednode_0010
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 212.183.88.156
+  skip-cert-verify: false
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=212.183.88.156:443
+- name: 14|BG_speednode_0012
   network: ws
   password: bpb-trojan
   port: 443
@@ -1118,11 +1100,11 @@ proxies:
     headers:
       Host: skwygx.top
     path: /tr
-- name: 14|BR_speednode_0005
+- name: 14|BR_speednode_0015
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
-  server: 185.133.35.254
+  server: 185.133.35.141
   skip-cert-verify: true
   sni: icecream.955850.xyz
   type: trojan
@@ -1130,8 +1112,21 @@ proxies:
   ws-opts:
     headers:
       Host: icecream.955850.xyz
-    path: /proxyip=185.133.35.254:443&proxyIP=null
-- name: 14|BR_speednode_0007
+    path: /proxyip=185.133.35.141:443&proxyIP=null
+- name: 14|BR_speednode_0016
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 185.133.35.38
+  skip-cert-verify: true
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=185.133.35.38:443&proxyIP=null
+- name: 14|BR_speednode_0017
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -1144,7 +1139,59 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=185.133.35.141:443
-- name: 14|CH_speednode_0008
+- name: 14|BR_speednode_0018
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 185.133.35.254
+  skip-cert-verify: true
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=185.133.35.254:443&proxyIP=null
+- name: 14|BR_speednode_0019
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 185.133.35.243
+  skip-cert-verify: true
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=185.133.35.243:443&proxyIP=null
+- name: 14|BR_speednode_0020
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 185.133.35.160
+  skip-cert-verify: true
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=185.133.35.160:443&proxyIP=null
+- name: 14|BR_speednode_0021
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 185.133.35.243
+  skip-cert-verify: false
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=185.133.35.243:443
+- name: 14|CH_speednode_0024
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -1157,1072 +1204,19 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=140.238.212.95:443&proxyIP=null
-- name: 14|CN_speednode_0009
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 43396
-  server: 58.254.186.233
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0011
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 27408
-  server: 58.254.186.222
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0015
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 43396
-  server: 183.240.116.224
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0016
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 27408
-  server: 183.2.150.64
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0017
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 27002
-  server: 183.2.150.98
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0018
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 27408
-  server: 183.240.116.235
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0019
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 22269
-  server: 183.2.150.64
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0020
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 27002
-  server: 58.254.186.222
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0021
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 46668
-  server: 120.232.220.45
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0022
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 43394
-  server: 120.232.220.45
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0023
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 43393
-  server: 183.2.150.98
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0024
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 43396
-  server: 219.135.197.214
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
 - name: 14|CN_speednode_0025
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 27001
-  server: 219.135.197.214
+  password: b6200af42ccadea353f5b5856dd20d70
+  port: 39001
+  server: 120.233.128.68
   skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
+  sni: 120.233.128.68
   type: trojan
   udp: true
-- name: 14|CN_speednode_0030
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 42882
-  server: 183.2.150.90
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0031
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 43393
-  server: 183.240.116.252
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0032
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 27001
-  server: 120.232.220.45
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0033
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 42882
-  server: 183.240.116.252
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0037
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 43395
-  server: 183.2.150.98
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0038
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 43395
-  server: 58.254.186.233
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0039
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 27408
-  server: 183.240.116.224
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0041
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 42882
-  server: 58.254.186.231
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0042
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 43393
-  server: 58.254.186.233
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0043
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 43395
-  server: 120.232.220.45
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0044
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 27001
-  server: 183.2.150.64
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0045
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 22269
-  server: 120.232.220.45
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0046
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 27001
-  server: 58.254.186.233
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0047
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 27001
-  server: 183.240.116.235
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0048
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 43394
-  server: 58.254.186.222
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0049
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 46668
-  server: 219.135.197.214
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0050
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 43394
-  server: 183.2.150.90
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0051
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 22269
-  server: 183.240.116.224
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0052
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 22271
-  server: 183.2.150.64
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0053
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 22271
-  server: 183.240.116.224
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0054
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 43396
-  server: 120.232.220.45
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0055
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 22271
-  server: 120.232.220.45
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0057
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 27002
-  server: 219.135.197.214
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0058
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 22271
-  server: 219.135.197.214
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0059
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 42883
-  server: 58.254.186.222
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0060
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 22271
-  server: 58.254.186.231
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0061
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 27002
-  server: 183.240.116.252
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0062
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 42883
-  server: 120.232.220.45
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0063
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 27201
-  server: 183.240.116.224
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0064
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 27002
-  server: 120.232.220.45
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0065
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 22269
-  server: 219.135.197.214
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0066
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 27301
-  server: 120.232.220.45
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0067
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 42883
-  server: 219.135.197.214
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0068
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 34017
-  server: 183.240.116.224
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0069
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 27301
-  server: 219.135.197.214
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0070
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 42882
-  server: 183.2.150.98
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0071
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 33505
-  server: 120.232.220.45
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0072
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 33506
-  server: 120.232.220.45
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0073
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 43393
-  server: 58.254.186.231
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0074
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 34017
-  server: 183.2.150.90
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0075
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 43395
-  server: 58.254.186.231
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0076
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 46668
-  server: 58.254.186.233
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0077
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 44397
-  server: 120.232.220.45
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0078
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 27201
-  server: 58.254.186.231
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0079
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 34014
-  server: 120.232.220.45
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0081
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 43497
-  server: 183.2.150.98
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0082
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 33505
-  server: 219.135.197.214
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0083
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 27202
-  server: 58.254.186.233
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0084
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 43499
-  server: 183.240.116.224
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0085
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 27201
-  server: 219.135.197.214
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0086
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 27301
-  server: 58.254.186.233
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0088
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 42883
-  server: 58.254.186.233
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0089
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 34014
-  server: 219.135.197.214
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0090
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 33506
-  server: 219.135.197.214
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0091
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 43497
-  server: 58.254.186.231
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0092
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 27201
-  server: 183.2.150.64
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0094
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 27202
-  server: 183.240.116.235
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0095
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 43497
-  server: 120.232.220.45
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0096
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 33506
-  server: 58.254.186.222
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0097
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 42883
-  server: 183.240.116.252
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0098
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 43592
-  server: 58.254.186.233
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0099
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 33505
-  server: 183.240.116.235
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0100
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 33506
-  server: 183.2.150.64
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0102
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 43591
-  server: 120.232.220.45
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0103
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 43592
-  server: 183.240.116.235
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0104
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 27202
-  server: 183.2.150.90
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0105
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 27401
-  server: 58.254.186.233
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0106
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 42881
-  server: 183.2.150.64
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0107
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 46926
-  server: 183.240.116.235
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0108
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 27202
-  server: 120.232.220.45
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0110
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 34014
-  server: 183.2.150.64
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0111
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 27101
-  server: 183.2.150.90
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0113
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 33505
-  server: 183.240.116.224
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0114
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 34017
-  server: 58.254.186.233
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0115
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 33505
-  server: 58.254.186.233
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0116
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 43498
-  server: 58.254.186.233
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0117
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 27301
-  server: 183.240.116.252
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0119
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 43497
-  server: 58.254.186.233
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0120
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 34014
-  server: 58.254.186.222
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0121
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 44397
-  server: 183.240.116.235
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0122
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 44397
-  server: 58.254.186.222
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0123
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 27201
-  server: 183.240.116.252
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0124
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 43498
-  server: 120.232.220.45
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0125
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 27101
-  server: 183.240.116.235
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0126
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 43583
-  server: 58.254.186.233
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0127
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 27103
-  server: 219.135.197.214
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0128
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 43583
-  server: 183.240.116.224
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0129
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 43497
-  server: 183.240.116.252
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0130
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 33506
-  server: 183.240.116.235
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0131
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 46926
-  server: 183.2.150.98
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0132
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 43591
-  server: 58.254.186.231
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0133
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 43499
-  server: 120.232.220.45
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0134
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 43499
-  server: 58.254.186.231
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0135
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 27201
-  server: 183.2.150.90
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0136
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 33505
-  server: 183.2.150.98
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0137
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 42881
-  server: 183.240.116.252
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0138
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 27202
-  server: 183.2.150.64
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0139
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 43499
-  server: 219.135.197.214
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0140
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 46927
-  server: 120.232.220.45
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0141
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 27102
-  server: 183.240.116.224
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0142
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 27202
-  server: 58.254.186.231
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0143
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 27408
-  server: 219.135.197.214
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0144
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 44397
-  server: 219.135.197.214
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0145
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 27202
-  server: 219.135.197.214
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0146
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 46926
-  server: 58.254.186.222
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0147
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 43592
-  server: 58.254.186.222
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0148
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 46927
-  server: 219.135.197.214
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0149
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 34017
-  server: 219.135.197.214
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0150
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 43583
-  server: 219.135.197.214
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0151
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 43397
-  server: 58.254.186.233
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0152
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 27202
-  server: 183.240.116.252
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0153
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 43397
-  server: 183.2.150.98
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0154
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 43497
-  server: 219.135.197.214
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0156
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 46926
-  server: 120.232.220.45
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0157
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 34016
-  server: 219.135.197.214
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0158
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 46926
-  server: 219.135.197.214
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0159
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 43590
-  server: 120.232.220.45
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0160
-  password: 482194f6-8ca3-4c53-b43e-150f51efda7f
-  port: 43590
-  server: 183.240.116.224
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|EE_speednode_0162
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: est.madison.eu.org
-  skip-cert-verify: false
-  sni: skwygx.top
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: skwygx.top
-    path: /tr
-- name: 14|GB_speednode_0164
+- name: 14|DE_speednode_0037
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
-  port: 443
-  server: 217.163.76.254
+  port: 8443
+  server: 130.61.51.100
   skip-cert-verify: true
   sni: icecream.955850.xyz
   type: trojan
@@ -2230,8 +1224,8 @@ proxies:
   ws-opts:
     headers:
       Host: icecream.955850.xyz
-    path: /proxyip=217.163.76.254:443&proxyIP=null
-- name: 14|GB_speednode_0165
+    path: /proxyip=130.61.51.100:8443&proxyIP=null
+- name: 14|GB_speednode_0053
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -2244,11 +1238,11 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=217.163.76.237:443&proxyIP=null
-- name: 14|GB_speednode_0166
+- name: 14|GB_speednode_0054
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
-  server: 217.163.76.89
+  server: 217.163.76.254
   skip-cert-verify: true
   sni: icecream.955850.xyz
   type: trojan
@@ -2256,60 +1250,8 @@ proxies:
   ws-opts:
     headers:
       Host: icecream.955850.xyz
-    path: /proxyip=217.163.76.89:443&proxyIP=null
-- name: 14|GB_speednode_0167
-  network: ws
-  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
-  port: 443
-  server: 217.163.76.227
-  skip-cert-verify: true
-  sni: icecream.955850.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: icecream.955850.xyz
-    path: /proxyip=217.163.76.227:443&proxyIP=null
-- name: 14|GB_speednode_0168
-  network: ws
-  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
-  port: 443
-  server: 217.163.76.227
-  skip-cert-verify: false
-  sni: icecream.955850.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: icecream.955850.xyz
-    path: /proxyip=217.163.76.227:443
-- name: 14|GB_speednode_0169
-  network: ws
-  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
-  port: 443
-  server: 217.163.76.51
-  skip-cert-verify: true
-  sni: icecream.955850.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: icecream.955850.xyz
-    path: /proxyip=217.163.76.51:443&proxyIP=null
-- name: 14|GB_speednode_0170
-  network: ws
-  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
-  port: 443
-  server: 217.163.76.89
-  skip-cert-verify: false
-  sni: icecream.955850.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: icecream.955850.xyz
-    path: /proxyip=217.163.76.89:443
-- name: 14|GB_speednode_0171
+    path: /proxyip=217.163.76.254:443&proxyIP=null
+- name: 14|GB_speednode_0056
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -2322,24 +1264,11 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=217.163.76.254:443
-- name: 14|GB_speednode_0172
+- name: 14|GB_speednode_0057
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
-  server: 217.163.76.237
-  skip-cert-verify: false
-  sni: icecream.955850.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: icecream.955850.xyz
-    path: /proxyip=217.163.76.237:443
-- name: 14|RU_speednode_0175
-  network: ws
-  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
-  port: 443
-  server: 45.67.215.153
+  server: 217.163.76.227
   skip-cert-verify: true
   sni: icecream.955850.xyz
   type: trojan
@@ -2347,12 +1276,25 @@ proxies:
   ws-opts:
     headers:
       Host: icecream.955850.xyz
-    path: /proxyip=45.67.215.153:443&proxyIP=null
-- name: 14|RU_speednode_0176
+    path: /proxyip=217.163.76.227:443&proxyIP=null
+- name: 14|GB_speednode_0058
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
-  server: 45.67.215.153
+  server: 217.163.76.221
+  skip-cert-verify: true
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=217.163.76.221:443&proxyIP=null
+- name: 14|GB_speednode_0059
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 217.163.76.89
   skip-cert-verify: false
   sni: icecream.955850.xyz
   type: trojan
@@ -2360,12 +1302,12 @@ proxies:
   ws-opts:
     headers:
       Host: icecream.955850.xyz
-    path: /proxyip=45.67.215.153:443
-- name: 14|RU_speednode_0178
+    path: /proxyip=217.163.76.89:443
+- name: 14|GB_speednode_0060
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
-  server: 45.67.215.234
+  server: 217.163.76.227
   skip-cert-verify: false
   sni: icecream.955850.xyz
   type: trojan
@@ -2373,8 +1315,112 @@ proxies:
   ws-opts:
     headers:
       Host: icecream.955850.xyz
-    path: /proxyip=45.67.215.234:443
-- name: 14|RU_speednode_0179
+    path: /proxyip=217.163.76.227:443
+- name: 14|GB_speednode_0061
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 217.163.76.51
+  skip-cert-verify: true
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=217.163.76.51:443&proxyIP=null
+- name: 14|GB_speednode_0062
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 217.163.76.51
+  skip-cert-verify: false
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=217.163.76.51:443
+- name: 14|HK_speednode_0065
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: us.madison.eu.org
+  skip-cert-verify: false
+  sni: skwygx.top
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: skwygx.top
+    path: /tr
+- name: 14|KZ_speednode_0067
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 194.76.18.122
+  skip-cert-verify: true
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=194.76.18.122:443&proxyIP=null
+- name: 14|KZ_speednode_0068
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 194.76.18.122
+  skip-cert-verify: false
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=194.76.18.122:443
+- name: 14|KZ_speednode_0069
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 194.76.18.129
+  skip-cert-verify: true
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=194.76.18.129:443&proxyIP=null
+- name: 14|NL_speednode_0073
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 4002
+  server: 45.154.98.100
+  skip-cert-verify: true
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=45.154.98.100:4002&proxyIP=null
+- name: 14|NZ_speednode_0074
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 202.37.33.80
+  skip-cert-verify: true
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=202.37.33.80:443&proxyIP=null
+- name: 14|RU_speednode_0081
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -2387,14 +1433,85 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=45.67.215.5:443&proxyIP=null
-- name: 14|SG_speednode_0180
-  password: 9de6d20c-d133-4261-8dd2-88684d619f7e
-  port: 43456
-  server: 43.163.126.61
+- name: 14|RU_speednode_0082
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 45.67.215.153
   skip-cert-verify: true
+  sni: icecream.955850.xyz
   type: trojan
   udp: true
-- name: 14|US_speednode_0181
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=45.67.215.153:443&proxyIP=null
+- name: 14|RU_speednode_0083
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 45.67.215.5
+  skip-cert-verify: false
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=45.67.215.5:443
+- name: 14|RU_speednode_0084
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 45.67.215.153
+  skip-cert-verify: false
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=45.67.215.153:443
+- name: 14|RU_speednode_0085
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 45.67.215.234
+  skip-cert-verify: false
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=45.67.215.234:443
+- name: 14|RU_speednode_0086
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 45.67.215.234
+  skip-cert-verify: true
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=45.67.215.234:443&proxyIP=null
+- name: 14|RU_speednode_0087
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 45.67.215.196
+  skip-cert-verify: true
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=45.67.215.196:443&proxyIP=null
+- name: 14|US_speednode_0120
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -2407,24 +1524,11 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=160.79.105.81:443&proxyIP=null
-- name: 14|US_speednode_0182
+- name: 14|US_speednode_0123
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
-  server: 160.79.105.220
-  skip-cert-verify: false
-  sni: icecream.955850.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: icecream.955850.xyz
-    path: /proxyip=160.79.105.220:443
-- name: 14|US_speednode_0183
-  network: ws
-  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
-  port: 443
-  server: 192.0.54.184
+  server: 192.0.54.194
   skip-cert-verify: true
   sni: icecream.955850.xyz
   type: trojan
@@ -2432,8 +1536,60 @@ proxies:
   ws-opts:
     headers:
       Host: icecream.955850.xyz
-    path: /proxyip=192.0.54.184:443&proxyIP=null
-- name: 14|US_speednode_0184
+    path: /proxyip=192.0.54.194:443&proxyIP=null
+- name: 14|US_speednode_0125
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 162.159.153.217
+  skip-cert-verify: true
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=162.159.153.217:443&proxyIP=null
+- name: 14|US_speednode_0126
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 160.79.105.81
+  skip-cert-verify: false
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=160.79.105.81:443
+- name: 14|US_speednode_0129
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 162.159.152.205
+  skip-cert-verify: true
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=162.159.152.205:443&proxyIP=null
+- name: 14|US_speednode_0130
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 162.159.153.209
+  skip-cert-verify: true
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=162.159.153.209:443&proxyIP=null
+- name: 14|US_speednode_0131
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -2446,11 +1602,11 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=192.0.54.184:443
-- name: 14|ZA_speednode_0187
+- name: 14|US_speednode_0132
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
-  server: 160.123.255.199
+  server: 192.0.54.184
   skip-cert-verify: true
   sni: icecream.955850.xyz
   type: trojan
@@ -2458,8 +1614,34 @@ proxies:
   ws-opts:
     headers:
       Host: icecream.955850.xyz
-    path: /proxyip=160.123.255.199:443&proxyIP=null
-- name: 14|ZA_speednode_0188
+    path: /proxyip=192.0.54.184:443&proxyIP=null
+- name: 14|US_speednode_0133
+  network: ws
+  password: '12345678'
+  port: 443
+  server: 198.62.62.4
+  skip-cert-verify: false
+  sni: 7bdfb97a.ikl.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 7bdfb97a.ikl.pages.dev
+    path: /7bdfb97a.ikl.pages.dev
+- name: 14|ZA_speednode_0139
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 160.123.255.173
+  skip-cert-verify: true
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=160.123.255.173:443&proxyIP=null
+- name: 14|ZA_speednode_0140
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -2472,7 +1654,20 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=160.123.255.243:443&proxyIP=null
-- name: 14|ZA_speednode_0189
+- name: 14|ZA_speednode_0141
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 160.123.255.18
+  skip-cert-verify: true
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=160.123.255.18:443&proxyIP=null
+- name: 14|ZA_speednode_0142
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -2485,3 +1680,16 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=160.123.255.243:443
+- name: 14|ZA_speednode_0143
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 160.123.255.134
+  skip-cert-verify: true
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=160.123.255.134:443&proxyIP=null
