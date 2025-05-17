@@ -1,79 +1,39 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
-  password: a307d913-efe4-4044-bb5c-68f86e59c73b
+  password: aa16cf56-be2b-493a-9dbc-68db19bb29d6
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 02 | 1x SG
-  password: a307d913-efe4-4044-bb5c-68f86e59c73b
+  password: aa16cf56-be2b-493a-9dbc-68db19bb29d6
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 03 | 1x SG
-  password: a307d913-efe4-4044-bb5c-68f86e59c73b
+  password: aa16cf56-be2b-493a-9dbc-68db19bb29d6
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬 新加坡 01 | 1x SG
-  password: ecfac256-0999-446b-8547-71ed929c46c2
+  password: 11ae5822-4345-43b2-a9db-b8e27d51b56c
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬 新加坡 02 | 1x SG
-  password: ecfac256-0999-446b-8547-71ed929c46c2
+  password: 11ae5822-4345-43b2-a9db-b8e27d51b56c
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  flow: none
-  name: 2,14|US_speednode_0136
-  network: ws
-  port: 8080
-  server: support.zoom.us
-  servername: xrr.rtxconfigz.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 291c27a5-34d2-4081-83cc-2196cd208148
-  ws-opts:
-    headers:
-      Host: xrr.rtxconfigz.xyz
-    path: /
-- name: 11|Hysteria 🇸🇬 @v2meowcf
-  password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
-  port: 443
-  server: 146.19.100.138
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 11|新加坡
-  password: a914681a-8dda-4c98-8468-c313f5539b14
-  port: 2056
-  server: sg3.eyucdn.xyz
-  skip-cert-verify: true
-  sni: sg3.eyucdn.xyz
-  tls: false
-  type: hysteria2
-- name: '11|Hysteria 🇸🇬 @v2meowcf #1'
-  password: wSu8KVl38ul4t9a2eA5foAVaS9MR5U
-  port: 443
-  server: 103.195.189.54
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -91,15 +51,28 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- cipher: aes-256-gcm
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 12|🇸🇬 新加坡2|@ripaojiedian
-  password: UAO72K511KYT7NM7
-  port: 16003
-  server: ti3hyra4.slashdevslashnetslashtun.net
+  port: 54652
+  server: 183.236.51.38
+  skip-cert-verify: false
   tfo: false
-  type: ss
-- name: 14|SG_speednode_0088
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡2|@ripaojiedian
+  network: tcp
+  port: '54652'
+  server: 183.236.51.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 14|SG_speednode_0082
   network: ws
   port: 8880
   server: 92.243.74.20
@@ -113,7 +86,7 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|SG_speednode_0089
+- name: 14|SG_speednode_0083
   network: ws
   port: 2087
   server: 27.50.48.18
