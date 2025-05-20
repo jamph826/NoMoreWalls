@@ -1,23 +1,16 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 01 | 1x SG
-  password: 1f3a73d8-3493-4702-840d-202be021eb8e
-  port: 31171
-  server: free.2apzhfa.xyz
+  name: 0|🇸🇬 新加坡 01 | 1x SG
+  password: b24f7a88-6651-4dd2-a9bc-27f934eb7deb
+  port: 36171
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 02 | 1x SG
-  password: 1f3a73d8-3493-4702-840d-202be021eb8e
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 03 | 1x SG
-  password: 1f3a73d8-3493-4702-840d-202be021eb8e
-  port: 31175
-  server: free.2apzhfa.xyz
+  name: 0|🇸🇬 新加坡 02 | 1x SG
+  password: b24f7a88-6651-4dd2-a9bc-27f934eb7deb
+  port: 36173
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - alterId: 64
@@ -44,7 +37,7 @@ proxies:
     headers:
       Host: lighter-missouri-hydrocodone-yeast.trycloudflare.com
     path: /e46d518d-4a20-4f9a-873d-a86e9455321c-vless?ed=2048
-- name: 1,14|SC_speednode_0105
+- name: 1|🇸🇬3 |  1.2MB/s|30%|Disney|Open...
   network: ws
   port: 8880
   server: 154.197.108.20
@@ -59,17 +52,24 @@ proxies:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 01 | 1x SG
-  password: 75ab0417-6196-4b05-8b97-59092881bb69
-  port: 36171
-  server: free.2weradf.xyz
+  name: 2|🇸🇬新加坡 01 | 1x SG
+  password: a09afb21-d886-4bf1-a101-d616cdd76475
+  port: 31171
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 02 | 1x SG
-  password: 75ab0417-6196-4b05-8b97-59092881bb69
-  port: 36173
-  server: free.2weradf.xyz
+  name: 2|🇸🇬新加坡 02 | 1x SG
+  password: a09afb21-d886-4bf1-a101-d616cdd76475
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬新加坡 03 | 1x SG
+  password: a09afb21-d886-4bf1-a101-d616cdd76475
+  port: 31175
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - alterId: 2
@@ -90,7 +90,7 @@ proxies:
       Host: ocbc.com
     path: /oooo
 - client-fingerprint: chrome
-  name: 12,13|新加坡2|@ripaojiedian
+  name: 12,13|新加坡4|@ripaojiedian
   network: tcp
   password: 09e8b39a-4c09-4df0-a50c-af3bef01567e
   port: 35000
@@ -98,12 +98,11 @@ proxies:
   skip-cert-verify: false
   sni: cgsg2.hysality.com
   type: trojan
-- client-fingerprint: chrome
-  name: 12,13|新加坡3|@ripaojiedian
-  network: tcp
-  password: ffea316f-7e81-4f8c-b122-1673abe353ed
-  port: 42881
-  server: 120.232.220.45
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 12|🇸🇬 新加坡3|@ripaojiedian
+  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  port: 6666
+  server: 54.251.238.225
+  tfo: false
+  type: ss
