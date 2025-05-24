@@ -1,44 +1,44 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: 4aa16d27-ec92-4e93-b03e-6bd181e61ddf
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 4aa16d27-ec92-4e93-b03e-6bd181e61ddf
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 03 | 1x US Washington
-  password: 4aa16d27-ec92-4e93-b03e-6bd181e61ddf
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 96fe9021-8f53-4d16-a98d-f21e9816ae20
+  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 8f052d8d-a889-44d4-8399-44a052b9906c
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 96fe9021-8f53-4d16-a98d-f21e9816ae20
+  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 8f052d8d-a889-44d4-8399-44a052b9906c
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 03 | 1x US Washington
-  password: 96fe9021-8f53-4d16-a98d-f21e9816ae20
+  name: 0|🇺🇸 美国 03 | 1x US Washington
+  password: 8f052d8d-a889-44d4-8399-44a052b9906c
   port: 36215
   server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国 01 | 1x US Los Angeles
+  password: 31b700eb-c453-460e-940c-a3ea01b2e88c
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 31b700eb-c453-460e-940c-a3ea01b2e88c
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国 03 | 1x US Washington
+  password: 31b700eb-c453-460e-940c-a3ea01b2e88c
+  port: 31215
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
@@ -1419,22 +1419,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '11|Channel id: @ShadowProxy66🇺🇸 #7'
-  password: dongtaiwang.com
-  port: 65232
-  server: 108.181.5.130
-  skip-cert-verify: true
-  sni: apple.com
-  tls: false
-  type: hysteria2
-- name: '11|Channel id: @ShadowProxy66🇺🇸 #8'
-  password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
-  port: 47262
-  server: 64.181.204.186
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - name: 11|🇺🇸US- 🚀 @vpnserverrr
   password: aa068abd-f858-4fdf-b7c2-101947f160cb
   port: 443
@@ -1447,7 +1431,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505181740997-5KjGaS19m3.download.microsoft.com
+    host: 202505181740997-M92JaDnDCb.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
