@@ -1,18 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|34🇷🇺俄罗斯|官网：mikasacloud.site
-  password: 45659487-5013-490d-aa08-c67da0ab94c4
-  port: 31511
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|30🇷🇺俄罗斯|官网：abluecloud.xyz
-  password: beacd1c3-ea50-4859-a34b-78cc485dc0df
-  port: 36511
-  server: freea.glyphara.com
-  type: ss
-  udp: true
 - alpn:
   - h3
   client-fingerprint: chrome
@@ -30,6 +16,14 @@ proxies:
   uuid: f3ba3679-f2f4-465f-92a5-de320b775a88
   version: 5
 - name: '11|Channel id: @ShadowProxy66🇷🇺'
+  password: dongtaiwang.com
+  port: 12904
+  server: 46.17.41.5
+  skip-cert-verify: true
+  sni: apple.com
+  tls: false
+  type: hysteria2
+- name: '11|Channel id: @ShadowProxy66🇷🇺 #1'
   password: ADA91529-7BC1-4A5B-8AE7-30ED6D8959C0
   port: 56410
   server: 85.235.205.212
@@ -37,10 +31,10 @@ proxies:
   sni: dxobg4azmk.gafnode.sbs
   tls: false
   type: hysteria2
-- name: 14|RU_speednode_0035
+- name: 14|RU_speednode_0087
   network: ws
   port: 8880
-  server: 185.59.218.20
+  server: 45.67.215.20
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -51,17 +45,17 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 14|RU_speednode_0036
-  port: 42632
-  reality-opts:
-    public-key: qtqcKrPLXaN-jpo7Zs1_80QDmA2uvCZKFGanJLJFFXA
-    short-id: 1f8b5201
-  server: 185.22.155.105
-  servername: www.yahoo.com
+- name: 14|RU_speednode_0088
+  network: ws
+  port: 8880
+  server: 45.8.211.20
+  servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: f3ba3679-f2f4-465f-92a5-de320b775a88
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560

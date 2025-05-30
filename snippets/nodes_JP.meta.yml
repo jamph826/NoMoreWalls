@@ -1,46 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|13🇯🇵日本|官网：m5c3cloud.pro
-  password: 45659487-5013-490d-aa08-c67da0ab94c4
-  port: 31111
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|14🇯🇵日本|官网：m5c3cloud.pro
-  password: 45659487-5013-490d-aa08-c67da0ab94c4
-  port: 31113
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|15🇯🇵日本|官网：m5c3cloud.pro
-  password: 45659487-5013-490d-aa08-c67da0ab94c4
-  port: 31115
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|11🇯🇵日本|官网：abluecloud.xyz
-  password: beacd1c3-ea50-4859-a34b-78cc485dc0df
-  port: 36111
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|12🇯🇵日本|官网：abluecloud.xyz
-  password: beacd1c3-ea50-4859-a34b-78cc485dc0df
-  port: 36113
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|13🇯🇵日本|官网：蓝色海洋.xyz
-  password: beacd1c3-ea50-4859-a34b-78cc485dc0df
-  port: 36115
-  server: freea.glyphara.com
-  type: ss
-  udp: true
 - alterId: 64
   cipher: auto
   name: 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
@@ -63,7 +21,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505250813455-9i84PIbLBb.download.microsoft.com
+    host: 202505250813455-KDSmts8jZf.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -72,31 +30,31 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 12|🇯🇵 日本2|@ripaojiedian
-  password: 60a930c17ff0
+  password: 2e96aa2f3054
   plugin: v2ray-plugin
   plugin-opts:
-    host: kr6v1.xpmc.cc
+    host: kr7v1.pmxiaonan.xyz
     mode: websocket
     mux: true
-    path: /matwnpkhug
+    path: /lornlqecrjwe
     skip-cert-verify: false
     tls: true
-  port: 20091
-  server: 43.226.17.8
+  port: 14312
+  server: 43.226.17.17
   tfo: false
   type: ss
-- cipher: aes-256-gcm
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 12|🇯🇵 日本3|@ripaojiedian
-  password: JAI3U4Q8S82OR7ZY
-  port: 18012
-  server: ti3hyra4.slashdevslashnetslashtun.net
+  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  port: 9898
+  server: 52.195.15.105
   tfo: false
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇯🇵 日本4|@ripaojiedian
-  password: HO86LQ8KH31JNMBQ
+  password: TF63RS7M0DB9OJ3B
   port: 18010
   server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
@@ -111,10 +69,24 @@ proxies:
   tls: false
   type: vmess
   uuid: a3d04548-625c-4658-9ff0-f9a7835d1f6d
-- name: 14|JP_speednode_0023
+- name: 14|JP_speednode_0067
   network: ws
   port: 29192
   server: 202.60.191.6
+  servername: steep.skyfigure.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec
+  ws-opts:
+    headers:
+      Host: steep.skyfigure.top
+    path: /Telegram🇨🇳 @pgkj666 /?ed=2560
+- name: 14|JP_speednode_0068
+  network: ws
+  port: 57005
+  server: 152.69.192.40
   servername: steep.skyfigure.top
   skip-cert-verify: true
   tls: true

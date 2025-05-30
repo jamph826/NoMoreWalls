@@ -1,18 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|33🇩🇪德国|官网：m5c3cloud.pro
-  password: 45659487-5013-490d-aa08-c67da0ab94c4
-  port: 31471
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|29🇩🇪德国|官网：蓝色海洋.xyz
-  password: beacd1c3-ea50-4859-a34b-78cc485dc0df
-  port: 36471
-  server: freea.glyphara.com
-  type: ss
-  udp: true
 - name: 2|🇩🇪1 |  1.5MB/s|0%|Openai
   network: ws
   port: '80'
@@ -116,7 +102,21 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 14|DE_speednode_0009
+- name: 14|DE_speednode_0049
+  network: ws
+  port: 8880
+  server: 140.99.233.20
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560
+- name: 14|DE_speednode_0050
   network: ws
   port: 8880
   server: 89.116.46.20
@@ -130,10 +130,24 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- name: 14|DE_speednode_0010
+- name: 14|DE_speednode_0051
   network: ws
   port: 8880
-  server: 5.10.215.20
+  server: 45.80.111.20
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560
+- name: 14|DE_speednode_0052
+  network: ws
+  port: 8880
+  server: 45.80.111.124
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
