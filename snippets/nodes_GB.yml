@@ -1,1 +1,8 @@
-proxies: []
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|5🇭🇰香港|官网：a5b3cloud.pro
+  password: 68b2f9a4-e2e0-475f-a30e-dac52a1eef8a
+  port: 36141
+  server: freea.glyphara.com
+  type: ss
+  udp: true
