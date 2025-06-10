@@ -1,42 +1,42 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|11🇯🇵日本|官网：abluecloud.xyz
-  password: 5c2065b2-bc58-41b4-9025-0223dbbeb7ea
+  name: 0|11🇯🇵日本|官网：蓝色海洋.xyz
+  password: 1ccfa14c-d153-4e17-a322-71541825e305
   port: 36111
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|12🇯🇵日本|官网：蓝色海洋.xyz
-  password: 5c2065b2-bc58-41b4-9025-0223dbbeb7ea
+  name: 0|12🇯🇵日本|官网：abluecloud.xyz
+  password: 1ccfa14c-d153-4e17-a322-71541825e305
   port: 36113
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|13🇯🇵日本|官网：蓝色海洋.xyz
-  password: 5c2065b2-bc58-41b4-9025-0223dbbeb7ea
+  name: 0|13🇯🇵日本|官网：abluecloud.xyz
+  password: 1ccfa14c-d153-4e17-a322-71541825e305
   port: 36115
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|10🇯🇵日本|官网：米卡莎.xyz
-  password: 7be651e6-fffb-4e52-acf6-33c7fe49661a
+  password: 434e88ab-61c2-4f46-a071-14c831a6acdc
   port: 31111
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|11🇯🇵日本|官网：mikasacloud.site
-  password: 7be651e6-fffb-4e52-acf6-33c7fe49661a
+  name: 1|11🇯🇵日本|官网：m5c3cloud.pro
+  password: 434e88ab-61c2-4f46-a071-14c831a6acdc
   port: 31113
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|12🇯🇵日本|官网：米卡莎.xyz
-  password: 7be651e6-fffb-4e52-acf6-33c7fe49661a
+  name: 1|12🇯🇵日本|官网：mikasacloud.site
+  password: 434e88ab-61c2-4f46-a071-14c831a6acdc
   port: 31115
   server: freem.vidalith.com
   type: ss
@@ -71,7 +71,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506070920094-RCFIknio7m.download.microsoft.com
+    host: 202506070920094-JZCkrm5A71.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -89,7 +89,7 @@ proxies:
     path: /matwnpkhug
     skip-cert-verify: false
     tls: true
-  port: 50058
+  port: 40990
   server: 43.226.17.11
   tfo: false
   type: ss
@@ -103,7 +103,7 @@ proxies:
   tls: false
   type: vmess
   uuid: a3d04548-625c-4658-9ff0-f9a7835d1f6d
-- name: 14|JP_speednode_0045
+- name: 14|JP_speednode_0027
   password: 25d55ad283aa400af464c76d713c07ad
   port: 4990
   server: 103.232.213.170
@@ -112,31 +112,3 @@ proxies:
   type: http
   udp: true
   username: tqqlqvxj@mayorlogistic.com
-- name: 14|JP_speednode_0046
-  network: ws
-  port: 80
-  server: zmaoz.faculty.ucdavis.edu
-  servername: foffmelo.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 3f0c9a0f-239d-4fdc-c3bc-3698bae8f2a0
-  ws-opts:
-    headers:
-      Host: foffmelo.com
-    path: /olem/ws?ed=1024
-- name: 14|JP_speednode_0047
-  network: ws
-  port: 80
-  server: zmaoz.faculty.ucdavis.edu
-  servername: foffmelo.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 3f0c9a0f-239d-4fdc-c3bc-3698bae8f2a0
-  ws-opts:
-    headers:
-      Host: foffmelo.com
-    path: /olem/ws
