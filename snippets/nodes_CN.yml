@@ -1,9 +1,45 @@
 proxies:
-- name: 14|CN_speednode_0001
-  password: 1b4c16925f934c57b954a9f0f23dea33
-  port: 8842
-  server: 42.240.152.238
+- name: 13|CN_speednode_0026
+  password: FpQhGpIr
+  port: 38632
+  server: 36.151.251.62
   skip-cert-verify: true
-  sni: brwx.spvpv.com
+  sni: 36.151.251.62
+  type: trojan
+  udp: true
+- name: 13|CN_speednode_0027
+  password: HrTsLJvh
+  port: 38632
+  server: 36.151.251.62
+  skip-cert-verify: true
+  sni: 36.151.251.62
+  type: trojan
+  udp: true
+- name: 13|CN_speednode_0028
+  password: HrTsLJvh
+  port: 38632
+  server: 36.151.251.62
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 13|CN_speednode_0029
+  password: FpQhGpIr
+  port: 38632
+  server: 36.151.251.62
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 13|CN_speednode_0030
+  password: HrTsLJvh
+  port: 43196
+  server: 223.111.144.12
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 13|CN_speednode_0031
+  password: FpQhGpIr
+  port: 4448
+  server: 36.151.251.56
+  skip-cert-verify: true
   type: trojan
   udp: true
