@@ -1,7 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪 德国 101 | 1x DE
-  password: 52e60ed3-7ebf-416c-8b0b-5560f68166e6
+  password: 9cf3e3e7-9d1c-4177-9d35-fbcaddecdbdf
   port: 36471
   server: freea.glyphara.com
   type: ss
@@ -229,7 +229,7 @@ proxies:
     path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
   name: 14|🇩🇪德国 101 | 1x DE
-  password: d82a71ed-0bcd-4547-9199-6fbc41fef477
+  password: 8ae251ed-c024-4be5-b220-da979993de12
   port: 31471
   server: freem.vidalith.com
   type: ss

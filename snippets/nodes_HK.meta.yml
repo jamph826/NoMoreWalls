@@ -1,14 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港 102 | 1x HK
-  password: 52e60ed3-7ebf-416c-8b0b-5560f68166e6
+  password: 9cf3e3e7-9d1c-4177-9d35-fbcaddecdbdf
   port: 36143
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港住宅IP 103 | 1x HK
-  password: 52e60ed3-7ebf-416c-8b0b-5560f68166e6
+  password: 9cf3e3e7-9d1c-4177-9d35-fbcaddecdbdf
   port: 36145
   server: freea.glyphara.com
   type: ss
@@ -27,42 +27,15 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11|🇭🇰 香港7|@ripaojiedian
-  port: 20332
-  server: 43.247.135.2
+- name: 11|🇭🇰 香港|@ripaojiedian
+  password: <password>
+  port: 8443
+  server: 2608d13f-sx6ps0-t1bnjq-1krtb.hkt.cdnhuawei.com
   skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 8037ce00-c860-4213-b888-be5c7ed6ea48
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 11|🇭🇰 香港2|@ripaojiedian
-  password: 1450cecfb93f
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: kh36v1.pmxiaonan.xyz
-    mode: websocket
-    mux: true
-    path: /simieepvt
-    skip-cert-verify: false
-    tls: true
-  port: 15056
-  server: 121.127.231.229
-  tfo: false
-  type: ss
-- client-fingerprint: chrome
-  name: 11,12|香港3|@ripaojiedian
-  network: tcp
-  password: 85f133142f04dbf6547da33895cfabb3
-  port: 39001
-  server: 125.94.40.221
-  skip-cert-verify: true
-  sni: www.yrtok.com
-  type: trojan
+  sni: 2608d13f-sx6ps0-t1bnjq-1krtb.hkt.cdnhuawei.com
+  tls: true
+  type: http
+  username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
 - client-fingerprint: chrome
   name: 11,12|香港4|@ripaojiedian
   network: tcp
@@ -71,6 +44,31 @@ proxies:
   server: 113.99.140.184
   skip-cert-verify: true
   sni: www.yrtok.com
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 11|🇭🇰 香港2|@ripaojiedian
+  password: 08293b204707
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: hk6v1.pmxiaonan.xyz
+    mode: websocket
+    mux: true
+    path: /sclbvcgkp
+    skip-cert-verify: false
+    tls: true
+  port: 42084
+  server: 156.251.179.238
+  tfo: false
+  type: ss
+- client-fingerprint: chrome
+  name: 11,12|香港3|@ripaojiedian
+  network: tcp
+  password: 85f133142f04dbf6547da33895cfabb3
+  port: 39001
+  server: 120.233.128.68
+  skip-cert-verify: true
+  sni: 120.233.128.68
   type: trojan
 - alterId: 64
   cipher: auto
@@ -102,20 +100,31 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 12|香港7|@ripaojiedian
-  network: tcp
-  port: '20332'
-  server: 43.247.135.2
-  servername: ''
+  client-fingerprint: chrome
+  name: 11|🇭🇰 香港7|@ripaojiedian
+  port: 46159
+  server: 120.198.71.216
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 8037ce00-c860-4213-b888-be5c7ed6ea48
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 12|新加坡3|@ripaojiedian
   network: tcp
   port: '31209'
   server: 120.232.153.40
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 12|香港7|@ripaojiedian
+  network: tcp
+  port: '46159'
+  server: 120.198.71.216
   servername: ''
   tls: false
   type: vmess
@@ -182,14 +191,14 @@ proxies:
     path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
   name: 14|🇭🇰香港 102 | 1x HK
-  password: d82a71ed-0bcd-4547-9199-6fbc41fef477
+  password: 8ae251ed-c024-4be5-b220-da979993de12
   port: 31143
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇭🇰香港家宽 103 | 1x HK
-  password: d82a71ed-0bcd-4547-9199-6fbc41fef477
+  password: 8ae251ed-c024-4be5-b220-da979993de12
   port: 31145
   server: freem.vidalith.com
   type: ss
