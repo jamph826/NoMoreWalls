@@ -1,8 +1,22 @@
 proxies:
-- name: '10|Channel id: @ShadowProxy66🇬🇧'
+- name: '11|Channel id: @ShadowProxy66🇬🇧'
   password: e48d6377dda26840
   port: 42353
   server: 185.184.70.120
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- name: 14|GB_speednode_0005
+  network: ws
+  port: 8880
+  server: 91.193.58.155
+  servername: steep.skyfigure.top
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec
+  ws-opts:
+    headers:
+      Host: steep.skyfigure.top
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
