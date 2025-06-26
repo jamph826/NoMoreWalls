@@ -1,23 +1,20 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 1|🇰🇷2 |  1.5MB/s|44%|Openai
+  name: 2|🇰🇷2 |  1.5MB/s|44%|Openai
   password: qwerREWQ@@
   port: 15098
   server: 125.141.31.72
   type: ss
-- alterId: 0
-  cipher: auto
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11|🇰🇷 韩国|@ripaojiedian
-  port: 49815
-  server: 45.141.136.234
-  skip-cert-verify: false
+  name: 12|🇰🇷 韩国|@ripaojiedian
+  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  port: 9898
+  server: 52.78.60.36
   tfo: false
-  tls: false
-  type: vmess
-  uuid: 105af49c-e4ee-4294-b7cc-abfe6a651cf5
+  type: ss
 - client-fingerprint: chrome
-  name: 11,12|韩国2|@ripaojiedian
+  name: 12,13|韩国2|@ripaojiedian
   network: tcp
   password: 2b1ed981-6547-4094-998b-06a3323d6f6c
   port: 21017
@@ -28,7 +25,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|美国|@ripaojiedian
+  name: 12,13|美国|@ripaojiedian
   network: ws
   port: '30828'
   server: 111.26.109.79
@@ -42,13 +39,3 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 12|韩国|@ripaojiedian
-  network: tcp
-  port: '49815'
-  server: 45.141.136.234
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 105af49c-e4ee-4294-b7cc-abfe6a651cf5
