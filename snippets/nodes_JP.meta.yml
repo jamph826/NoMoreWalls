@@ -21,7 +21,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506261935105-QKggt7Zpjp.download.microsoft.com
+    host: 202506261935105-W24XiAXvfE.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -30,25 +30,33 @@ proxies:
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇯🇵 日本2|@ripaojiedian
-  password: fbf9b0db0136
+  password: 1ad90a422096
   plugin: v2ray-plugin
   plugin-opts:
     host: kr6v1.dashengjs.net
     mode: websocket
     mux: true
-    path: /hvehrabivnnp
+    path: /jwuctcuhriiw
     skip-cert-verify: false
     tls: true
-  port: 995
-  server: 43.226.17.11
+  port: 636
+  server: 43.226.17.8
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇯🇵 日本3|@ripaojiedian
-  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
-  port: 9898
-  server: 43.206.224.12
+  password: Y5YXP5V1312FYBX8
+  port: 18010
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 12|🇯🇵 日本4|@ripaojiedian
+  password: KAB2P3693PNXGL0D
+  port: 18008
+  server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - alterId: 0
@@ -62,17 +70,17 @@ proxies:
   type: vmess
   uuid: f8d05bf8-bc4d-4599-9a3a-8dce9c223815
 - client-fingerprint: chrome
-  name: 14|JP_speednode_0048
+  name: 14|JP_speednode_0089
   network: ws
   port: 8880
-  server: 103.116.7.3
+  server: 103.116.7.13
   servername: Telegram-channel-WangCai2
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+  uuid: 9f3c4ab7-ea26-4d96-91a9-c85ff64ad9a0
   ws-opts:
     headers:
-      Host: bitget1.asdasd.click
+      Host: c.82313369.xyz
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
