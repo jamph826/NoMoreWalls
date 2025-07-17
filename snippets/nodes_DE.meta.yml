@@ -85,37 +85,14 @@ proxies:
   udp: true
   uuid: b8bd42a9-551f-419d-b70d-4aefdd2cb074
   xudp: true
-- name: 10|🇩🇪 @game_file2020
-  password: 621187c3-859d-4682-aac1-cd4500f9690e
-  port: 17307
-  server: de.saigonfly.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '10|🇩🇪 @game_file2020 #1'
-  password: 621187c3-859d-4682-aac1-cd4500f9690e
-  port: 17911
-  server: de.saigonfly.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 10|🇩🇪 @VPNHubMaRKeT ♾  @VpnHubMar...
+- name: '10|آلمان 🇩🇪 @V2xay #1'
   obfs: salamander
-  obfs-password: '@VPNHubMaRKeT'
-  password: '@VPNHubMaRKeT'
-  port: 443
-  server: 202.78.166.190
+  obfs-password: Telegram-->@Ln2Ray
+  password: Telegram-->@Ln2Ray
+  port: 45000
+  server: gavazn.lnmarketplace.net
   skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
-  obfs: salamander
-  obfs-password: tel:@VPNHubMaRKeT
-  password: VPNHubMaRKeT
-  port: 9999
-  server: 3.123.253.70
-  skip-cert-verify: true
+  sni: gavazn.55994421.xyz
   tls: false
   type: hysteria2
 - name: 10|@Filter_breaker | Germany
@@ -126,7 +103,7 @@ proxies:
   sni: hysteria.de.vpnfree.org
   tls: false
   type: hysteria2
-- name: '10|آلمان 🇩🇪 @V2xay #1'
+- name: 10|آمان 🇩🇪 @V2xay
   obfs: salamander
   obfs-password: Djxsjduwue
   password: k1sCJ4SJQj
@@ -151,21 +128,12 @@ proxies:
   sni: hysteria.de.vpnfree.org
   tls: false
   type: hysteria2
-- name: 10|@Moft_Vpn کانال 🇩🇪 1
+- name: '10|آلمان 🇩🇪 @V2xay #2'
   obfs: salamander
   obfs-password: The_Sefr-salamdash
-  password: user11.serverTest1234
+  password: user12.myserverSEFR097
   port: 443
   server: knock.zone1.center
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 10|@Moft_Vpn کانال 🇩🇪 4
-  obfs: salamander
-  obfs-password: mkv_SEfr-salamdash
-  password: user15.SEFRlolpip192761
-  port: 443
-  server: shade.zone1.center
   skip-cert-verify: false
   tls: false
   type: hysteria2
@@ -177,49 +145,35 @@ proxies:
   sni: hysteria.de.vpnfree.org
   tls: false
   type: hysteria2
-- name: 14|DE_speednode_0027
+- name: 14|DE_speednode_0020
   network: ws
   port: 8880
-  server: 5.10.215.186
-  servername: Telegram-channel-WangCai2
+  server: 5.10.214.213
+  servername: jp.laoyoutiao.link
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   ws-opts:
     headers:
-      Host: ip.langmanshanxi.top
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0028
+      Host: jp.laoyoutiao.link
+    path: /?ed=2560
+- name: 14|DE_speednode_0021
   network: ws
   port: 8880
-  server: 77.37.33.186
-  servername: Telegram-channel-WangCai2
+  server: 77.37.33.213
+  servername: jp.laoyoutiao.link
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   ws-opts:
     headers:
-      Host: ip.langmanshanxi.top
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0029
-  network: ws
-  port: 8880
-  server: 89.116.46.186
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      Host: ip.langmanshanxi.top
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0030
+      Host: jp.laoyoutiao.link
+    path: /?ed=2560
+- name: 14|DE_speednode_0022
   network: ws
   port: 8880
   server: 5.10.215.177
@@ -233,7 +187,36 @@ proxies:
     headers:
       Host: ip.langmanshanxi.top
     path: /Telegram🇨🇳
-- name: 14|DE_speednode_0031
+- client-fingerprint: chrome
+  name: 14|DE_speednode_0023
+  network: ws
+  port: 2053
+  server: 45.80.111.165
+  servername: 019309B7.XyZ0.PaGeS.dEV
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 54f6e78c-b497-4db7-ba48-38c4cf81d5ef
+  ws-opts:
+    headers:
+      Host: 019309B7.XyZ0.PaGeS.dEV
+    path: /Telegram@Selinc/?ed=2560
+- name: 14|DE_speednode_0024
+  network: ws
+  port: 8880
+  server: 45.80.111.20
+  servername: us.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /
+- name: 14|DE_speednode_0025
   network: ws
   port: 8880
   server: 188.244.122.247
@@ -247,11 +230,11 @@ proxies:
     headers:
       Host: ex.sue.x10.mx
     path: /Telegram🇨🇳
-- name: 14|DE_speednode_0032
+- name: 14|DE_speednode_0026
   network: ws
   port: 8880
-  server: 45.80.111.186
-  servername: Telegram-channel-WangCai2
+  server: 77.37.33.186
+  servername: ip.langmanshanxi.top
   skip-cert-verify: false
   tls: false
   type: vless
@@ -260,47 +243,4 @@ proxies:
   ws-opts:
     headers:
       Host: ip.langmanshanxi.top
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- client-fingerprint: chrome
-  name: 14|DE_speednode_0033
-  network: ws
-  port: 8880
-  server: 5.10.215.63
-  servername: jp.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: jp.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0034
-  network: ws
-  port: 8880
-  server: 140.99.233.186
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      Host: ip.langmanshanxi.top
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0035
-  network: ws
-  port: 8880
-  server: 188.244.122.186
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      Host: ip.langmanshanxi.top
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+    path: /
