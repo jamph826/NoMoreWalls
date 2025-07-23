@@ -1321,22 +1321,6 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 10|美国10 付费推荐：https://dafei.de
-  password: 67828a6e-0144-4e57-8169-2447a3dd2e61
-  port: 45000
-  server: 23.80.81.213
-  skip-cert-verify: true
-  sni: www.apple.com
-  tls: false
-  type: hysteria2
-- name: '10|美国10 付费推荐：https://dafei.de #1'
-  password: 8a104bc2-a8d1-4f38-8c29-17176a68b7d5
-  port: 45000
-  server: 23.80.81.213
-  skip-cert-verify: true
-  sni: www.apple.com
-  tls: false
-  type: hysteria2
 - name: 10|@Filter_breaker | United State...
   password: c7d8e9f0-1234-5bcd-6abc-7890abcdef12
   port: 443
@@ -1388,6 +1372,18 @@ proxies:
   sni: us.10101251.xyz
   tls: false
   type: hysteria2
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 12|🇺🇸 美国2|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202507121073737-WXqfuE2j3A.download.microsoft.com
+    mode: http
+  port: 8774
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
 - client-fingerprint: chrome
   name: 12,14|SG_speednode_0256
   network: ws
@@ -1402,18 +1398,6 @@ proxies:
     headers:
       Host: tyep.esslh.filegear-sg.me
     path: /
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 12|🇺🇸 美国2|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202507121073737-Hr6yYQkgXg.download.microsoft.com
-    mode: http
-  port: 8774
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
 - client-fingerprint: chrome
   name: 12,13|美国3|@ripaojiedian
   network: tcp
@@ -1432,23 +1416,6 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- alterId: 0
-  cipher: chacha20-poly1305
-  client-fingerprint: chrome
-  name: 12,13|美国5|@ripaojiedian
-  network: ws
-  port: '8880'
-  server: s2.cn-db.top
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 82ff3066-1fbd-3dd2-9b15-7c46a865317c
-  ws-opts:
-    headers:
-      Host: 100-114-171-163.s2.cn-db.top
-    path: /dabai.in172.67.69.28
 - name: 13|美国|@ripaojiedian
   network: ws
   password: Aimer
