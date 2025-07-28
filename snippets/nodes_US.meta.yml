@@ -784,7 +784,7 @@ proxies:
   type: socks5
 - auth: 5CBqBh6MeDq6GajcilBiDg==
   client-fingerprint: chrome
-  name: '2,9,11|Channel id: @ShadowProxy66🇺🇸 #2'
+  name: '2,9,10,11|Channel id: @ShadowProxy66🇺🇸 #2'
   password: 5CBqBh6MeDq6GajcilBiDg==
   port: 61001
   server: 192.227.152.86
@@ -1023,11 +1023,13 @@ proxies:
   type: socks5
 - auth: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b
   client-fingerprint: chrome
-  name: 2|🇺🇸96 |  2.4MB/s
+  name: '2,10|🔷🆔@v2ray_configs_pool🔷 #11'
   password: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b
   port: 8443
   server: ce8ae4b9-svn5s0-swbt02-g3b3.hy2.gotochinatown.net
+  skip-cert-verify: false
   sni: ce8ae4b9-svn5s0-swbt02-g3b3.hy2.gotochinatown.net
+  tls: false
   type: hysteria2
   udp: true
 - client-fingerprint: chrome
@@ -1039,7 +1041,7 @@ proxies:
   type: socks5
 - auth: 2ec58858-976b-11ea-82ef-f23c9164ca5d
   client-fingerprint: chrome
-  name: 2,10|  Telegram @v2rayng_fars
+  name: '2,10|🔷🆔@v2ray_configs_pool🔷 #5'
   password: 2ec58858-976b-11ea-82ef-f23c9164ca5d
   port: 8443
   server: 6150e203-svy9s0-sx4b2t-tng5.hy2.gotochinatown.net
@@ -1057,11 +1059,13 @@ proxies:
   type: socks5
 - auth: e8a960d8-14f5-11ec-a0fc-f23c913c8d2b
   client-fingerprint: chrome
-  name: 2|🇺🇸100 |  1.3MB/s
+  name: '2,10|🔷🆔@v2ray_configs_pool🔷 #15'
   password: e8a960d8-14f5-11ec-a0fc-f23c913c8d2b
   port: 8443
   server: ed8e1d3b-sw3ts0-szt6ky-1bonh.hy2.gotochinatown.net
+  skip-cert-verify: false
   sni: ed8e1d3b-sw3ts0-szt6ky-1bonh.hy2.gotochinatown.net
+  tls: false
   type: hysteria2
   udp: true
 - client-fingerprint: chrome
@@ -1089,20 +1093,24 @@ proxies:
   udp: true
 - auth: 607d365e-7ea1-11ee-95e9-f23c913c8d2b
   client-fingerprint: chrome
-  name: 2|🇺🇸104 |  2.1MB/s
+  name: '2,10|🔷🆔@v2ray_configs_pool🔷 #7'
   password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b
   port: 8443
   server: 69ad0675-sw5og0-sx7hbg-1mmbp.hy2.gotochinatown.net
+  skip-cert-verify: false
   sni: 69ad0675-sw5og0-sx7hbg-1mmbp.hy2.gotochinatown.net
+  tls: false
   type: hysteria2
   udp: true
 - auth: e3975a05-b89e-11ec-a50d-f23c91cfbbc9
   client-fingerprint: chrome
-  name: 2|🇺🇸105 |  2.9MB/s
+  name: '2,10|🔷🆔@v2ray_configs_pool🔷 #14'
   password: e3975a05-b89e-11ec-a50d-f23c91cfbbc9
   port: 8443
   server: d5d8af9a-svlb40-sxf56z-1f596.hy2.gotochinatown.net
+  skip-cert-verify: false
   sni: d5d8af9a-svlb40-sxf56z-1f596.hy2.gotochinatown.net
+  tls: false
   type: hysteria2
   udp: true
 - client-fingerprint: chrome
@@ -1130,11 +1138,13 @@ proxies:
   udp: true
 - auth: 607d365e-7ea1-11ee-95e9-f23c913c8d2b
   client-fingerprint: chrome
-  name: 2|🇺🇸109 |  3.2MB/s
+  name: '2,10|🔷🆔@v2ray_configs_pool🔷 #8'
   password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b
   port: 8443
   server: ccb2a204-sw1z40-sx7hbg-1mmbp.hy2.gotochinatown.net
+  skip-cert-verify: false
   sni: ccb2a204-sw1z40-sx7hbg-1mmbp.hy2.gotochinatown.net
+  tls: false
   type: hysteria2
   udp: true
 - client-fingerprint: chrome
@@ -1186,11 +1196,13 @@ proxies:
   type: socks5
 - auth: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
   client-fingerprint: chrome
-  name: 2|🇺🇸116 |  1.2MB/s
+  name: '2,10|🔷🆔@v2ray_configs_pool🔷 #10'
   password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
   port: 8443
   server: 1ec1d0fd-sw3ts0-swdpud-duku.hy2.gotochinatown.net
+  skip-cert-verify: false
   sni: 1ec1d0fd-sw3ts0-swdpud-duku.hy2.gotochinatown.net
+  tls: false
   type: hysteria2
   udp: true
 - client-fingerprint: chrome
@@ -1331,6 +1343,14 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
+- name: '9,10|🔷🆔@v2ray_configs_pool🔷 #12'
+  password: dongtaiwang.com
+  port: 63015
+  server: 108.181.5.130
+  skip-cert-verify: true
+  sni: apple.com
+  tls: false
+  type: hysteria2
 - name: 9|🇸美国 加 拉 DIGITALOCEAN-ASN
   password: iMqY3uG_5pgEj3hCfyHB-0vB
   port: 443
@@ -1413,40 +1433,26 @@ proxies:
   sni: us.10101251.xyz
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
   name: 12|🇺🇸 美国|@ripaojiedian
-  network: ws
-  password: trojan
-  port: 443
-  server: 91.193.58.0
-  skip-cert-verify: false
-  sni: wahaha.yingyangkuaixian.dpdns.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: wahaha.yingyangkuaixian.dpdns.org
-    path: /
+  password: vGCBLG1SUe7YdXI1fPhdsA==
+  port: 36529
+  server: jpiplc.deuen.com
+  tfo: false
+  type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 12|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507121073737-8Na8oPBuci.download.microsoft.com
+    host: 202507022251291-d01YttPsbj.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 12,13|美国3|@ripaojiedian
-  network: tcp
-  password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 3596
-  server: 36.151.251.7
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
 - client-fingerprint: chrome
   name: 12,13|美国4|@ripaojiedian
   network: tcp
@@ -1456,17 +1462,15 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 13|美国|@ripaojiedian
-  network: ws
-  password: trojan
-  port: 443
-  server: 91.193.58.0
-  sni: wahaha.yingyangkuaixian.dpdns.org
+- client-fingerprint: chrome
+  name: 12,13|美国3|@ripaojiedian
+  network: tcp
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 3596
+  server: 36.151.251.7
+  skip-cert-verify: true
+  sni: www.baidu.com
   type: trojan
-  ws-opts:
-    headers:
-      Host: wahaha.yingyangkuaixian.dpdns.org
-    path: '%2F'
 - name: 14|US_speednode_0272
   network: ws
   port: 8880
