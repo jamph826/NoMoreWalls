@@ -1023,7 +1023,7 @@ proxies:
   type: socks5
 - auth: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b
   client-fingerprint: chrome
-  name: '2,10|🔷🆔@v2ray_configs_pool🔷 #11'
+  name: '2,10|🔷🆔@v2ray_configs_pool🔷 #19'
   password: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b
   port: 8443
   server: ce8ae4b9-svn5s0-swbt02-g3b3.hy2.gotochinatown.net
@@ -1041,7 +1041,7 @@ proxies:
   type: socks5
 - auth: 2ec58858-976b-11ea-82ef-f23c9164ca5d
   client-fingerprint: chrome
-  name: '2,10|🔷🆔@v2ray_configs_pool🔷 #5'
+  name: '2,10|🔷🆔@v2ray_configs_pool🔷 #3'
   password: 2ec58858-976b-11ea-82ef-f23c9164ca5d
   port: 8443
   server: 6150e203-svy9s0-sx4b2t-tng5.hy2.gotochinatown.net
@@ -1059,7 +1059,7 @@ proxies:
   type: socks5
 - auth: e8a960d8-14f5-11ec-a0fc-f23c913c8d2b
   client-fingerprint: chrome
-  name: '2,10|🔷🆔@v2ray_configs_pool🔷 #15'
+  name: '2,10|🔷🆔@v2ray_configs_pool🔷 #29'
   password: e8a960d8-14f5-11ec-a0fc-f23c913c8d2b
   port: 8443
   server: ed8e1d3b-sw3ts0-szt6ky-1bonh.hy2.gotochinatown.net
@@ -1093,18 +1093,16 @@ proxies:
   udp: true
 - auth: 607d365e-7ea1-11ee-95e9-f23c913c8d2b
   client-fingerprint: chrome
-  name: '2,10|🔷🆔@v2ray_configs_pool🔷 #7'
+  name: 2|🇺🇸104 |  2.1MB/s
   password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b
   port: 8443
   server: 69ad0675-sw5og0-sx7hbg-1mmbp.hy2.gotochinatown.net
-  skip-cert-verify: false
   sni: 69ad0675-sw5og0-sx7hbg-1mmbp.hy2.gotochinatown.net
-  tls: false
   type: hysteria2
   udp: true
 - auth: e3975a05-b89e-11ec-a50d-f23c91cfbbc9
   client-fingerprint: chrome
-  name: '2,10|🔷🆔@v2ray_configs_pool🔷 #14'
+  name: '2,10|🔷🆔@v2ray_configs_pool🔷 #28'
   password: e3975a05-b89e-11ec-a50d-f23c91cfbbc9
   port: 8443
   server: d5d8af9a-svlb40-sxf56z-1f596.hy2.gotochinatown.net
@@ -1138,13 +1136,11 @@ proxies:
   udp: true
 - auth: 607d365e-7ea1-11ee-95e9-f23c913c8d2b
   client-fingerprint: chrome
-  name: '2,10|🔷🆔@v2ray_configs_pool🔷 #8'
+  name: 2|🇺🇸109 |  3.2MB/s
   password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b
   port: 8443
   server: ccb2a204-sw1z40-sx7hbg-1mmbp.hy2.gotochinatown.net
-  skip-cert-verify: false
   sni: ccb2a204-sw1z40-sx7hbg-1mmbp.hy2.gotochinatown.net
-  tls: false
   type: hysteria2
   udp: true
 - client-fingerprint: chrome
@@ -1196,7 +1192,7 @@ proxies:
   type: socks5
 - auth: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
   client-fingerprint: chrome
-  name: '2,10|🔷🆔@v2ray_configs_pool🔷 #10'
+  name: '2,10|🔷🆔@v2ray_configs_pool🔷 #6'
   password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
   port: 8443
   server: 1ec1d0fd-sw3ts0-swdpud-duku.hy2.gotochinatown.net
@@ -1260,11 +1256,13 @@ proxies:
   udp: true
 - auth: 1b9c460e-f026-11ef-b737-f23c91cfbbc9
   client-fingerprint: chrome
-  name: 2|🇺🇸122 |  1.4MB/s
+  name: 2,10|🔷🆔@v2ray_configs_pool🔷
   password: 1b9c460e-f026-11ef-b737-f23c91cfbbc9
   port: 8443
   server: 2e7bc2e9-sw04g0-swsmkh-1s0a7.hy2.gotochinatown.net
+  skip-cert-verify: false
   sni: 2e7bc2e9-sw04g0-swsmkh-1s0a7.hy2.gotochinatown.net
+  tls: false
   type: hysteria2
   udp: true
 - client-fingerprint: chrome
@@ -1328,13 +1326,6 @@ proxies:
   sni: f7c80a8d-svc1s0-t28b6o-ef48.los.gotochinatown.net
   tls: true
   type: socks5
-- name: '9,10,11|Channel id: @ShadowProxy66🇺🇸'
-  password: 65a43b6e-19c5-4fab-b960-d110a07d66a4
-  port: 3234
-  server: 209.141.47.127
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - name: 9|🇺🇸
   password: RKrGw4dSUwK3YAvqdQI8tcqNl0
   port: 34060
@@ -1343,7 +1334,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '9,10|🔷🆔@v2ray_configs_pool🔷 #12'
+- name: '9,10|🔷🆔@v2ray_configs_pool🔷 #26'
   password: dongtaiwang.com
   port: 63015
   server: 108.181.5.130
@@ -1364,6 +1355,13 @@ proxies:
   server: 107.174.41.101
   skip-cert-verify: true
   sni: www.apple.com
+  tls: false
+  type: hysteria2
+- name: '10,11|Channel id: @ShadowProxy66🇺🇸'
+  password: 65a43b6e-19c5-4fab-b960-d110a07d66a4
+  port: 3234
+  server: 209.141.47.127
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: '10|美国10 付费推荐：https://dafei.de #1'
@@ -1433,44 +1431,60 @@ proxies:
   sni: us.10101251.xyz
   tls: false
   type: hysteria2
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
+- client-fingerprint: chrome
   name: 12|🇺🇸 美国|@ripaojiedian
-  password: vGCBLG1SUe7YdXI1fPhdsA==
-  port: 36529
-  server: jpiplc.deuen.com
-  tfo: false
-  type: ss
+  network: ws
+  password: 7248e825-887c-48b9-83bc-c26bc6392bf8
+  port: 443
+  server: 172.67.214.21
+  skip-cert-verify: false
+  sni: xXcdvFgt.191268.XYz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: xXcdvFgt.191268.XYz
+    path: /ctdmgeIg3NII3ibrzzKXJGy3S1
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 12|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507022251291-d01YttPsbj.download.microsoft.com
+    host: 202507282137611-JtmNFkb3wi.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 12,13|美国4|@ripaojiedian
+  name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 32962
-  server: 36.151.251.7
+  port: 1582
+  server: 36.151.195.111
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
 - client-fingerprint: chrome
-  name: 12,13|美国3|@ripaojiedian
+  name: 12,13|美国4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 3596
-  server: 36.151.251.7
+  port: 443
+  server: 174.138.85.53
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
+- name: 13|美国|@ripaojiedian
+  network: ws
+  password: 7248e825-887c-48b9-83bc-c26bc6392bf8
+  port: 443
+  server: 172.67.214.21
+  sni: xXcdvFgt.191268.XYz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: xXcdvFgt.191268.XYz
+    path: '%2FctdmgeIg3NII3ibrzzKXJGy3S1'
 - name: 14|US_speednode_0272
   network: ws
   port: 8880
