@@ -1,15 +1,13 @@
 proxies:
-- name: 14|GB_speednode_0011
-  network: ws
-  port: 8080
-  server: 51.38.168.151
-  servername: wWw.SpeEDTeSt.nEt
-  skip-cert-verify: false
-  tls: false
+- client-fingerprint: chrome
+  name: 14|GB_speednode_0010
+  port: 443
+  reality-opts:
+    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+  server: 8.208.53.56
+  servername: evt.ilovepdf.com
+  skip-cert-verify: true
+  tls: true
   type: vless
   udp: true
-  uuid: dde87267-da95-4a6b-9891-0c864a3e9be8
-  ws-opts:
-    headers:
-      Host: wWw.SpeEDTeSt.nEt
-    path: /wslinka
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
