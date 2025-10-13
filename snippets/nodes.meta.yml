@@ -66,20 +66,22 @@ proxies:
   sni: hsdg.huasuan666.top
   tls: false
   type: hysteria2
-- name: 10|🇱@FreakConfig
-  password: 571ec94e-613c-430a-93de-397d3d237475
-  port: 22157
-  server: hshl.huasuan666.top
-  skip-cert-verify: true
-  sni: hshl.huasuan666.top
-  tls: false
-  type: hysteria2
 - name: '10|@Daily_Configs #1'
   password: 5f4ba37a-bb3c-4f8e-962e-850f624ad131
   port: 54265
   server: banmabanmabanmabanmabanmabanma2.wanlidag.top
   skip-cert-verify: true
   sni: banmabanmabanmabanmabanmabanma2.wanlidag.top
+  tls: false
+  type: hysteria2
+- name: 10|rt
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: 5f89ac2a-b6d6-4c66-98d8-39c4d552138c
+  port: 35000
+  server: 206.71.158.40
+  skip-cert-verify: true
+  sni: jnir.pichondan.com
   tls: false
   type: hysteria2
 - name: 10|🇳🇱@FreakConfig
@@ -92,7 +94,7 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- name: '10|@Daily_Configs #3'
+- name: '10|🇩🇪@FreakConfig #1'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: 5f89ac2a-b6d6-4c66-98d8-39c4d552138c
@@ -102,7 +104,7 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- name: '10|🇳🇱@FreakConfig #3'
+- name: '10|🇳🇱@FreakConfig #2'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: 5f89ac2a-b6d6-4c66-98d8-39c4d552138c
@@ -172,7 +174,7 @@ proxies:
   sni: xjp1.xiaohuolongjc.top
   tls: false
   type: hysteria2
-- name: 10|کای ها یشر ر ن ترا💎 Config_Ray...
+- name: 10|کای ها یش ر ن را💎 Config_Rayeg...
   password: 79c4fe11-9787-406b-bf94-c1c1dbf59e28
   port: 31468
   server: 77.223.214.193
@@ -190,7 +192,7 @@ proxies:
   sni: cdnjs.cloudflare.com
   tls: false
   type: hysteria2
-- name: '10|@IRAN_V2RAY1 #2'
+- name: 10|🔐 @AblNet7 🇪 机场推荐
   obfs: salamander
   obfs-password: U1wBrYQyFm
   password: 80747420-96c4-4a2f-83e6-eea4e46beb09
@@ -210,6 +212,14 @@ proxies:
   sni: drhystuichdfy.samanidempire.org
   tls: false
   type: hysteria2
+- name: 10|🔐 @AblNet7 🇸 机场推荐
+  password: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6
+  port: 3000
+  server: 836902-20.9966661.xyz
+  skip-cert-verify: false
+  sni: 836902-20.9966661.xyz
+  tls: false
+  type: hysteria2
 - name: '10|All-@IRAN_V2RAY1 #1'
   obfs: salamander
   obfs-password: qBbeISsJ8AK48fZW
@@ -220,14 +230,12 @@ proxies:
   sni: de.youyacloud.me
   tls: false
   type: hysteria2
-- name: 10|@V2RayyNGvpn🇱همه اوپراتور ها
-  obfs: salamander
-  obfs-password: V2RayyNGvpnuushdhMiracle
-  password: 9M8uE6ks0h
-  port: 443
-  server: 209.250.254.12
+- name: 10| @AblNet7 🇺🇸 机场推荐
+  password: 9772ecf2-6732-4bfb-a8b1-f48af577c76c
+  port: 63979
+  server: 113.192.61.19
   skip-cert-verify: true
-  sni: www.oxfamintermon.org
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: '10|🇱🇷@V2RayyNGvpn🇱🇷همه اوپراتور ه... #1'
@@ -250,7 +258,7 @@ proxies:
   sni: hacks.mozilla.org
   tls: false
   type: hysteria2
-- name: '10|🇳🇱@FreakConfig #4'
+- name: '10|🇱@FreakConfig #1'
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
   password: Telegram-->@Ln2Ray
@@ -260,7 +268,7 @@ proxies:
   sni: gavazn.55994421.xyz
   tls: false
   type: hysteria2
-- name: '10|🇳🇱@FreakConfig #6'
+- name: '10|🇳🇱@FreakConfig #4'
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
   password: Telegram-->@Ln2Ray
@@ -290,7 +298,17 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '10|🇳🇱@FreakConfig #7'
+- name: '10|@Daily_Configs #7'
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 36600
+  server: 206.71.158.37
+  skip-cert-verify: true
+  sni: YAPC-1.afshin.ir
+  tls: false
+  type: hysteria2
+- name: '10|🇳🇱@FreakConfig #5'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -300,7 +318,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '10|🇳🇱@FreakConfig #8'
+- name: '10|🇳🇱@FreakConfig #6'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -310,7 +328,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '10|@Daily_Configs #7'
+- name: '10|@Daily_Configs #8'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -360,7 +378,7 @@ proxies:
   sni: cdnjs.cloudflare.com
   tls: false
   type: hysteria2
-- name: '10|@Daily_Configs #9'
+- name: '10|@Daily_Configs #10'
   obfs: salamander
   obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS
   password: biadailyconfigs
@@ -370,7 +388,7 @@ proxies:
   sni: microsoft.com
   tls: false
   type: hysteria2
-- name: '10|@Daily_Configs #10'
+- name: '10|@Daily_Configs #11'
   obfs: salamander
   obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS
   password: bsnnajjbjsjnjjjbbbsbjajhjnnwjnbudn
@@ -380,7 +398,7 @@ proxies:
   sni: microsoft.com
   tls: false
   type: hysteria2
-- name: 10|🇲@FreakConfig
+- name: '10| @AblNet7 🇺🇸 机场推荐 #1'
   password: c232f411-96b5-4b07-b2f7-66a434725ffb
   port: 23891
   server: 108.165.213.197
@@ -413,7 +431,15 @@ proxies:
   sni: cdnjs.cloudflare.com
   tls: false
   type: hysteria2
-- name: '10|@Daily_Configs #12'
+- name: 10|🔐 @AblNet7  机场推荐
+  password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
+  port: 45979
+  server: 150.230.28.100
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '10|@Daily_Configs #13'
   obfs: salamander
   obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS
   password: dailyconfigs_dailyconfigs_dailyconfigs_dailyconfigs
@@ -423,7 +449,7 @@ proxies:
   sni: microsoft.com
   tls: false
   type: hysteria2
-- name: '10|@Daily_Configs #13'
+- name: '10|@Daily_Configs #14'
   obfs: salamander
   obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS
   password: dailyconfigs_dailyconfigs_dailyconfigs_dailyconfigs_dailyconfigs_dailyconfigs_dailyconfigs_
@@ -433,7 +459,7 @@ proxies:
   sni: microsoft.com
   tls: false
   type: hysteria2
-- name: '10|@Daily_Configs #14'
+- name: '10|@Daily_Configs #15'
   obfs: salamander
   obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS
   password: dailyconfigschannel
@@ -523,6 +549,36 @@ proxies:
   sni: cdnjs.cloudflare.com
   tls: false
   type: hysteria2
+- name: 10|Tel:@Daily_Configs
+  obfs: salamander
+  obfs-password: fQ0ZDCeRt1SyOHAUx2TToTBPkMfEXuTf
+  password: perspoliszibatarineshghjahan
+  port: 443
+  server: 80.85.241.237
+  skip-cert-verify: true
+  sni: stackoverflow.com
+  tls: false
+  type: hysteria2
+- name: '10|🇱🇷@V2RayyNGvpn🇱🇷همه اوپراتور ه... #7'
+  obfs: salamander
+  obfs-password: MiraCLeOPV2RayyNGvpntheBestt
+  password: qdO7WGPPQV
+  port: 8443
+  server: 138.124.60.198
+  skip-cert-verify: true
+  sni: cdnjs.cloudflare.com
+  tls: false
+  type: hysteria2
+- name: '10|Telegram: @Daily_Configs'
+  obfs: salamander
+  obfs-password: fQ0ZDCeRt1SyOHAUx2TToTBPkMfEXuTf
+  password: theredarmy
+  port: 443
+  server: 80.85.241.237
+  skip-cert-verify: true
+  sni: stackoverflow.com
+  tls: false
+  type: hysteria2
 - name: '10|@Daily_Configs #19'
   password: zanzendegiazadi
   port: 443
@@ -572,28 +628,33 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 12|🇭🇰 香港3|@ripaojiedian
-  port: 30485
-  server: 103.224.80.67
+  port: 41522
+  server: 43.247.135.17
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: a9ba904e-2d8b-401e-9226-b5114c049f05
-- name: 12,13|香港4|@ripaojiedian
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 4419
-  server: 221.128.195.221
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 12,13|香港6|@ripaojiedian
-  network: tcp
+  uuid: ea897b9a-0894-4f17-ab5b-7e059678734d
+- name: 12|🇭🇰 香港4|@ripaojiedian
   password: 253bc477d4e43c209f2d427272968280
   port: 443
-  server: 126.47.92.160
+  server: 126.66.52.118
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 12|🇭🇰 香港6|@ripaojiedian
+  password: 253bc477d4e43c209f2d427272968280
+  port: 443
+  server: 58.152.53.162
   skip-cert-verify: true
   sni: fe2.update.microsoft.com
+  type: trojan
+- name: 12|🇯🇵 日本2|@ripaojiedian
+  password: 253bc477d4e43c209f2d427272968280
+  port: 1920
+  server: 36.156.102.84
+  skip-cert-verify: false
+  sni: www.nintendogames.net
   type: trojan
 - alterId: 2
   cipher: auto
@@ -611,14 +672,6 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- name: 12,13|日本2|@ripaojiedian
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 1806
-  server: 36.156.102.84
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
 - name: 12,13|日本3|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
@@ -627,6 +680,13 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- cipher: aes-256-cfb
+  name: 12|🇰🇷 韩国|@ripaojiedian
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 154.90.63.177
+  tfo: false
+  type: ss
 - name: 12,13|新加坡|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
@@ -670,24 +730,11 @@ proxies:
   skip-cert-verify: true
   sni: fe2.update.microsoft.com
   type: trojan
-- name: 12,14|SG_speednode_0018
-  network: ws
-  password: wb6368
-  port: 2087
-  server: 92.243.75.49
-  skip-cert-verify: false
-  sni: hsdgbuys.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hsdgbuys.pages.dev
-    path: /
 - cipher: aes-256-cfb
   name: 12|🇻🇳 越南|@ripaojiedian
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.136
+  server: 103.186.154.27
   tfo: false
   type: ss
 - alterId: 0
@@ -700,6 +747,29 @@ proxies:
   tls: false
   type: vmess
   uuid: a9ba904e-2d8b-401e-9226-b5114c049f05
+- name: 13|香港4|@ripaojiedian
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 4419
+  server: 221.128.195.221
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 13|香港6|@ripaojiedian
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 443
+  server: 126.47.92.160
+  skip-cert-verify: true
+  sni: fe2.update.microsoft.com
+  type: trojan
+- name: 13|日本2|@ripaojiedian
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 1806
+  server: 36.156.102.84
+  sni: www.nintendogames.net
+  type: trojan
 - name: 13|美国3|@ripaojiedian
   network: ws
   password: wb6368
@@ -888,6 +958,19 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+- name: 14|SG_speednode_0018
+  network: ws
+  password: wb6368
+  port: 2087
+  server: 92.243.75.49
+  skip-cert-verify: false
+  sni: hsdgbuys.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hsdgbuys.pages.dev
+    path: /
 - name: 14|SG_speednode_0020
   password: installshield
   port: 8443
