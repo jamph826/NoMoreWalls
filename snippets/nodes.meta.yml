@@ -125,14 +125,6 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '10|@meli_proxyy #1'
-  password: 308d37dc-cfe1-4d81-a095-d576f90cf581
-  port: 29854
-  server: 85.237.206.207
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - name: 10|https://t.me/Selinc
   password: 30c075af-9555-4671-b70e-43e3cfb2e707
   port: 7009
@@ -197,14 +189,6 @@ proxies:
   server: 213.108.198.123
   skip-cert-verify: true
   sni: hsdg.huasuan666.top
-  tls: false
-  type: hysteria2
-- name: '10|@meli_proxyy #2'
-  password: 571ec94e-613c-430a-93de-397d3d237475
-  port: 22155
-  server: 213.108.198.123
-  skip-cert-verify: true
-  sni: 🔒
   tls: false
   type: hysteria2
 - name: 10|All--@V2rayAlpha--7
@@ -337,21 +321,6 @@ proxies:
   server: s15.serv00.com
   skip-cert-verify: true
   sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '10|@meli_proxyy #4'
-  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-  port: 2056
-  server: lsj3.mangshe.xyz
-  skip-cert-verify: true
-  sni: lsj3.mangshe.xyz
-  tls: false
-  type: hysteria2
-- name: '10|@meli_proxyy #5'
-  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-  port: 2056
-  server: xg1.mangshe.xyz
-  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: 10|@sunflowerplato🌻
@@ -614,7 +583,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '10|🇳🇱 - NL - @freeOnlineVPN #7'
+- name: '10|🇳🇱@FreakConfig #3'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -624,7 +593,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '10|🇳🇱 - NL - @freeOnlineVPN #10'
+- name: '10|🇳🇱@FreakConfig #4'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -634,7 +603,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '10|🇳🇱 - NL - @freeOnlineVPN #12'
+- name: '10|@IRAN_V2RAY1 #5'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -644,7 +613,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '10|🇳🇱 - NL - @freeOnlineVPN #16'
+- name: 10|@Daily_Configs
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -707,7 +676,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '10|🇳🇱 - NL - @freeOnlineVPN #18'
+- name: '10|🇳🇱 - NL - @freeOnlineVPN #10'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -717,7 +686,7 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- name: '10|🇱 - NL - @freeOnlineVPN #2'
+- name: '10|🇳🇱@FreakConfig #5'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -841,7 +810,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '10|@Daily_Configs #2'
+- name: '10|@sunflowerplato🌻 #3'
   password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
   port: 30000
   server: de3.oomz.ru
@@ -975,9 +944,10 @@ proxies:
 - name: 12,13|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4556
-  server: 36.151.192.242
+  port: 1655
+  server: 36.150.215.231
   skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
 - name: 12,13|香港5|@ripaojiedian
   network: tcp
@@ -985,6 +955,7 @@ proxies:
   port: 443
   server: 203.198.122.129
   skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 0
   cipher: auto
@@ -999,23 +970,24 @@ proxies:
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1924
-  server: 36.150.215.239
+  port: 5156
+  server: 36.150.215.137
   skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
 - name: 12,13|日本2|@ripaojiedian
   network: tcp
   password: e4e262d453466988575c397a30562337
   port: 316
-  server: 160.16.151.196
+  server: 117.172.176.23
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|日本3|@ripaojiedian
   network: tcp
   password: e4e262d453466988575c397a30562337
-  port: 4452
-  server: 117.172.176.24
+  port: 1332
+  server: 117.172.176.23
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -1033,22 +1005,23 @@ proxies:
   network: tcp
   password: e4e262d453466988575c397a30562337
   port: 2283
-  server: 117.172.176.24
+  server: 117.172.176.23
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 24392
-  server: 36.150.215.239
+  port: 9713
+  server: 36.150.215.137
   skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
 - name: 12,13|美国|@ripaojiedian
   network: tcp
   password: e4e262d453466988575c397a30562337
   port: 4553
-  server: 117.172.176.24
+  server: 117.172.176.23
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -1056,16 +1029,17 @@ proxies:
   network: tcp
   password: e4e262d453466988575c397a30562337
   port: 3777
-  server: 117.172.176.24
+  server: 160.16.231.103
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 53743
-  server: 36.150.215.239
+  port: 9269
+  server: 36.150.215.245
   skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 0
   cipher: auto
@@ -1087,59 +1061,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 7eebdcd7-9d77-4663-bde4-b67a51d13975
-- flow: xtls-rprx-vision
-  name: 14|CN_speednode_0001
-  port: 53214
-  server: linkgulang.evoay.com
-  servername: www.lamer.com.hk
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6c0472bc-82df-449e-90bd-2f91c6a46402
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 14|HK_speednode_0011
-  port: 36666
-  reality-opts:
-    public-key: cqCSxloJscJ3ZrNUlkSKkUFZ7SZ6vzQNszGolW_o7HY
-    short-id: 6da03029
-  server: hk4.cv1168.com
-  servername: www.python.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: aae56c24-7511-4526-9708-3fcbd804253c
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 14|HK_speednode_0012
-  port: 36666
-  reality-opts:
-    public-key: cqCSxloJscJ3ZrNUlkSKkUFZ7SZ6vzQNszGolW_o7HY
-    short-id: 6da03029
-  server: hk3.cv1168.com
-  servername: www.python.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: aae56c24-7511-4526-9708-3fcbd804253c
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 14|HK_speednode_0013
-  port: 36666
-  reality-opts:
-    public-key: cqCSxloJscJ3ZrNUlkSKkUFZ7SZ6vzQNszGolW_o7HY
-    short-id: 6da03029
-  server: hk2.cv1168.com
-  servername: www.python.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: aae56c24-7511-4526-9708-3fcbd804253c
-- name: 14|KR_speednode_0024
+- name: 14|KR_speednode_0004
   password: test.+
   port: 30446
   server: testkr3.ssv.vc
@@ -1148,82 +1070,25 @@ proxies:
   type: http
   udp: true
   username: test
-- flow: xtls-rprx-vision
-  name: 14|LB_speednode_0026
+- name: 14|TW_speednode_0009
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  udp: true
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 14|US_speednode_0019
   port: 443
   reality-opts:
-    public-key: hnec5SxCD6Os-u0FNi_YS5CML1a_oWb0niZJ1mGuFBo
-    short-id: 07e904766d29b958
-  server: 77.110.119.225
-  servername: st.ozone.ru
+    public-key: 9VgEU9n4XfImCSwSdLXEAqotO7zVvZRSaolrtxJKEns
+    short-id: c7f3cc
+  server: usa32.clearorbitllc.com
+  servername: usa32.clearorbitllc.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 4819860c-0e62-4804-9c59-967e5c2bed7a
-- flow: xtls-rprx-vision
-  name: 14|US_speednode_0045
-  port: 55558
-  reality-opts:
-    public-key: LPatmFrK3hRMrtAybjzB7DBfqCaKnKQ6s95kmXrrFxg
-    short-id: b2defcc6
-  server: 192.238.204.48
-  servername: apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1eb58333-3051-47c2-a2eb-44e5b64233c8
-- client-fingerprint: random
-  name: 14|US_speednode_0091
-  network: ws
-  port: 15614
-  server: 38.102.235.136
-  servername: snippet.danfeng.site
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5544203-55e3-426e-92f1-0684c93f9829
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.site
-    path: /
-- flow: xtls-rprx-vision
-  name: 14|US_speednode_0100
-  port: 993
-  reality-opts:
-    public-key: wcgZB6t2VBnMQf55huXkibGw4RPL6WqXPfcZxhJ8Qms
-  server: 45.159.23.10
-  servername: speed.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
-- flow: xtls-rprx-vision
-  name: 14|US_speednode_0101
-  port: 443
-  reality-opts:
-    public-key: ehRbIcN9HhqjhReY1pjqIBGqHCbdY26Kq70_w7k4jgY
-  server: 193.31.127.10
-  servername: speed.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
-- name: 14|US_speednode_0102
-  network: ws
-  port: 443
-  server: 69.84.182.18
-  servername: cdn-node-oss-63.paofu.de
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a25ff90c-964c-485a-b72a-858864a27dc0
-  ws-opts:
-    headers:
-      Host: cdn-node-oss-63.paofu.de
-    path: /profile/sharenode
+  uuid: 9daf8f3e-089b-4989-9502-dd3d727edb6c

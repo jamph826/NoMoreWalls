@@ -20,7 +20,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 7eebdcd7-9d77-4663-bde4-b67a51d13975
-- name: 14|KR_speednode_0024
+- name: 14|KR_speednode_0004
   password: test.+
   port: 30446
   server: testkr3.ssv.vc
