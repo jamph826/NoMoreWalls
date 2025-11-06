@@ -49,17 +49,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 14|US_speednode_0019
-  port: 443
-  reality-opts:
-    public-key: 9VgEU9n4XfImCSwSdLXEAqotO7zVvZRSaolrtxJKEns
-    short-id: c7f3cc
-  server: usa32.clearorbitllc.com
-  servername: usa32.clearorbitllc.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9daf8f3e-089b-4989-9502-dd3d727edb6c
