@@ -1,7 +1,9 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 12|🇩🇪 德国|@ripaojiedian
-  password: 8JCsPssfgS8tiRwiMlhARg==
-  port: 12000
-  server: 57.128.214.100
-  type: ss
+- name: 14|DE_speednode_0012
+  password: Fn9TZuYXiFYhsyp65T
+  port: 443
+  server: os-2.rise-fuji.com
+  skip-cert-verify: true
+  sni: os-2.rise-fuji.com
+  type: trojan
+  udp: true
