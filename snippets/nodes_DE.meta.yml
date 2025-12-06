@@ -39,7 +39,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '10|🇪 - DE - @freeOnlineVPN #1'
+- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #3'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: 7l9x40rVnS
@@ -99,7 +99,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: 10|🇩🇪 - DE - @freeOnlineVPN
+- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #9'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: I5RKPsSYiP
@@ -152,16 +152,6 @@ proxies:
 - name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #14'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
-  password: VaKHp6TQN6
-  port: 20820
-  server: 91.99.225.11
-  skip-cert-verify: true
-  sni: refersion.com
-  tls: false
-  type: hysteria2
-- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #15'
-  obfs: salamander
-  obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: XnD9ETrM9w
   port: 443
   server: 91.99.225.11
@@ -169,7 +159,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #16'
+- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #15'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: YW97PxmYTj
@@ -179,7 +169,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #17'
+- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #16'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: fYUHtSSorp
@@ -189,10 +179,20 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #18'
+- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #17'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: oivSVs1Wgz
+  port: 443
+  server: 91.99.225.11
+  skip-cert-verify: true
+  sni: refersion.com
+  tls: false
+  type: hysteria2
+- name: 10|👉🆔 @v2ray_configs_pool 📡 🇪DE 🧭...
+  obfs: salamander
+  obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
+  password: uoGRSTIwX9
   port: 443
   server: 91.99.225.11
   skip-cert-verify: true
@@ -229,3 +229,10 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
+- name: 14|DE_speednode_0008
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 52.57.238.174
+  skip-cert-verify: true
+  type: trojan
+  udp: true
