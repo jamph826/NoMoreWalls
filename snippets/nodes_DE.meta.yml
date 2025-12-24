@@ -189,10 +189,10 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #18'
+- name: '10|🇩🇪 - DE - @freeOnlineVPN #3'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
-  password: oivSVs1Wgz
+  password: ltN6NLua9i
   port: 443
   server: 91.99.225.11
   skip-cert-verify: true
@@ -202,7 +202,7 @@ proxies:
 - name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #19'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
-  password: uoGRSTIwX9
+  password: oivSVs1Wgz
   port: 443
   server: 91.99.225.11
   skip-cert-verify: true
@@ -212,7 +212,7 @@ proxies:
 - name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #20'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
-  password: wXh99oRDIt
+  password: uoGRSTIwX9
   port: 443
   server: 91.99.225.11
   skip-cert-verify: true
@@ -222,7 +222,7 @@ proxies:
 - name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #21'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
-  password: wkAHoJxpH6
+  password: wXh99oRDIt
   port: 443
   server: 91.99.225.11
   skip-cert-verify: true
@@ -232,6 +232,16 @@ proxies:
 - name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #22'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
+  password: wkAHoJxpH6
+  port: 443
+  server: 91.99.225.11
+  skip-cert-verify: true
+  sni: refersion.com
+  tls: false
+  type: hysteria2
+- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #23'
+  obfs: salamander
+  obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: zdUcTseVJy
   port: 443
   server: 91.99.225.11
@@ -239,43 +249,3 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 14|DE_speednode_0007
-  port: 443
-  reality-opts:
-    public-key: eKglVNr1vCmVZxLeGS6_-sZWXEJLWckuzkpmox1-jQ8
-    short-id: b05bc387
-  server: de24.abvpn.ru
-  servername: ozon.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1a539db6-d162-42f4-9b56-687bd57bfbc2
-- client-fingerprint: chrome
-  name: 14|DE_speednode_0008
-  port: 443
-  reality-opts:
-    public-key: eKglVNr1vCmVZxLeGS6_-sZWXEJLWckuzkpmox1-jQ8
-    short-id: b05bc387
-  server: 84.200.81.229
-  servername: ozon.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1a539db6-d162-42f4-9b56-687bd57bfbc2
-- client-fingerprint: chrome
-  name: 14|DE_speednode_0009
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: q70yFMTo4Dz6IWwVcL9icqgJPgyIuv3j3n5fZxym6kg
-    short-id: 40e3350da285
-  server: 157.173.127.227
-  servername: analytics.google.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7bda027c-cbc8-488f-864f-cfb415cd8d77
