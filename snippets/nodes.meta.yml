@@ -9,7 +9,7 @@ proxies:
   sni: gavazn.55994421.xyz
   tls: false
   type: hysteria2
-- name: '9,10|𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee #1'
+- name: 9,10|🇱@FreakConfig
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
   password: Telegram-->@Ln2Ray
@@ -19,7 +19,7 @@ proxies:
   sni: gavazn.55994421.xyz
   tls: false
   type: hysteria2
-- name: '9,10|🇳🇱 - NL - @freeOnlineVPN #1'
+- name: '9,10|🇳🇱 - NL - @freeOnlineVPN #2'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -85,27 +85,15 @@ proxies:
   sni: www.lamer.com.hk
   tls: false
   type: hysteria2
-- name: 9,10|🇸🇪 ConfigV2RayNG
-  obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi'
-  password: e20cc63dc06088fba56bf786860aadaf
-  port: 989
-  server: dd.openaccessnode.com
-  skip-cert-verify: false
-  sni: dd.ircybersec.org
-  tls: false
-  type: hysteria2
-- name: 9|28YB5qK!5t#U#⛄43@oneclickvpnke...
-  obfs: salamander
-  obfs-password: '&O'
-  password: freehomesvpnmahsa3
-  port: 16396
-  server: donate1.mahsa.homes
+- name: 9|🟩96@oneclickvpnkeys
+  password: dongtaiwang.com
+  port: 22222
+  server: 208.87.243.187
   skip-cert-verify: true
-  sni: www.bing.com
+  sni: ''
   tls: false
   type: hysteria2
-- name: 9|28YB5qK!5t#U#⛄11@oneclickvpnke...
+- name: 9|28YB5qK!5t#U#11@oneclickvpnkey...
   obfs: salamander
   obfs-password: '&O'
   password: yhqy5AHofQq
@@ -177,12 +165,20 @@ proxies:
   sni: Amsterdam.nezhasu.com
   tls: false
   type: hysteria2
-- name: '10|All-@IRAN_V2RAY1 #1'
+- name: 10|All-@V2rayAlpha--28
   password: 2b195c17-5ff5-4b0d-a809-210b92212394
   port: 443
   server: falankefu1.nezhasu.com
   skip-cert-verify: true
   sni: falankefu1.nezhasu.com
+  tls: false
+  type: hysteria2
+- name: 10|All-@V2rayAlpha--29
+  password: 2b195c17-5ff5-4b0d-a809-210b92212394
+  port: 443
+  server: gy5.nezhasu.com
+  skip-cert-verify: true
+  sni: gy5.nezhasu.com
   tls: false
   type: hysteria2
 - name: '10|All-@IRAN_V2RAY1 #2'
@@ -209,12 +205,36 @@ proxies:
   sni: lundun3.nezhasu.com
   tls: false
   type: hysteria2
-- name: '10|All-@IRAN_V2RAY1 #5'
+- name: 10|All-@V2rayAlpha--34
   password: 2b195c17-5ff5-4b0d-a809-210b92212394
   port: 443
   server: lundun4.nezhasu.com
   skip-cert-verify: true
   sni: lundun4.nezhasu.com
+  tls: false
+  type: hysteria2
+- name: 10|All-@V2rayAlpha--38
+  password: 2b195c17-5ff5-4b0d-a809-210b92212394
+  port: 443
+  server: moxige1.nezhasu.com
+  skip-cert-verify: true
+  sni: moxige1.nezhasu.com
+  tls: false
+  type: hysteria2
+- name: 10|All-@V2rayAlpha--37
+  password: 2b195c17-5ff5-4b0d-a809-210b92212394
+  port: 443
+  server: phoenix-1.nezhasu.com
+  skip-cert-verify: true
+  sni: phoenix-1.nezhasu.com
+  tls: false
+  type: hysteria2
+- name: 10|All-@V2rayAlpha--43
+  password: 2b195c17-5ff5-4b0d-a809-210b92212394
+  port: 443
+  server: sanjose.nezhasu.com
+  skip-cert-verify: true
+  sni: SanJose.nezhasu.com
   tls: false
   type: hysteria2
 - name: 10|All-@V2ray_Alpha--30
@@ -228,6 +248,13 @@ proxies:
   password: 338ce171-d764-4610-8fd5-6688b0d321f0
   port: 30102
   server: 144.24.101.176
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: 10|All-@V2rayAlpha--42
+  password: 338ce171-d764-4610-8fd5-6688b0d321f0
+  port: 30102
+  server: 158.180.77.90
   skip-cert-verify: true
   tls: false
   type: hysteria2
@@ -309,7 +336,14 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: 10|All--@IRAN_V2RAY1🇺🇸
+- name: 10|All-@V2rayAlpha--33
+  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
+  port: 1743
+  server: 227fd503-t4ssg0-t5vo4i-4550.la.shifen.uk
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: 10|All-@V2rayAlpha--46
   password: 6286105c-fb6d-11ef-be96-f23c93136cb3
   port: 1743
   server: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
@@ -385,14 +419,12 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #3'
-  obfs: salamander
-  obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
-  password: 7l9x40rVnS
-  port: 443
-  server: 91.99.225.11
+- name: 10|All-@V2rayAlpha--44
+  password: 862e90e1-2f26-4506-b8b9-0adf20da05fc
+  port: 47262
+  server: 40.233.103.51
   skip-cert-verify: true
-  sni: refersion.com
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: 10|All--@V2rayAlpha--25
@@ -419,10 +451,20 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #4'
+- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #3'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: AXvJYnaaqG
+  port: 443
+  server: 91.99.225.11
+  skip-cert-verify: true
+  sni: refersion.com
+  tls: false
+  type: hysteria2
+- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #4'
+  obfs: salamander
+  obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
+  password: BZa1M5Mciv
   port: 443
   server: 91.99.225.11
   skip-cert-verify: true
@@ -517,7 +559,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '10|🇳🇱 - NL - @freeOnlineVPN #2'
+- name: '10|🇳🇱 - NL - @freeOnlineVPN #3'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -527,7 +569,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 10|@IRAN_V2RAY1💘
+- name: '10|🔸@IRAN_V2RAY1💘 #4'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -537,7 +579,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 10|vpn
+- name: '10|𝗝𝗼𝗶𝗻 ➠ @Daily_Configs '
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -547,7 +589,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 10|🇳🇱@FreakConfig
+- name: '10|🇳🇱@FreakConfig #1'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -617,7 +659,7 @@ proxies:
   sni: kotlet.arshiacomplus.dpdns.org
   tls: false
   type: hysteria2
-- name: '10|🔸@IRAN_V2RAY1💘 #4'
+- name: '10|🔸@IRAN_V2RAY1💘 #5'
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
   server: de.eyucdn.xyz
@@ -725,7 +767,7 @@ proxies:
   sni: e1d6b467-t53wg0-td5oia-1m49t.us.hyhuawei.com
   tls: false
   type: hysteria2
-- name: 10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆¹
+- name: '10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆 #3'
   password: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
   port: 443
   server: 72b99e3a-t6pb40-t8wh4m-1hpo0.hk1.hyhuawei.com
@@ -821,6 +863,16 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- name: 10|🇪 ConfigV2RayNG
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi'
+  password: e20cc63dc06088fba56bf786860aadaf
+  port: 989
+  server: dd.openaccessnode.com
+  skip-cert-verify: false
+  sni: dd.ircybersec.org
+  tls: false
+  type: hysteria2
 - name: 10|All--@V2rayAlpha--22
   password: e8a960d8-14f5-11ec-a0fc-f23c913c8d2b
   port: 443
@@ -892,16 +944,6 @@ proxies:
 - name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #18'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
-  password: oivSVs1Wgz
-  port: 443
-  server: 91.99.225.11
-  skip-cert-verify: true
-  sni: refersion.com
-  tls: false
-  type: hysteria2
-- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #19'
-  obfs: salamander
-  obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: rxwfFuEMrr
   port: 443
   server: 91.99.225.11
@@ -919,7 +961,7 @@ proxies:
   sni: ghasem.kotlet.org
   tls: false
   type: hysteria2
-- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #20'
+- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #19'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: uoGRSTIwX9
@@ -937,7 +979,7 @@ proxies:
   server: channel3.saghetalaie.homes
   tls: false
   type: hysteria2
-- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #21'
+- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #20'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: zdUcTseVJy
@@ -990,23 +1032,23 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 11945
-  server: 52.194.193.12
+  server: 3.112.5.63
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 12,13|日本2|@ripaojiedian
   network: tcp
   password: f36f4495b4b26cc2fe346cfa23e05b1b
-  port: 3093
-  server: 153.121.38.213
+  port: 3169
+  server: 160.16.229.223
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|日本3|@ripaojiedian
   network: tcp
   password: f36f4495b4b26cc2fe346cfa23e05b1b
-  port: 3169
-  server: 153.121.45.139
+  port: 3093
+  server: 160.16.72.33
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -1014,7 +1056,7 @@ proxies:
   network: tcp
   password: f36f4495b4b26cc2fe346cfa23e05b1b
   port: 2760
-  server: 160.16.223.205
+  server: 202.181.103.235
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -1029,8 +1071,8 @@ proxies:
 - name: 12,13|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3579
-  server: 18.167.99.12
+  port: 1196
+  server: 95.40.19.252
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -1043,8 +1085,8 @@ proxies:
 - name: 12,13|美国|@ripaojiedian
   network: tcp
   password: f36f4495b4b26cc2fe346cfa23e05b1b
-  port: 2890
-  server: 160.16.223.205
+  port: 443
+  server: 38.180.137.196
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -1052,7 +1094,7 @@ proxies:
   network: tcp
   password: f36f4495b4b26cc2fe346cfa23e05b1b
   port: 4054
-  server: 18.162.244.22
+  server: 202.181.103.235
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -1060,7 +1102,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 1112
-  server: 13.231.208.147
+  server: 95.40.19.252
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
