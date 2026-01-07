@@ -23,7 +23,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 12,13,14|HK_speednode_0007
+- name: 12,13|香港3|@ripaojiedian
   network: tcp
   password: 381f2e86233720eacda26d50e9aa26da
   port: 443
@@ -31,7 +31,6 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-  udp: true
 - name: 12,13|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -48,11 +47,17 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 12|🇭🇰 香港6|@ripaojiedian
+  password: sxnCPKb70DGRo62-goXFVHrjzF-5oMbD
+  port: 33007
+  server: 103.109.23.165
+  type: ss
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2595
-  server: 13.114.175.199
+  port: 3194
+  server: 3.112.45.28
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -60,7 +65,7 @@ proxies:
   network: tcp
   password: 381f2e86233720eacda26d50e9aa26da
   port: 4006
-  server: 160.16.196.59
+  server: 160.16.144.208
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -68,21 +73,15 @@ proxies:
   network: tcp
   password: 381f2e86233720eacda26d50e9aa26da
   port: 1933
-  server: 160.16.196.59
+  server: 160.16.144.208
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- cipher: aes-256-cfb
-  name: 12|🇰🇷 韩国|@ripaojiedian
-  password: qwerREWQ@@
-  port: 21215
-  server: 221.150.109.92
-  type: ss
 - name: 12,13|新加坡|@ripaojiedian
   network: tcp
   password: 381f2e86233720eacda26d50e9aa26da
   port: 3901
-  server: 160.16.196.59
+  server: 160.16.116.227
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -90,15 +89,15 @@ proxies:
   network: tcp
   password: 381f2e86233720eacda26d50e9aa26da
   port: 3901
-  server: 160.16.63.16
+  server: 160.16.144.208
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 804
-  server: 95.40.73.131
+  port: 2673
+  server: 43.199.160.78
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -106,7 +105,7 @@ proxies:
   network: tcp
   password: 381f2e86233720eacda26d50e9aa26da
   port: 1281
-  server: 160.16.196.59
+  server: 160.16.144.208
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -114,15 +113,15 @@ proxies:
   network: tcp
   password: 381f2e86233720eacda26d50e9aa26da
   port: 1281
-  server: 160.16.63.16
+  server: 160.16.116.227
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2173
-  server: 16.163.98.169
+  port: 3127
+  server: 43.199.160.78
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -146,107 +145,16 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 14|AE_speednode_0001
+- name: 14|SG_speednode_0024
   network: ws
-  password: 5a2c16f9
-  port: 2096
-  server: 94.140.0.238
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /TelegramU0001F1E8U0001F1F3WangCai2
-- name: 14|DE_speednode_0003
-  network: ws
-  password: 554f139b-f31f-41c4-99f9-73d60647db26
+  password: 97e79a62-f686-4b91-87a7-be39c9e57658
   port: 443
-  server: 193.23.197.183
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
+  server: 34.143.159.175
+  skip-cert-verify: false
+  sni: page.anjue39.qzz.io
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
-- name: 14|DE_speednode_0004
-  network: ws
-  password: 554f139b-f31f-41c4-99f9-73d60647db26
-  port: 8443
-  server: 178.250.187.3
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
-- name: 14|RU_speednode_0011
-  network: ws
-  password: 554f139b-f31f-41c4-99f9-73d60647db26
-  port: 2096
-  server: 45.135.235.238
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
-- name: 14|RU_speednode_0013
-  network: ws
-  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
-  port: 2096
-  server: 45.135.235.238
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
-- name: 14|US_speednode_0015
-  network: ws
-  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
-  port: 443
-  server: 64.181.227.82
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
-- name: 14|US_speednode_0016
-  network: ws
-  password: 5a2c16f9
-  port: 2096
-  server: 135.84.73.238
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /TelegramU0001F1E8U0001F1F3WangCai2
-- name: 14|US_speednode_0017
-  network: ws
-  password: 5a2c16f9
-  port: 2096
-  server: 135.84.73.238
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
+      Host: page.anjue39.qzz.io
+    path: /
