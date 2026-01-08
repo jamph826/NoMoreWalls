@@ -1,109 +1,325 @@
 proxies:
-- name: 9|美国
-  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-  port: 2056
-  server: mg1.mangshe.xyz
-  skip-cert-verify: true
-  sni: mg1.mangshe.xyz
-  tls: false
-  type: hysteria2
-- name: 9|美国2
-  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-  port: 2056
-  server: mg2.mangshe.xyz
-  skip-cert-verify: true
-  sni: mg2.mangshe.xyz
-  tls: false
-  type: hysteria2
-- name: 9|US
-  password: peEduuHzbExjK7UQHzazXwqgA
-  port: 27704
-  server: 166.88.164.9
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: 10|All--@IRAN_V2RAY1🇺🇸
-  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-  port: 1743
-  server: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
-  skip-cert-verify: false
-  sni: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
-  tls: false
-  type: hysteria2
-- name: '10|All--@IRAN_V2RAY1🇺🇸 #1'
-  password: 92b2a3d4-f353-11ef-b714-f23c93136cb3
-  port: 443
-  server: 9b91d3c4-t53wg0-t6h87s-63bp.la.shifen.uk
-  skip-cert-verify: false
-  sni: 9b91d3c4-t53wg0-t6h87s-63bp.la.shifen.uk
-  tls: false
-  type: hysteria2
-- name: '10|All--@IRAN_V2RAY1🇺🇸 #2'
-  password: 9772ecf2-6732-4bfb-a8b1-f48af577c76c
-  port: 63979
-  server: 113.192.61.19
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '10|All--@IRAN_V2RAY1🇺🇸 #3'
-  password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-  port: 443
-  server: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk
-  skip-cert-verify: false
-  sni: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk
-  tls: false
-  type: hysteria2
-- name: '10|All--@IRAN_V2RAY1🇺🇸 #4'
-  password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-  port: 1743
-  server: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk
-  skip-cert-verify: false
-  sni: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk
-  tls: false
-  type: hysteria2
 - name: 12,13|美国|@ripaojiedian
   network: tcp
   password: 381f2e86233720eacda26d50e9aa26da
   port: 1281
-  server: 160.16.144.208
-  skip-cert-verify: false
+  server: 160.16.68.250
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|美国2|@ripaojiedian
   network: tcp
   password: 381f2e86233720eacda26d50e9aa26da
   port: 1281
-  server: 160.16.116.227
+  server: 160.16.138.24
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3127
-  server: 43.199.160.78
+  port: 1112
+  server: 18.162.123.56
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 14|US_speednode_0026
-  port: 4443
-  reality-opts:
-    public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE
-    short-id: aa7e96542880027a
-  server: 45.15.127.139
-  servername: github.com
+- name: 14|US_speednode_0056
+  network: ws
+  port: 443
+  server: 68.64.176.135
+  servername: gyhh2333.2288888.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 483809cc-4a30-42d9-b713-6916b048aad7
+  ws-opts:
+    headers:
+      Host: gyhh2333.2288888.xyz
+    path: /
+- name: 14|US_speednode_0057
+  network: ws
+  port: 443
+  server: 68.64.179.199
+  servername: gyhh2333.h2333.ggff.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 483809cc-4a30-42d9-b713-6916b048aad7
+  ws-opts:
+    headers:
+      Host: gyhh2333.h2333.ggff.net
+    path: /
+- name: 14|US_speednode_0058
+  network: ws
+  port: 8080
+  server: 104.16.2.59
+  servername: weathered-firefly-8a0f.41c3bce2b6.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 964891e6-d09e-480c-b041-c7f3207953d3
+  ws-opts:
+    headers:
+      Host: weathered-firefly-8a0f.41c3bce2b6.workers.dev
+    path: /eyJqdW5rIjoibzE1WnlVYklpUVdtIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560
+- name: 14|US_speednode_0059
+  network: ws
+  port: 443
+  server: 162.159.45.232
+  servername: l.ayovo.netlib.re
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: ff03e357-b531-4f30-9f47-ba9b57dd384f
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /?ed=2560
+- name: 14|US_speednode_0060
+  network: ws
+  port: 444
+  server: 154.26.186.159
+  servername: gyhh2333.2288888.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 483809cc-4a30-42d9-b713-6916b048aad7
+  ws-opts:
+    headers:
+      Host: gyhh2333.2288888.xyz
+    path: /
+- name: 14|US_speednode_0061
+  network: ws
+  port: 1311
+  server: 154.17.228.219
+  servername: gyhh2333.h2333.ggff.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 483809cc-4a30-42d9-b713-6916b048aad7
+  ws-opts:
+    headers:
+      Host: gyhh2333.h2333.ggff.net
+    path: /
+- name: 14|US_speednode_0062
+  network: ws
+  port: 1801
+  server: 154.17.228.219
+  servername: gyhh2333.2288888.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 483809cc-4a30-42d9-b713-6916b048aad7
+  ws-opts:
+    headers:
+      Host: gyhh2333.2288888.xyz
+    path: /
+- name: 14|US_speednode_0063
+  network: ws
+  port: 8570
+  server: 154.17.237.42
+  servername: gyhh2333.h2333.ggff.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 483809cc-4a30-42d9-b713-6916b048aad7
+  ws-opts:
+    headers:
+      Host: gyhh2333.h2333.ggff.net
+    path: /
+- name: 14|US_speednode_0064
+  network: ws
+  port: 443
+  server: 154.17.26.214
+  servername: gyhh2333.2288888.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 483809cc-4a30-42d9-b713-6916b048aad7
+  ws-opts:
+    headers:
+      Host: gyhh2333.2288888.xyz
+    path: /
+- name: 14|US_speednode_0065
+  network: ws
+  port: 443
+  server: 154.17.22.207
+  servername: gyhh2333.2288888.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 483809cc-4a30-42d9-b713-6916b048aad7
+  ws-opts:
+    headers:
+      Host: gyhh2333.2288888.xyz
+    path: /
+- name: 14|US_speednode_0066
+  network: ws
+  port: 443
+  server: 154.26.185.91
+  servername: gyhh2333.h2333.ggff.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 483809cc-4a30-42d9-b713-6916b048aad7
+  ws-opts:
+    headers:
+      Host: gyhh2333.h2333.ggff.net
+    path: /
+- name: 14|US_speednode_0067
+  network: ws
+  port: 12525
+  server: 154.7.181.215
+  servername: gyhh2333.h2333.ggff.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 483809cc-4a30-42d9-b713-6916b048aad7
+  ws-opts:
+    headers:
+      Host: gyhh2333.h2333.ggff.net
+    path: /
+- name: 14|US_speednode_0068
+  network: ws
+  port: 9981
+  server: 154.21.87.182
+  servername: gyhh2333.h2333.ggff.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 483809cc-4a30-42d9-b713-6916b048aad7
+  ws-opts:
+    headers:
+      Host: gyhh2333.h2333.ggff.net
+    path: /
+- name: 14|US_speednode_0069
+  network: ws
+  port: 10001
+  server: 154.26.185.161
+  servername: gyhh2333.2288888.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 483809cc-4a30-42d9-b713-6916b048aad7
+  ws-opts:
+    headers:
+      Host: gyhh2333.2288888.xyz
+    path: /
+- name: 14|US_speednode_0070
+  network: ws
+  port: 18443
+  server: 47.79.42.30
+  servername: gyhh2333.2288888.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 483809cc-4a30-42d9-b713-6916b048aad7
+  ws-opts:
+    headers:
+      Host: gyhh2333.2288888.xyz
+    path: /
+- name: 14|US_speednode_0071
+  network: ws
+  port: 443
+  server: cdns.doon.eu.org
+  servername: gyhh2333.h2333.ggff.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 483809cc-4a30-42d9-b713-6916b048aad7
+  ws-opts:
+    headers:
+      Host: gyhh2333.h2333.ggff.net
+    path: /
+- name: 14|US_speednode_0072
+  network: ws
+  port: 443
+  server: cloudflare.seeck.cn
+  servername: gyhh2333.2288888.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 483809cc-4a30-42d9-b713-6916b048aad7
+  ws-opts:
+    headers:
+      Host: gyhh2333.2288888.xyz
+    path: /
+- name: 14|US_speednode_0073
+  network: ws
+  port: 1443
+  server: 47.79.151.55
+  servername: gyhh2333.2288888.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 483809cc-4a30-42d9-b713-6916b048aad7
+  ws-opts:
+    headers:
+      Host: gyhh2333.2288888.xyz
+    path: /
+- name: 14|US_speednode_0074
+  network: ws
+  port: 443
+  server: www.ntu.edu.sg
+  servername: gyhh2333.h2333.ggff.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 483809cc-4a30-42d9-b713-6916b048aad7
+  ws-opts:
+    headers:
+      Host: gyhh2333.h2333.ggff.net
+    path: /
+- name: 14|US_speednode_0075
+  network: ws
+  port: 443
+  server: cf.008500.xyz
+  servername: gyhh2333.h2333.ggff.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 483809cc-4a30-42d9-b713-6916b048aad7
+  ws-opts:
+    headers:
+      Host: gyhh2333.h2333.ggff.net
+    path: /
+- name: 14|US_speednode_0076
+  network: ws
+  port: 443
+  server: sub.danfeng.eu.org
+  servername: gyhh2333.2288888.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 483809cc-4a30-42d9-b713-6916b048aad7
+  ws-opts:
+    headers:
+      Host: gyhh2333.2288888.xyz
+    path: /
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 14|US_speednode_0027
+  name: 14|US_speednode_0077
   port: 443
   reality-opts:
     public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
@@ -115,3 +331,44 @@ proxies:
   type: vless
   udp: true
   uuid: a11ab9c5-4155-430b-9efc-7a7122531382
+- name: 14|US_speednode_0078
+  network: ws
+  port: 443
+  server: cdn.9889888.xyz
+  servername: gyhh2333.2288888.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 483809cc-4a30-42d9-b713-6916b048aad7
+  ws-opts:
+    headers:
+      Host: gyhh2333.2288888.xyz
+    path: /
+- name: 14|US_speednode_0079
+  network: ws
+  port: 80
+  server: 172.66.156.81
+  servername: websocket.network.www.speedtest.net.flutter.dev.russia.python.vegaskala.com.Shahin.vegaskala.com.fdf.vegaskala.com.vegafod.com.
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 57f56a3c-0e10-4fb2-ad70-3db23a572b0f
+  ws-opts:
+    headers:
+      Host: websocket.network.www.speedtest.net.flutter.dev.russia.python.vegaskala.com.Shahin.vegaskala.com.fdf.vegaskala.com.vegafod.com.
+    path: /@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec
+- name: 14|US_speednode_0080
+  network: ws
+  password: f52d0a04-94ad-4f9e-9945-4c3d43374e36
+  port: 2096
+  server: www.shopify.com
+  skip-cert-verify: true
+  sni: ts888.yumige.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ts888.yumige.dpdns.org
+    path: /http://45.32.19.198:30005
