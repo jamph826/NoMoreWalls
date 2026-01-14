@@ -1,19 +1,5 @@
 proxies:
-- name: 14|GB_speednode_0001
-  network: ws
-  port: 2053
-  server: 25.129.197.138
-  servername: KhAmeneI.DPdNs.OrG
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8a07740f-b932-4372-a3a2-ed91f184cd33
-  ws-opts:
-    headers:
-      Host: khamenei.dpdns.org
-    path: /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
-- name: 14|GB_speednode_0002
+- name: 13|GB_speednode_0023
   network: ws
   port: 2053
   server: 25.129.197.138
@@ -27,7 +13,7 @@ proxies:
     headers:
       Host: KhAmeneI.DPdNs.OrG
     path: /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
-- name: 14|GB_speednode_0003
+- name: 13|GB_speednode_0025
   network: ws
   port: 2053
   server: 25.129.197.138
@@ -40,8 +26,8 @@ proxies:
   ws-opts:
     headers:
       Host: khamenei.dpdns.org
-    path: /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
-- name: 14|GB_speednode_0004
+    path: /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
+- name: 13|GB_speednode_0026
   network: ws
   port: 2053
   server: 25.129.197.138
@@ -55,3 +41,30 @@ proxies:
     headers:
       Host: KhAmeneI.DPdNs.OrG
     path: /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
+- name: 13|GB_speednode_0028
+  network: ws
+  port: 2053
+  server: 25.129.197.138
+  servername: khamenei.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8a07740f-b932-4372-a3a2-ed91f184cd33
+  ws-opts:
+    headers:
+      Host: khamenei.dpdns.org
+    path: /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
+- client-fingerprint: firefox
+  name: 13|GB_speednode_0029
+  port: 587
+  reality-opts:
+    public-key: HnPEhCDTcZnDejsAiidoOSx2-h0EvJMILj4bv3X1mBc
+    short-id: 916e8258c4a01b02
+  server: england.torprospeed.ir
+  servername: excoino.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441
