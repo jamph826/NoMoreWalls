@@ -30,10 +30,11 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- name: 8| HK
+- name: 8,9|🥐81@oneclickvpnkeys
   password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
   port: 443
   server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
+  skip-cert-verify: true
   sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
   tls: false
   type: hysteria2
@@ -53,11 +54,27 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 9|🛩76@oneclickvpnkeys
-  password: 7c014d1d-262d-4ce0-97d0-2d622b9910c2
+- name: 9|🥐80@oneclickvpnkeys
+  password: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
   port: 443
-  server: jp.xiongchumo.shop
+  server: 9bc9db69-t6t0g0-tee612-2r82.hk1.hyhuawei.com
   skip-cert-verify: true
+  sni: 9bc9db69-t6t0g0-tee612-2r82.hk1.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: 9|🥐83@oneclickvpnkeys
+  password: 4fb15f9c-f078-11ed-814b-f23c91369f2d
+  port: 443
+  server: 22480a39-t70f40-tnjsrz-h8vf.hk1.hyhuawei.com
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: 9|🥐85@oneclickvpnkeys
+  password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
+  port: 443
+  server: 22f48047-t6pb40-tasftf-duku.hk1.hyhuawei.com
+  skip-cert-verify: true
+  sni: 22f48047-t6pb40-tasftf-duku.hk1.hyhuawei.com
   tls: false
   type: hysteria2
 - name: 9|All_7--@V2rayAlpha
@@ -65,6 +82,16 @@ proxies:
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
   port: 35000
+  server: 206.71.158.37
+  skip-cert-verify: true
+  sni: YAPC-1.afshin.ir
+  tls: false
+  type: hysteria2
+- name: '9|@SimChin_iR  '
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 36600
   server: 206.71.158.37
   skip-cert-verify: true
   sni: YAPC-1.afshin.ir
@@ -90,7 +117,7 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- name: 9|Telegram = @prrofile_purple
+- name: 9|️@ATLAS_V2VPN️️197️
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
   port: 35000
   server: 5.175.249.174
@@ -98,7 +125,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '9|🇩🇪 - DE - @freeOnlineVPN #2'
+- name: '9|🇩🇪 - DE - @freeOnlineVPN #1'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -118,28 +145,48 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|🛩79@oneclickvpnkeys
-  password: bf36227c-0191-11f0-aee1-f23c91cfbbc9
+- name: 9|🥐82@oneclickvpnkeys
+  password: bd515574-3b10-11ee-ac14-f23c9164ca5d
   port: 443
-  server: 4ec4fca5-t6r5s0-tc2sod-1tizo.hk1.hyhuawei.com
+  server: ad72fc1d-t70f40-tb016b-1m7l4.hk1.hyhuawei.com
   skip-cert-verify: true
-  sni: 4ec4fca5-t6r5s0-tc2sod-1tizo.hk1.hyhuawei.com
   tls: false
   type: hysteria2
-- name: 9|🛩80@oneclickvpnkeys
-  password: c1785de0-212f-11ef-92aa-f23c9164ca5d
+- name: 9|🥐76@oneclickvpnkeys
+  password: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
   port: 443
-  server: 9c25e30b-t6ccg0-tfpsin-1q3dm.hk1.hyhuawei.com
-  skip-cert-verify: true
-  sni: 9c25e30b-t6ccg0-tfpsin-1q3dm.hk1.hyhuawei.com
+  server: 72b99e3a-t6pb40-t8wh4m-1hpo0.hk1.hyhuawei.com
   tls: false
   type: hysteria2
-- name: 9|🛩78@oneclickvpnkeys
+- name: 9|🥐84@oneclickvpnkeys
+  password: de629d50-1711-11ed-bd7c-f23c913c8d2b
+  port: 443
+  server: 4a8146b5-t70f40-tlpfci-1jdha.hk1.hyhuawei.com
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: 9|78@ConfigV2RayNG
   password: e72b54df-3c45-4856-bcf9-bf3e1bf6ff5e
   port: 443
   server: 134.195.101.191
   skip-cert-verify: true
   sni: www.apple.com
+  tls: false
+  type: hysteria2
+- name: 9|🥐79@oneclickvpnkeys
+  password: e8a960d8-14f5-11ec-a0fc-f23c913c8d2b
+  port: 443
+  server: 9c329770-t6ngg0-t6k5ga-1bonh.hk1.hyhuawei.com
+  skip-cert-verify: true
+  sni: 9c329770-t6ngg0-t6k5ga-1bonh.hk1.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: 9|🥐78@oneclickvpnkeys
+  password: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b
+  port: 443
+  server: 6b62b419-t6t0g0-tfjz9x-1t5n1.hk1.hyhuawei.com
+  skip-cert-verify: true
+  sni: 6b62b419-t6t0g0-tfjz9x-1t5n1.hk1.hyhuawei.com
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
@@ -169,15 +216,15 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 2266
-  server: 54.46.5.155
+  server: 18.177.138.102
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 11,12|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2266
-  server: 57.181.26.149
+  port: 443
+  server: 58.152.30.222
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -185,31 +232,23 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 20539
-  server: 57.181.26.149
+  server: 43.206.238.87
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 11,12|日本2|@ripaojiedian
-  network: tcp
-  password: c1d83c0c7d57cead4379ba14a82df69b
-  port: 443
-  server: 157.120.36.210
-  skip-cert-verify: false
-  sni: www.nintendogames.net
   type: trojan
 - name: 11,12|日本3|@ripaojiedian
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
   port: 443
-  server: 116.80.76.130
+  server: 116.80.60.36
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 11,12|新加坡|@ripaojiedian
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
-  port: 443
-  server: 152.42.254.150
+  port: 390
+  server: 160.16.87.174
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -217,25 +256,17 @@ proxies:
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
   port: 443
-  server: 178.128.114.70
+  server: 152.42.254.150
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 11,12|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1196
-  server: 57.181.26.149
+  port: 3579
+  server: 18.182.62.89
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 11,12|美国|@ripaojiedian
-  network: tcp
-  password: c1d83c0c7d57cead4379ba14a82df69b
-  port: 443
-  server: 38.180.137.196
-  skip-cert-verify: false
-  sni: www.nintendogames.net
   type: trojan
 - name: 11,12|美国2|@ripaojiedian
   network: tcp
@@ -249,16 +280,25 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 1221
-  server: 3.112.197.3
+  server: 18.182.62.89
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-256-cfb
-  name: 11|🇰🇷 韩国|@ripaojiedian
-  password: qwerREWQ@@
-  port: 16449
-  server: 218.50.149.114
-  type: ss
+- alterId: 2
+  cipher: auto
+  name: 11,12|香港2|@ripaojiedian
+  network: ws
+  port: '80'
+  server: 609a8c34-t9w4g0-thiwul-1gcq2.hkt.gotochinatown.net
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 759bf004-6137-11ec-bd7c-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - alterId: 2
   cipher: auto
   name: 12|香港|@ripaojiedian
