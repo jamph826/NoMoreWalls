@@ -7,6 +7,46 @@ proxies:
   sni: 🔒
   tls: false
   type: hysteria2
+- name: '9|@Trick_mobil #1'
+  password: 5046SHWqk6
+  port: 844
+  server: 91.132.51.160
+  tls: false
+  type: hysteria2
+- name: 9|44@oneclickvpnkeys
+  password: 545fb4e9-5794-4e20-be0c-e6d8689f91ac
+  port: 35000
+  server: 129.151.251.122
+  skip-cert-verify: true
+  sni: www.lamer.com.hk
+  tls: false
+  type: hysteria2
+- name: 9|📤88@oneclickvpnkeys
+  password: 545fb4e9-5794-4e20-be0c-e6d8689f91ac
+  port: 35000
+  server: 129.153.25.59
+  skip-cert-verify: true
+  sni: www.lamer.com.hk
+  tls: false
+  type: hysteria2
+- name: 9|📤57@oneclickvpnkeys
+  password: 545fb4e9-5794-4e20-be0c-e6d8689f91ac
+  port: 35000
+  server: 143.47.32.143
+  skip-cert-verify: true
+  sni: www.lamer.com.hk
+  tls: false
+  type: hysteria2
+- name: 9|📤38@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi'
+  password: 75193bef8d8fe82341e02dd083dc1399
+  port: 989
+  server: dd.openaccessnode.com
+  skip-cert-verify: true
+  sni: dd.ircybersec.org
+  tls: false
+  type: hysteria2
 - name: 9|2
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
@@ -30,7 +70,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 9|35@oneclickvpnkeys
+- name: 9| Hysteria-TLS | @Express_alaki...
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
   password: Telegram-->@Ln2Ray
@@ -38,14 +78,6 @@ proxies:
   server: 206.71.158.23
   skip-cert-verify: true
   sni: gavazn.55994421.xyz
-  tls: false
-  type: hysteria2
-- name: '9|@Trick_mobil #4'
-  password: Telegram-->@Ln2Ray
-  port: 45000
-  server: gavazn.lnmarketplace.net
-  skip-cert-verify: true
-  sni: 🔒
   tls: false
   type: hysteria2
 - name: '9,10|@WedBaZTel #1'
@@ -79,7 +111,6 @@ proxies:
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
   port: 35000
   server: 206.71.158.40
-  skip-cert-verify: true
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
@@ -109,17 +140,31 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 10|🌀Telegram= @vpn_openet 🌀
-  obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi'
-  password: 75193bef8d8fe82341e02dd083dc1399
-  port: 989
-  server: dd.openaccessnode.com
-  skip-cert-verify: false
-  sni: dd.ircybersec.org
+- name: 9|35@oneclickvpnkeys
+  password: f40ca239-4a76-4808-b56c-84d4e9969939
+  port: 50000
+  server: 129.151.193.163
+  skip-cert-verify: true
+  sni: www.microsoft.com
   tls: false
   type: hysteria2
-- name: '10|@en_vpn/  '
+- name: 9|📤27@oneclickvpnkeys
+  password: f40ca239-4a76-4808-b56c-84d4e9969939
+  port: 65535
+  server: 132.145.28.17
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
+- name: 9|📤30@oneclickvpnkeys
+  password: f40ca239-4a76-4808-b56c-84d4e9969939
+  port: 65535
+  server: 132.145.52.10
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
+- name: 10|@en_vpn/کانفیگ های بیشتر
   password: 80cc3426-ba58-4679-9001-f38778b1d042
   port: 2026
   server: us-loc01.lada.mom
@@ -147,16 +192,6 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 10|@Selinc
-  obfs: salamander
-  obfs-password: Yet-Another-Public-Config-1
-  password: Yet-Another-Public-Config-1
-  port: 35200
-  server: 206.71.158.37
-  skip-cert-verify: true
-  sni: YAPC-1.afshin.ir
-  tls: false
-  type: hysteria2
 - name: 10|@WedBaZTel
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
@@ -167,7 +202,15 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '10|@V2rayNG3 #2'
+- name: 10|@Spartan_YT
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  port: 35000
+  server: 206.71.158.41
+  skip-cert-verify: true
+  sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: '10| T.me/V2HUBIR | Join Now '
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -177,7 +220,7 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- name: 10|🇩🇪 - DE - @FreeOnlineVPN
+- name: 10|کانفیگ ایان = t.me/arisping
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
