@@ -3,7 +3,7 @@ proxies:
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
   port: 4674
-  server: 13.231.60.220
+  server: 13.115.146.132
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -19,21 +19,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 28033
-  server: 18.166.154.14
+  server: 43.199.217.68
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 13|SG_speednode_0015
-  network: ws
-  port: 45137
-  server: 146.235.18.248
-  servername: snippet.danfeng.rr.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.rr.kg
-    path: /danfeng
