@@ -2,52 +2,38 @@ proxies:
 - name: 11,12|新加坡|@ripaojiedian
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
-  port: 2511
-  server: 54.92.68.201
+  port: 1180
+  server: 43.206.223.143
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 11,12|新加坡2|@ripaojiedian
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
-  port: 4840
-  server: 16.162.191.171
+  port: 667
+  server: 13.113.153.204
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 11,12|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2074
-  server: 54.178.153.235
+  port: 42750
+  server: 35.78.121.124
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 13|SG_speednode_0016
+- name: 13|SG_speednode_0049
   network: ws
-  port: 443
-  server: 43.106.102.56
-  servername: gogo9.kmj.qzz.io
+  port: 36089
+  server: 83.147.254.4
+  servername: sas0dpjv2rmyx842.makuyo.dpdns.org
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: gogo9.kmj.qzz.io
-    path: /
-- name: 13|SG_speednode_0017
-  network: ws
-  port: 443
-  server: 139.180.216.166
-  servername: gogo4.kmj.qzz.io
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: gogo4.kmj.qzz.io
-    path: /
+      Host: sas0dpjv2rmyx842.makuyo.dpdns.org
+    path: /@Marisa_kristi
