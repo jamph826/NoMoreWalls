@@ -63,28 +63,20 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 9|♦️48@NetFlowTools
+- name: 9|🎲94@oneclickvpnkeys
+  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+  port: 8449
+  server: 45.196.182.143
+  skip-cert-verify: true
+  sni: sni.fi-m247-02.com
+  tls: false
+  type: hysteria2
+- name: 9|48@NetFlowTools
   password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
   port: 8449
   server: 45.196.182.160
   skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
-- name: 9|️90@oneclickvpnkeys
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: 8449
-  server: 45.196.182.161
-  skip-cert-verify: false
-  sni: sni.fi-m247-02.com
-  tls: false
-  type: hysteria2
-- name: 9|🕹️74@oneclickvpnkeys
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: 8449
-  server: 45.196.182.168
-  skip-cert-verify: true
-  sni: sni.fi-m247-02.com
+  sni: https://t.me/WangCai2
   tls: false
   type: hysteria2
 - name: 9|♦️56@NetFlowTools
@@ -103,12 +95,12 @@ proxies:
   sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
-- name: 9|♦️25@NetFlowTools
+- name: 9|5🎲@v2ray_configs_pools
   password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
   port: 8449
-  server: 45.196.182.175
+  server: 45.196.182.181
   skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
+  sni: sni.fi-m247-02.com
   tls: false
   type: hysteria2
 - name: 9|♦️59@NetFlowTools
@@ -127,20 +119,36 @@ proxies:
   sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
-- name: 9|🕹️73@oneclickvpnkeys
+- name: 9|104400 | ️Telegram = t.me/v2ra...
   password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
   port: 8449
-  server: 45.196.182.199
+  server: 45.196.182.194
   skip-cert-verify: true
   sni: sni.fi-m247-02.com
   tls: false
   type: hysteria2
-- name: 9|🕹️75@oneclickvpnkeys
+- name: 9|🇺🇸104402 | ⚡️Telegram = t.me/v...
   password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
   port: 8449
-  server: 45.196.182.222
+  server: 45.196.182.197
   skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
+  sni: sni.fi-m247-02.com
+  tls: false
+  type: hysteria2
+- name: 9|99@oneclickvpnkeys
+  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+  port: 8449
+  server: 45.196.182.201
+  skip-cert-verify: true
+  sni: sni.fi-m247-02.com
+  tls: false
+  type: hysteria2
+- name: 9|100@oneclickvpnkeys
+  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+  port: 8449
+  server: 45.196.182.220
+  skip-cert-verify: true
+  sni: sni.fi-m247-02.com
   tls: false
   type: hysteria2
 - name: 9|♦️50@NetFlowTools
@@ -151,7 +159,7 @@ proxies:
   sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
-- name: 9|🕹️57@v2ray_configs_pools
+- name: 9|️57@v2ray_configs_pools
   password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
   port: 8449
   server: 45.196.182.234
@@ -165,6 +173,14 @@ proxies:
   server: 45.196.182.239
   skip-cert-verify: true
   sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
+- name: 9|98@oneclickvpnkeys
+  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+  port: 8449
+  server: 45.196.182.254
+  skip-cert-verify: true
+  sni: sni.fi-m247-02.com
   tls: false
   type: hysteria2
 - name: 9|♦️73@v2ray_configs_pools
@@ -183,6 +199,14 @@ proxies:
   sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
+- name: 9|97@oneclickvpnkeys
+  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+  port: 8449
+  server: 66.234.150.227
+  skip-cert-verify: true
+  sni: sni.fi-m247-02.com
+  tls: false
+  type: hysteria2
 - name: 9|♦️67@v2ray_configs_pools
   password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
   port: 8449
@@ -191,15 +215,7 @@ proxies:
   sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
-- name: 9|49@NetFlowTools
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: 8449
-  server: 66.234.150.231
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
-- name: 9|🕹️58@v2ray_configs_pools
+- name: 9|️58@v2ray_configs_pools
   password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
   port: 8449
   server: 66.234.150.237
@@ -230,12 +246,35 @@ proxies:
   sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
+- name: 9|🇫🇮104403 | ⚡️Telegram = t.me/v...
+  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+  port: 8449
+  server: 66.234.150.250
+  skip-cert-verify: true
+  sni: sni.fi-m247-02.com
+  tls: false
+  type: hysteria2
 - name: 9|♦️55@NetFlowTools
   password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
   port: 8449
   server: 66.234.150.252
   skip-cert-verify: true
   sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
+- name: 9|🇮104401 | ⚡️Telegram = t.me/v2...
+  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+  port: 8449
+  server: 66.234.150.254
+  skip-cert-verify: true
+  sni: sni.fi-m247-02.com
+  tls: false
+  type: hysteria2
+- name: 9|37@oneclickvpnkeys
+  password: 35a14133-45f6-40bc-a9cd-918fd0ecb345
+  port: 5443
+  server: france-2.hysteria.ltd
+  sni: france-2.hysteria.ltd
   tls: false
   type: hysteria2
 - name: 9|️️@ATLAS_V2VPN️️432️
@@ -311,6 +350,16 @@ proxies:
   sni: vpn-us-003.fastervpn.world
   tls: false
   type: hysteria2
+- name: 9|@V2RayyNGvpn
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
+  password: Hd04Vxxpn2
+  port: 40460
+  server: 91.107.152.188
+  skip-cert-verify: true
+  sni: www.amd.com
+  tls: false
+  type: hysteria2
 - name: 9|+@Azarakhsh_Proxy+
   obfs: salamander
   obfs-password: KevinZakarian
@@ -321,10 +370,10 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: 9|@V2RayyNGvpn🇩🇪
+- name: 9|V2RayyNGvpn🇩🇪
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
-  password: T&me&V2RayyNGvpn
+  password: TWlkdqFSQH
   port: 40460
   server: 91.107.152.188
   skip-cert-verify: true
@@ -339,16 +388,6 @@ proxies:
   server: 65.109.177.191
   skip-cert-verify: true
   sni: www.oracle.com
-  tls: false
-  type: hysteria2
-- name: 9|🇩🇪@V2RayyNGvpn🇩🇪
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: V2Rayyngvpn
-  port: 40460
-  server: 91.107.152.188
-  skip-cert-verify: true
-  sni: www.amd.com
   tls: false
   type: hysteria2
 - name: 9| - NL - @FreeOnlineVPN
@@ -387,27 +426,14 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- alpn:
-  - h2
-  - h3
-  fingerprint: chrome
-  name: 9|🇩🇪hysteria2-@hollowcon
+- name: 9|@tootffarangi-7
   obfs: salamander
-  obfs-password: xdbc2u01v1j9fhvv
-  password: hk6ah4vgb0qp2koh
-  port: 2087
-  server: ger1.riziro.ir
-  sni: ger1.riziro.ir
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: 9|🇩🇪💎hysteria-@hollowcon
-  password: hk6ah4vgb0qp2koh
-  port: 4526
-  server: panel.riziro.ir
-  sni: ger1.riziro.ir
+  obfs-password: wbpq2m519yken2qi
+  password: bjqhikidgbvefako
+  port: 34909
+  server: max-ep.443.erangle.ru
+  skip-cert-verify: false
+  sni: a-l.fl-sub.erangle.ru
   tls: false
   type: hysteria2
 - name: '9|تلگرام : MTMVPN'
@@ -436,23 +462,7 @@ proxies:
   sni: vpn-sg-001.fastervpn.world
   tls: false
   type: hysteria2
-- name: 9|48@NetFlowTools
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 13.250.29.24
-  skip-cert-verify: true
-  sni: vpn-sg-001.fastervpn.world
-  tls: false
-  type: hysteria2
-- name: 9|🪼47@NetFlowTools
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 18.141.236.225
-  skip-cert-verify: true
-  sni: vpn-sg-001.fastervpn.world
-  tls: false
-  type: hysteria2
-- name: 9|️48@v2ray_configs_pools
+- name: 9|🕹️48@v2ray_configs_pools
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 52.221.230.24
@@ -468,26 +478,6 @@ proxies:
   sni: vpn-sg-001.fastervpn.world
   tls: false
   type: hysteria2
-- name: 9|🪼46@NetFlowTools
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 54.255.220.11
-  skip-cert-verify: true
-  sni: vpn-sg-001.fastervpn.world
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: 9|hysteria
-  obfs: salamander
-  obfs-password: 2gg0tx9d2etug8n9
-  password: rjj39jg8iphgd06h
-  port: 44100
-  server: pro2.riziro.ir
-  sni: pro2.riziro.ir
-  tls: false
-  type: hysteria2
 - name: '9|@meliproxyy #1'
   obfs: salamander
   obfs-password: oMgvuBy5Lj5kYM57sGsnjpjNcSEQ
@@ -498,20 +488,20 @@ proxies:
   sni: tunel1.washing.help
   tls: false
   type: hysteria2
-- name: '9|🇩🇪@V2RayyNGvpn🇩🇪 #1'
+- name: 9|🇩🇪@V2RayyNGvpn
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
-  password: t-me-V2RayyNGvpN
+  password: t-me-V2RayyNGvpn
   port: 40460
   server: 91.107.152.188
   skip-cert-verify: true
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: '9|🇩🇪@V2RayyNGvpn🇩🇪 #2'
+- name: 9|️V2rayyNGvpn
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
-  password: t-me-V2RayyNGvpn
+  password: w1BoB6s3L3
   port: 40460
   server: 91.107.152.188
   skip-cert-verify: true
@@ -544,56 +534,56 @@ proxies:
 - name: 11,12|香港3|@ripaojiedian
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
-  port: 2008
-  server: 16.163.138.198
+  port: 32583
+  server: 95.40.1.25
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 11,12|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4374
-  server: 16.162.33.88
+  port: 50115
+  server: 16.163.145.82
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 11,12|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 29449
-  server: 16.162.119.181
+  port: 27161
+  server: 16.162.220.240
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 11,12|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 47656
-  server: 18.162.113.168
+  port: 4099
+  server: 16.162.24.7
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 11,12|日本2|@ripaojiedian
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
-  port: 55973
-  server: 16.163.50.86
+  port: 3743
+  server: 95.40.44.165
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 11,12|日本3|@ripaojiedian
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
-  port: 3743
-  server: 16.163.50.86
+  port: 55973
+  server: 95.40.44.165
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 11,12|新加坡|@ripaojiedian
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
-  port: 6357
-  server: 18.162.58.236
+  port: 29642
+  server: 95.40.1.25
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -608,8 +598,8 @@ proxies:
 - name: 11,12|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 9149
-  server: 18.166.66.1
+  port: 22459
+  server: 16.163.145.82
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -617,7 +607,7 @@ proxies:
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 17005
-  server: 16.163.50.86
+  server: 95.40.44.165
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -625,15 +615,15 @@ proxies:
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 49277
-  server: 16.163.138.198
+  server: 95.40.1.25
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 11,12|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 22657
-  server: 18.162.111.216
+  port: 11353
+  server: 16.162.220.240
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
