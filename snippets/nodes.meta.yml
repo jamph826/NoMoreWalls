@@ -63,7 +63,15 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 9|🇩🇪 t-me-V2RayyNGvpn 🇩🇪
+- name: 9|🪯32@oneclickvpnkeys
+  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
+  port: 4433
+  server: 202.61.205.86
+  skip-cert-verify: true
+  sni: de1.xiaoliyu.cyou
+  tls: false
+  type: hysteria2
+- name: 9| t-me-V2RayyNGvpn 🇩🇪
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: 58cb3fdyZN
@@ -83,7 +91,27 @@ proxies:
   sni: qg.easyiran.org
   tls: false
   type: hysteria2
-- name: 9|t-me-V2RayyNGvpn️
+- name: 9|@V2RayyNGvpn🇩🇪hy
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
+  password: CakZRUUlundefinedS
+  port: 40460
+  server: 91.107.152.188
+  skip-cert-verify: true
+  sni: www.amd.com
+  tls: false
+  type: hysteria2
+- name: 9|Telegram🇩🇪V2RayyNGvpn🇩🇪
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
+  password: D0KVsHbDlj
+  port: 40460
+  server: 91.107.152.188
+  skip-cert-verify: true
+  sni: www.amd.com
+  tls: false
+  type: hysteria2
+- name: 9|t-me-V2RayyNGvpn
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: Dd8FfJSif0
@@ -93,7 +121,17 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 9|@V2RayyNGvpn🇪
+- name: 9|TelegramV2RayyNGvpn🇵
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
+  password: H2I53e3OzO
+  port: 33884
+  server: 140.233.177.48
+  skip-cert-verify: true
+  sni: www.oracle.com
+  tls: false
+  type: hysteria2
+- name: 9|@V2RayyNGvpn🇩🇪
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: KYFundefinedZYs4KB
@@ -133,7 +171,7 @@ proxies:
   sni: www.oracle.com
   tls: false
   type: hysteria2
-- name: 9|@V2RayyNGvpn🇵
+- name: 9|🇨🇵@V2RayyNGvpn🇨🇵
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: Vcl3b47Nvd
@@ -153,6 +191,13 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
+- name: 9|🪯46@oneclickvpnkeys
+  password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
+  port: 443
+  server: argg2.auragg.org
+  sni: argg2.auragg.org
+  tls: false
+  type: hysteria2
 - name: '9|@KAFING_2 #2'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -170,11 +215,53 @@ proxies:
   sni: hy2.123266.xyz
   tls: false
   type: hysteria2
-- name: 9|telegram @mtmvpn 12
+- name: 9|FI-@VPNine1
+  obfs: salamander
+  obfs-password: 93lc6r07zfx4crct
+  password: elknam6l7izf3z71
+  port: 52008
+  server: assets.gateway-stream.com
+  skip-cert-verify: false
+  sni: ''
+  tls: false
+  type: hysteria2
+- name: 9|🇮FI-🚀@VPNine1
+  obfs: salamander
+  obfs-password: 93lc6r07zfx4crct
+  password: elknam6l7izf3z71
+  port: 52008
+  server: assets.gateway-stream.com
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: 9|@v2ray_configs_pools
   obfs: salamander
   obfs-password: cukfjxud1ebjuuzs
   password: elknam6l7izf3z71
   port: 52013
+  server: assets.gateway-stream.com
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: 9|𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠➜@MetiVIP
+  obfs: salamander
+  obfs-password: fsc92dsh321o5h3r
+  password: elknam6l7izf3z71
+  port: 52016
+  server: assets.gateway-stream.com
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '9|@v2ray_configs_pools #1'
+  obfs: salamander
+  obfs-password: 53cgqwhojoxri5lr
+  password: elknam6l7izf3z71
+  port: 52018
   server: assets.gateway-stream.com
   skip-cert-verify: false
   sni: assets.gateway-stream.com
@@ -190,22 +277,103 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|@GozargahAzad|
+- name: 9|🇨 𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠➜@MetiVIP
+  obfs: salamander
+  obfs-password: kkh2qmrbxmh8h22a
+  password: elknam6l7izf3z71
+  port: 52020
+  server: assets.gateway-stream.com
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: 9|🇫🇮109138 | ️Telegram = t.me/SO...
+  obfs: salamander
+  obfs-password: mtg2vchyir6la3et
+  password: elknam6l7izf3z71
+  port: 52021
+  server: assets.gateway-stream.com
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: 9|🇩🇪 𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠➜@MetiVIP
+  obfs: salamander
+  obfs-password: detgimgm8qh8i2g2
+  password: elknam6l7izf3z71
+  port: 52023
+  server: assets.gateway-stream.com
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: 9|🇫 𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠➜@MetiVIP
+  obfs: salamander
+  obfs-password: hc7wdqfxl9wi1y8z
+  password: elknam6l7izf3z71
+  port: 52032
+  server: assets.gateway-stream.com
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: 9|🇷𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠➜@MetiVIP
+  obfs: salamander
+  obfs-password: 957df5ae9ci6tkbk
+  password: elknam6l7izf3z71
+  port: 52038
+  server: assets.gateway-stream.com
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: '9|𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠➜@MetiVIP #1'
+  obfs: salamander
+  obfs-password: l6l4n5a0q9epnr5k
+  password: elknam6l7izf3z71
+  port: 52051
+  server: assets.gateway-stream.com
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: 9|🇪𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠➜@MetiVIP
+  obfs: salamander
+  obfs-password: fd3olglr2bmimgje
+  password: elknam6l7izf3z71
+  port: 52061
+  server: assets.gateway-stream.com
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: 9|🇷 𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠➜@MetiVIP
   obfs: salamander
   obfs-password: txwr28j1lntoy0sj
   password: elknam6l7izf3z71
   port: 52067
   server: assets.gateway-stream.com
   skip-cert-verify: false
-  sni: ''
+  sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|🟢30@v2ray_configs_pools
+- name: 9|🇫🇮109138 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: mtg2vchyir6la3et
+  password: elknam6l7izf3z71
+  port: 52021
+  server: soskeynets.gateway-stream.com
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: 9|🧸@v2ray_configs_pools
   obfs: salamander
   obfs-password: lhfl2z9mjngb7csh
   password: eltgrek81o6w5cd4
   port: 1935
   server: nrealistic.nn-foto.ru
+  skip-cert-verify: false
   sni: nrealistic.nn-foto.ru
   tls: false
   type: hysteria2
@@ -259,7 +427,7 @@ proxies:
   sni: www.oracle.com
   tls: false
   type: hysteria2
-- name: 9|🇪@V2raybazi
+- name: 9|16@oneclickvpnkeys
   password: zhangyang
   port: 6443
   server: 130.61.50.75
@@ -285,32 +453,32 @@ proxies:
 - name: 11,12|香港3|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 32583
-  server: 16.163.109.165
+  port: 20083
+  server: 54.46.117.9
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 11,12|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 39411
-  server: 16.163.129.148
+  port: 11035
+  server: 95.40.32.196
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 11,12|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 11035
-  server: 18.162.245.50
+  port: 27161
+  server: 18.162.125.64
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 11,12|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 54411
-  server: 43.199.29.120
+  port: 27826
+  server: 18.162.60.7
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -318,15 +486,15 @@ proxies:
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 40138
-  server: 16.163.109.165
+  server: 95.40.13.204
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 11,12|日本3|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 24370
-  server: 16.163.109.165
+  port: 40138
+  server: 18.163.103.6
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -334,23 +502,23 @@ proxies:
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 48738
-  server: 18.162.125.197
+  server: 18.163.103.6
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 11,12|新加坡2|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 6357
-  server: 16.163.109.165
+  port: 48738
+  server: 54.46.117.9
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 11,12|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 45744
-  server: 16.162.191.181
+  port: 32434
+  server: 95.40.33.19
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -358,15 +526,15 @@ proxies:
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
-  server: 18.162.115.77
+  server: 54.46.117.9
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 11,12|美国2|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 49277
-  server: 18.163.192.100
+  port: 17005
+  server: 18.163.110.193
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -374,7 +542,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 34638
-  server: 95.40.54.118
+  server: 54.46.67.204
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
