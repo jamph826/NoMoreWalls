@@ -1,29 +1,45 @@
 proxies:
+- name: 7|US
+  obfs: salamander
+  obfs-password: XBvVbvzQCq6Ovbnh
+  password: bd37d63b-c75d-3e48-acbf-1d5954fe9cdc
+  port: 14101
+  server: usaw2.awo-link.com
+  sni: usaw2.awo-link.com
+  tls: false
+  type: hysteria2
+- name: 7|🇺🇸US
+  password: c2948c84-748f-47f6-bc7a-b949ef279f85
+  port: 443
+  server: 78.159.240.215
+  skip-cert-verify: true
+  sni: quic.tyr-agentstvo.tech
+  tls: false
+  type: hysteria2
 - name: 10,11|美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 34039
-  server: 95.40.107.76
+  port: 28051
+  server: 18.163.100.58
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 10,11|美国2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 53001
-  server: 18.163.100.58
+  port: 28051
+  server: 95.40.107.76
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 10,11,12|HK_speednode_0052
+- name: 10,11|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 29085
-  server: 18.163.90.221
+  server: 16.162.164.238
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
 - name: 12|US_speednode_0243
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
