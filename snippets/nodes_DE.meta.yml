@@ -6,7 +6,7 @@ proxies:
   sni: taga8.api3-max.ru
   tls: false
   type: hysteria2
-- name: '8|德国 #1'
+- name: 8,9|5🪁@oneclickvpnkeys
   password: 71cada65-d23e-418c-88e4-a06188d14689
   port: 443
   server: de-two.quiet-rogue.site
@@ -58,12 +58,5 @@ proxies:
   port: 443
   server: bel-03.node.lumixnet.com
   sni: bel-03.node.lumixnet.com
-  tls: false
-  type: hysteria2
-- name: 9|🇩🇪135238 | ⚡️Telegram = t.me/S...
-  password: 2ef4cf10-34df-4c0f-9d82-bf6ca9e45025
-  port: 443
-  server: soskeynets-degame.bangboonet.ru
-  sni: node-degame.bangboonet.ru
   tls: false
   type: hysteria2
