@@ -1,8 +1,9 @@
 proxies:
-- name: 13|FR_speednode_0002
-  port: 23856
-  server: 51.159.225.196
+- name: 8|法国
+  password: Krab9Hyst2_Rk7pQ2xL
+  port: 36723
+  server: fr.vpn.legendaah.xyz
   skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
+  sni: www.cloudflare.com
+  tls: false
+  type: hysteria2
