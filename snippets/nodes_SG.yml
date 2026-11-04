@@ -1,25 +1,22 @@
 proxies:
-- name: 11,12|新加坡1|@ripaojiedian
-  network: tcp
+- name: 11|🇸🇬 新加坡1|@ripaojiedian
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 47966
   server: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: cm.g.doubleclick.net
   type: trojan
-- name: 11,12|新加坡2|@ripaojiedian
-  network: tcp
+- name: 11|🇸🇬 新加坡2|@ripaojiedian
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 42338
   server: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: cm.g.doubleclick.net
   type: trojan
-- name: 11,12|新加坡3|@ripaojiedian
-  network: tcp
+- name: 11|🇸🇬 新加坡3|@ripaojiedian
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 37212
   server: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: cm.g.doubleclick.net
   type: trojan

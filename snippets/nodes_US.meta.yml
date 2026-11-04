@@ -1,28 +1,103 @@
 proxies:
-- name: 11,12|美国3|@ripaojiedian
-  network: tcp
+- name: 11|🇺🇸 美国3|@ripaojiedian
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 19466
   server: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: cm.g.doubleclick.net
   type: trojan
-- name: 11,12|美国1|@ripaojiedian
-  network: tcp
+- name: 11|🇺🇸 美国1|@ripaojiedian
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 49049
   server: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: fe-static.deepseek.com
   type: trojan
-- name: 11,12|美国2|@ripaojiedian
-  network: tcp
+- name: 11|🇺🇸 美国2|@ripaojiedian
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 17285
   server: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: cm.g.doubleclick.net
   type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 12|🇺🇸 US1|@ripaojiedian
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
+    short-id: 66d62ef550107695
+  server: 38.145.220.38
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: 59f5a012-4c39-428a-b033-68791bf32810
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 12|🇺🇸 US2|@ripaojiedian
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
+    short-id: 66d62ef550107695
+  server: 38.34.190.212
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: 59f5a012-4c39-428a-b033-68791bf32810
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 12|🇺🇸 US4|@ripaojiedian
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
+    short-id: 66d62ef550107695
+  server: 38.145.220.58
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: 59f5a012-4c39-428a-b033-68791bf32810
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 12|🇺🇸 US5|@ripaojiedian
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
+    short-id: 66d62ef550107695
+  server: 38.145.220.39
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: 59f5a012-4c39-428a-b033-68791bf32810
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 12|🇺🇸 US3|@ripaojiedian
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
+    short-id: 66d62ef550107695
+  server: 38.34.190.211
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: 59f5a012-4c39-428a-b033-68791bf32810
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 12|🇺🇸 US6|@ripaojiedian
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
+    short-id: 66d62ef550107695
+  server: 38.34.190.210
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: 59f5a012-4c39-428a-b033-68791bf32810
 - name: 13|US_speednode_0039
   port: 8443
   server: 44.248.167.117

@@ -1,1 +1,118 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 12|🇨🇦 CA1|@ripaojiedian
+  network: tcp
+  port: 2093
+  reality-opts:
+    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
+    short-id: 8a9725533854a7e8
+  server: 213.152.165.200
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: 8c326fd6-25f4-4537-8bc9-9c1c746ab846
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 12|🇨🇦 CA2|@ripaojiedian
+  network: tcp
+  port: 2093
+  reality-opts:
+    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
+    short-id: 8a9725533854a7e8
+  server: 213.152.165.201
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: 8c326fd6-25f4-4537-8bc9-9c1c746ab846
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 12|🇨🇦 CA3|@ripaojiedian
+  network: tcp
+  port: 2093
+  reality-opts:
+    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
+    short-id: 8a9725533854a7e8
+  server: 213.152.165.204
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: 8c326fd6-25f4-4537-8bc9-9c1c746ab846
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 12|🇨🇦 CA-ca-1-06
+  network: tcp
+  port: 2093
+  reality-opts:
+    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
+    short-id: 8a9725533854a7e8
+  server: 188.95.52.98
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: 8c326fd6-25f4-4537-8bc9-9c1c746ab846
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 12|🇨🇦 CA-ca-1-07
+  network: tcp
+  port: 2093
+  reality-opts:
+    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
+    short-id: 8a9725533854a7e8
+  server: 188.95.52.93
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: 8c326fd6-25f4-4537-8bc9-9c1c746ab846
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 12|🇨🇦 CA-ca-1-08
+  network: tcp
+  port: 2093
+  reality-opts:
+    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
+    short-id: 8a9725533854a7e8
+  server: 188.95.52.95
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: 8c326fd6-25f4-4537-8bc9-9c1c746ab846
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 12|🇨🇦 CA-ca-1-09
+  network: tcp
+  port: 2093
+  reality-opts:
+    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
+    short-id: 8a9725533854a7e8
+  server: 188.95.52.94
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: 8c326fd6-25f4-4537-8bc9-9c1c746ab846
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 12|🇨🇦 CA-ca-1-10
+  network: tcp
+  port: 2093
+  reality-opts:
+    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
+    short-id: 8a9725533854a7e8
+  server: 188.95.52.97
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: 8c326fd6-25f4-4537-8bc9-9c1c746ab846
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 12|🇨🇦 CA-ca-1-11
+  network: tcp
+  port: 2093
+  reality-opts:
+    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
+    short-id: 8a9725533854a7e8
+  server: 188.95.52.96
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: 8c326fd6-25f4-4537-8bc9-9c1c746ab846
