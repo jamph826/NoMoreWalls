@@ -1,33 +1,71 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 12|🇨🇦 CA1|@ripaojiedian
+  name: 11,12|🇨🇦CA01|@ripaojiedian
   network: tcp
   port: 2093
   reality-opts:
     public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
     short-id: 8a9725533854a7e8
-  server: 213.152.165.200
+  server: 188.95.52.121
   servername: www.apple.com
+  skip-cert-verify: true
+  tfo: false
   tls: false
   type: vless
-  uuid: 8c326fd6-25f4-4537-8bc9-9c1c746ab846
+  udp: true
+  uuid: 219a22c9-bec8-444a-b208-ef670d8167e2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 12|🇨🇦 CA2|@ripaojiedian
+  name: 11,12|🇨🇦CA02|@ripaojiedian
   network: tcp
   port: 2093
   reality-opts:
     public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
     short-id: 8a9725533854a7e8
-  server: 213.152.165.201
+  server: 188.95.52.120
   servername: www.apple.com
+  skip-cert-verify: true
+  tfo: false
   tls: false
   type: vless
-  uuid: 8c326fd6-25f4-4537-8bc9-9c1c746ab846
+  udp: true
+  uuid: 219a22c9-bec8-444a-b208-ef670d8167e2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 12|🇨🇦 CA3|@ripaojiedian
+  name: 11,12|🇨🇦CA03|@ripaojiedian
+  network: tcp
+  port: 2093
+  reality-opts:
+    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
+    short-id: 8a9725533854a7e8
+  server: 188.95.52.123
+  servername: www.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 219a22c9-bec8-444a-b208-ef670d8167e2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11,12|🇨🇦CA04|@ripaojiedian
+  network: tcp
+  port: 2093
+  reality-opts:
+    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
+    short-id: 8a9725533854a7e8
+  server: 188.95.52.124
+  servername: www.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 219a22c9-bec8-444a-b208-ef670d8167e2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11,12|🇨🇦CA05|@ripaojiedian
   network: tcp
   port: 2093
   reality-opts:
@@ -35,84 +73,89 @@ proxies:
     short-id: 8a9725533854a7e8
   server: 213.152.165.204
   servername: www.apple.com
+  skip-cert-verify: true
+  tfo: false
   tls: false
   type: vless
-  uuid: 8c326fd6-25f4-4537-8bc9-9c1c746ab846
+  udp: true
+  uuid: 219a22c9-bec8-444a-b208-ef670d8167e2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 12|🇨🇦 CA-ca-1-06
+  name: 11,12|🇨🇦CA06|@ripaojiedian
   network: tcp
   port: 2093
   reality-opts:
     public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
     short-id: 8a9725533854a7e8
-  server: 188.95.52.98
+  server: 213.152.165.201
   servername: www.apple.com
+  skip-cert-verify: true
+  tfo: false
   tls: false
   type: vless
-  uuid: 8c326fd6-25f4-4537-8bc9-9c1c746ab846
+  udp: true
+  uuid: 219a22c9-bec8-444a-b208-ef670d8167e2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 12|🇨🇦 CA-ca-1-07
+  name: 11,12|🇨🇦CA07|@ripaojiedian
   network: tcp
   port: 2093
   reality-opts:
     public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
     short-id: 8a9725533854a7e8
-  server: 188.95.52.93
+  server: 213.152.165.195
   servername: www.apple.com
+  skip-cert-verify: true
+  tfo: false
   tls: false
   type: vless
-  uuid: 8c326fd6-25f4-4537-8bc9-9c1c746ab846
+  udp: true
+  uuid: 219a22c9-bec8-444a-b208-ef670d8167e2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 12|🇨🇦 CA-ca-1-08
+  name: 11,12|🇨🇦CA08|@ripaojiedian
   network: tcp
   port: 2093
   reality-opts:
     public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
     short-id: 8a9725533854a7e8
-  server: 188.95.52.95
+  server: 213.152.165.199
   servername: www.apple.com
+  skip-cert-verify: true
+  tfo: false
   tls: false
   type: vless
-  uuid: 8c326fd6-25f4-4537-8bc9-9c1c746ab846
+  udp: true
+  uuid: 219a22c9-bec8-444a-b208-ef670d8167e2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 12|🇨🇦 CA-ca-1-09
+  name: 11,12|🇨🇦CA09|@ripaojiedian
   network: tcp
   port: 2093
   reality-opts:
     public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
     short-id: 8a9725533854a7e8
-  server: 188.95.52.94
+  server: 213.152.165.197
   servername: www.apple.com
+  skip-cert-verify: true
+  tfo: false
   tls: false
   type: vless
-  uuid: 8c326fd6-25f4-4537-8bc9-9c1c746ab846
+  udp: true
+  uuid: 219a22c9-bec8-444a-b208-ef670d8167e2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 12|🇨🇦 CA-ca-1-10
+  name: 11,12|🇨🇦CA10|@ripaojiedian
   network: tcp
   port: 2093
   reality-opts:
     public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
     short-id: 8a9725533854a7e8
-  server: 188.95.52.97
+  server: 213.152.165.200
   servername: www.apple.com
+  skip-cert-verify: true
+  tfo: false
   tls: false
   type: vless
-  uuid: 8c326fd6-25f4-4537-8bc9-9c1c746ab846
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 12|🇨🇦 CA-ca-1-11
-  network: tcp
-  port: 2093
-  reality-opts:
-    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
-    short-id: 8a9725533854a7e8
-  server: 188.95.52.96
-  servername: www.apple.com
-  tls: false
-  type: vless
-  uuid: 8c326fd6-25f4-4537-8bc9-9c1c746ab846
+  udp: true
+  uuid: 219a22c9-bec8-444a-b208-ef670d8167e2
